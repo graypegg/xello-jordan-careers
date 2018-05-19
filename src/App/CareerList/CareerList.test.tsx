@@ -1,11 +1,11 @@
 import { ICareer } from '../../types'
 
 import * as React from 'react'
-import { mount } from 'enzyme'
+import { shallow } from 'enzyme'
 import CareerList from './CareerList'
 
 it('renders without crashing', () => {
-  mount(<CareerList careers={[]} />)
+  shallow(<CareerList careers={[]} />)
 })
 
 describe('can render a simple career', () => {
@@ -18,7 +18,7 @@ describe('can render a simple career', () => {
       careerId: 1
     }
   ]
-  const wrapper = mount(<CareerList careers={careers} />)
+  const wrapper = shallow(<CareerList careers={careers} />)
   const career = wrapper.find('.CareerList__career')
 
   it('rendered one career', () => {
