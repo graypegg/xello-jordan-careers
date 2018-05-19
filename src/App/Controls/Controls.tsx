@@ -1,8 +1,8 @@
-import { ISearchState } from '../../types'
+import { IControlState } from '../../types'
 import * as React from 'react'
 
 interface IControlsProps {
-  onChange: (searchState: ISearchState) => void
+  onChange: (controlState: IControlState) => void
 }
 
 class Controls extends React.Component<IControlsProps> {

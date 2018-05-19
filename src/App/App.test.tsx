@@ -8,10 +8,10 @@ it('renders without crashing', () => {
 
 it('can update search state', () => {
   const component = shallow(<App careers={[]} />)
-  expect(component.state('searchState').searchString).toBe('')
+  expect(component.state('controlState').searchString).toBe('')
 
   const instance = component.instance() as App
-  instance.onSearchStateChange({ searchString: 'test' })
+  instance.onControlStateChange({ searchString: 'test' })
 
-  expect(component.state('searchState').searchString).toBe('test')
+  expect(component.state('controlState').searchString).toBe('test')
 })

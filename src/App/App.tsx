@@ -1,4 +1,4 @@
-import { ICareer, ISearchState } from '../types'
+import { ICareer, IControlState } from '../types'
 
 import * as React from 'react'
 import CareerList from './CareerList/CareerList'
@@ -11,36 +11,37 @@ interface IAppProps {
 }
 
 interface IAppState {
-  searchState: ISearchState
+  controlState: IControlState
 }
 
 class App extends React.Component<IAppProps, IAppState> {
   public showImages: boolean = true;
   public state: IAppState = {
-    searchState: {
-      searchString: ''
+    controlState: {
+      searchString: '',
+      showImages: false
     }
   }
 
   constructor (props: IAppProps) {
     super(props)
-    this.onSearchStateChange = this.onSearchStateChange.bind(this)
+    this.onControlStateChange = this.onControlStateChange.bind(this)
   }
 
-  public onSearchStateChange (searchState: ISearchState): void {
-    this.setState({ searchState })
+  public onControlStateChange (controlState: IControlState): void {
+    this.setState({ controlState })
   }
 
-  public filterCareers (careers: ICareer[], searchState: ISearchState): ICareer[] {
-    const searchStringRegExp = new RegExp(`(${searchState.searchString})`, 'ig')
+  public filterCareers (careers: ICareer[], controlState: IControlState): ICareer[] {
+    const searchStringRegExp = new RegExp(`(${controlState.searchString})`, 'ig')
     return careers.filter((career) => searchStringRegExp.test(career.title))
   }
 
   public render() {
     return (
       <div className="App">
-        <Controls onChange={this.onSearchStateChange} />
-        <CareerList careers={this.filterCareers(this.props.careers, this.state.searchState)} showImages={this.showImages} />
+        <Controls onChange={this.onControlStateChange} />
+        <CareerList careers={this.filterCareers(this.props.careers, this.state.controlState)} showImages={this.state.controlState.showImages} />
       </div>
     )
   }
