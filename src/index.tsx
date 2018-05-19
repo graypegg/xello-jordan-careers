@@ -2,7 +2,8 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import App from './App/App'
 
-import careerData from './data'
+import careerData from './assets/data'
+import './assets/vars.css'
 
 ReactDOM.render(
   <App careers={careerData} />,
