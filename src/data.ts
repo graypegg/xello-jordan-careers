@@ -13,7 +13,7 @@ export default [
       'Maintain logbooks and delivery paperwork'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-430.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-430.jpg?quality=70&maxWidth=500',
     id: 430
   },
   {
@@ -28,7 +28,7 @@ export default [
       'Some help clients with their investments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-1.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-1.jpg?quality=70&maxWidth=500',
     id: 1
   },
   {
@@ -43,7 +43,7 @@ export default [
       'May call people for donations'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-2.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-2.jpg?quality=70&maxWidth=500',
     id: 2
   },
   {
@@ -58,7 +58,7 @@ export default [
       'Attend wardrobe fittings and makeup sessions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-3.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-3.jpg?quality=70&maxWidth=500',
     id: 3
   },
   {
@@ -72,7 +72,7 @@ export default [
       'Some help companies develop and administer pension plans'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-4.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-4.jpg?quality=70&maxWidth=500',
     id: 4
   },
   {
@@ -86,7 +86,7 @@ export default [
       'May twist the needles or run a weak electrical current to get the chi flowing'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-5.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-5.jpg?quality=70&maxWidth=500',
     id: 5
   },
   {
@@ -101,7 +101,7 @@ export default [
       'Educate the public on addiction prevention'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-6.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-6.jpg?quality=70&maxWidth=500',
     id: 6
   },
   {
@@ -116,7 +116,7 @@ export default [
       'Some create newsletters or prepare presentations to be delivered by their bosses'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-7.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-7.jpg?quality=70&maxWidth=500',
     id: 7
   },
   {
@@ -131,7 +131,7 @@ export default [
       'Keep records and prepare reports'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-8.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-8.jpg?quality=70&maxWidth=500',
     id: 8
   },
   {
@@ -146,7 +146,7 @@ export default [
       'May work with directors, producers, graphic designers, artists, or photographers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-9.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-9.jpg?quality=70&maxWidth=500',
     id: 9
   },
   {
@@ -161,7 +161,7 @@ export default [
       'Oversee the manufacture of aerospace or aeronautical vehicles and parts'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-10.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-10.jpg?quality=70&maxWidth=500',
     id: 10
   },
   {
@@ -176,7 +176,7 @@ export default [
       'Scout and recruit new clients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-11.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-11.jpg?quality=70&maxWidth=500',
     id: 11
   },
   {
@@ -190,7 +190,7 @@ export default [
       'Often specialize in food, plant, soil, or animal technology'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-12.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-12.jpg?quality=70&maxWidth=500',
     id: 12
   },
   {
@@ -205,7 +205,7 @@ export default [
       'Usually specialize in a particular area'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-13.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-13.jpg?quality=70&maxWidth=500',
     id: 13
   },
   {
@@ -219,7 +219,7 @@ export default [
       'Radar centre controllers use radar to track flow of planes away from airports'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-14.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-14.jpg?quality=70&maxWidth=500',
     id: 14
   },
   {
@@ -233,7 +233,7 @@ export default [
       'Make adjustments or repairs where possible, and replace old or broken parts'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-15.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-15.jpg?quality=70&maxWidth=500',
     id: 15
   },
   {
@@ -248,7 +248,7 @@ export default [
       'Use hand signals and hand-held lights to guide planes toward specific areas'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-16.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-16.jpg?quality=70&maxWidth=500',
     id: 16
   },
   {
@@ -263,7 +263,7 @@ export default [
       'Sell young animals to owners and pet stores'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-17.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-17.jpg?quality=70&maxWidth=500',
     id: 17
   },
   {
@@ -278,7 +278,7 @@ export default [
       'May provide information about animals to the public'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-18.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-18.jpg?quality=70&maxWidth=500',
     id: 18
   },
   {
@@ -293,7 +293,7 @@ export default [
       'Prepare guide dogs to assist their owners'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-19.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-19.jpg?quality=70&maxWidth=500',
     id: 19
   },
   {
@@ -308,7 +308,7 @@ export default [
       'Some create models for stop-motion animation'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-20.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-20.jpg?quality=70&maxWidth=500',
     id: 20
   },
   {
@@ -323,7 +323,7 @@ export default [
       'Radio DJs select, introduce, and play music'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-21.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-21.jpg?quality=70&maxWidth=500',
     id: 21
   },
   {
@@ -338,7 +338,7 @@ export default [
       'Some apply their knowledge in practical ways for governments or corporations'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-22.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-22.jpg?quality=70&maxWidth=500',
     id: 22
   },
   {
@@ -353,7 +353,7 @@ export default [
       'Track expenses and manage staff'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-23.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-23.jpg?quality=70&maxWidth=500',
     id: 23
   },
   {
@@ -368,7 +368,7 @@ export default [
       'Keep records of the work and bill customers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-24.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-24.jpg?quality=70&maxWidth=500',
     id: 24
   },
   {
@@ -383,7 +383,7 @@ export default [
       'Usually specialize in appraising one type of property, like art or real estate'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-25.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-25.jpg?quality=70&maxWidth=500',
     id: 25
   },
   {
@@ -398,7 +398,7 @@ export default [
       'Harvest the stock, and prepare fish for buyers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-26.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-26.jpg?quality=70&maxWidth=500',
     id: 26
   },
   {
@@ -413,7 +413,7 @@ export default [
       'Exact duties depend on the employer'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-27.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-27.jpg?quality=70&maxWidth=500',
     id: 27
   },
   {
@@ -428,7 +428,7 @@ export default [
       'May catalogue and conserve collections in museums'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-28.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-28.jpg?quality=70&maxWidth=500',
     id: 28
   },
   {
@@ -443,7 +443,7 @@ export default [
       'Handle paperwork, such as contracts and bills'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-29.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-29.jpg?quality=70&maxWidth=500',
     id: 29
   },
   {
@@ -458,7 +458,7 @@ export default [
       'Some provide consultation or inspection services, or teach college students'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-30.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-30.jpg?quality=70&maxWidth=500',
     id: 30
   },
   {
@@ -473,7 +473,7 @@ export default [
       'Some prepare displays to showcase the archive'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-31.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-31.jpg?quality=70&maxWidth=500',
     id: 31
   },
   {
@@ -488,7 +488,7 @@ export default [
       'Prepare art supplies or musical instruments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-32.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-32.jpg?quality=70&maxWidth=500',
     id: 32
   },
   {
@@ -502,7 +502,7 @@ export default [
       'Supervise team to make sure work conforms to the intended \u201clook\u201d of the project'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-34.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-34.jpg?quality=70&maxWidth=500',
     id: 34
   },
   {
@@ -516,7 +516,7 @@ export default [
       'Usually specialize in a certain type of object, such as books or paintings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-35.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-35.jpg?quality=70&maxWidth=500',
     id: 35
   },
   {
@@ -530,7 +530,7 @@ export default [
       'Find buyers for completed artwork'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-36.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-36.jpg?quality=70&maxWidth=500',
     id: 36
   },
   {
@@ -545,7 +545,7 @@ export default [
       'Promote their organization to the press and public'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-37.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-37.jpg?quality=70&maxWidth=500',
     id: 37
   },
   {
@@ -560,7 +560,7 @@ export default [
       'Provide ground support to astronauts in space'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-38.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-38.jpg?quality=70&maxWidth=500',
     id: 38
   },
   {
@@ -574,7 +574,7 @@ export default [
       'Professors teach classes, prepare and mark assignments, and advise students'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-39.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-39.jpg?quality=70&maxWidth=500',
     id: 39
   },
   {
@@ -589,7 +589,7 @@ export default [
       'Provide players with tensor bandages, braces, and other equipment'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-40.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-40.jpg?quality=70&maxWidth=500',
     id: 40
   },
   {
@@ -604,7 +604,7 @@ export default [
       'Usually specialize in a certain type of auction, such as antiques'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-41.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-41.jpg?quality=70&maxWidth=500',
     id: 41
   },
   {
@@ -619,7 +619,7 @@ export default [
       'May try to prevent hearing loss by suggesting ways to lessen the impact of noise'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-42.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-42.jpg?quality=70&maxWidth=500',
     id: 42
   },
   {
@@ -634,7 +634,7 @@ export default [
       'Fill small holes and dents by with body filler and sand them smooth'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-43.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-43.jpg?quality=70&maxWidth=500',
     id: 43
   },
   {
@@ -648,7 +648,7 @@ export default [
       'Ensure the part is properly secured and working, and move on to the next frame'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-44.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-44.jpg?quality=70&maxWidth=500',
     id: 44
   },
   {
@@ -662,7 +662,7 @@ export default [
       'Perform routine maintenance, such as oil changes and tune-ups'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-45.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-45.jpg?quality=70&maxWidth=500',
     id: 45
   },
   {
@@ -677,7 +677,7 @@ export default [
       'Recommend extended warranties and other options'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-46.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-46.jpg?quality=70&maxWidth=500',
     id: 46
   },
   {
@@ -692,7 +692,7 @@ export default [
       'Others repair and maintain the systems in older aircraft for airlines'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-47.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-47.jpg?quality=70&maxWidth=500',
     id: 47
   },
   {
@@ -707,7 +707,7 @@ export default [
       'Exact duties vary depending on the province'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-48.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-48.jpg?quality=70&maxWidth=500',
     id: 48
   },
   {
@@ -722,7 +722,7 @@ export default [
       'May set prices, order supplies, or serve customers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-49.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-49.jpg?quality=70&maxWidth=500',
     id: 49
   },
   {
@@ -737,7 +737,7 @@ export default [
       'Monitor bank expenses and attract new customers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-50.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-50.jpg?quality=70&maxWidth=500',
     id: 50
   },
   {
@@ -751,7 +751,7 @@ export default [
       'Use computers to record transactions and balance cash at the end of their shifts'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-51.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-51.jpg?quality=70&maxWidth=500',
     id: 51
   },
   {
@@ -766,7 +766,7 @@ export default [
       'Check inventory and order supplies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-52.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-52.jpg?quality=70&maxWidth=500',
     id: 52
   },
   {
@@ -781,7 +781,7 @@ export default [
       'Supervise staff members, keep financial records, and promote the B&B'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-53.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-53.jpg?quality=70&maxWidth=500',
     id: 53
   },
   {
@@ -796,7 +796,7 @@ export default [
       'Rent beehives to farmers for crop pollination'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-54.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-54.jpg?quality=70&maxWidth=500',
     id: 54
   },
   {
@@ -811,7 +811,7 @@ export default [
       'Some weld together or paint bike frames'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-55.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-55.jpg?quality=70&maxWidth=500',
     id: 55
   },
   {
@@ -825,7 +825,7 @@ export default [
       'Write reports on the findings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-56.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-56.jpg?quality=70&maxWidth=500',
     id: 56
   },
   {
@@ -840,7 +840,7 @@ export default [
       'Professors teach classes, prepare and mark assignments, and publish papers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-57.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-57.jpg?quality=70&maxWidth=500',
     id: 57
   },
   {
@@ -855,7 +855,7 @@ export default [
       'Fit pressure gauges and valves, and test for leaks and other problems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-58.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-58.jpg?quality=70&maxWidth=500',
     id: 58
   },
   {
@@ -869,7 +869,7 @@ export default [
       'Hand binders perform the same tasks but without the aid of machines'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-59.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-59.jpg?quality=70&maxWidth=500',
     id: 59
   },
   {
@@ -884,7 +884,7 @@ export default [
       'Forecast future expenses and create budgets'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-60.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-60.jpg?quality=70&maxWidth=500',
     id: 60
   },
   {
@@ -898,7 +898,7 @@ export default [
       'Academic botanists teach at universities and colleges'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-61.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-61.jpg?quality=70&maxWidth=500',
     id: 61
   },
   {
@@ -913,7 +913,7 @@ export default [
       'Some supervise other brewers and machine operators'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-62.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-62.jpg?quality=70&maxWidth=500',
     id: 62
   },
   {
@@ -928,7 +928,7 @@ export default [
       'Make sure walls are straight using levels and plumb lines'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-63.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-63.jpg?quality=70&maxWidth=500',
     id: 63
   },
   {
@@ -942,7 +942,7 @@ export default [
       'Video control engineers regulate picture quality, brightness, and contrast'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-64.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-64.jpg?quality=70&maxWidth=500',
     id: 64
   },
   {
@@ -957,7 +957,7 @@ export default [
       'Supervise the jobsite to ensure the work is done right and on schedule'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-65.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-65.jpg?quality=70&maxWidth=500',
     id: 65
   },
   {
@@ -971,7 +971,7 @@ export default [
       'Ensure that safety systems like fire alarm and sprinkler systems are in place'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-66.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-66.jpg?quality=70&maxWidth=500',
     id: 66
   },
   {
@@ -986,7 +986,7 @@ export default [
       'Some show vacancies, collect rent, and deposit cheques'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-67.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-67.jpg?quality=70&maxWidth=500',
     id: 67
   },
   {
@@ -1001,7 +1001,7 @@ export default [
       'Ensure the safety of passengers '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-68.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-68.jpg?quality=70&maxWidth=500',
     id: 68
   },
   {
@@ -1016,7 +1016,7 @@ export default [
       'Train employees to use programs and systems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-69.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-69.jpg?quality=70&maxWidth=500',
     id: 69
   },
   {
@@ -1031,7 +1031,7 @@ export default [
       'Industrial butchers slaughter livestock in plants and prepare carcasses'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-70.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-70.jpg?quality=70&maxWidth=500',
     id: 70
   },
   {
@@ -1045,7 +1045,7 @@ export default [
       'Sand and smooth the surfaces, and apply veneer, stain, or paint'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-71.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-71.jpg?quality=70&maxWidth=500',
     id: 71
   },
   {
@@ -1060,7 +1060,7 @@ export default [
       'Interact with customers and keep records of work performed'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-72.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-72.jpg?quality=70&maxWidth=500',
     id: 72
   },
   {
@@ -1075,7 +1075,7 @@ export default [
       'Some are involved in setting up lights'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-73.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-73.jpg?quality=70&maxWidth=500',
     id: 73
   },
   {
@@ -1089,7 +1089,7 @@ export default [
       'Cardiovascular techs use EKG tests to measure blood pressure and heart activity'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-74.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-74.jpg?quality=70&maxWidth=500',
     id: 74
   },
   {
@@ -1104,7 +1104,7 @@ export default [
       'Some work as consultants to companies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-75.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-75.jpg?quality=70&maxWidth=500',
     id: 75
   },
   {
@@ -1119,7 +1119,7 @@ export default [
       'Install cabinets, doors, stairs, porches, and other wooden pieces in buildings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-76.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-76.jpg?quality=70&maxWidth=500',
     id: 76
   },
   {
@@ -1134,7 +1134,7 @@ export default [
       'Load and unload supplies from vehicles'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-77.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-77.jpg?quality=70&maxWidth=500',
     id: 77
   },
   {
@@ -1149,7 +1149,7 @@ export default [
       'Oversee printing to ensure accuracy'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-78.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-78.jpg?quality=70&maxWidth=500',
     id: 78
   },
   {
@@ -1164,7 +1164,7 @@ export default [
       'Freelance cartoonists have to find their own clients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-79.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-79.jpg?quality=70&maxWidth=500',
     id: 79
   },
   {
@@ -1179,7 +1179,7 @@ export default [
       'Count the money in the cash register'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-80.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-80.jpg?quality=70&maxWidth=500',
     id: 80
   },
   {
@@ -1193,7 +1193,7 @@ export default [
       'Help choose actors based on their auditions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-81.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-81.jpg?quality=70&maxWidth=500',
     id: 81
   },
   {
@@ -1208,7 +1208,7 @@ export default [
       'Self-employed caterers promote their business and find clients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-82.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-82.jpg?quality=70&maxWidth=500',
     id: 82
   },
   {
@@ -1222,7 +1222,7 @@ export default [
       'Others perform audits for the government, or provide strategic planning for companies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-85.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-85.jpg?quality=70&maxWidth=500',
     id: 85
   },
   {
@@ -1237,7 +1237,7 @@ export default [
       'Some chefs create and test new recipes'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-86.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-86.jpg?quality=70&maxWidth=500',
     id: 86
   },
   {
@@ -1251,7 +1251,7 @@ export default [
       'Some test rock samples for precious metals and other valuable commodities'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-87.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-87.jpg?quality=70&maxWidth=500',
     id: 87
   },
   {
@@ -1265,7 +1265,7 @@ export default [
       'Develop new products and safety testing techniques'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-88.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-88.jpg?quality=70&maxWidth=500',
     id: 88
   },
   {
@@ -1280,7 +1280,7 @@ export default [
       'Teachers and professors instruct students'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-89.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-89.jpg?quality=70&maxWidth=500',
     id: 89
   },
   {
@@ -1295,7 +1295,7 @@ export default [
       'Provide support and information to clients\u2019 families'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-90.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-90.jpg?quality=70&maxWidth=500',
     id: 90
   },
   {
@@ -1310,7 +1310,7 @@ export default [
       'May install and repair fireplaces and chimneys'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-91.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-91.jpg?quality=70&maxWidth=500',
     id: 91
   },
   {
@@ -1325,7 +1325,7 @@ export default [
       'Monitor patients\u2019 progress'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-92.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-92.jpg?quality=70&maxWidth=500',
     id: 92
   },
   {
@@ -1339,7 +1339,7 @@ export default [
       'Offer advice on nutrition, exercise, and healthy living'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-93.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-93.jpg?quality=70&maxWidth=500',
     id: 93
   },
   {
@@ -1354,7 +1354,7 @@ export default [
       'Some work freelance, entertaining at parties and conventions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-94.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-94.jpg?quality=70&maxWidth=500',
     id: 94
   },
   {
@@ -1369,7 +1369,7 @@ export default [
       'Prepare reports on project issues'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-95.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-95.jpg?quality=70&maxWidth=500',
     id: 95
   },
   {
@@ -1384,7 +1384,7 @@ export default [
       'Supervise on-site construction work'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-96.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-96.jpg?quality=70&maxWidth=500',
     id: 96
   },
   {
@@ -1399,7 +1399,7 @@ export default [
       'May specialize in environmental, copyright, or another area of civil law'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-97.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-97.jpg?quality=70&maxWidth=500',
     id: 97
   },
   {
@@ -1414,7 +1414,7 @@ export default [
       'Manage church\u2019s property, order supplies, and contract services'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-98.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-98.jpg?quality=70&maxWidth=500',
     id: 98
   },
   {
@@ -1429,7 +1429,7 @@ export default [
       'Arrange to ship products to clients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-99.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-99.jpg?quality=70&maxWidth=500',
     id: 99
   },
   {
@@ -1443,7 +1443,7 @@ export default [
       'May also take part in search and rescue missions or break pathways through ice'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-100.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-100.jpg?quality=70&maxWidth=500',
     id: 100
   },
   {
@@ -1457,7 +1457,7 @@ export default [
       'Some perform skits as part of a comedy troupe'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-101.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-101.jpg?quality=70&maxWidth=500',
     id: 101
   },
   {
@@ -1472,7 +1472,7 @@ export default [
       'Some fundraise, educate the public, or manage other workers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-103.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-103.jpg?quality=70&maxWidth=500',
     id: 103
   },
   {
@@ -1486,7 +1486,7 @@ export default [
       'Theatrical composers may conduct the musicians'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-104.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-104.jpg?quality=70&maxWidth=500',
     id: 104
   },
   {
@@ -1501,7 +1501,7 @@ export default [
       'Some create 3D models of structures for architectural firms'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-105.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-105.jpg?quality=70&maxWidth=500',
     id: 105
   },
   {
@@ -1516,7 +1516,7 @@ export default [
       'Some handle security issues or design off-site systems for emergencies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-107.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-107.jpg?quality=70&maxWidth=500',
     id: 107
   },
   {
@@ -1531,7 +1531,7 @@ export default [
       'Test software to ensure that it is working'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-108.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-108.jpg?quality=70&maxWidth=500',
     id: 108
   },
   {
@@ -1546,7 +1546,7 @@ export default [
       'Recommend new equipment and software'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-109.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-109.jpg?quality=70&maxWidth=500',
     id: 109
   },
   {
@@ -1560,7 +1560,7 @@ export default [
       'Advise clients about which hardware and software to buy'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-110.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-110.jpg?quality=70&maxWidth=500',
     id: 110
   },
   {
@@ -1575,7 +1575,7 @@ export default [
       'Apply finishes such as adding small gravel chips to the surface'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-111.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-111.jpg?quality=70&maxWidth=500',
     id: 111
   },
   {
@@ -1590,7 +1590,7 @@ export default [
       'May help in search and rescue missions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-112.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-112.jpg?quality=70&maxWidth=500',
     id: 112
   },
   {
@@ -1604,7 +1604,7 @@ export default [
       'Common types include plumbers, electricians, carpenters, and bricklayers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-113.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-113.jpg?quality=70&maxWidth=500',
     id: 113
   },
   {
@@ -1618,7 +1618,7 @@ export default [
       'Some owners handle the duties of managers and cashiers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-114.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-114.jpg?quality=70&maxWidth=500',
     id: 114
   },
   {
@@ -1633,7 +1633,7 @@ export default [
       'May supervise kitchen workers, order supplies, and help plan menus'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-115.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-115.jpg?quality=70&maxWidth=500',
     id: 115
   },
   {
@@ -1647,7 +1647,7 @@ export default [
       'Draw up legal documents, such as contracts'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-116.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-116.jpg?quality=70&maxWidth=500',
     id: 116
   },
   {
@@ -1662,7 +1662,7 @@ export default [
       'Self-employed trainers have to find their own clients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-117.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-117.jpg?quality=70&maxWidth=500',
     id: 117
   },
   {
@@ -1677,7 +1677,7 @@ export default [
       'Write reports on inmates\u2019 behaviour'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-118.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-118.jpg?quality=70&maxWidth=500',
     id: 118
   },
   {
@@ -1692,7 +1692,7 @@ export default [
       'Fit costumes to actors and make adjustments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-119.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-119.jpg?quality=70&maxWidth=500',
     id: 119
   },
   {
@@ -1707,7 +1707,7 @@ export default [
       'Keep records of completed deliveries'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-120.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-120.jpg?quality=70&maxWidth=500',
     id: 120
   },
   {
@@ -1722,7 +1722,7 @@ export default [
       'File court documents and information from lawyers, defendants, and witnesses'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-121.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-121.jpg?quality=70&maxWidth=500',
     id: 121
   },
   {
@@ -1737,7 +1737,7 @@ export default [
       'Some teach their craft to others'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-122.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-122.jpg?quality=70&maxWidth=500',
     id: 122
   },
   {
@@ -1752,7 +1752,7 @@ export default [
       'Work with others to make sure the load is placed exactly where they need it'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-123.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-123.jpg?quality=70&maxWidth=500',
     id: 123
   },
   {
@@ -1767,7 +1767,7 @@ export default [
       'Prosecutors present evidence in court to prove a defendant\u2019s guilt'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-124.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-124.jpg?quality=70&maxWidth=500',
     id: 124
   },
   {
@@ -1782,7 +1782,7 @@ export default [
       'Prepare reports and give presentations'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-125.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-125.jpg?quality=70&maxWidth=500',
     id: 125
   },
   {
@@ -1797,7 +1797,7 @@ export default [
       'Monitor items on display for decay or damage'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-126.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-126.jpg?quality=70&maxWidth=500',
     id: 126
   },
   {
@@ -1812,7 +1812,7 @@ export default [
       'May clean windows and do heavy-duty industrial cleaning'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-127.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-127.jpg?quality=70&maxWidth=500',
     id: 127
   },
   {
@@ -1826,7 +1826,7 @@ export default [
       'Track packages as they ship and ensure all taxes and duties are paid'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-128.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-128.jpg?quality=70&maxWidth=500',
     id: 128
   },
   {
@@ -1841,7 +1841,7 @@ export default [
       'May specialize in ballet, tap, hip-hop, or other styles of dance'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-130.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-130.jpg?quality=70&maxWidth=500',
     id: 130
   },
   {
@@ -1856,7 +1856,7 @@ export default [
       'Some prepare reports based on data entered'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-131.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-131.jpg?quality=70&maxWidth=500',
     id: 131
   },
   {
@@ -1871,7 +1871,7 @@ export default [
       'Import data into databases'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-132.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-132.jpg?quality=70&maxWidth=500',
     id: 132
   },
   {
@@ -1886,7 +1886,7 @@ export default [
       'May specialize in teaching children with disabilities'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-133.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-133.jpg?quality=70&maxWidth=500',
     id: 133
   },
   {
@@ -1901,7 +1901,7 @@ export default [
       'Operate suctioning device to keep patients\u2019 mouths dry'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-134.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-134.jpg?quality=70&maxWidth=500',
     id: 134
   },
   {
@@ -1916,7 +1916,7 @@ export default [
       'Give advice on preventive dental care'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-135.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-135.jpg?quality=70&maxWidth=500',
     id: 135
   },
   {
@@ -1931,7 +1931,7 @@ export default [
       'Make final shape and colour adjustments to the new teeth'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-136.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-136.jpg?quality=70&maxWidth=500',
     id: 136
   },
   {
@@ -1946,7 +1946,7 @@ export default [
       'Supervise dental hygienists and other staff'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-137.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-137.jpg?quality=70&maxWidth=500',
     id: 137
   },
   {
@@ -1960,7 +1960,7 @@ export default [
       'Perform routine maintenance, such as cleaning and lubricating parts'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-140.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-140.jpg?quality=70&maxWidth=500',
     id: 140
   },
   {
@@ -1975,7 +1975,7 @@ export default [
       'Usually specialize in one area of work'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-141.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-141.jpg?quality=70&maxWidth=500',
     id: 141
   },
   {
@@ -1989,7 +1989,7 @@ export default [
       'Oversee editing and the creation of sound and visual effects'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-142.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-142.jpg?quality=70&maxWidth=500',
     id: 142
   },
   {
@@ -2004,7 +2004,7 @@ export default [
       'Adjust settings such as focus, exposure, and composition during filming'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-143.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-143.jpg?quality=70&maxWidth=500',
     id: 143
   },
   {
@@ -2019,7 +2019,7 @@ export default [
       'May also make announcements and introduce people who are giving speeches'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-144.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-144.jpg?quality=70&maxWidth=500',
     id: 144
   },
   {
@@ -2034,7 +2034,7 @@ export default [
       'Maintain records of calls and responses'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-145.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-145.jpg?quality=70&maxWidth=500',
     id: 145
   },
   {
@@ -2049,7 +2049,7 @@ export default [
       'Specialize in a particular area of medicine, such as family medicine or surgery'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-146.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-146.jpg?quality=70&maxWidth=500',
     id: 146
   },
   {
@@ -2064,7 +2064,7 @@ export default [
       'May prepare reports, cost estimates, and contracts'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-147.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-147.jpg?quality=70&maxWidth=500',
     id: 147
   },
   {
@@ -2079,7 +2079,7 @@ export default [
       'May specialize in teaching commercial or older drivers, or rehabilitation'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-148.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-148.jpg?quality=70&maxWidth=500',
     id: 148
   },
   {
@@ -2094,7 +2094,7 @@ export default [
       'Some specialize in environmentally friendly cleaning techniques'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-149.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-149.jpg?quality=70&maxWidth=500',
     id: 149
   },
   {
@@ -2109,7 +2109,7 @@ export default [
       'Apply textured surfaces on walls or ceilings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-150.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-150.jpg?quality=70&maxWidth=500',
     id: 150
   },
   {
@@ -2124,7 +2124,7 @@ export default [
       'May advise governments or companies on environmental issues, or teach at universities'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-151.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-151.jpg?quality=70&maxWidth=500',
     id: 151
   },
   {
@@ -2139,7 +2139,7 @@ export default [
       'Ensure property development applications are filed correctly'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-152.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-152.jpg?quality=70&maxWidth=500',
     id: 152
   },
   {
@@ -2154,7 +2154,7 @@ export default [
       'Professors teach students, and mark papers and exams'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-153.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-153.jpg?quality=70&maxWidth=500',
     id: 153
   },
   {
@@ -2167,7 +2167,7 @@ export default [
       'Technical editors review manuals and other technical documents'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-154.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-154.jpg?quality=70&maxWidth=500',
     id: 154
   },
   {
@@ -2182,7 +2182,7 @@ export default [
       'May advise governments or companies on environmental issues, or teach classes'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-155.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-155.jpg?quality=70&maxWidth=500',
     id: 155
   },
   {
@@ -2197,7 +2197,7 @@ export default [
       'Test systems and equipment to make sure they perform as required'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-156.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-156.jpg?quality=70&maxWidth=500',
     id: 156
   },
   {
@@ -2212,7 +2212,7 @@ export default [
       'Maintenance electricians maintain the electrical systems of industrial machines'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-157.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-157.jpg?quality=70&maxWidth=500',
     id: 157
   },
   {
@@ -2227,7 +2227,7 @@ export default [
       'Maintain the equipment '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-158.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-158.jpg?quality=70&maxWidth=500',
     id: 158
   },
   {
@@ -2242,7 +2242,7 @@ export default [
       'May also inspect and test each component'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-159.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-159.jpg?quality=70&maxWidth=500',
     id: 159
   },
   {
@@ -2257,7 +2257,7 @@ export default [
       'Design and run tests on new systems or products, and analyze the results'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-160.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-160.jpg?quality=70&maxWidth=500',
     id: 160
   },
   {
@@ -2272,7 +2272,7 @@ export default [
       'Give customers advice on the proper use of equipment'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-161.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-161.jpg?quality=70&maxWidth=500',
     id: 161
   },
   {
@@ -2287,7 +2287,7 @@ export default [
       'Complete paperwork and report cards'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-162.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-162.jpg?quality=70&maxWidth=500',
     id: 162
   },
   {
@@ -2302,7 +2302,7 @@ export default [
       'Test and repair assembled elevators'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-163.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-163.jpg?quality=70&maxWidth=500',
     id: 163
   },
   {
@@ -2317,7 +2317,7 @@ export default [
       'Some work in quality control'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-164.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-164.jpg?quality=70&maxWidth=500',
     id: 164
   },
   {
@@ -2332,7 +2332,7 @@ export default [
       'Oversee activities related to business ownership, such as managing employees '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-165.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-165.jpg?quality=70&maxWidth=500',
     id: 165
   },
   {
@@ -2346,7 +2346,7 @@ export default [
       'Some are involved in the treatment and storage of toxic materials'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-166.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-166.jpg?quality=70&maxWidth=500',
     id: 166
   },
   {
@@ -2361,7 +2361,7 @@ export default [
       'May inspect industrial plants'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-167.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-167.jpg?quality=70&maxWidth=500',
     id: 167
   },
   {
@@ -2375,7 +2375,7 @@ export default [
       'Work with scientists, engineers, and other environmental professionals'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-168.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-168.jpg?quality=70&maxWidth=500',
     id: 168
   },
   {
@@ -2390,7 +2390,7 @@ export default [
       'Deal with many health issues, such as alcohol abuse, mental health, and viruses'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-169.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-169.jpg?quality=70&maxWidth=500',
     id: 169
   },
   {
@@ -2405,7 +2405,7 @@ export default [
       'Teach newcomers about Canadian culture'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-170.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-170.jpg?quality=70&maxWidth=500',
     id: 170
   },
   {
@@ -2420,7 +2420,7 @@ export default [
       'May apply makeup'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-171.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-171.jpg?quality=70&maxWidth=500',
     id: 171
   },
   {
@@ -2435,7 +2435,7 @@ export default [
       'Coordinate teams of workers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-172.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-172.jpg?quality=70&maxWidth=500',
     id: 172
   },
   {
@@ -2450,7 +2450,7 @@ export default [
       'With a team of tradespeople, assemble the exhibit '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-173.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-173.jpg?quality=70&maxWidth=500',
     id: 173
   },
   {
@@ -2465,7 +2465,7 @@ export default [
       'Others investigate bomb threats and disable explosive devices'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-174.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-174.jpg?quality=70&maxWidth=500',
     id: 174
   },
   {
@@ -2479,7 +2479,7 @@ export default [
       'Often communicate with nurses, medical lab techs, and other health workers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-175.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-175.jpg?quality=70&maxWidth=500',
     id: 175
   },
   {
@@ -2494,7 +2494,7 @@ export default [
       'Many specialize in certain types of equipment'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-176.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-176.jpg?quality=70&maxWidth=500',
     id: 176
   },
   {
@@ -2509,7 +2509,7 @@ export default [
       'Do chores such as repairing equipment and cleaning stalls'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-177.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-177.jpg?quality=70&maxWidth=500',
     id: 177
   },
   {
@@ -2524,7 +2524,7 @@ export default [
       'Some sew together the clothing themselves, while others supervise other workers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-178.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-178.jpg?quality=70&maxWidth=500',
     id: 178
   },
   {
@@ -2539,7 +2539,7 @@ export default [
       'Hire, train, and supervise store employees'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-179.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-179.jpg?quality=70&maxWidth=500',
     id: 179
   },
   {
@@ -2553,7 +2553,7 @@ export default [
       'Managers train and supervise staff, check inventory, and maintain equipment'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-180.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-180.jpg?quality=70&maxWidth=500',
     id: 180
   },
   {
@@ -2568,7 +2568,7 @@ export default [
       'Apply makeup to actors'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-181.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-181.jpg?quality=70&maxWidth=500',
     id: 181
   },
   {
@@ -2583,7 +2583,7 @@ export default [
       'Monitor and alter the timing and pace of the project'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-182.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-182.jpg?quality=70&maxWidth=500',
     id: 182
   },
   {
@@ -2598,7 +2598,7 @@ export default [
       'Make sure there are no defects in the prints'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-183.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-183.jpg?quality=70&maxWidth=500',
     id: 183
   },
   {
@@ -2613,7 +2613,7 @@ export default [
       'Respond to other types of emergencies, such as a choking victim at a restaurant'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-184.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-184.jpg?quality=70&maxWidth=500',
     id: 184
   },
   {
@@ -2628,7 +2628,7 @@ export default [
       'Captains plan and oversee fishing trips, and sell the catch'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-185.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-185.jpg?quality=70&maxWidth=500',
     id: 185
   },
   {
@@ -2643,7 +2643,7 @@ export default [
       'Assess new students\u2019 fitness levels and recommend classes'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-186.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-186.jpg?quality=70&maxWidth=500',
     id: 186
   },
   {
@@ -2658,7 +2658,7 @@ export default [
       'In flight, serve meals and other refreshments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-187.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-187.jpg?quality=70&maxWidth=500',
     id: 187
   },
   {
@@ -2673,7 +2673,7 @@ export default [
       'Vinyl floors are glued down'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-188.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-188.jpg?quality=70&maxWidth=500',
     id: 188
   },
   {
@@ -2688,7 +2688,7 @@ export default [
       'May take care of financial records, order supplies, and clean the store'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-189.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-189.jpg?quality=70&maxWidth=500',
     id: 189
   },
   {
@@ -2703,7 +2703,7 @@ export default [
       'Ensure products are labelled correctly '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-190.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-190.jpg?quality=70&maxWidth=500',
     id: 190
   },
   {
@@ -2718,7 +2718,7 @@ export default [
       'May review visa applications or replace lost documents for Canadians abroad '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-191.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-191.jpg?quality=70&maxWidth=500',
     id: 191
   },
   {
@@ -2733,7 +2733,7 @@ export default [
       'Give recommendations about the use and conservation of forest land'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-193.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-193.jpg?quality=70&maxWidth=500',
     id: 193
   },
   {
@@ -2748,7 +2748,7 @@ export default [
       'Conduct research into the age and health of forests'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-194.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-194.jpg?quality=70&maxWidth=500',
     id: 194
   },
   {
@@ -2763,7 +2763,7 @@ export default [
       'Market and sell produce'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-195.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-195.jpg?quality=70&maxWidth=500',
     id: 195
   },
   {
@@ -2778,7 +2778,7 @@ export default [
       'Network with individuals and corporations'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-196.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-196.jpg?quality=70&maxWidth=500',
     id: 196
   },
   {
@@ -2792,7 +2792,7 @@ export default [
       'Attend funerals and burials to make sure everything goes as planned'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-197.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-197.jpg?quality=70&maxWidth=500',
     id: 197
   },
   {
@@ -2807,7 +2807,7 @@ export default [
       'Some apply finishes to new items'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-198.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-198.jpg?quality=70&maxWidth=500',
     id: 198
   },
   {
@@ -2822,7 +2822,7 @@ export default [
       'May make other changes to landscapes, such as adding walkways'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-199.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-199.jpg?quality=70&maxWidth=500',
     id: 199
   },
   {
@@ -2837,7 +2837,7 @@ export default [
       'Some teach geology at universities'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-201.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-201.jpg?quality=70&maxWidth=500',
     id: 201
   },
   {
@@ -2851,7 +2851,7 @@ export default [
       'Other areas of focus include medicine, physiotherapy, and financial planning'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-203.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-203.jpg?quality=70&maxWidth=500',
     id: 203
   },
   {
@@ -2866,7 +2866,7 @@ export default [
       'Install larger panels, such as storefront windows on commercial buildings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-204.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-204.jpg?quality=70&maxWidth=500',
     id: 204
   },
   {
@@ -2880,7 +2880,7 @@ export default [
       'Use the collected elements to create a final product, like a poster or website'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-205.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-205.jpg?quality=70&maxWidth=500',
     id: 205
   },
   {
@@ -2895,7 +2895,7 @@ export default [
       'May sell guns and accessories to customers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-206.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-206.jpg?quality=70&maxWidth=500',
     id: 206
   },
   {
@@ -2910,7 +2910,7 @@ export default [
       'May trim, shave, and style moustaches and beards'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-207.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-207.jpg?quality=70&maxWidth=500',
     id: 207
   },
   {
@@ -2925,7 +2925,7 @@ export default [
       'Evaluate patient services and develop medical programs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-208.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-208.jpg?quality=70&maxWidth=500',
     id: 208
   },
   {
@@ -2940,7 +2940,7 @@ export default [
       'May use health information to create reports about diseases and treatments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-209.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-209.jpg?quality=70&maxWidth=500',
     id: 209
   },
   {
@@ -2955,7 +2955,7 @@ export default [
       'Connect electrical wiring and controls'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-211.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-211.jpg?quality=70&maxWidth=500',
     id: 211
   },
   {
@@ -2970,7 +2970,7 @@ export default [
       'Some specialize in certain types of equipment'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-212.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-212.jpg?quality=70&maxWidth=500',
     id: 212
   },
   {
@@ -2984,7 +2984,7 @@ export default [
       'Demolition operators use their machines to tear down structures'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-213.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-213.jpg?quality=70&maxWidth=500',
     id: 213
   },
   {
@@ -2999,7 +2999,7 @@ export default [
       'On landing, complete records on the flight'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-214.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-214.jpg?quality=70&maxWidth=500',
     id: 214
   },
   {
@@ -3013,7 +3013,7 @@ export default [
       'Archivists store historical documents in archives'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-215.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-215.jpg?quality=70&maxWidth=500',
     id: 215
   },
   {
@@ -3028,7 +3028,7 @@ export default [
       'May help clients take medications'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-216.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-216.jpg?quality=70&maxWidth=500',
     id: 216
   },
   {
@@ -3043,7 +3043,7 @@ export default [
       'May develop government policies or promote programs and services'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-217.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-217.jpg?quality=70&maxWidth=500',
     id: 217
   },
   {
@@ -3057,7 +3057,7 @@ export default [
       'Prepare reports on building problems or safety hazards'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-218.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-218.jpg?quality=70&maxWidth=500',
     id: 218
   },
   {
@@ -3072,7 +3072,7 @@ export default [
       'May volunteer with parent-teacher associations or community groups'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-219.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-219.jpg?quality=70&maxWidth=500',
     id: 219
   },
   {
@@ -3087,7 +3087,7 @@ export default [
       'Some do research for governments or teach at universities'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-220.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-220.jpg?quality=70&maxWidth=500',
     id: 220
   },
   {
@@ -3102,7 +3102,7 @@ export default [
       'Deal with customer complaints'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-221.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-221.jpg?quality=70&maxWidth=500',
     id: 221
   },
   {
@@ -3117,7 +3117,7 @@ export default [
       'Plan advertising and promotion campaigns'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-222.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-222.jpg?quality=70&maxWidth=500',
     id: 222
   },
   {
@@ -3132,7 +3132,7 @@ export default [
       'May take out the garbage and feed pets'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-223.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-223.jpg?quality=70&maxWidth=500',
     id: 223
   },
   {
@@ -3147,7 +3147,7 @@ export default [
       'Negotiate agreements and help resolve labour disputes'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-224.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-224.jpg?quality=70&maxWidth=500',
     id: 224
   },
   {
@@ -3162,7 +3162,7 @@ export default [
       'Hydrogeologists study groundwater'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-225.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-225.jpg?quality=70&maxWidth=500',
     id: 225
   },
   {
@@ -3176,7 +3176,7 @@ export default [
       'Others draw models wearing the latest fashions, or draw other products'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-226.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-226.jpg?quality=70&maxWidth=500',
     id: 226
   },
   {
@@ -3191,7 +3191,7 @@ export default [
       'Prepare reports and maintain records'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-227.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-227.jpg?quality=70&maxWidth=500',
     id: 227
   },
   {
@@ -3205,7 +3205,7 @@ export default [
       'May help design packaging or promotional materials'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-228.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-228.jpg?quality=70&maxWidth=500',
     id: 228
   },
   {
@@ -3219,7 +3219,7 @@ export default [
       'On the plant floor: repair machines, speak to workers, and measure productivity'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-229.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-229.jpg?quality=70&maxWidth=500',
     id: 229
   },
   {
@@ -3234,7 +3234,7 @@ export default [
       'Supervise construction projects'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-230.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-230.jpg?quality=70&maxWidth=500',
     id: 230
   },
   {
@@ -3249,7 +3249,7 @@ export default [
       'Keep records of maintenance and repair work'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-231.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-231.jpg?quality=70&maxWidth=500',
     id: 231
   },
   {
@@ -3264,7 +3264,7 @@ export default [
       'May serve in peacekeeping forces'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-232.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-232.jpg?quality=70&maxWidth=500',
     id: 232
   },
   {
@@ -3279,7 +3279,7 @@ export default [
       'Cover insulation with plastic vapour barriers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-233.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-233.jpg?quality=70&maxWidth=500',
     id: 233
   },
   {
@@ -3294,7 +3294,7 @@ export default [
       'Brokers sell insurance from several companies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-234.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-234.jpg?quality=70&maxWidth=500',
     id: 234
   },
   {
@@ -3308,7 +3308,7 @@ export default [
       'Determine the amount of money owed to claimants and negotiate settlements'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-235.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-235.jpg?quality=70&maxWidth=500',
     id: 235
   },
   {
@@ -3322,7 +3322,7 @@ export default [
       'Usually specialize in a certain area, such as home, health, or life insurance'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-236.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-236.jpg?quality=70&maxWidth=500',
     id: 236
   },
   {
@@ -3337,7 +3337,7 @@ export default [
       'May specialize in home or commercial design'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-237.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-237.jpg?quality=70&maxWidth=500',
     id: 237
   },
   {
@@ -3352,7 +3352,7 @@ export default [
       'May specialize in conference, court, medical, or other types if interpretation'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-239.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-239.jpg?quality=70&maxWidth=500',
     id: 239
   },
   {
@@ -3367,7 +3367,7 @@ export default [
       'Persuade stores and businesses to sell inventions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-240.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-240.jpg?quality=70&maxWidth=500',
     id: 240
   },
   {
@@ -3382,7 +3382,7 @@ export default [
       'Monitor clients\u2019 investments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-241.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-241.jpg?quality=70&maxWidth=500',
     id: 241
   },
   {
@@ -3397,7 +3397,7 @@ export default [
       'Research companies to determine prices of mergers or acquisitions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-242.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-242.jpg?quality=70&maxWidth=500',
     id: 242
   },
   {
@@ -3412,7 +3412,7 @@ export default [
       'Permanently bolt or weld pieces in place'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-243.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-243.jpg?quality=70&maxWidth=500',
     id: 243
   },
   {
@@ -3427,7 +3427,7 @@ export default [
       'Usually specialize in one or two tasks, such as selling and repairing jewellery'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-244.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-244.jpg?quality=70&maxWidth=500',
     id: 244
   },
   {
@@ -3442,7 +3442,7 @@ export default [
       'Decide punishments for those found guilty'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-245.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-245.jpg?quality=70&maxWidth=500',
     id: 245
   },
   {
@@ -3456,7 +3456,7 @@ export default [
       'Move chairs and computers and make other changes to reduce physical challenges'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-246.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-246.jpg?quality=70&maxWidth=500',
     id: 246
   },
   {
@@ -3471,7 +3471,7 @@ export default [
       'Produce written reports of their findings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-247.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-247.jpg?quality=70&maxWidth=500',
     id: 247
   },
   {
@@ -3486,7 +3486,7 @@ export default [
       'Supervise construction of the design'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-248.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-248.jpg?quality=70&maxWidth=500',
     id: 248
   },
   {
@@ -3501,7 +3501,7 @@ export default [
       'May work on indoor spaces, such as malls'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-249.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-249.jpg?quality=70&maxWidth=500',
     id: 249
   },
   {
@@ -3516,7 +3516,7 @@ export default [
       'May specialize in criminal, corporate, or another area of the law'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-250.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-250.jpg?quality=70&maxWidth=500',
     id: 250
   },
   {
@@ -3531,7 +3531,7 @@ export default [
       'Supervise other library staff'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-251.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-251.jpg?quality=70&maxWidth=500',
     id: 251
   },
   {
@@ -3546,7 +3546,7 @@ export default [
       'Some arrange displays to showcase the library\u2019s collections'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-252.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-252.jpg?quality=70&maxWidth=500',
     id: 252
   },
   {
@@ -3561,7 +3561,7 @@ export default [
       'Administer first aid or CPR if required'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-253.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-253.jpg?quality=70&maxWidth=500',
     id: 253
   },
   {
@@ -3575,7 +3575,7 @@ export default [
       'Operate lights, adjusting settings as directed'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-254.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-254.jpg?quality=70&maxWidth=500',
     id: 254
   },
   {
@@ -3590,7 +3590,7 @@ export default [
       'Work as part of a team'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-255.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-255.jpg?quality=70&maxWidth=500',
     id: 255
   },
   {
@@ -3605,7 +3605,7 @@ export default [
       'Obtain government funding or contracts for clients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-256.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-256.jpg?quality=70&maxWidth=500',
     id: 256
   },
   {
@@ -3620,7 +3620,7 @@ export default [
       'Some install and service safes and vaults'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-257.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-257.jpg?quality=70&maxWidth=500',
     id: 257
   },
   {
@@ -3634,7 +3634,7 @@ export default [
       'Present findings to management, along with recommendations for improvement'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-259.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-259.jpg?quality=70&maxWidth=500',
     id: 259
   },
   {
@@ -3649,7 +3649,7 @@ export default [
       'Measure pieces to make sure they are right'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-260.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-260.jpg?quality=70&maxWidth=500',
     id: 260
   },
   {
@@ -3664,7 +3664,7 @@ export default [
       'Return to the post office and drop off undeliverable mail'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-261.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-261.jpg?quality=70&maxWidth=500',
     id: 261
   },
   {
@@ -3679,7 +3679,7 @@ export default [
       'Apply special effects makeup prosthetics, such as facial scars or tentacles'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-262.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-262.jpg?quality=70&maxWidth=500',
     id: 262
   },
   {
@@ -3694,7 +3694,7 @@ export default [
       'Work with companies to develop a plan to make changes'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-263.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-263.jpg?quality=70&maxWidth=500',
     id: 263
   },
   {
@@ -3709,7 +3709,7 @@ export default [
       'Give advice on how to maintain nails'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-264.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-264.jpg?quality=70&maxWidth=500',
     id: 264
   },
   {
@@ -3724,7 +3724,7 @@ export default [
       'Unload finished products and inspect them for quality'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-265.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-265.jpg?quality=70&maxWidth=500',
     id: 265
   },
   {
@@ -3739,7 +3739,7 @@ export default [
       'Professors teach students'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-266.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-266.jpg?quality=70&maxWidth=500',
     id: 266
   },
   {
@@ -3754,7 +3754,7 @@ export default [
       'Analyze data and write reports on the findings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-267.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-267.jpg?quality=70&maxWidth=500',
     id: 267
   },
   {
@@ -3768,7 +3768,7 @@ export default [
       'Help develop promotional materials, such as flyers and pamphlets'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-268.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-268.jpg?quality=70&maxWidth=500',
     id: 268
   },
   {
@@ -3783,7 +3783,7 @@ export default [
       'Refer clients to resources, such as legal aid '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-269.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-269.jpg?quality=70&maxWidth=500',
     id: 269
   },
   {
@@ -3798,7 +3798,7 @@ export default [
       'Often specialize in different techniques or types of massage'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-270.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-270.jpg?quality=70&maxWidth=500',
     id: 270
   },
   {
@@ -3813,7 +3813,7 @@ export default [
       'Extractive metallurgists separate metals from rock and ore'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-271.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-271.jpg?quality=70&maxWidth=500',
     id: 271
   },
   {
@@ -3828,7 +3828,7 @@ export default [
       'Answer clients\u2019 questions about machinery'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-273.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-273.jpg?quality=70&maxWidth=500',
     id: 273
   },
   {
@@ -3843,7 +3843,7 @@ export default [
       'Analyze the costs and practicality of designs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-274.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-274.jpg?quality=70&maxWidth=500',
     id: 274
   },
   {
@@ -3858,7 +3858,7 @@ export default [
       'Arrange for payment'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-275.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-275.jpg?quality=70&maxWidth=500',
     id: 275
   },
   {
@@ -3872,7 +3872,7 @@ export default [
       'Put agreement details in writing and have parties sign the contract'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-276.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-276.jpg?quality=70&maxWidth=500',
     id: 276
   },
   {
@@ -3887,7 +3887,7 @@ export default [
       'Ultrasonographers operate machines that use sound waves'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-277.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-277.jpg?quality=70&maxWidth=500',
     id: 277
   },
   {
@@ -3902,7 +3902,7 @@ export default [
       'Technologists perform more advanced tasks than technicians'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-278.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-278.jpg?quality=70&maxWidth=500',
     id: 278
   },
   {
@@ -3917,7 +3917,7 @@ export default [
       'Some broadcast weather predictions on TV or radio'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-280.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-280.jpg?quality=70&maxWidth=500',
     id: 280
   },
   {
@@ -3932,7 +3932,7 @@ export default [
       'Write reports describing findings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-281.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-281.jpg?quality=70&maxWidth=500',
     id: 281
   },
   {
@@ -3947,7 +3947,7 @@ export default [
       'Monitor contractions and provide emotional support during labour'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-282.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-282.jpg?quality=70&maxWidth=500',
     id: 282
   },
   {
@@ -3962,7 +3962,7 @@ export default [
       'Navy engineers maintain combat and marine systems in ships and submarines'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-283.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-283.jpg?quality=70&maxWidth=500',
     id: 283
   },
   {
@@ -3977,7 +3977,7 @@ export default [
       'Navy officers may navigate ships; Air Force officers may fly aircraft'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-284.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-284.jpg?quality=70&maxWidth=500',
     id: 284
   },
   {
@@ -3991,7 +3991,7 @@ export default [
       'If machines break down, diagnose the problem and do the necessary repair work'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-285.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-285.jpg?quality=70&maxWidth=500',
     id: 285
   },
   {
@@ -4005,7 +4005,7 @@ export default [
       'When there is no ore left, backfill the area with waste rock or sand'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-286.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-286.jpg?quality=70&maxWidth=500',
     id: 286
   },
   {
@@ -4020,7 +4020,7 @@ export default [
       'Design and supervise mining operations'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-287.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-287.jpg?quality=70&maxWidth=500',
     id: 287
   },
   {
@@ -4035,7 +4035,7 @@ export default [
       'Help develop mining operations  equipment, such as mine ventilation systems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-288.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-288.jpg?quality=70&maxWidth=500',
     id: 288
   },
   {
@@ -4050,7 +4050,7 @@ export default [
       'May also work at trade shows'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-289.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-289.jpg?quality=70&maxWidth=500',
     id: 289
   },
   {
@@ -4065,7 +4065,7 @@ export default [
       'Specialize in a particular area, such as making models for use in movies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-290.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-290.jpg?quality=70&maxWidth=500',
     id: 290
   },
   {
@@ -4079,7 +4079,7 @@ export default [
       'Many also do small body repairs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-291.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-291.jpg?quality=70&maxWidth=500',
     id: 291
   },
   {
@@ -4094,7 +4094,7 @@ export default [
       'Drive to the destination and then unload the truck'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-292.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-292.jpg?quality=70&maxWidth=500',
     id: 292
   },
   {
@@ -4109,7 +4109,7 @@ export default [
       'Programmers write the computer code'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-293.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-293.jpg?quality=70&maxWidth=500',
     id: 293
   },
   {
@@ -4124,7 +4124,7 @@ export default [
       'Teach music interpretation and theory'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-294.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-294.jpg?quality=70&maxWidth=500',
     id: 294
   },
   {
@@ -4139,7 +4139,7 @@ export default [
       'Repair or replace damaged parts'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-295.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-295.jpg?quality=70&maxWidth=500',
     id: 295
   },
   {
@@ -4154,7 +4154,7 @@ export default [
       'Some compose their own music'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-296.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-296.jpg?quality=70&maxWidth=500',
     id: 296
   },
   {
@@ -4169,7 +4169,7 @@ export default [
       'May do grocery shopping, cooking, laundry, or other housework'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-297.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-297.jpg?quality=70&maxWidth=500',
     id: 297
   },
   {
@@ -4184,7 +4184,7 @@ export default [
       'Refer patients to medical doctors if needed'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-299.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-299.jpg?quality=70&maxWidth=500',
     id: 299
   },
   {
@@ -4199,7 +4199,7 @@ export default [
       'Supervise lower ranking non-commissioned members'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-300.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-300.jpg?quality=70&maxWidth=500',
     id: 300
   },
   {
@@ -4214,7 +4214,7 @@ export default [
       'Provide images to the patient\u2019s doctor'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-301.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-301.jpg?quality=70&maxWidth=500',
     id: 301
   },
   {
@@ -4229,7 +4229,7 @@ export default [
       'Maintain records and charts, and supervise other nurses and support staff'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-302.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-302.jpg?quality=70&maxWidth=500',
     id: 302
   },
   {
@@ -4244,7 +4244,7 @@ export default [
       'Educate the community about health issues'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-303.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-303.jpg?quality=70&maxWidth=500',
     id: 303
   },
   {
@@ -4259,7 +4259,7 @@ export default [
       'May develop marketing plans to sell plants'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-304.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-304.jpg?quality=70&maxWidth=500',
     id: 304
   },
   {
@@ -4274,7 +4274,7 @@ export default [
       'May specialize in areas such as infertility or high-risk pregnancy'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-306.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-306.jpg?quality=70&maxWidth=500',
     id: 306
   },
   {
@@ -4289,7 +4289,7 @@ export default [
       'Keep records of clients\u2019 progress'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-307.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-307.jpg?quality=70&maxWidth=500',
     id: 307
   },
   {
@@ -4304,7 +4304,7 @@ export default [
       'Write reports and make recommendations based on the findings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-308.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-308.jpg?quality=70&maxWidth=500',
     id: 308
   },
   {
@@ -4319,7 +4319,7 @@ export default [
       'Some sell new equipment, parts, and supplies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-309.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-309.jpg?quality=70&maxWidth=500',
     id: 309
   },
   {
@@ -4334,7 +4334,7 @@ export default [
       'Oversee office projects, ensuring they are properly staffed and on schedule'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-310.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-310.jpg?quality=70&maxWidth=500',
     id: 310
   },
   {
@@ -4348,7 +4348,7 @@ export default [
       'Drillers work in the control room, operating the drill itself'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-311.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-311.jpg?quality=70&maxWidth=500',
     id: 311
   },
   {
@@ -4363,7 +4363,7 @@ export default [
       'Present recommendations to managers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-312.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-312.jpg?quality=70&maxWidth=500',
     id: 312
   },
   {
@@ -4378,7 +4378,7 @@ export default [
       'Teach customers how to insert and remove contact lenses'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-313.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-313.jpg?quality=70&maxWidth=500',
     id: 313
   },
   {
@@ -4393,7 +4393,7 @@ export default [
       'May remove splinters and apply eye drops'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-314.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-314.jpg?quality=70&maxWidth=500',
     id: 314
   },
   {
@@ -4408,7 +4408,7 @@ export default [
       'Teach people how to perform activities such as snowshoeing'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-315.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-315.jpg?quality=70&maxWidth=500',
     id: 315
   },
   {
@@ -4423,7 +4423,7 @@ export default [
       'Paint walls and ceilings using paint rollers, brushes, or spray guns'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-316.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-316.jpg?quality=70&maxWidth=500',
     id: 316
   },
   {
@@ -4438,7 +4438,7 @@ export default [
       'May represent clients in minor matters before courts, boards, and tribunals'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-317.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-317.jpg?quality=70&maxWidth=500',
     id: 317
   },
   {
@@ -4452,7 +4452,7 @@ export default [
       'The kind of treatment provided depends on the province and level of training'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-318.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-318.jpg?quality=70&maxWidth=500',
     id: 318
   },
   {
@@ -4467,7 +4467,7 @@ export default [
       'Collect fees, control traffic, and lead tours'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-319.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-319.jpg?quality=70&maxWidth=500',
     id: 319
   },
   {
@@ -4482,7 +4482,7 @@ export default [
       'Valets park cars for customers and get the cars when they are ready to leave'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-320.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-320.jpg?quality=70&maxWidth=500',
     id: 320
   },
   {
@@ -4496,7 +4496,7 @@ export default [
       'Communicate with social workers, family members, and other health care workers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-321.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-321.jpg?quality=70&maxWidth=500',
     id: 321
   },
   {
@@ -4510,7 +4510,7 @@ export default [
       'Recommend financial plans and investment strategies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-322.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-322.jpg?quality=70&maxWidth=500',
     id: 322
   },
   {
@@ -4524,7 +4524,7 @@ export default [
       'Work out with clients, offering motivation and encouragement '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-323.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-323.jpg?quality=70&maxWidth=500',
     id: 323
   },
   {
@@ -4539,7 +4539,7 @@ export default [
       'Educate people about pest control'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-324.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-324.jpg?quality=70&maxWidth=500',
     id: 324
   },
   {
@@ -4554,7 +4554,7 @@ export default [
       'Teach owners about fur maintenance'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-325.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-325.jpg?quality=70&maxWidth=500',
     id: 325
   },
   {
@@ -4568,7 +4568,7 @@ export default [
       'Supervise pharmacy technicians as they prepare and dispense medications'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-326.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-326.jpg?quality=70&maxWidth=500',
     id: 326
   },
   {
@@ -4583,7 +4583,7 @@ export default [
       'Usually specialize in a particular area of research'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-327.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-327.jpg?quality=70&maxWidth=500',
     id: 327
   },
   {
@@ -4598,7 +4598,7 @@ export default [
       'Exact duties depend on where they work'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-328.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-328.jpg?quality=70&maxWidth=500',
     id: 328
   },
   {
@@ -4613,7 +4613,7 @@ export default [
       'Use computers to fix and alter images'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-329.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-329.jpg?quality=70&maxWidth=500',
     id: 329
   },
   {
@@ -4628,7 +4628,7 @@ export default [
       'Professors teach and advise students, and mark papers and exams'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-330.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-330.jpg?quality=70&maxWidth=500',
     id: 330
   },
   {
@@ -4643,7 +4643,7 @@ export default [
       'Monitor and document patients\u2019 progress'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-331.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-331.jpg?quality=70&maxWidth=500',
     id: 331
   },
   {
@@ -4658,7 +4658,7 @@ export default [
       'May repair damaged frames and sell framed artwork'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-332.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-332.jpg?quality=70&maxWidth=500',
     id: 332
   },
   {
@@ -4673,7 +4673,7 @@ export default [
       'On landing, secure aircraft, fill out paperwork, and tell mechanics of problems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-333.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-333.jpg?quality=70&maxWidth=500',
     id: 333
   },
   {
@@ -4688,7 +4688,7 @@ export default [
       'May repair and maintain old pipe systems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-334.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-334.jpg?quality=70&maxWidth=500',
     id: 334
   },
   {
@@ -4703,7 +4703,7 @@ export default [
       'May specialize in urban, regional, environmental, or construction planning'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-335.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-335.jpg?quality=70&maxWidth=500',
     id: 335
   },
   {
@@ -4718,7 +4718,7 @@ export default [
       'Create and install decorative trim work, such as crown moulding'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-336.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-336.jpg?quality=70&maxWidth=500',
     id: 336
   },
   {
@@ -4732,7 +4732,7 @@ export default [
       'May specialize in reconstructive or cosmetic surgery, or do both'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-337.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-337.jpg?quality=70&maxWidth=500',
     id: 337
   },
   {
@@ -4747,7 +4747,7 @@ export default [
       'Install fixtures such as toilets and faucets'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-338.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-338.jpg?quality=70&maxWidth=500',
     id: 338
   },
   {
@@ -4762,7 +4762,7 @@ export default [
       'Design braces, casts, or straps for people with foot deformities'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-339.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-339.jpg?quality=70&maxWidth=500',
     id: 339
   },
   {
@@ -4777,7 +4777,7 @@ export default [
       'May work with special units or task forces'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-340.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-340.jpg?quality=70&maxWidth=500',
     id: 340
   },
   {
@@ -4792,7 +4792,7 @@ export default [
       'May act as politicians\u2019 spokespersons'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-341.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-341.jpg?quality=70&maxWidth=500',
     id: 341
   },
   {
@@ -4807,7 +4807,7 @@ export default [
       'May focus on local, provincial, or federal matters'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-342.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-342.jpg?quality=70&maxWidth=500',
     id: 342
   },
   {
@@ -4822,7 +4822,7 @@ export default [
       'Check the ID of customers who are picking up letters or parcels'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-343.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-343.jpg?quality=70&maxWidth=500',
     id: 343
   },
   {
@@ -4837,7 +4837,7 @@ export default [
       'Ensure safety procedures are followed'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-344.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-344.jpg?quality=70&maxWidth=500',
     id: 344
   },
   {
@@ -4852,7 +4852,7 @@ export default [
       'May write news stories, investigative reports, features, or columns '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-345.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-345.jpg?quality=70&maxWidth=500',
     id: 345
   },
   {
@@ -4866,7 +4866,7 @@ export default [
       'Some load files and run computerized copiers and printers in small shops'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-346.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-346.jpg?quality=70&maxWidth=500',
     id: 346
   },
   {
@@ -4881,7 +4881,7 @@ export default [
       'Corporate investigators conduct internal investigations for companies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-347.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-347.jpg?quality=70&maxWidth=500',
     id: 347
   },
   {
@@ -4896,7 +4896,7 @@ export default [
       'Parole officers work with offenders who have committed more serious crimes'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-348.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-348.jpg?quality=70&maxWidth=500',
     id: 348
   },
   {
@@ -4911,7 +4911,7 @@ export default [
       'Plan and oversee marketing and distribution strategies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-349.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-349.jpg?quality=70&maxWidth=500',
     id: 349
   },
   {
@@ -4925,7 +4925,7 @@ export default [
       'Measure materials, and operate machines that shape and assemble the pieces'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-350.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-350.jpg?quality=70&maxWidth=500',
     id: 350
   },
   {
@@ -4939,7 +4939,7 @@ export default [
       'Receive treatment for injuries or strains if necessary'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-351.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-351.jpg?quality=70&maxWidth=500',
     id: 351
   },
   {
@@ -4954,7 +4954,7 @@ export default [
       'Perform administrative work'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-352.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-352.jpg?quality=70&maxWidth=500',
     id: 352
   },
   {
@@ -4969,7 +4969,7 @@ export default [
       'Some find clients, and install and test programs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-353.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-353.jpg?quality=70&maxWidth=500',
     id: 353
   },
   {
@@ -4984,7 +4984,7 @@ export default [
       'Negotiate rental contracts and collect rent and fees from tenants'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-354.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-354.jpg?quality=70&maxWidth=500',
     id: 354
   },
   {
@@ -4999,7 +4999,7 @@ export default [
       'Provide information to patients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-355.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-355.jpg?quality=70&maxWidth=500',
     id: 355
   },
   {
@@ -5014,7 +5014,7 @@ export default [
       'May specialize in an area such as child or forensic psychiatry'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-356.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-356.jpg?quality=70&maxWidth=500',
     id: 356
   },
   {
@@ -5029,7 +5029,7 @@ export default [
       'May specialize in counselling, clinical, or another area of psychology'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-357.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-357.jpg?quality=70&maxWidth=500',
     id: 357
   },
   {
@@ -5043,7 +5043,7 @@ export default [
       'Monitor health trends and outbreaks in the community'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-358.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-358.jpg?quality=70&maxWidth=500',
     id: 358
   },
   {
@@ -5058,7 +5058,7 @@ export default [
       'Write letters and press releases, and prepare politicians for speeches'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-359.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-359.jpg?quality=70&maxWidth=500',
     id: 359
   },
   {
@@ -5073,7 +5073,7 @@ export default [
       'Keep clients informed of changes in public opinion'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-360.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-360.jpg?quality=70&maxWidth=500',
     id: 360
   },
   {
@@ -5088,7 +5088,7 @@ export default [
       'Understand all areas of the business, such as advertising sales'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-361.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-361.jpg?quality=70&maxWidth=500',
     id: 361
   },
   {
@@ -5103,7 +5103,7 @@ export default [
       'Monitor changes in the economy, tax laws, and foreign suppliers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-362.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-362.jpg?quality=70&maxWidth=500',
     id: 362
   },
   {
@@ -5117,7 +5117,7 @@ export default [
       'Quality control engineers develop and apply standards for inspectors to follow'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-363.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-363.jpg?quality=70&maxWidth=500',
     id: 363
   },
   {
@@ -5132,7 +5132,7 @@ export default [
       'Provide information and support to patients, and check them for side effects'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-364.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-364.jpg?quality=70&maxWidth=500',
     id: 364
   },
   {
@@ -5147,7 +5147,7 @@ export default [
       'Negotiate price and terms of sale on behalf of sellers or buyers '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-365.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-365.jpg?quality=70&maxWidth=500',
     id: 365
   },
   {
@@ -5162,7 +5162,7 @@ export default [
       'May help settle insurance claims or testify in court'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-366.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-366.jpg?quality=70&maxWidth=500',
     id: 366
   },
   {
@@ -5177,7 +5177,7 @@ export default [
       'Provide information about the organization to the public'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-367.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-367.jpg?quality=70&maxWidth=500',
     id: 367
   },
   {
@@ -5192,7 +5192,7 @@ export default [
       'Solve technical problems when they arise'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-368.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-368.jpg?quality=70&maxWidth=500',
     id: 368
   },
   {
@@ -5207,7 +5207,7 @@ export default [
       'Promote the club or centre to the public'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-369.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-369.jpg?quality=70&maxWidth=500',
     id: 369
   },
   {
@@ -5222,7 +5222,7 @@ export default [
       'Attend team meetings and professional development events'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-370.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-370.jpg?quality=70&maxWidth=500',
     id: 370
   },
   {
@@ -5237,7 +5237,7 @@ export default [
       'Collect samples and perform routine lab tests'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-371.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-371.jpg?quality=70&maxWidth=500',
     id: 371
   },
   {
@@ -5252,7 +5252,7 @@ export default [
       'Maintain records to be used in hearings or trials'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-372.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-372.jpg?quality=70&maxWidth=500',
     id: 372
   },
   {
@@ -5267,7 +5267,7 @@ export default [
       'Write newsletters and promotional materials'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-373.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-373.jpg?quality=70&maxWidth=500',
     id: 373
   },
   {
@@ -5282,7 +5282,7 @@ export default [
       'Most specialize in one sector of the economy'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-375.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-375.jpg?quality=70&maxWidth=500',
     id: 375
   },
   {
@@ -5297,7 +5297,7 @@ export default [
       'Special librarians collect and organize materials relating to corporations'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-376.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-376.jpg?quality=70&maxWidth=500',
     id: 376
   },
   {
@@ -5312,7 +5312,7 @@ export default [
       'Educate patients on how to deal with their respiratory problems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-378.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-378.jpg?quality=70&maxWidth=500',
     id: 378
   },
   {
@@ -5327,7 +5327,7 @@ export default [
       'Prepare budgets, maintain sales records, and manage payrolls'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-379.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-379.jpg?quality=70&maxWidth=500',
     id: 379
   },
   {
@@ -5342,7 +5342,7 @@ export default [
       'May purchase goods for one department or a whole store'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-380.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-380.jpg?quality=70&maxWidth=500',
     id: 380
   },
   {
@@ -5357,7 +5357,7 @@ export default [
       'Deal with customer complaints, exchanges, and refunds'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-381.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-381.jpg?quality=70&maxWidth=500',
     id: 381
   },
   {
@@ -5372,7 +5372,7 @@ export default [
       'Clear roads and ditches, and maintain road shoulders, signs, and guard rails'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-382.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-382.jpg?quality=70&maxWidth=500',
     id: 382
   },
   {
@@ -5387,7 +5387,7 @@ export default [
       'Inspect older roofs for damage'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-383.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-383.jpg?quality=70&maxWidth=500',
     id: 383
   },
   {
@@ -5402,7 +5402,7 @@ export default [
       'Keep records of potential and repeat customers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-384.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-384.jpg?quality=70&maxWidth=500',
     id: 384
   },
   {
@@ -5417,7 +5417,7 @@ export default [
       'Prepare reports, research papers, and presentations about their findings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-385.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-385.jpg?quality=70&maxWidth=500',
     id: 385
   },
   {
@@ -5432,7 +5432,7 @@ export default [
       'Monitor students\u2019 behaviour and discipline those who act up'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-386.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-386.jpg?quality=70&maxWidth=500',
     id: 386
   },
   {
@@ -5447,7 +5447,7 @@ export default [
       'Report unusual events to building managers or police'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-387.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-387.jpg?quality=70&maxWidth=500',
     id: 387
   },
   {
@@ -5462,7 +5462,7 @@ export default [
       'Diagnose and repair problems with systems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-388.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-388.jpg?quality=70&maxWidth=500',
     id: 388
   },
   {
@@ -5476,7 +5476,7 @@ export default [
       'Buy furniture and other props to fill out the sets'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-389.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-389.jpg?quality=70&maxWidth=500',
     id: 389
   },
   {
@@ -5490,7 +5490,7 @@ export default [
       'Assemble and install the pieces at the construction site'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-391.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-391.jpg?quality=70&maxWidth=500',
     id: 391
   },
   {
@@ -5504,7 +5504,7 @@ export default [
       'Operators pilot the ship '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-392.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-392.jpg?quality=70&maxWidth=500',
     id: 392
   },
   {
@@ -5519,7 +5519,7 @@ export default [
       'Unpack incoming shipments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-393.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-393.jpg?quality=70&maxWidth=500',
     id: 393
   },
   {
@@ -5534,7 +5534,7 @@ export default [
       'Install new signs and repair damaged signs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-394.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-394.jpg?quality=70&maxWidth=500',
     id: 394
   },
   {
@@ -5549,7 +5549,7 @@ export default [
       'Perform routine maintenance, such as cleaning valves and oiling parts'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-395.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-395.jpg?quality=70&maxWidth=500',
     id: 395
   },
   {
@@ -5564,7 +5564,7 @@ export default [
       'Develop and review social service programs and policies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-396.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-396.jpg?quality=70&maxWidth=500',
     id: 396
   },
   {
@@ -5578,7 +5578,7 @@ export default [
       'Record sound effects and atmosphere tracks'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-397.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-397.jpg?quality=70&maxWidth=500',
     id: 397
   },
   {
@@ -5593,7 +5593,7 @@ export default [
       'Consult with counsellors and parents about students\u2019 progress'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-398.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-398.jpg?quality=70&maxWidth=500',
     id: 398
   },
   {
@@ -5608,7 +5608,7 @@ export default [
       'Pyrotechnic techs create fires and explosions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-399.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-399.jpg?quality=70&maxWidth=500',
     id: 399
   },
   {
@@ -5622,7 +5622,7 @@ export default [
       'Teach patients sign language or other alternative communication methods'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-400.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-400.jpg?quality=70&maxWidth=500',
     id: 400
   },
   {
@@ -5637,7 +5637,7 @@ export default [
       'Motivate athletes and help build their confidence'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-401.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-401.jpg?quality=70&maxWidth=500',
     id: 401
   },
   {
@@ -5652,7 +5652,7 @@ export default [
       'Some plan and promote charitable events, such as walkathons'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-402.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-402.jpg?quality=70&maxWidth=500',
     id: 402
   },
   {
@@ -5667,7 +5667,7 @@ export default [
       'Exact tasks depend on the sport'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-403.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-403.jpg?quality=70&maxWidth=500',
     id: 403
   },
   {
@@ -5682,7 +5682,7 @@ export default [
       'May also perform carpentry, plumbing, or electrical work'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-404.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-404.jpg?quality=70&maxWidth=500',
     id: 404
   },
   {
@@ -5697,7 +5697,7 @@ export default [
       'Design new projects, choosing the information sources or gathering methods needed'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-405.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-405.jpg?quality=70&maxWidth=500',
     id: 405
   },
   {
@@ -5711,7 +5711,7 @@ export default [
       'Medical transcriptionists transcribe recordings doctors make about patients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-406.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-406.jpg?quality=70&maxWidth=500',
     id: 406
   },
   {
@@ -5726,7 +5726,7 @@ export default [
       'Clerks in warehouses use forklifts and dollies to load boxes onto shelves and trucks'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-407.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-407.jpg?quality=70&maxWidth=500',
     id: 407
   },
   {
@@ -5741,7 +5741,7 @@ export default [
       'Stunt coordinators plan and oversee stunts, and hire and train stuntpeople'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-408.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-408.jpg?quality=70&maxWidth=500',
     id: 408
   },
   {
@@ -5756,7 +5756,7 @@ export default [
       'Arrange for post-operative care for patients and check on their progress'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-410.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-410.jpg?quality=70&maxWidth=500',
     id: 410
   },
   {
@@ -5771,7 +5771,7 @@ export default [
       'Prepare scripts, record voiceovers, and help edit audio or video clips'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-411.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-411.jpg?quality=70&maxWidth=500',
     id: 411
   },
   {
@@ -5786,7 +5786,7 @@ export default [
       'May also repair or alter customers\u2019 existing items of clothing'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-412.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-412.jpg?quality=70&maxWidth=500',
     id: 412
   },
   {
@@ -5801,7 +5801,7 @@ export default [
       'Tell clients how to look after their tattoos'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-413.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-413.jpg?quality=70&maxWidth=500',
     id: 413
   },
   {
@@ -5816,7 +5816,7 @@ export default [
       'Clean, maintain, and perform safety checks on cabs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-414.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-414.jpg?quality=70&maxWidth=500',
     id: 414
   },
   {
@@ -5831,7 +5831,7 @@ export default [
       'Add glass eyes and other finishing touches'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-415.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-415.jpg?quality=70&maxWidth=500',
     id: 415
   },
   {
@@ -5846,7 +5846,7 @@ export default [
       'Promote products at trade shows and conferences'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-416.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-416.jpg?quality=70&maxWidth=500',
     id: 416
   },
   {
@@ -5860,7 +5860,7 @@ export default [
       'May specialize in a specific industry, such as health care'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-417.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-417.jpg?quality=70&maxWidth=500',
     id: 417
   },
   {
@@ -5875,7 +5875,7 @@ export default [
       'Some collect money for charities or conduct surveys'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-418.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-418.jpg?quality=70&maxWidth=500',
     id: 418
   },
   {
@@ -5889,7 +5889,7 @@ export default [
       'Set up and repair customers\u2019 phone services'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-419.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-419.jpg?quality=70&maxWidth=500',
     id: 419
   },
   {
@@ -5903,7 +5903,7 @@ export default [
       'Operators in the auto industry take calls from drivers and send help, such as tow trucks'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-420.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-420.jpg?quality=70&maxWidth=500',
     id: 420
   },
   {
@@ -5918,7 +5918,7 @@ export default [
       'Fill the spaces between tiles with grout, which is a fine cement, and wipe off any excess'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-421.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-421.jpg?quality=70&maxWidth=500',
     id: 421
   },
   {
@@ -5933,7 +5933,7 @@ export default [
       'May harden pieces by heating them several times at different temperatures'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-422.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-422.jpg?quality=70&maxWidth=500',
     id: 422
   },
   {
@@ -5948,7 +5948,7 @@ export default [
       'Ensure the safety and well-being of tourists'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-423.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-423.jpg?quality=70&maxWidth=500',
     id: 423
   },
   {
@@ -5963,7 +5963,7 @@ export default [
       'Maintain a log of service calls'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-424.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-424.jpg?quality=70&maxWidth=500',
     id: 424
   },
   {
@@ -5978,7 +5978,7 @@ export default [
       'Devise trading, option, and hedge strategies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-425.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-425.jpg?quality=70&maxWidth=500',
     id: 425
   },
   {
@@ -5993,7 +5993,7 @@ export default [
       "Fill out drivers' logs and incident reports"
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-426.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-426.jpg?quality=70&maxWidth=500',
     id: 426
   },
   {
@@ -6008,7 +6008,7 @@ export default [
       'May specialize in a particular subject, such as health care'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-427.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-427.jpg?quality=70&maxWidth=500',
     id: 427
   },
   {
@@ -6022,7 +6022,7 @@ export default [
       'May specialize in certain types of travel, such as cruises or historical tours'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-428.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-428.jpg?quality=70&maxWidth=500',
     id: 428
   },
   {
@@ -6036,7 +6036,7 @@ export default [
       'Forepersons supervise and coordinate the activities of logging camps'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-429.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-429.jpg?quality=70&maxWidth=500',
     id: 429
   },
   {
@@ -6051,7 +6051,7 @@ export default [
       'Some design and make new furniture'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-432.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-432.jpg?quality=70&maxWidth=500',
     id: 432
   },
   {
@@ -6066,7 +6066,7 @@ export default [
       'Order parts, prepare cost estimates, and keep sales records '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-433.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-433.jpg?quality=70&maxWidth=500',
     id: 433
   },
   {
@@ -6081,7 +6081,7 @@ export default [
       'Generalists invest in various industries, and specialists invest in one or two'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-434.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-434.jpg?quality=70&maxWidth=500',
     id: 434
   },
   {
@@ -6096,7 +6096,7 @@ export default [
       'May specialize in the care of small household pets or large farm animals'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-435.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-435.jpg?quality=70&maxWidth=500',
     id: 435
   },
   {
@@ -6111,7 +6111,7 @@ export default [
       'Provide information about animal care to owners'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-436.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-436.jpg?quality=70&maxWidth=500',
     id: 436
   },
   {
@@ -6126,7 +6126,7 @@ export default [
       'Producers and managers oversee the work'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-437.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-437.jpg?quality=70&maxWidth=500',
     id: 437
   },
   {
@@ -6141,7 +6141,7 @@ export default [
       'May clear and set up tables, or seat guests'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-438.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-438.jpg?quality=70&maxWidth=500',
     id: 438
   },
   {
@@ -6156,7 +6156,7 @@ export default [
       'Perform safety checks and maintenance on trucks'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-439.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-439.jpg?quality=70&maxWidth=500',
     id: 439
   },
   {
@@ -6171,7 +6171,7 @@ export default [
       'Clean and repair equipment'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-440.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-440.jpg?quality=70&maxWidth=500',
     id: 440
   },
   {
@@ -6186,7 +6186,7 @@ export default [
       'Some oversee the work of designers and other developers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-442.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-442.jpg?quality=70&maxWidth=500',
     id: 442
   },
   {
@@ -6201,7 +6201,7 @@ export default [
       'Promote and market websites'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-443.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-443.jpg?quality=70&maxWidth=500',
     id: 443
   },
   {
@@ -6216,7 +6216,7 @@ export default [
       'Ensure websites work properly'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-444.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-444.jpg?quality=70&maxWidth=500',
     id: 444
   },
   {
@@ -6231,7 +6231,7 @@ export default [
       'Some use welding machines in factory settings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-445.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-445.jpg?quality=70&maxWidth=500',
     id: 445
   },
   {
@@ -6246,7 +6246,7 @@ export default [
       'Prepare invoices and collect payment from customers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-446.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-446.jpg?quality=70&maxWidth=500',
     id: 446
   },
   {
@@ -6261,7 +6261,7 @@ export default [
       'Promote and market their wine'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-447.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-447.jpg?quality=70&maxWidth=500',
     id: 447
   },
   {
@@ -6276,7 +6276,7 @@ export default [
       'They convey facts or opinions to readers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-448.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-448.jpg?quality=70&maxWidth=500',
     id: 448
   },
   {
@@ -6291,7 +6291,7 @@ export default [
       'Administer medicine to sick animals '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-449.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-449.jpg?quality=70&maxWidth=500',
     id: 449
   },
   {
@@ -6300,7 +6300,7 @@ export default [
       'Zoologists study mammals, birds, fish, and other animals. They use their research to protect animals and teach others all about the animal kingdom.',
     notes: ['Academic zoologists teach at universities and colleges'],
     image:
-      'https://img2-anaca.azureedge.net/images/career-450.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-450.jpg?quality=70&maxWidth=500',
     id: 450
   },
   {
@@ -6315,7 +6315,7 @@ export default [
       'May specialize in a particular area, such as drawings of the eye'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-451.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-451.jpg?quality=70&maxWidth=500',
     id: 451
   },
   {
@@ -6330,7 +6330,7 @@ export default [
       'Sell items in art galleries, craft shows, and stores'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-452.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-452.jpg?quality=70&maxWidth=500',
     id: 452
   },
   {
@@ -6344,7 +6344,7 @@ export default [
       'Train others on how to use GIS systems and provide technical support for users'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-453.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-453.jpg?quality=70&maxWidth=500',
     id: 453
   },
   {
@@ -6358,7 +6358,7 @@ export default [
       'Engineers operate trains, and monitor signals and rail conditions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-454.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-454.jpg?quality=70&maxWidth=500',
     id: 454
   },
   {
@@ -6373,7 +6373,7 @@ export default [
       'Enter the data into computers and create detailed drawings, charts, and plans'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-455.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-455.jpg?quality=70&maxWidth=500',
     id: 455
   },
   {
@@ -6388,7 +6388,7 @@ export default [
       'Develop products such as biomass fuels and drugs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-500.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-500.jpg?quality=70&maxWidth=500',
     id: 500
   },
   {
@@ -6402,7 +6402,7 @@ export default [
       'Passenger service agents help customers in person at airports'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-501.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-501.jpg?quality=70&maxWidth=500',
     id: 501
   },
   {
@@ -6417,7 +6417,7 @@ export default [
       'Some install stereos or replace windows'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-503.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-503.jpg?quality=70&maxWidth=500',
     id: 503
   },
   {
@@ -6432,7 +6432,7 @@ export default [
       'Create budgets and monitor spending'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-504.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-504.jpg?quality=70&maxWidth=500',
     id: 504
   },
   {
@@ -6447,7 +6447,7 @@ export default [
       'Prepare organizations\u2019 financial statements'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-505.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-505.jpg?quality=70&maxWidth=500',
     id: 505
   },
   {
@@ -6462,7 +6462,7 @@ export default [
       'Usually specialize in a certain type of art, such as 17th century Dutch paintings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-506.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-506.jpg?quality=70&maxWidth=500',
     id: 506
   },
   {
@@ -6477,7 +6477,7 @@ export default [
       'Some work on assembly lines in production plants'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-507.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-507.jpg?quality=70&maxWidth=500',
     id: 507
   },
   {
@@ -6492,7 +6492,7 @@ export default [
       'Sell the pieces that aren\u2019t reusable as scrap metal'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-508.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-508.jpg?quality=70&maxWidth=500',
     id: 508
   },
   {
@@ -6507,7 +6507,7 @@ export default [
       'Bioinstrumentation engineers design computer systems for instruments such as CAT scanners'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-509.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-509.jpg?quality=70&maxWidth=500',
     id: 509
   },
   {
@@ -6522,7 +6522,7 @@ export default [
       'Teach good sportsmanship and teamwork'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-510.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-510.jpg?quality=70&maxWidth=500',
     id: 510
   },
   {
@@ -6537,7 +6537,7 @@ export default [
       'Some assemble, inspect, and repair oil and gas pipelines'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-512.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-512.jpg?quality=70&maxWidth=500',
     id: 512
   },
   {
@@ -6552,7 +6552,7 @@ export default [
       'Some manage communications departments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-513.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-513.jpg?quality=70&maxWidth=500',
     id: 513
   },
   {
@@ -6567,7 +6567,7 @@ export default [
       'Usually specialize in a particular area, such as hairstyling'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-514.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-514.jpg?quality=70&maxWidth=500',
     id: 514
   },
   {
@@ -6581,7 +6581,7 @@ export default [
       'Answer questions, fulfil requests, and handle complaints'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-515.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-515.jpg?quality=70&maxWidth=500',
     id: 515
   },
   {
@@ -6595,7 +6595,7 @@ export default [
       'Some use explosives, placed on key supports, to bring down the largest structures'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-516.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-516.jpg?quality=70&maxWidth=500',
     id: 516
   },
   {
@@ -6610,7 +6610,7 @@ export default [
       'May also teach snorkelling, work at a dive shop, or lead diving tours '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-517.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-517.jpg?quality=70&maxWidth=500',
     id: 517
   },
   {
@@ -6625,7 +6625,7 @@ export default [
       'Usually specialize in a certain area, such as air pollution'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-518.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-518.jpg?quality=70&maxWidth=500',
     id: 518
   },
   {
@@ -6640,7 +6640,7 @@ export default [
       'Some enforce health and safety regulations'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-519.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-519.jpg?quality=70&maxWidth=500',
     id: 519
   },
   {
@@ -6655,7 +6655,7 @@ export default [
       'Provide academic or career advice to students'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-520.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-520.jpg?quality=70&maxWidth=500',
     id: 520
   },
   {
@@ -6670,7 +6670,7 @@ export default [
       'Stay current with research on genetics'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-521.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-521.jpg?quality=70&maxWidth=500',
     id: 521
   },
   {
@@ -6685,7 +6685,7 @@ export default [
       'Other workers include operating room attendants, lab aides, equipment techs, and janitors'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-524.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-524.jpg?quality=70&maxWidth=500',
     id: 524
   },
   {
@@ -6699,7 +6699,7 @@ export default [
       'Meet with individual clients or conduct group seminars'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-525.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-525.jpg?quality=70&maxWidth=500',
     id: 525
   },
   {
@@ -6714,7 +6714,7 @@ export default [
       'Professors teach students and do research'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-526.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-526.jpg?quality=70&maxWidth=500',
     id: 526
   },
   {
@@ -6729,7 +6729,7 @@ export default [
       'May work with or supervise other secretaries or assistants'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-527.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-527.jpg?quality=70&maxWidth=500',
     id: 527
   },
   {
@@ -6744,7 +6744,7 @@ export default [
       'Promote the act, and find and book clients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-528.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-528.jpg?quality=70&maxWidth=500',
     id: 528
   },
   {
@@ -6758,7 +6758,7 @@ export default [
       'They work in many fields, including medicine, economics, and business'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-529.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-529.jpg?quality=70&maxWidth=500',
     id: 529
   },
   {
@@ -6773,7 +6773,7 @@ export default [
       'Transcribe doctors\u2019 diagnoses and recommendations'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-530.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-530.jpg?quality=70&maxWidth=500',
     id: 530
   },
   {
@@ -6788,7 +6788,7 @@ export default [
       'Educate the community about mental health issues'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-531.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-531.jpg?quality=70&maxWidth=500',
     id: 531
   },
   {
@@ -6803,7 +6803,7 @@ export default [
       'May meet with company managers to discuss performance'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-532.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-532.jpg?quality=70&maxWidth=500',
     id: 532
   },
   {
@@ -6818,7 +6818,7 @@ export default [
       'Ensure applications are filled out properly and banks have the information they need '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-533.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-533.jpg?quality=70&maxWidth=500',
     id: 533
   },
   {
@@ -6833,7 +6833,7 @@ export default [
       'Deliver speeches confidently and enthusiastically to engage audiences'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-534.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-534.jpg?quality=70&maxWidth=500',
     id: 534
   },
   {
@@ -6848,7 +6848,7 @@ export default [
       'Record clients\u2019 progress and report to occupational therapists'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-535.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-535.jpg?quality=70&maxWidth=500',
     id: 535
   },
   {
@@ -6863,7 +6863,7 @@ export default [
       'Fit braces or retainers to correct teeth'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-537.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-537.jpg?quality=70&maxWidth=500',
     id: 537
   },
   {
@@ -6878,7 +6878,7 @@ export default [
       'Some paleontologists help petroleum companies find oil'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-538.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-538.jpg?quality=70&maxWidth=500',
     id: 538
   },
   {
@@ -6893,7 +6893,7 @@ export default [
       'Order requested parts from manufacturers and wholesalers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-539.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-539.jpg?quality=70&maxWidth=500',
     id: 539
   },
   {
@@ -6907,7 +6907,7 @@ export default [
       'Plan and oversee drilling and extraction operations'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-540.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-540.jpg?quality=70&maxWidth=500',
     id: 540
   },
   {
@@ -6921,7 +6921,7 @@ export default [
       'Clean the equipment and treatment rooms, and do laundry'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-541.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-541.jpg?quality=70&maxWidth=500',
     id: 541
   },
   {
@@ -6935,7 +6935,7 @@ export default [
       'Anticipate other drivers\u2019 moves and be safety conscious '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-543.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-543.jpg?quality=70&maxWidth=500',
     id: 543
   },
   {
@@ -6949,7 +6949,7 @@ export default [
       'Work in pit crews, refuelling and servicing cars during races'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-544.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-544.jpg?quality=70&maxWidth=500',
     id: 544
   },
   {
@@ -6964,7 +6964,7 @@ export default [
       'Others hire and supervise tradespeople, such as plumbers, carpenters, and painters'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-545.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-545.jpg?quality=70&maxWidth=500',
     id: 545
   },
   {
@@ -6979,7 +6979,7 @@ export default [
       'Teach communication, problem-solving, and teamwork skills'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-546.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-546.jpg?quality=70&maxWidth=500',
     id: 546
   },
   {
@@ -6994,7 +6994,7 @@ export default [
       'Obey code of ethics regarding confidentiality'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-547.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-547.jpg?quality=70&maxWidth=500',
     id: 547
   },
   {
@@ -7008,7 +7008,7 @@ export default [
       'May help athletes as they come back from injury or transition to retirement'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-548.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-548.jpg?quality=70&maxWidth=500',
     id: 548
   },
   {
@@ -7023,7 +7023,7 @@ export default [
       'Push pressurized air or liquid through the pipes to check for leaks'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-549.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-549.jpg?quality=70&maxWidth=500',
     id: 549
   },
   {
@@ -7038,7 +7038,7 @@ export default [
       'May install boilers and connect them to pipe systems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-550.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-550.jpg?quality=70&maxWidth=500',
     id: 550
   },
   {
@@ -7053,7 +7053,7 @@ export default [
       'Repair and maintain drilling equipment'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-551.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-551.jpg?quality=70&maxWidth=500',
     id: 551
   },
   {
@@ -7067,7 +7067,7 @@ export default [
       'May set up decorations, lighting, and signs outside stores'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-552.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-552.jpg?quality=70&maxWidth=500',
     id: 552
   },
   {
@@ -7082,7 +7082,7 @@ export default [
       'Self-employed planners run and market their businesses'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-555.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-555.jpg?quality=70&maxWidth=500',
     id: 555
   },
   {
@@ -7097,7 +7097,7 @@ export default [
       'Make sure patients wake up safely and remain comfortable after surgery'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-557.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-557.jpg?quality=70&maxWidth=500',
     id: 557
   },
   {
@@ -7112,7 +7112,7 @@ export default [
       'Educate people on skin protection '
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-558.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-558.jpg?quality=70&maxWidth=500',
     id: 558
   },
   {
@@ -7127,7 +7127,7 @@ export default [
       'Raise awareness of the effects of physical and mental abuse'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-559.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-559.jpg?quality=70&maxWidth=500',
     id: 559
   },
   {
@@ -7142,7 +7142,7 @@ export default [
       'Conduct follow-up visits and help families adjust to the adoption'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-560.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-560.jpg?quality=70&maxWidth=500',
     id: 560
   },
   {
@@ -7157,7 +7157,7 @@ export default [
       'Help families of terminally ill patients prepare for their death'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-561.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-561.jpg?quality=70&maxWidth=500',
     id: 561
   },
   {
@@ -7172,7 +7172,7 @@ export default [
       'Refer patients to surgeons, if necessary'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-562.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-562.jpg?quality=70&maxWidth=500',
     id: 562
   },
   {
@@ -7187,7 +7187,7 @@ export default [
       'Testify in court if necessary'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-563.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-563.jpg?quality=70&maxWidth=500',
     id: 563
   },
   {
@@ -7202,7 +7202,7 @@ export default [
       'Create and update transcription dictionaries'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-564.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-564.jpg?quality=70&maxWidth=500',
     id: 564
   },
   {
@@ -7217,7 +7217,7 @@ export default [
       'May interview people in their fields'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-565.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-565.jpg?quality=70&maxWidth=500',
     id: 565
   },
   {
@@ -7232,7 +7232,7 @@ export default [
       'Often specialize in a certain area, such as homicide, robbery, or financial crimes'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-566.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-566.jpg?quality=70&maxWidth=500',
     id: 566
   },
   {
@@ -7247,7 +7247,7 @@ export default [
       'Advocate on behalf of people with disabilities'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-567.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-567.jpg?quality=70&maxWidth=500',
     id: 567
   },
   {
@@ -7262,7 +7262,7 @@ export default [
       'Testify in court about their findings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-570.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-570.jpg?quality=70&maxWidth=500',
     id: 570
   },
   {
@@ -7277,7 +7277,7 @@ export default [
       'Feed, water, and groom horses'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-571.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-571.jpg?quality=70&maxWidth=500',
     id: 571
   },
   {
@@ -7291,7 +7291,7 @@ export default [
       'Work with local officials and the community to develop and implement aid programs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-572.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-572.jpg?quality=70&maxWidth=500',
     id: 572
   },
   {
@@ -7306,7 +7306,7 @@ export default [
       'Obey international trade laws'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-573.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-573.jpg?quality=70&maxWidth=500',
     id: 573
   },
   {
@@ -7321,7 +7321,7 @@ export default [
       'Arrange furniture, install window coverings, and place accessories such as paintings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-574.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-574.jpg?quality=70&maxWidth=500',
     id: 574
   },
   {
@@ -7336,7 +7336,7 @@ export default [
       'Some work in shipyards, overseeing ship building and repair'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-575.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-575.jpg?quality=70&maxWidth=500',
     id: 575
   },
   {
@@ -7351,7 +7351,7 @@ export default [
       'Proofread and correct completed records'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-577.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-577.jpg?quality=70&maxWidth=500',
     id: 577
   },
   {
@@ -7366,7 +7366,7 @@ export default [
       'May conduct research or teach neuroscience'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-578.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-578.jpg?quality=70&maxWidth=500',
     id: 578
   },
   {
@@ -7380,7 +7380,7 @@ export default [
       'Help students with disabilities perform physical tasks or communicate'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-580.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-580.jpg?quality=70&maxWidth=500',
     id: 580
   },
   {
@@ -7395,7 +7395,7 @@ export default [
       'May assist surgeons during other types of operations, such as lung transplants'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-581.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-581.jpg?quality=70&maxWidth=500',
     id: 581
   },
   {
@@ -7410,7 +7410,7 @@ export default [
       'Conduct environmental impact assessments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-582.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-582.jpg?quality=70&maxWidth=500',
     id: 582
   },
   {
@@ -7425,7 +7425,7 @@ export default [
       'Perform general office duties'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-583.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-583.jpg?quality=70&maxWidth=500',
     id: 583
   },
   {
@@ -7440,7 +7440,7 @@ export default [
       'May write text to accompany the photo'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-584.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-584.jpg?quality=70&maxWidth=500',
     id: 584
   },
   {
@@ -7454,7 +7454,7 @@ export default [
       'Monitor students for signs of social, behavioural, or other problems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-585.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-585.jpg?quality=70&maxWidth=500',
     id: 585
   },
   {
@@ -7469,7 +7469,7 @@ export default [
       'May also teach classes'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-586.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-586.jpg?quality=70&maxWidth=500',
     id: 586
   },
   {
@@ -7484,7 +7484,7 @@ export default [
       'Attend meetings, school events, and student competitions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-587.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-587.jpg?quality=70&maxWidth=500',
     id: 587
   },
   {
@@ -7499,7 +7499,7 @@ export default [
       'May treat diseases using imaging technology or radiation'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-591.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-591.jpg?quality=70&maxWidth=500',
     id: 591
   },
   {
@@ -7514,7 +7514,7 @@ export default [
       'Install a pipe to prevent the walls of the well from collapsing'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-592.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-592.jpg?quality=70&maxWidth=500',
     id: 592
   },
   {
@@ -7529,7 +7529,7 @@ export default [
       'Evaluate and upgrade companies\u2019 existing technologies'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-593.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-593.jpg?quality=70&maxWidth=500',
     id: 593
   },
   {
@@ -7544,7 +7544,7 @@ export default [
       'Prepare students for performances or competitions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-594.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-594.jpg?quality=70&maxWidth=500',
     id: 594
   },
   {
@@ -7559,7 +7559,7 @@ export default [
       'Self-employed instructors find their own clients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-595.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-595.jpg?quality=70&maxWidth=500',
     id: 595
   },
   {
@@ -7574,7 +7574,7 @@ export default [
       'Prepare and mark tests and assignments, and keep records of students\u2019 progress'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-597.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-597.jpg?quality=70&maxWidth=500',
     id: 597
   },
   {
@@ -7589,7 +7589,7 @@ export default [
       'Treat patients with allergy shots'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-599.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-599.jpg?quality=70&maxWidth=500',
     id: 599
   },
   {
@@ -7604,7 +7604,7 @@ export default [
       'Professors teach students, mark essays and exams, and publish papers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-601.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-601.jpg?quality=70&maxWidth=500',
     id: 601
   },
   {
@@ -7618,7 +7618,7 @@ export default [
       'Some help design and operate clinical trials to test new drugs or medical devices'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-602.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-602.jpg?quality=70&maxWidth=500',
     id: 602
   },
   {
@@ -7633,7 +7633,7 @@ export default [
       'Develop or improve foods, drugs, or other products and ways to make them'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-603.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-603.jpg?quality=70&maxWidth=500',
     id: 603
   },
   {
@@ -7648,7 +7648,7 @@ export default [
       'Finish the piece by removing imperfections and then sanding it smooth and painting it'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-604.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-604.jpg?quality=70&maxWidth=500',
     id: 604
   },
   {
@@ -7663,7 +7663,7 @@ export default [
       'Network and develop industry contacts'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-606.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-606.jpg?quality=70&maxWidth=500',
     id: 606
   },
   {
@@ -7678,7 +7678,7 @@ export default [
       'Supervise front desk clerks, bellhops, and other customer service staff'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-609.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-609.jpg?quality=70&maxWidth=500',
     id: 609
   },
   {
@@ -7693,7 +7693,7 @@ export default [
       'Prepare paperwork to process approved loans'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-610.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-610.jpg?quality=70&maxWidth=500',
     id: 610
   },
   {
@@ -7708,7 +7708,7 @@ export default [
       'May help the pathologist make a diagnosis'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-611.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-611.jpg?quality=70&maxWidth=500',
     id: 611
   },
   {
@@ -7723,7 +7723,7 @@ export default [
       'Fit the denture into the patient\u2019s mouth and make necessary adjustments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-612.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-612.jpg?quality=70&maxWidth=500',
     id: 612
   },
   {
@@ -7737,7 +7737,7 @@ export default [
       'Others help the police find money obtained from illegal sources'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-615.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-615.jpg?quality=70&maxWidth=500',
     id: 615
   },
   {
@@ -7752,7 +7752,7 @@ export default [
       'Some diagnose and treat patients with genetic disorders'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-617.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-617.jpg?quality=70&maxWidth=500',
     id: 617
   },
   {
@@ -7767,7 +7767,7 @@ export default [
       'Obtain permits and maintain unused properties'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-618.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-618.jpg?quality=70&maxWidth=500',
     id: 618
   },
   {
@@ -7781,7 +7781,7 @@ export default [
       'Surgical oncologists remove tumours and perform other surgical procedures'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-621.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-621.jpg?quality=70&maxWidth=500',
     id: 621
   },
   {
@@ -7796,7 +7796,7 @@ export default [
       'May perform routine eye exams and prescribe corrective lenses'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-622.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-622.jpg?quality=70&maxWidth=500',
     id: 622
   },
   {
@@ -7811,7 +7811,7 @@ export default [
       'Common surgeries include knee or hip replacement, spinal fusion, and rotator cuff repair'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-623.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-623.jpg?quality=70&maxWidth=500',
     id: 623
   },
   {
@@ -7826,7 +7826,7 @@ export default [
       'Tell doctors about the progress and consequences of patients\u2019 diseases'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-624.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-624.jpg?quality=70&maxWidth=500',
     id: 624
   },
   {
@@ -7841,7 +7841,7 @@ export default [
       'Locate and repair broken pipes'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-625.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-625.jpg?quality=70&maxWidth=500',
     id: 625
   },
   {
@@ -7856,7 +7856,7 @@ export default [
       'Report medical or behavioural changes to nurses, doctors, or psychologists'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-626.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-626.jpg?quality=70&maxWidth=500',
     id: 626
   },
   {
@@ -7871,7 +7871,7 @@ export default [
       'Interview applicants and refer good candidates to clients'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-627.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-627.jpg?quality=70&maxWidth=500',
     id: 627
   },
   {
@@ -7886,7 +7886,7 @@ export default [
       'Some do basic maintenance to drilling or pumping equipment'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-629.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-629.jpg?quality=70&maxWidth=500',
     id: 629
   },
   {
@@ -7901,7 +7901,7 @@ export default [
       'Academic sociologists teach at universities and colleges, and write articles and books'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-631.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-631.jpg?quality=70&maxWidth=500',
     id: 631
   },
   {
@@ -7916,7 +7916,7 @@ export default [
       'Some focus on fixing, selling, or manufacturing systems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-632.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-632.jpg?quality=70&maxWidth=500',
     id: 632
   },
   {
@@ -7931,7 +7931,7 @@ export default [
       'Some compose their own songs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-633.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-633.jpg?quality=70&maxWidth=500',
     id: 633
   },
   {
@@ -7946,7 +7946,7 @@ export default [
       'May analyze fingerprints and bloodstains, and testify in court'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-634.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-634.jpg?quality=70&maxWidth=500',
     id: 634
   },
   {
@@ -7960,7 +7960,7 @@ export default [
       'Some work in health care, designing diagnostic equipment such as x-ray machines'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-638.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-638.jpg?quality=70&maxWidth=500',
     id: 638
   },
   {
@@ -7975,7 +7975,7 @@ export default [
       'Some install electronics or provide technical support'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-639.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-639.jpg?quality=70&maxWidth=500',
     id: 639
   },
   {
@@ -7990,7 +7990,7 @@ export default [
       'Some specialize in systems analysis, sales, or research and design'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-640.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-640.jpg?quality=70&maxWidth=500',
     id: 640
   },
   {
@@ -8005,7 +8005,7 @@ export default [
       'Present completed designs to clients and oversee the manufacturing process'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-641.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-641.jpg?quality=70&maxWidth=500',
     id: 641
   },
   {
@@ -8020,7 +8020,7 @@ export default [
       'Develop and conduct teacher training programs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-643.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-643.jpg?quality=70&maxWidth=500',
     id: 643
   },
   {
@@ -8035,7 +8035,7 @@ export default [
       'Help students with learning or social problems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-644.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-644.jpg?quality=70&maxWidth=500',
     id: 644
   },
   {
@@ -8050,7 +8050,7 @@ export default [
       'Exact duties depend on the specialty'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-645.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-645.jpg?quality=70&maxWidth=500',
     id: 645
   },
   {
@@ -8065,7 +8065,7 @@ export default [
       'Train students for tournaments'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-646.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-646.jpg?quality=70&maxWidth=500',
     id: 646
   },
   {
@@ -8080,7 +8080,7 @@ export default [
       'Professors teach students at universities'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-647.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-647.jpg?quality=70&maxWidth=500',
     id: 647
   },
   {
@@ -8095,7 +8095,7 @@ export default [
       'Professors teach university students and write research papers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-648.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-648.jpg?quality=70&maxWidth=500',
     id: 648
   },
   {
@@ -8110,7 +8110,7 @@ export default [
       'Choose images to show to the radiologist'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-649.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-649.jpg?quality=70&maxWidth=500',
     id: 649
   },
   {
@@ -8125,7 +8125,7 @@ export default [
       'Call and load taxis for departing guests'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-650.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-650.jpg?quality=70&maxWidth=500',
     id: 650
   },
   {
@@ -8140,7 +8140,7 @@ export default [
       'Assess and repair damage done by viruses and other security breaches'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-653.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-653.jpg?quality=70&maxWidth=500',
     id: 653
   },
   {
@@ -8155,7 +8155,7 @@ export default [
       'Professors teach students and mark papers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-654.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-654.jpg?quality=70&maxWidth=500',
     id: 654
   },
   {
@@ -8170,7 +8170,7 @@ export default [
       'Consult dictionaries, grammar books, and style guides'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-657.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-657.jpg?quality=70&maxWidth=500',
     id: 657
   },
   {
@@ -8184,7 +8184,7 @@ export default [
       'Record licence plate numbers of cars that don\u2019t stop'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-658.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-658.jpg?quality=70&maxWidth=500',
     id: 658
   },
   {
@@ -8199,7 +8199,7 @@ export default [
       'May collect money in parking meters and report damaged meters'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-659.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-659.jpg?quality=70&maxWidth=500',
     id: 659
   },
   {
@@ -8214,7 +8214,7 @@ export default [
       'File returns with the government, or give them to clients to file'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-661.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-661.jpg?quality=70&maxWidth=500',
     id: 661
   },
   {
@@ -8229,7 +8229,7 @@ export default [
       'Some lead workshops or information sessions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-662.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-662.jpg?quality=70&maxWidth=500',
     id: 662
   },
   {
@@ -8243,7 +8243,7 @@ export default [
       'Common tasks include fixing plumbing and charging systems'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-670.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-670.jpg?quality=70&maxWidth=500',
     id: 670
   },
   {
@@ -8258,7 +8258,7 @@ export default [
       'Catch and care for stray animals'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-672.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-672.jpg?quality=70&maxWidth=500',
     id: 672
   },
   {
@@ -8272,7 +8272,7 @@ export default [
       'Other attendants operate ice resurfacing machines or snow making machinery'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-676.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-676.jpg?quality=70&maxWidth=500',
     id: 676
   },
   {
@@ -8286,7 +8286,7 @@ export default [
       'May also monitor the progress of the project, and track and record the money spent'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-680.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-680.jpg?quality=70&maxWidth=500',
     id: 680
   },
   {
@@ -8301,7 +8301,7 @@ export default [
       'May arrange for repossession of property or forward unpaid accounts to lawyers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-681.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-681.jpg?quality=70&maxWidth=500',
     id: 681
   },
   {
@@ -8316,7 +8316,7 @@ export default [
       'May investigate accidents'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-685.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-685.jpg?quality=70&maxWidth=500',
     id: 685
   },
   {
@@ -8331,7 +8331,7 @@ export default [
       'Educate workers about workplace safety'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-686.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-686.jpg?quality=70&maxWidth=500',
     id: 686
   },
   {
@@ -8346,7 +8346,7 @@ export default [
       'Issue licences for successful applicants'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-687.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-687.jpg?quality=70&maxWidth=500',
     id: 687
   },
   {
@@ -8361,7 +8361,7 @@ export default [
       'Check for unpaid taxes or liens on properties'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-688.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-688.jpg?quality=70&maxWidth=500',
     id: 688
   },
   {
@@ -8376,7 +8376,7 @@ export default [
       'May be involved with marketing the station'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-690.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-690.jpg?quality=70&maxWidth=500',
     id: 690
   },
   {
@@ -8391,7 +8391,7 @@ export default [
       'Act as liaisons between company and investors'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-696.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-696.jpg?quality=70&maxWidth=500',
     id: 696
   },
   {
@@ -8406,7 +8406,7 @@ export default [
       'Maintain equipment and make small repairs'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-697.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-697.jpg?quality=70&maxWidth=500',
     id: 697
   },
   {
@@ -8421,7 +8421,7 @@ export default [
       'Guide crane operators and heavy equipment operators'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-700.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-700.jpg?quality=70&maxWidth=500',
     id: 700
   },
   {
@@ -8436,7 +8436,7 @@ export default [
       'Study and analyze the production process to find improvements'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-701.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-701.jpg?quality=70&maxWidth=500',
     id: 701
   },
   {
@@ -8451,7 +8451,7 @@ export default [
       'Adjust and modify orthotics'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-703.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-703.jpg?quality=70&maxWidth=500',
     id: 703
   },
   {
@@ -8466,7 +8466,7 @@ export default [
       'Some teach at universities'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-706.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-706.jpg?quality=70&maxWidth=500',
     id: 706
   },
   {
@@ -8481,7 +8481,7 @@ export default [
       'Prepare reports and answer owners\u2019 questions'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-710.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-710.jpg?quality=70&maxWidth=500',
     id: 710
   },
   {
@@ -8496,7 +8496,7 @@ export default [
       'May testify in court about the findings'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-713.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-713.jpg?quality=70&maxWidth=500',
     id: 713
   },
   {
@@ -8511,7 +8511,7 @@ export default [
       'Set \u201cprescribed burns\u201d to remove vegetation and deprive fires of fuel'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-714.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-714.jpg?quality=70&maxWidth=500',
     id: 714
   },
   {
@@ -8526,7 +8526,7 @@ export default [
       'Some oversee municipal elections'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-718.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-718.jpg?quality=70&maxWidth=500',
     id: 718
   },
   {
@@ -8541,7 +8541,7 @@ export default [
       'Conservation and restoration technicians help conservators preserve and restore items'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-719.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-719.jpg?quality=70&maxWidth=500',
     id: 719
   },
   {
@@ -8556,7 +8556,7 @@ export default [
       'Oversee the delivery of services to students, such as student housing and financial aid'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-721.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-721.jpg?quality=70&maxWidth=500',
     id: 721
   },
   {
@@ -8571,7 +8571,7 @@ export default [
       'Supervise and coordinate the work of volunteers'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-727.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-727.jpg?quality=70&maxWidth=500',
     id: 727
   },
   {
@@ -8586,7 +8586,7 @@ export default [
       'Process and analyze samples in the lab'
     ],
     image:
-      'https://img2-anaca.azureedge.net/images/career-736.jpg?quality=70&maxWidth=1600',
+      'https://img2-anaca.azureedge.net/images/career-736.jpg?quality=70&maxWidth=500',
     id: 736
   }
 ] as ICareer[]

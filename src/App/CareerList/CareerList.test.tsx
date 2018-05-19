@@ -14,7 +14,7 @@ describe('can render a simple career', () => {
       title: 'Test',
       description: 'Test',
       notes: ['a', 'b'],
-      image: 'Test',
+      image: 'TestImage',
       id: 1
     }
   ]
@@ -22,7 +22,7 @@ describe('can render a simple career', () => {
   const career = wrapper.find('.CareerList__career')
 
   it('rendered one career', () => {
-    expect(career).toHaveLength(1)
+    expect(career.length).toBe(1)
   })
 
   it('rendered a title', () => {
@@ -36,5 +36,12 @@ describe('can render a simple career', () => {
   it('rendered a notes list', () => {
     expect(career.children('ul').find('li').at(0).text()).toBe('a')
     expect(career.children('ul').find('li').at(1).text()).toBe('b')
+  })
+
+  it('rendered an image', () => {
+    wrapper.setProps({ showImages: true })
+    const careerWithImages = wrapper.find('.CareerList__career')
+    expect(careerWithImages.find('img').length).toBeGreaterThan(0)
+    expect(careerWithImages.find('img').props().src).toBe('TestImage')
   })
 })

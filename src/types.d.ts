@@ -5,3 +5,7 @@ export declare interface ICareer {
   image: string,
   id: number
 }
+
+export declare interface ISearchState {
+  searchString: string
+}
