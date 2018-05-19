@@ -10,7 +10,7 @@ it('renders without crashing', () => {
   shallow(<App careers={[]} />)
 })
 
-it('can update search state', () => {
+it('can update control state', () => {
   const component = shallow(<App careers={[]} />)
   expect(component.state('controlsState').searchString).toBe('')
 
