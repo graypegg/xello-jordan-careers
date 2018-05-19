@@ -38,10 +38,16 @@ describe('can render a simple career', () => {
     expect(career.children('ul').find('li').at(1).text()).toBe('b')
   })
 
-  it('rendered an image', () => {
-    wrapper.setProps({ showImages: true })
-    const careerWithImages = wrapper.find('.CareerList__career')
-    expect(careerWithImages.find('img').length).toBeGreaterThan(0)
-    expect(careerWithImages.find('img').props().src).toBe('TestImage')
+  describe('can render a simple career', () => {
+    it('does not render an image when props.showImages == false', () => {
+      expect(career.find('img').length).toBe(0)
+    })
+
+    it('renders an image when props.showImages == true', () => {
+      const wrapperWithImages = shallow(<CareerList careers={careers} showImages={true} />)
+      const careerWithImages = wrapperWithImages.find('.CareerList__career')
+      expect(careerWithImages.find('img').length).toBeGreaterThan(0)
+      expect(careerWithImages.find('img').props().src).toBe('TestImage')
+    })
   })
 })
