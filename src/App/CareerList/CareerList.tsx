@@ -10,7 +10,7 @@ function CareerList (props: ICareerListProps) {
     <div className="CareerList__wrapper">
       <ul className="CareerList__careers">
         { props.careers.map((career) => (
-          <li className="CareerList__career" key={career.careerId}>
+          <li className="CareerList__career" key={career.id}>
             <h1>{ career.title }</h1>
             <p>{ career.description }</p>
             <ul>

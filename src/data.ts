@@ -12,9 +12,9 @@ export default [
       'Obey road safety and transportation laws',
       'Maintain logbooks and delivery paperwork'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-430.jpg?quality=70&maxWidth=1600',
-    careerId: 430
+    id: 430
   },
   {
     title: 'Account Manager',
@@ -27,9 +27,9 @@ export default [
       'Help clients through the process of securing loans',
       'Some help clients with their investments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-1.jpg?quality=70&maxWidth=1600',
-    careerId: 1
+    id: 1
   },
   {
     title: 'Activist',
@@ -42,9 +42,9 @@ export default [
       'Some lobby government officials, canvas door to door, or do research',
       'May call people for donations'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-2.jpg?quality=70&maxWidth=1600',
-    careerId: 2
+    id: 2
   },
   {
     title: 'Actor',
@@ -57,9 +57,9 @@ export default [
       'Rehearse and perform scenes with actors, directors, and others',
       'Attend wardrobe fittings and makeup sessions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-3.jpg?quality=70&maxWidth=1600',
-    careerId: 3
+    id: 3
   },
   {
     title: 'Actuary',
@@ -71,9 +71,9 @@ export default [
       'Determine prices for insurance policies based on the risks involved',
       'Some help companies develop and administer pension plans'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-4.jpg?quality=70&maxWidth=1600',
-    careerId: 4
+    id: 4
   },
   {
     title: 'Acupuncturist',
@@ -85,9 +85,9 @@ export default [
       'Insert needles into the skin to help with the patient\u2019s \u201cchi,\u201d or energy flow',
       'May twist the needles or run a weak electrical current to get the chi flowing'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-5.jpg?quality=70&maxWidth=1600',
-    careerId: 5
+    id: 5
   },
   {
     title: 'Addictions Counsellor',
@@ -100,9 +100,9 @@ export default [
       'Monitor clients\u2019 progress and write reports',
       'Educate the public on addiction prevention'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-6.jpg?quality=70&maxWidth=1600',
-    careerId: 6
+    id: 6
   },
   {
     title: 'Administrative Assistant',
@@ -115,9 +115,9 @@ export default [
       'May supervise clerks and receptionists',
       'Some create newsletters or prepare presentations to be delivered by their bosses'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-7.jpg?quality=70&maxWidth=1600',
-    careerId: 7
+    id: 7
   },
   {
     title: 'Advertising Account Executive',
@@ -130,9 +130,9 @@ export default [
       'Prepare and manage budgets and schedules, and do market research ',
       'Keep records and prepare reports'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-8.jpg?quality=70&maxWidth=1600',
-    careerId: 8
+    id: 8
   },
   {
     title: 'Advertising Copywriter',
@@ -145,9 +145,9 @@ export default [
       'Proofread and edit scripts and copies',
       'May work with directors, producers, graphic designers, artists, or photographers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-9.jpg?quality=70&maxWidth=1600',
-    careerId: 9
+    id: 9
   },
   {
     title: 'Aerospace Engineer',
@@ -160,9 +160,9 @@ export default [
       'Test designs with computer simulations or models',
       'Oversee the manufacture of aerospace or aeronautical vehicles and parts'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-10.jpg?quality=70&maxWidth=1600',
-    careerId: 10
+    id: 10
   },
   {
     title: 'Agent',
@@ -175,9 +175,9 @@ export default [
       'Establish contacts in the field',
       'Scout and recruit new clients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-11.jpg?quality=70&maxWidth=1600',
-    careerId: 11
+    id: 11
   },
   {
     title: 'Agricultural Tech',
@@ -189,9 +189,9 @@ export default [
       'May conduct lab tests and take field samples',
       'Often specialize in food, plant, soil, or animal technology'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-12.jpg?quality=70&maxWidth=1600',
-    careerId: 12
+    id: 12
   },
   {
     title: 'Agronomist',
@@ -204,9 +204,9 @@ export default [
       'Use genetic engineering to create disease resistance crops',
       'Usually specialize in a particular area'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-13.jpg?quality=70&maxWidth=1600',
-    careerId: 13
+    id: 13
   },
   {
     title: 'Air Traffic Controller',
@@ -218,9 +218,9 @@ export default [
       'Tower controllers direct aircraft that are on the ground, taking off, or landing',
       'Radar centre controllers use radar to track flow of planes away from airports'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-14.jpg?quality=70&maxWidth=1600',
-    careerId: 14
+    id: 14
   },
   {
     title: 'Aircraft Mechanic',
@@ -232,9 +232,9 @@ export default [
       'Use information from pilots and computer-diagnostic equipment to find problems',
       'Make adjustments or repairs where possible, and replace old or broken parts'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-15.jpg?quality=70&maxWidth=1600',
-    careerId: 15
+    id: 15
   },
   {
     title: 'Airport Ground Crew',
@@ -247,9 +247,9 @@ export default [
       'Maintenance duties include adding water to batteries and checking tire pressure',
       'Use hand signals and hand-held lights to guide planes toward specific areas'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-16.jpg?quality=70&maxWidth=1600',
-    careerId: 16
+    id: 16
   },
   {
     title: 'Animal Breeder',
@@ -262,9 +262,9 @@ export default [
       'Decide which animals should mate based on genetics and health',
       'Sell young animals to owners and pet stores'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-17.jpg?quality=70&maxWidth=1600',
-    careerId: 17
+    id: 17
   },
   {
     title: 'Animal Caretaker',
@@ -277,9 +277,9 @@ export default [
       'Wash animals and trim their nails',
       'May provide information about animals to the public'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-18.jpg?quality=70&maxWidth=1600',
-    careerId: 18
+    id: 18
   },
   {
     title: 'Animal Trainer',
@@ -292,9 +292,9 @@ export default [
       'Teach performing animals to do tricks',
       'Prepare guide dogs to assist their owners'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-19.jpg?quality=70&maxWidth=1600',
-    careerId: 19
+    id: 19
   },
   {
     title: 'Animator',
@@ -307,9 +307,9 @@ export default [
       'May focus on only one aspect of the animation, such as characters or backgrounds',
       'Some create models for stop-motion animation'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-20.jpg?quality=70&maxWidth=1600',
-    careerId: 20
+    id: 20
   },
   {
     title: 'Announcer',
@@ -322,9 +322,9 @@ export default [
       'TV announcers may specialize in news, sports, weather, or other areas',
       'Radio DJs select, introduce, and play music'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-21.jpg?quality=70&maxWidth=1600',
-    careerId: 21
+    id: 21
   },
   {
     title: 'Anthropologist',
@@ -337,9 +337,9 @@ export default [
       'Teach students at universities',
       'Some apply their knowledge in practical ways for governments or corporations'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-22.jpg?quality=70&maxWidth=1600',
-    careerId: 22
+    id: 22
   },
   {
     title: 'Antique Dealer',
@@ -352,9 +352,9 @@ export default [
       'May do small repairs, or hire furniture refinishers to fix broken pieces',
       'Track expenses and manage staff'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-23.jpg?quality=70&maxWidth=1600',
-    careerId: 23
+    id: 23
   },
   {
     title: 'Appliance Repairer',
@@ -367,9 +367,9 @@ export default [
       'Replace or repair motors, switches, and other parts',
       'Keep records of the work and bill customers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-24.jpg?quality=70&maxWidth=1600',
-    careerId: 24
+    id: 24
   },
   {
     title: 'Appraiser',
@@ -382,9 +382,9 @@ export default [
       'Write reports on conclusions',
       'Usually specialize in appraising one type of property, like art or real estate'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-25.jpg?quality=70&maxWidth=1600',
-    careerId: 25
+    id: 25
   },
   {
     title: 'Aquaculturist',
@@ -397,9 +397,9 @@ export default [
       'Clean, maintain, and operate equipment such as pumps and filters',
       'Harvest the stock, and prepare fish for buyers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-26.jpg?quality=70&maxWidth=1600',
-    careerId: 26
+    id: 26
   },
   {
     title: 'Arborist',
@@ -412,9 +412,9 @@ export default [
       'Some manage trees close to power lines and railway tracks',
       'Exact duties depend on the employer'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-27.jpg?quality=70&maxWidth=1600',
-    careerId: 27
+    id: 27
   },
   {
     title: 'Archaeologist',
@@ -427,9 +427,9 @@ export default [
       'Write reports on findings',
       'May catalogue and conserve collections in museums'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-28.jpg?quality=70&maxWidth=1600',
-    careerId: 28
+    id: 28
   },
   {
     title: 'Architect',
@@ -442,9 +442,9 @@ export default [
       'Ensure the building is finished on time and within budget',
       'Handle paperwork, such as contracts and bills'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-29.jpg?quality=70&maxWidth=1600',
-    careerId: 29
+    id: 29
   },
   {
     title: 'Architectural Tech',
@@ -457,9 +457,9 @@ export default [
       'Represent architects on building sites',
       'Some provide consultation or inspection services, or teach college students'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-30.jpg?quality=70&maxWidth=1600',
-    careerId: 30
+    id: 30
   },
   {
     title: 'Archivist',
@@ -472,9 +472,9 @@ export default [
       'Help people find documents or information',
       'Some prepare displays to showcase the archive'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-31.jpg?quality=70&maxWidth=1600',
-    careerId: 31
+    id: 31
   },
   {
     title: 'Art / Music Therapist',
@@ -487,9 +487,9 @@ export default [
       'Monitor clients\u2019 progress, take notes, and prepare reports',
       'Prepare art supplies or musical instruments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-32.jpg?quality=70&maxWidth=1600',
-    careerId: 32
+    id: 32
   },
   {
     title: 'Art Director',
@@ -501,9 +501,9 @@ export default [
       'Assemble a creative team of photographers, set designers, and animators',
       'Supervise team to make sure work conforms to the intended \u201clook\u201d of the project'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-34.jpg?quality=70&maxWidth=1600',
-    careerId: 34
+    id: 34
   },
   {
     title: 'Conservator',
@@ -515,9 +515,9 @@ export default [
       'Advise curators and others on how to display and store objects',
       'Usually specialize in a certain type of object, such as books or paintings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-35.jpg?quality=70&maxWidth=1600',
-    careerId: 35
+    id: 35
   },
   {
     title: 'Artist',
@@ -529,9 +529,9 @@ export default [
       'Display artwork in galleries',
       'Find buyers for completed artwork'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-36.jpg?quality=70&maxWidth=1600',
-    careerId: 36
+    id: 36
   },
   {
     title: 'Arts Administrator',
@@ -544,9 +544,9 @@ export default [
       'Some apply for grants and organize fundraising events',
       'Promote their organization to the press and public'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-37.jpg?quality=70&maxWidth=1600',
-    careerId: 37
+    id: 37
   },
   {
     title: 'Astronaut',
@@ -559,9 +559,9 @@ export default [
       'May do spacewalks to repair satellites or the shuttle',
       'Provide ground support to astronauts in space'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-38.jpg?quality=70&maxWidth=1600',
-    careerId: 38
+    id: 38
   },
   {
     title: 'Astronomer',
@@ -573,9 +573,9 @@ export default [
       'Astrophysicists develop theories about the nature and history of the universe',
       'Professors teach classes, prepare and mark assignments, and advise students'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-39.jpg?quality=70&maxWidth=1600',
-    careerId: 39
+    id: 39
   },
   {
     title: 'Athletic Therapist',
@@ -588,9 +588,9 @@ export default [
       'Develop training programs for players recovering from injury',
       'Provide players with tensor bandages, braces, and other equipment'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-40.jpg?quality=70&maxWidth=1600',
-    careerId: 40
+    id: 40
   },
   {
     title: 'Auctioneer',
@@ -603,9 +603,9 @@ export default [
       'Describe items and sell them to the highest bidder during auctions',
       'Usually specialize in a certain type of auction, such as antiques'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-41.jpg?quality=70&maxWidth=1600',
-    careerId: 41
+    id: 41
   },
   {
     title: 'Audiologist',
@@ -618,9 +618,9 @@ export default [
       'Provide counselling to patients',
       'May try to prevent hearing loss by suggesting ways to lessen the impact of noise'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-42.jpg?quality=70&maxWidth=1600',
-    careerId: 42
+    id: 42
   },
   {
     title: 'Autobody Repairer',
@@ -633,9 +633,9 @@ export default [
       'Replace sections that are beyond repair, including windows and interior parts',
       'Fill small holes and dents by with body filler and sand them smooth'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-43.jpg?quality=70&maxWidth=1600',
-    careerId: 43
+    id: 43
   },
   {
     title: 'Automobile Assembler',
@@ -647,9 +647,9 @@ export default [
       'Often climb into frames and use power tools to bolt or screw the part in place',
       'Ensure the part is properly secured and working, and move on to the next frame'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-44.jpg?quality=70&maxWidth=1600',
-    careerId: 44
+    id: 44
   },
   {
     title: 'Automotive Service Technician',
@@ -661,9 +661,9 @@ export default [
       'Make adjustments or repairs, and replace old parts',
       'Perform routine maintenance, such as oil changes and tune-ups'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-45.jpg?quality=70&maxWidth=1600',
-    careerId: 45
+    id: 45
   },
   {
     title: 'Automobile Salesperson',
@@ -676,9 +676,9 @@ export default [
       'Negotiate sales prices and arrange financing',
       'Recommend extended warranties and other options'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-46.jpg?quality=70&maxWidth=1600',
-    careerId: 46
+    id: 46
   },
   {
     title: 'Avionics Tech',
@@ -691,9 +691,9 @@ export default [
       'Some assist engineers in designing and testing new equipment and systems',
       'Others repair and maintain the systems in older aircraft for airlines'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-47.jpg?quality=70&maxWidth=1600',
-    careerId: 47
+    id: 47
   },
   {
     title: 'Bailiff',
@@ -706,9 +706,9 @@ export default [
       'May serve people with civil and criminal documents',
       'Exact duties vary depending on the province'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-48.jpg?quality=70&maxWidth=1600',
-    careerId: 48
+    id: 48
   },
   {
     title: 'Baker',
@@ -721,9 +721,9 @@ export default [
       'Keep kitchen and baking equipment clean',
       'May set prices, order supplies, or serve customers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-49.jpg?quality=70&maxWidth=1600',
-    careerId: 49
+    id: 49
   },
   {
     title: 'Bank Manager',
@@ -736,9 +736,9 @@ export default [
       'Deal with customers and staff complaints',
       'Monitor bank expenses and attract new customers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-50.jpg?quality=70&maxWidth=1600',
-    careerId: 50
+    id: 50
   },
   {
     title: 'Bank Teller',
@@ -750,9 +750,9 @@ export default [
       'Sell savings bonds and other financial products, and exchange foreign currency',
       'Use computers to record transactions and balance cash at the end of their shifts'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-51.jpg?quality=70&maxWidth=1600',
-    careerId: 51
+    id: 51
   },
   {
     title: 'Bartender',
@@ -765,9 +765,9 @@ export default [
       'Calculate customers\u2019 bills, take payment, and make change',
       'Check inventory and order supplies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-52.jpg?quality=70&maxWidth=1600',
-    careerId: 52
+    id: 52
   },
   {
     title: 'Bed and Breakfast Owner',
@@ -780,9 +780,9 @@ export default [
       'Clean dining rooms, kitchens, and guest rooms',
       'Supervise staff members, keep financial records, and promote the B&B'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-53.jpg?quality=70&maxWidth=1600',
-    careerId: 53
+    id: 53
   },
   {
     title: 'Beekeeper',
@@ -795,9 +795,9 @@ export default [
       'Harvest and sell honey and beeswax',
       'Rent beehives to farmers for crop pollination'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-54.jpg?quality=70&maxWidth=1600',
-    careerId: 54
+    id: 54
   },
   {
     title: 'Bicycle Mechanic',
@@ -810,9 +810,9 @@ export default [
       'May assemble new bikes at stores and manufacturers',
       'Some weld together or paint bike frames'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-55.jpg?quality=70&maxWidth=1600',
-    careerId: 55
+    id: 55
   },
   {
     title: 'Biological Tech',
@@ -824,9 +824,9 @@ export default [
       'Collect and analyze water, food, drug, and other samples',
       'Write reports on the findings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-56.jpg?quality=70&maxWidth=1600',
-    careerId: 56
+    id: 56
   },
   {
     title: 'Biologist',
@@ -839,9 +839,9 @@ export default [
       'Study effects of disease, pollution, and other factors on species and ecosystems',
       'Professors teach classes, prepare and mark assignments, and publish papers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-57.jpg?quality=70&maxWidth=1600',
-    careerId: 57
+    id: 57
   },
   {
     title: 'Boilermaker',
@@ -854,9 +854,9 @@ export default [
       'Weld the boiler together',
       'Fit pressure gauges and valves, and test for leaks and other problems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-58.jpg?quality=70&maxWidth=1600',
-    careerId: 58
+    id: 58
   },
   {
     title: 'Bookbinder',
@@ -868,9 +868,9 @@ export default [
       'Fasten pages and covers together using glue, staples, or stitching machines',
       'Hand binders perform the same tasks but without the aid of machines'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-59.jpg?quality=70&maxWidth=1600',
-    careerId: 59
+    id: 59
   },
   {
     title: 'Bookkeeper',
@@ -883,9 +883,9 @@ export default [
       "Write reports that summarize the company's finances for management",
       'Forecast future expenses and create budgets'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-60.jpg?quality=70&maxWidth=1600',
-    careerId: 60
+    id: 60
   },
   {
     title: 'Botanist',
@@ -897,9 +897,9 @@ export default [
       'May use biotechnology to improve crops or solve environmental problems',
       'Academic botanists teach at universities and colleges'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-61.jpg?quality=70&maxWidth=1600',
-    careerId: 61
+    id: 61
   },
   {
     title: 'Brewmaster',
@@ -912,9 +912,9 @@ export default [
       'May research new brewing methods and marketing strategies',
       'Some supervise other brewers and machine operators'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-62.jpg?quality=70&maxWidth=1600',
-    careerId: 62
+    id: 62
   },
   {
     title: 'Bricklayer / Stonemason',
@@ -927,9 +927,9 @@ export default [
       'Spread mortar between bricks to bond them together',
       'Make sure walls are straight using levels and plumb lines'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-63.jpg?quality=70&maxWidth=1600',
-    careerId: 63
+    id: 63
   },
   {
     title: 'Broadcast Technician',
@@ -941,9 +941,9 @@ export default [
       'Audio control engineers track the sound, transmission, and switching of pictures',
       'Video control engineers regulate picture quality, brightness, and contrast'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-64.jpg?quality=70&maxWidth=1600',
-    careerId: 64
+    id: 64
   },
   {
     title: 'Construction Manager',
@@ -956,9 +956,9 @@ export default [
       'Buy construction materials, arrange equipment rentals, and hire tradespeople',
       'Supervise the jobsite to ensure the work is done right and on schedule'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-65.jpg?quality=70&maxWidth=1600',
-    careerId: 65
+    id: 65
   },
   {
     title: 'Building Inspector',
@@ -970,9 +970,9 @@ export default [
       'Visit sites at each stage of construction to ensure they conform to code',
       'Ensure that safety systems like fire alarm and sprinkler systems are in place'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-66.jpg?quality=70&maxWidth=1600',
-    careerId: 66
+    id: 66
   },
   {
     title: 'Building Superintendent',
@@ -985,9 +985,9 @@ export default [
       'Prepare for and handle emergencies',
       'Some show vacancies, collect rent, and deposit cheques'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-67.jpg?quality=70&maxWidth=1600',
-    careerId: 67
+    id: 67
   },
   {
     title: 'Bus Driver',
@@ -1000,9 +1000,9 @@ export default [
       'Monitor traffic, weather conditions, and vehicle operation ',
       'Ensure the safety of passengers '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-68.jpg?quality=70&maxWidth=1600',
-    careerId: 68
+    id: 68
   },
   {
     title: 'Business Systems Analyst',
@@ -1015,9 +1015,9 @@ export default [
       'Some write the computer code',
       'Train employees to use programs and systems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-69.jpg?quality=70&maxWidth=1600',
-    careerId: 69
+    id: 69
   },
   {
     title: 'Butcher',
@@ -1030,9 +1030,9 @@ export default [
       'May create displays, help customers, or keep sales records',
       'Industrial butchers slaughter livestock in plants and prepare carcasses'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-70.jpg?quality=70&maxWidth=1600',
-    careerId: 70
+    id: 70
   },
   {
     title: 'Cabinetmaker',
@@ -1044,9 +1044,9 @@ export default [
       'Set up and operate woodworking equipment to cut, shape, and join pieces of wood',
       'Sand and smooth the surfaces, and apply veneer, stain, or paint'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-71.jpg?quality=70&maxWidth=1600',
-    careerId: 71
+    id: 71
   },
   {
     title: 'Cable Installer and Repairer',
@@ -1059,9 +1059,9 @@ export default [
       'Repair faulty cable lines and equipment',
       'Interact with customers and keep records of work performed'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-72.jpg?quality=70&maxWidth=1600',
-    careerId: 72
+    id: 72
   },
   {
     title: 'Camera Operator',
@@ -1074,9 +1074,9 @@ export default [
       'Replace film spools, tapes, or other media storage devices when they are full',
       'Some are involved in setting up lights'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-73.jpg?quality=70&maxWidth=1600',
-    careerId: 73
+    id: 73
   },
   {
     title: 'Cardiovascular Tech',
@@ -1088,9 +1088,9 @@ export default [
       'Echocardiographers and vascular techs use ultrasounds to look for diseases',
       'Cardiovascular techs use EKG tests to measure blood pressure and heart activity'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-74.jpg?quality=70&maxWidth=1600',
-    careerId: 74
+    id: 74
   },
   {
     title: 'Career Counsellor',
@@ -1103,9 +1103,9 @@ export default [
       'Research labour market trends and occupations',
       'Some work as consultants to companies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-75.jpg?quality=70&maxWidth=1600',
-    careerId: 75
+    id: 75
   },
   {
     title: 'Carpenter',
@@ -1118,9 +1118,9 @@ export default [
       'Lift walls, floor joists, and roof beams into place and secure them',
       'Install cabinets, doors, stairs, porches, and other wooden pieces in buildings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-76.jpg?quality=70&maxWidth=1600',
-    careerId: 76
+    id: 76
   },
   {
     title: 'Carpet and Upholstery Cleaner',
@@ -1133,9 +1133,9 @@ export default [
       'May sell cleaning products to customers',
       'Load and unload supplies from vehicles'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-77.jpg?quality=70&maxWidth=1600',
-    careerId: 77
+    id: 77
   },
   {
     title: 'Cartographer',
@@ -1148,9 +1148,9 @@ export default [
       'May compile data collected by engineers, planners, foresters, or other experts',
       'Oversee printing to ensure accuracy'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-78.jpg?quality=70&maxWidth=1600',
-    careerId: 78
+    id: 78
   },
   {
     title: 'Cartoonist',
@@ -1163,9 +1163,9 @@ export default [
       'Develop a personal cartooning style',
       'Freelance cartoonists have to find their own clients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-79.jpg?quality=70&maxWidth=1600',
-    careerId: 79
+    id: 79
   },
   {
     title: 'Cashier',
@@ -1178,9 +1178,9 @@ export default [
       'Answer customers\u2019 questions',
       'Count the money in the cash register'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-80.jpg?quality=70&maxWidth=1600',
-    careerId: 80
+    id: 80
   },
   {
     title: 'Casting Director',
@@ -1192,9 +1192,9 @@ export default [
       'Send scripts out to candidates and invite them to audition',
       'Help choose actors based on their auditions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-81.jpg?quality=70&maxWidth=1600',
-    careerId: 81
+    id: 81
   },
   {
     title: 'Caterer',
@@ -1207,9 +1207,9 @@ export default [
       'Coordinate the activities of chefs and wait staff; some cook the food themselves',
       'Self-employed caterers promote their business and find clients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-82.jpg?quality=70&maxWidth=1600',
-    careerId: 82
+    id: 82
   },
   {
     title: 'Accountant',
@@ -1221,9 +1221,9 @@ export default [
       'Often advise clients on payroll, assets, information technology, and related subjects',
       'Others perform audits for the government, or provide strategic planning for companies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-85.jpg?quality=70&maxWidth=1600',
-    careerId: 85
+    id: 85
   },
   {
     title: 'Chef',
@@ -1236,9 +1236,9 @@ export default [
       'Cooks clean, chop, and prepare ingredients',
       'Some chefs create and test new recipes'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-86.jpg?quality=70&maxWidth=1600',
-    careerId: 86
+    id: 86
   },
   {
     title: 'Chemical Engineering Tech',
@@ -1250,9 +1250,9 @@ export default [
       'In labs, analyze chemicals or prepare solutions for use in experiments',
       'Some test rock samples for precious metals and other valuable commodities'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-87.jpg?quality=70&maxWidth=1600',
-    careerId: 87
+    id: 87
   },
   {
     title: 'Chemical Engineer',
@@ -1264,9 +1264,9 @@ export default [
       'Monitor the chemical processes taking place',
       'Develop new products and safety testing techniques'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-88.jpg?quality=70&maxWidth=1600',
-    careerId: 88
+    id: 88
   },
   {
     title: 'Chemist',
@@ -1279,9 +1279,9 @@ export default [
       'Help set policies that regulate the use of chemicals in food and drugs',
       'Teachers and professors instruct students'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-89.jpg?quality=70&maxWidth=1600',
-    careerId: 89
+    id: 89
   },
   {
     title: 'Child and Youth Worker',
@@ -1294,9 +1294,9 @@ export default [
       'Record clients\u2019 progress and write reports',
       'Provide support and information to clients\u2019 families'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-90.jpg?quality=70&maxWidth=1600',
-    careerId: 90
+    id: 90
   },
   {
     title: 'Chimney Sweep',
@@ -1309,9 +1309,9 @@ export default [
       'Ensure chimney and heating systems are built to code',
       'May install and repair fireplaces and chimneys'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-91.jpg?quality=70&maxWidth=1600',
-    careerId: 91
+    id: 91
   },
   {
     title: 'Chiropodist',
@@ -1324,9 +1324,9 @@ export default [
       'Recommend orthotics (shoe inserts) for patients to help with running or walking',
       'Monitor patients\u2019 progress'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-92.jpg?quality=70&maxWidth=1600',
-    careerId: 92
+    id: 92
   },
   {
     title: 'Chiropractor',
@@ -1338,9 +1338,9 @@ export default [
       'May also use techniques such as water or heat therapy',
       'Offer advice on nutrition, exercise, and healthy living'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-93.jpg?quality=70&maxWidth=1600',
-    careerId: 93
+    id: 93
   },
   {
     title: 'Circus Performer',
@@ -1353,9 +1353,9 @@ export default [
       'May teach at circus schools or summer camps',
       'Some work freelance, entertaining at parties and conventions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-94.jpg?quality=70&maxWidth=1600',
-    careerId: 94
+    id: 94
   },
   {
     title: 'Civil Engineer',
@@ -1368,9 +1368,9 @@ export default [
       'Supervise construction workers and building progress at project sites',
       'Prepare reports on project issues'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-95.jpg?quality=70&maxWidth=1600',
-    careerId: 95
+    id: 95
   },
   {
     title: 'Civil Engineering Tech',
@@ -1383,9 +1383,9 @@ export default [
       'Research conditions at projects sites',
       'Supervise on-site construction work'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-96.jpg?quality=70&maxWidth=1600',
-    careerId: 96
+    id: 96
   },
   {
     title: 'Civil Litigator',
@@ -1398,9 +1398,9 @@ export default [
       'Represent clients\u2019 interests during negotiations',
       'May specialize in environmental, copyright, or another area of civil law'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-97.jpg?quality=70&maxWidth=1600',
-    careerId: 97
+    id: 97
   },
   {
     title: 'Clergy',
@@ -1413,9 +1413,9 @@ export default [
       'Provide moral guidance and counselling',
       'Manage church\u2019s property, order supplies, and contract services'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-98.jpg?quality=70&maxWidth=1600',
-    careerId: 98
+    id: 98
   },
   {
     title: 'Clothing Manufacturer',
@@ -1428,9 +1428,9 @@ export default [
       'Buy supplies, such as fabrics and thread ',
       'Arrange to ship products to clients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-99.jpg?quality=70&maxWidth=1600',
-    careerId: 99
+    id: 99
   },
   {
     title: 'Coast Guard',
@@ -1442,9 +1442,9 @@ export default [
       'May be an officer or a crew member',
       'May also take part in search and rescue missions or break pathways through ice'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-100.jpg?quality=70&maxWidth=1600',
-    careerId: 100
+    id: 100
   },
   {
     title: 'Comedian',
@@ -1456,9 +1456,9 @@ export default [
       'Assess audiences\u2019 reactions and rewrite material if necessary',
       'Some perform skits as part of a comedy troupe'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-101.jpg?quality=70&maxWidth=1600',
-    careerId: 101
+    id: 101
   },
   {
     title: 'Community Worker',
@@ -1471,9 +1471,9 @@ export default [
       'Keep records and monitor clients\u2019 progress',
       'Some fundraise, educate the public, or manage other workers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-103.jpg?quality=70&maxWidth=1600',
-    careerId: 103
+    id: 103
   },
   {
     title: 'Composer',
@@ -1485,9 +1485,9 @@ export default [
       'Record music with the help of other musicians and recording engineers',
       'Theatrical composers may conduct the musicians'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-104.jpg?quality=70&maxWidth=1600',
-    careerId: 104
+    id: 104
   },
   {
     title: 'Digital Animator',
@@ -1500,9 +1500,9 @@ export default [
       "Projects range from animating a commercial logo to creating a movie's 3D world",
       'Some create 3D models of structures for architectural firms'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-105.jpg?quality=70&maxWidth=1600',
-    careerId: 105
+    id: 105
   },
   {
     title: 'Computer Network Specialist',
@@ -1515,9 +1515,9 @@ export default [
       'Teach staff to use the network',
       'Some handle security issues or design off-site systems for emergencies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-107.jpg?quality=70&maxWidth=1600',
-    careerId: 107
+    id: 107
   },
   {
     title: 'Computer Programmer',
@@ -1530,9 +1530,9 @@ export default [
       'Document their work',
       'Test software to ensure that it is working'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-108.jpg?quality=70&maxWidth=1600',
-    careerId: 108
+    id: 108
   },
   {
     title: 'IT Support Specialist',
@@ -1545,9 +1545,9 @@ export default [
       'Monitor and maintain computer networks',
       'Recommend new equipment and software'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-109.jpg?quality=70&maxWidth=1600',
-    careerId: 109
+    id: 109
   },
   {
     title: 'Computer Trainer',
@@ -1559,9 +1559,9 @@ export default [
       'May develop course materials, such as instruction manuals',
       'Advise clients about which hardware and software to buy'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-110.jpg?quality=70&maxWidth=1600',
-    careerId: 110
+    id: 110
   },
   {
     title: 'Concrete Mason',
@@ -1574,9 +1574,9 @@ export default [
       'Level off the top of the concrete and smooth out the surface',
       'Apply finishes such as adding small gravel chips to the surface'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-111.jpg?quality=70&maxWidth=1600',
-    careerId: 111
+    id: 111
   },
   {
     title: 'Conservation Officer',
@@ -1589,9 +1589,9 @@ export default [
       'Educate the public about conservation, wilderness safety, and using firearms',
       'May help in search and rescue missions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-112.jpg?quality=70&maxWidth=1600',
-    careerId: 112
+    id: 112
   },
   {
     title: 'Construction Tradesperson',
@@ -1603,9 +1603,9 @@ export default [
       'Work with other tradespeople to construct buildings of all sizes',
       'Common types include plumbers, electricians, carpenters, and bricklayers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-113.jpg?quality=70&maxWidth=1600',
-    careerId: 113
+    id: 113
   },
   {
     title: 'Convenience Store Operator',
@@ -1617,9 +1617,9 @@ export default [
       'Managers hire and fire cashiers, order supplies, and keep inventory and budgets',
       'Some owners handle the duties of managers and cashiers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-114.jpg?quality=70&maxWidth=1600',
-    careerId: 114
+    id: 114
   },
   {
     title: 'Cook',
@@ -1632,9 +1632,9 @@ export default [
       'Keep kitchen and cooking equipment clean',
       'May supervise kitchen workers, order supplies, and help plan menus'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-115.jpg?quality=70&maxWidth=1600',
-    careerId: 115
+    id: 115
   },
   {
     title: 'Corporate / Commercial Lawyer',
@@ -1646,9 +1646,9 @@ export default [
       'Research commercial laws and regulations',
       'Draw up legal documents, such as contracts'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-116.jpg?quality=70&maxWidth=1600',
-    careerId: 116
+    id: 116
   },
   {
     title: 'Corporate Trainer',
@@ -1661,9 +1661,9 @@ export default [
       'Advise staff of other training opportunities',
       'Self-employed trainers have to find their own clients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-117.jpg?quality=70&maxWidth=1600',
-    careerId: 117
+    id: 117
   },
   {
     title: 'Correctional Officer',
@@ -1676,9 +1676,9 @@ export default [
       'Stand guard at towers, gates, and fences',
       'Write reports on inmates\u2019 behaviour'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-118.jpg?quality=70&maxWidth=1600',
-    careerId: 118
+    id: 118
   },
   {
     title: 'Costume Designer',
@@ -1691,9 +1691,9 @@ export default [
       'Measure actors, and cut and sew the costumes',
       'Fit costumes to actors and make adjustments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-119.jpg?quality=70&maxWidth=1600',
-    careerId: 119
+    id: 119
   },
   {
     title: 'Courier / Messenger',
@@ -1706,9 +1706,9 @@ export default [
       'Travel to the destination and deliver the package',
       'Keep records of completed deliveries'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-120.jpg?quality=70&maxWidth=1600',
-    careerId: 120
+    id: 120
   },
   {
     title: 'Court Clerk',
@@ -1721,9 +1721,9 @@ export default [
       'Collect, handle, and store evidence',
       'File court documents and information from lawyers, defendants, and witnesses'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-121.jpg?quality=70&maxWidth=1600',
-    careerId: 121
+    id: 121
   },
   {
     title: 'Craftsperson',
@@ -1736,9 +1736,9 @@ export default [
       'Sell crafts in stores and studios, at craft shows and fairs, or on the internet',
       'Some teach their craft to others'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-122.jpg?quality=70&maxWidth=1600',
-    careerId: 122
+    id: 122
   },
   {
     title: 'Crane Operator',
@@ -1751,9 +1751,9 @@ export default [
       'Use switches, dials, buttons, levers, and pedals to control the crane',
       'Work with others to make sure the load is placed exactly where they need it'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-123.jpg?quality=70&maxWidth=1600',
-    careerId: 123
+    id: 123
   },
   {
     title: 'Criminal Lawyer',
@@ -1766,9 +1766,9 @@ export default [
       'Defence lawyers defend clients against criminal charges',
       'Prosecutors present evidence in court to prove a defendant\u2019s guilt'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-124.jpg?quality=70&maxWidth=1600',
-    careerId: 124
+    id: 124
   },
   {
     title: 'Criminologist',
@@ -1781,9 +1781,9 @@ export default [
       'May attend crime scenes or autopsies to gather facts and data',
       'Prepare reports and give presentations'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-125.jpg?quality=70&maxWidth=1600',
-    careerId: 125
+    id: 125
   },
   {
     title: 'Curator',
@@ -1796,9 +1796,9 @@ export default [
       'Create exhibits of the collections',
       'Monitor items on display for decay or damage'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-126.jpg?quality=70&maxWidth=1600',
-    careerId: 126
+    id: 126
   },
   {
     title: 'Custodian',
@@ -1811,9 +1811,9 @@ export default [
       'Secure buildings by locking doors and windows',
       'May clean windows and do heavy-duty industrial cleaning'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-127.jpg?quality=70&maxWidth=1600',
-    careerId: 127
+    id: 127
   },
   {
     title: 'Customs Broker',
@@ -1825,9 +1825,9 @@ export default [
       'Arrange shipping and ensure the correct customs forms are filled out properly',
       'Track packages as they ship and ensure all taxes and duties are paid'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-128.jpg?quality=70&maxWidth=1600',
-    careerId: 128
+    id: 128
   },
   {
     title: 'Dancer',
@@ -1840,9 +1840,9 @@ export default [
       'Some also sing and act in productions',
       'May specialize in ballet, tap, hip-hop, or other styles of dance'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-130.jpg?quality=70&maxWidth=1600',
-    careerId: 130
+    id: 130
   },
   {
     title: 'Data Entry Clerk',
@@ -1855,9 +1855,9 @@ export default [
       'Some research, collect, and analyze the data they input',
       'Some prepare reports based on data entered'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-131.jpg?quality=70&maxWidth=1600',
-    careerId: 131
+    id: 131
   },
   {
     title: 'Database Developer',
@@ -1870,9 +1870,9 @@ export default [
       'Test databases, making adjustments and corrections as necessary',
       'Import data into databases'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-132.jpg?quality=70&maxWidth=1600',
-    careerId: 132
+    id: 132
   },
   {
     title: 'Early Childhood Educator',
@@ -1885,9 +1885,9 @@ export default [
       'Consult with parents about their children\u2019s development',
       'May specialize in teaching children with disabilities'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-133.jpg?quality=70&maxWidth=1600',
-    careerId: 133
+    id: 133
   },
   {
     title: 'Dental Assistant',
@@ -1900,9 +1900,9 @@ export default [
       'Pass instruments to the dentist as needed',
       'Operate suctioning device to keep patients\u2019 mouths dry'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-134.jpg?quality=70&maxWidth=1600',
-    careerId: 134
+    id: 134
   },
   {
     title: 'Dental Hygienist',
@@ -1915,9 +1915,9 @@ export default [
       'Polish patients\u2019 teeth',
       'Give advice on preventive dental care'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-135.jpg?quality=70&maxWidth=1600',
-    careerId: 135
+    id: 135
   },
   {
     title: 'Dental Lab Tech',
@@ -1930,9 +1930,9 @@ export default [
       'Bake porcelain to harden',
       'Make final shape and colour adjustments to the new teeth'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-136.jpg?quality=70&maxWidth=1600',
-    careerId: 136
+    id: 136
   },
   {
     title: 'Dentist',
@@ -1945,9 +1945,9 @@ export default [
       'Replace or rebuild broken teeth with implants',
       'Supervise dental hygienists and other staff'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-137.jpg?quality=70&maxWidth=1600',
-    careerId: 137
+    id: 137
   },
   {
     title: 'Diesel Technician',
@@ -1959,9 +1959,9 @@ export default [
       'Some work on other parts of vehicles, including brakes and wheels',
       'Perform routine maintenance, such as cleaning and lubricating parts'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-140.jpg?quality=70&maxWidth=1600',
-    careerId: 140
+    id: 140
   },
   {
     title: 'Dietitian',
@@ -1974,9 +1974,9 @@ export default [
       'Help food companies create food products and nutrition labels',
       'Usually specialize in one area of work'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-141.jpg?quality=70&maxWidth=1600',
-    careerId: 141
+    id: 141
   },
   {
     title: 'Director',
@@ -1988,9 +1988,9 @@ export default [
       'Make all production decisions, such as filming locations and costume designs ',
       'Oversee editing and the creation of sound and visual effects'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-142.jpg?quality=70&maxWidth=1600',
-    careerId: 142
+    id: 142
   },
   {
     title: 'Director of Photography',
@@ -2003,9 +2003,9 @@ export default [
       'Design shots and sequences with regard to camera angle, movement, and lighting',
       'Adjust settings such as focus, exposure, and composition during filming'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-143.jpg?quality=70&maxWidth=1600',
-    careerId: 143
+    id: 143
   },
   {
     title: 'DJ',
@@ -2018,9 +2018,9 @@ export default [
       'Mobile DJs set up their own equipment',
       'May also make announcements and introduce people who are giving speeches'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-144.jpg?quality=70&maxWidth=1600',
-    careerId: 144
+    id: 144
   },
   {
     title: 'Dispatcher',
@@ -2033,9 +2033,9 @@ export default [
       'Advise drivers of traffic problems',
       'Maintain records of calls and responses'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-145.jpg?quality=70&maxWidth=1600',
-    careerId: 145
+    id: 145
   },
   {
     title: 'Doctor',
@@ -2048,9 +2048,9 @@ export default [
       'Do paperwork',
       'Specialize in a particular area of medicine, such as family medicine or surgery'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-146.jpg?quality=70&maxWidth=1600',
-    careerId: 146
+    id: 146
   },
   {
     title: 'Drafter',
@@ -2063,9 +2063,9 @@ export default [
       'Use computer-aided drafting equipment  ',
       'May prepare reports, cost estimates, and contracts'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-147.jpg?quality=70&maxWidth=1600',
-    careerId: 147
+    id: 147
   },
   {
     title: 'Driving Instructor',
@@ -2078,9 +2078,9 @@ export default [
       'May teach refresher lessons to experienced drivers',
       'May specialize in teaching commercial or older drivers, or rehabilitation'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-148.jpg?quality=70&maxWidth=1600',
-    careerId: 148
+    id: 148
   },
   {
     title: 'Dry Cleaner',
@@ -2093,9 +2093,9 @@ export default [
       'Press clean items, and may do minor repairs',
       'Some specialize in environmentally friendly cleaning techniques'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-149.jpg?quality=70&maxWidth=1600',
-    careerId: 149
+    id: 149
   },
   {
     title: 'Drywaller',
@@ -2108,9 +2108,9 @@ export default [
       'Sand off extra compound so that walls are perfectly smooth',
       'Apply textured surfaces on walls or ceilings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-150.jpg?quality=70&maxWidth=1600',
-    careerId: 150
+    id: 150
   },
   {
     title: 'Ecologist',
@@ -2123,9 +2123,9 @@ export default [
       'Draw conclusions based on the findings',
       'May advise governments or companies on environmental issues, or teach at universities'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-151.jpg?quality=70&maxWidth=1600',
-    careerId: 151
+    id: 151
   },
   {
     title: 'Economic Development Officer',
@@ -2138,9 +2138,9 @@ export default [
       'Coordinate employment training activities',
       'Ensure property development applications are filed correctly'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-152.jpg?quality=70&maxWidth=1600',
-    careerId: 152
+    id: 152
   },
   {
     title: 'Economist',
@@ -2153,9 +2153,9 @@ export default [
       'Provide advice on how to respond to economic developments',
       'Professors teach students, and mark papers and exams'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-153.jpg?quality=70&maxWidth=1600',
-    careerId: 153
+    id: 153
   },
   {
     title: 'Editor',
@@ -2166,9 +2166,9 @@ export default [
       'Production editors coordinate the publishing process',
       'Technical editors review manuals and other technical documents'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-154.jpg?quality=70&maxWidth=1600',
-    careerId: 154
+    id: 154
   },
   {
     title: 'Electrical Engineering Tech',
@@ -2181,9 +2181,9 @@ export default [
       'Test commercial, industrial, or residential electrical systems or products',
       'May advise governments or companies on environmental issues, or teach classes'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-155.jpg?quality=70&maxWidth=1600',
-    careerId: 155
+    id: 155
   },
   {
     title: 'Electrical Engineer',
@@ -2196,9 +2196,9 @@ export default [
       'Attend meetings to discuss and plan projects',
       'Test systems and equipment to make sure they perform as required'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-156.jpg?quality=70&maxWidth=1600',
-    careerId: 156
+    id: 156
   },
   {
     title: 'Electrician',
@@ -2211,9 +2211,9 @@ export default [
       'Install electrical control devices such as switches and outlets',
       'Maintenance electricians maintain the electrical systems of industrial machines'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-157.jpg?quality=70&maxWidth=1600',
-    careerId: 157
+    id: 157
   },
   {
     title: 'Electroneurodiagnostic Tech',
@@ -2226,9 +2226,9 @@ export default [
       'May write reports summarizing the results',
       'Maintain the equipment '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-158.jpg?quality=70&maxWidth=1600',
-    careerId: 158
+    id: 158
   },
   {
     title: 'Electronics Assembler',
@@ -2241,9 +2241,9 @@ export default [
       'Fasten wires between parts and circuit boards',
       'May also inspect and test each component'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-159.jpg?quality=70&maxWidth=1600',
-    careerId: 159
+    id: 159
   },
   {
     title: 'Electronics Engineering Tech',
@@ -2256,9 +2256,9 @@ export default [
       'Troubleshoot and repair electronic systems',
       'Design and run tests on new systems or products, and analyze the results'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-160.jpg?quality=70&maxWidth=1600',
-    careerId: 160
+    id: 160
   },
   {
     title: 'Electronics Repairer',
@@ -2271,9 +2271,9 @@ export default [
       'Repair or replace broken or worn-out parts',
       'Give customers advice on the proper use of equipment'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-161.jpg?quality=70&maxWidth=1600',
-    careerId: 161
+    id: 161
   },
   {
     title: 'Elementary School Teacher',
@@ -2286,9 +2286,9 @@ export default [
       'Go to meetings, supervise clubs and activities, and take students on field trips ',
       'Complete paperwork and report cards'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-162.jpg?quality=70&maxWidth=1600',
-    careerId: 162
+    id: 162
   },
   {
     title: 'Elevator Installer and Repairer',
@@ -2301,9 +2301,9 @@ export default [
       'Assemble the elevator car at the bottom of the shaft and attach it to the cable ',
       'Test and repair assembled elevators'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-163.jpg?quality=70&maxWidth=1600',
-    careerId: 163
+    id: 163
   },
   {
     title: 'Engineering Tech',
@@ -2316,9 +2316,9 @@ export default [
       'Estimate project costs and specify materials to be used',
       'Some work in quality control'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-164.jpg?quality=70&maxWidth=1600',
-    careerId: 164
+    id: 164
   },
   {
     title: 'Entrepreneur',
@@ -2331,9 +2331,9 @@ export default [
       'Market the product or service',
       'Oversee activities related to business ownership, such as managing employees '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-165.jpg?quality=70&maxWidth=1600',
-    careerId: 165
+    id: 165
   },
   {
     title: 'Environmental Engineer',
@@ -2345,9 +2345,9 @@ export default [
       'Many design and build landfills or water filtration and sewage treatment plants',
       'Some are involved in the treatment and storage of toxic materials'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-166.jpg?quality=70&maxWidth=1600',
-    careerId: 166
+    id: 166
   },
   {
     title: 'Environmental Health Officer',
@@ -2360,9 +2360,9 @@ export default [
       'Write reports and issue notices of violation',
       'May inspect industrial plants'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-167.jpg?quality=70&maxWidth=1600',
-    careerId: 167
+    id: 167
   },
   {
     title: 'Environmental Tech',
@@ -2374,9 +2374,9 @@ export default [
       'Usually work in a certain area, such as hazardous waste or factory emissions',
       'Work with scientists, engineers, and other environmental professionals'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-168.jpg?quality=70&maxWidth=1600',
-    careerId: 168
+    id: 168
   },
   {
     title: 'Epidemiologist',
@@ -2389,9 +2389,9 @@ export default [
       'Investigate how diseases can be prevented',
       'Deal with many health issues, such as alcohol abuse, mental health, and viruses'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-169.jpg?quality=70&maxWidth=1600',
-    careerId: 169
+    id: 169
   },
   {
     title: 'ESL Teacher',
@@ -2404,9 +2404,9 @@ export default [
       'May take classes on field trips',
       'Teach newcomers about Canadian culture'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-170.jpg?quality=70&maxWidth=1600',
-    careerId: 170
+    id: 170
   },
   {
     title: 'Esthetician',
@@ -2419,9 +2419,9 @@ export default [
       'Do manicures and pedicures',
       'May apply makeup'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-171.jpg?quality=70&maxWidth=1600',
-    careerId: 171
+    id: 171
   },
   {
     title: 'Event Planner',
@@ -2434,9 +2434,9 @@ export default [
       'Ensure events run smoothly by solving problems as they arise',
       'Coordinate teams of workers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-172.jpg?quality=70&maxWidth=1600',
-    careerId: 172
+    id: 172
   },
   {
     title: 'Exhibit Designer',
@@ -2449,9 +2449,9 @@ export default [
       'Draw out design ideas by hand or on computers',
       'With a team of tradespeople, assemble the exhibit '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-173.jpg?quality=70&maxWidth=1600',
-    careerId: 173
+    id: 173
   },
   {
     title: 'Explosives Specialist',
@@ -2464,9 +2464,9 @@ export default [
       'Some make explosives for manufacturers',
       'Others investigate bomb threats and disable explosive devices'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-174.jpg?quality=70&maxWidth=1600',
-    careerId: 174
+    id: 174
   },
   {
     title: 'Family Physician',
@@ -2478,9 +2478,9 @@ export default [
       'Refer patients to specialists, such as psychiatrists or dermatologists',
       'Often communicate with nurses, medical lab techs, and other health workers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-175.jpg?quality=70&maxWidth=1600',
-    careerId: 175
+    id: 175
   },
   {
     title: 'Farm Equipment Technician',
@@ -2493,9 +2493,9 @@ export default [
       'Repairs need to be done in the field at times',
       'Many specialize in certain types of equipment'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-176.jpg?quality=70&maxWidth=1600',
-    careerId: 176
+    id: 176
   },
   {
     title: 'Farmer',
@@ -2508,9 +2508,9 @@ export default [
       'Sell crops and livestock',
       'Do chores such as repairing equipment and cleaning stalls'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-177.jpg?quality=70&maxWidth=1600',
-    careerId: 177
+    id: 177
   },
   {
     title: 'Fashion Designer',
@@ -2523,9 +2523,9 @@ export default [
       'Calculate how much material is needed',
       'Some sew together the clothing themselves, while others supervise other workers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-178.jpg?quality=70&maxWidth=1600',
-    careerId: 178
+    id: 178
   },
   {
     title: 'Fashion Retailer',
@@ -2538,9 +2538,9 @@ export default [
       'Design window and shelving displays',
       'Hire, train, and supervise store employees'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-179.jpg?quality=70&maxWidth=1600',
-    careerId: 179
+    id: 179
   },
   {
     title: 'Food Services Worker',
@@ -2552,9 +2552,9 @@ export default [
       'Clear tables, mop floors, clean restrooms, and take out the trash',
       'Managers train and supervise staff, check inventory, and maintain equipment'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-180.jpg?quality=70&maxWidth=1600',
-    careerId: 180
+    id: 180
   },
   {
     title: 'Film and TV Crew',
@@ -2567,9 +2567,9 @@ export default [
       'Construct and decorate sets ',
       'Apply makeup to actors'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-181.jpg?quality=70&maxWidth=1600',
-    careerId: 181
+    id: 181
   },
   {
     title: 'Film Editor',
@@ -2582,9 +2582,9 @@ export default [
       'Ensure visual consistency between scenes',
       'Monitor and alter the timing and pace of the project'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-182.jpg?quality=70&maxWidth=1600',
-    careerId: 182
+    id: 182
   },
   {
     title: 'Photographic Processor',
@@ -2597,9 +2597,9 @@ export default [
       'Produce the correct number of prints',
       'Make sure there are no defects in the prints'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-183.jpg?quality=70&maxWidth=1600',
-    careerId: 183
+    id: 183
   },
   {
     title: 'Firefighter',
@@ -2612,9 +2612,9 @@ export default [
       'Educate the public about fire prevention',
       'Respond to other types of emergencies, such as a choking victim at a restaurant'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-184.jpg?quality=70&maxWidth=1600',
-    careerId: 184
+    id: 184
   },
   {
     title: 'Fisher',
@@ -2627,9 +2627,9 @@ export default [
       'Clean the boat and maintain and repair equipment',
       'Captains plan and oversee fishing trips, and sell the catch'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-185.jpg?quality=70&maxWidth=1600',
-    careerId: 185
+    id: 185
   },
   {
     title: 'Fitness Instructor',
@@ -2642,9 +2642,9 @@ export default [
       'Make sure students exercise safely',
       'Assess new students\u2019 fitness levels and recommend classes'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-186.jpg?quality=70&maxWidth=1600',
-    careerId: 186
+    id: 186
   },
   {
     title: 'Flight Attendant',
@@ -2657,9 +2657,9 @@ export default [
       'Prepare for takeoff by ensuring that seatbelts are secure and bags are stowed',
       'In flight, serve meals and other refreshments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-187.jpg?quality=70&maxWidth=1600',
-    careerId: 187
+    id: 187
   },
   {
     title: 'Flooring Installer',
@@ -2672,9 +2672,9 @@ export default [
       'Carpets are unrolled, stretched to fit the room, and held in place with nails',
       'Vinyl floors are glued down'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-188.jpg?quality=70&maxWidth=1600',
-    careerId: 188
+    id: 188
   },
   {
     title: 'Florist',
@@ -2687,9 +2687,9 @@ export default [
       'Sell flowers to customers and offer advice on how to care for them',
       'May take care of financial records, order supplies, and clean the store'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-189.jpg?quality=70&maxWidth=1600',
-    careerId: 189
+    id: 189
   },
   {
     title: 'Food Inspector',
@@ -2702,9 +2702,9 @@ export default [
       'Conduct quality control tests and collect samples for testing',
       'Ensure products are labelled correctly '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-190.jpg?quality=70&maxWidth=1600',
-    careerId: 190
+    id: 190
   },
   {
     title: 'Foreign Service Officer',
@@ -2717,9 +2717,9 @@ export default [
       'Some oversee the financial and operational activities of consulates',
       'May review visa applications or replace lost documents for Canadians abroad '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-191.jpg?quality=70&maxWidth=1600',
-    careerId: 191
+    id: 191
   },
   {
     title: 'Forester',
@@ -2732,9 +2732,9 @@ export default [
       'Help regenerate forests by directing site preparation and tree planting',
       'Give recommendations about the use and conservation of forest land'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-193.jpg?quality=70&maxWidth=1600',
-    careerId: 193
+    id: 193
   },
   {
     title: 'Forestry Technician',
@@ -2747,9 +2747,9 @@ export default [
       'Help prepare areas for tree planting, and plant seedlings',
       'Conduct research into the age and health of forests'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-194.jpg?quality=70&maxWidth=1600',
-    careerId: 194
+    id: 194
   },
   {
     title: 'Fruit and Vegetable Grower',
@@ -2762,9 +2762,9 @@ export default [
       'Pack fruits and vegetables in boxes or baskets',
       'Market and sell produce'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-195.jpg?quality=70&maxWidth=1600',
-    careerId: 195
+    id: 195
   },
   {
     title: 'Fundraiser',
@@ -2777,9 +2777,9 @@ export default [
       'Direct teams of paid staff and volunteers',
       'Network with individuals and corporations'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-196.jpg?quality=70&maxWidth=1600',
-    careerId: 196
+    id: 196
   },
   {
     title: 'Funeral Director',
@@ -2791,9 +2791,9 @@ export default [
       'Make arrangements with cemeteries, contact newspapers, and do paperwork',
       'Attend funerals and burials to make sure everything goes as planned'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-197.jpg?quality=70&maxWidth=1600',
-    careerId: 197
+    id: 197
   },
   {
     title: 'Furniture Finisher',
@@ -2806,9 +2806,9 @@ export default [
       'Apply new finishes, such as varnish or paint',
       'Some apply finishes to new items'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-198.jpg?quality=70&maxWidth=1600',
-    careerId: 198
+    id: 198
   },
   {
     title: 'Gardener',
@@ -2821,9 +2821,9 @@ export default [
       'Create new landscapes by laying sod and topsoil, and planting trees and flowers',
       'May make other changes to landscapes, such as adding walkways'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-199.jpg?quality=70&maxWidth=1600',
-    careerId: 199
+    id: 199
   },
   {
     title: 'Geologist',
@@ -2836,9 +2836,9 @@ export default [
       'Many locate new oil fields and mineral deposits, and devise ways to access them',
       'Some teach geology at universities'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-201.jpg?quality=70&maxWidth=1600',
-    careerId: 201
+    id: 201
   },
   {
     title: 'Gerontologist',
@@ -2850,9 +2850,9 @@ export default [
       'Others research physical and psychological aspects of aging',
       'Other areas of focus include medicine, physiotherapy, and financial planning'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-203.jpg?quality=70&maxWidth=1600',
-    careerId: 203
+    id: 203
   },
   {
     title: 'Glazier',
@@ -2865,9 +2865,9 @@ export default [
       'Install glass windows, mirrors, and shower doors in homes and other buildings',
       'Install larger panels, such as storefront windows on commercial buildings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-204.jpg?quality=70&maxWidth=1600',
-    careerId: 204
+    id: 204
   },
   {
     title: 'Graphic Designer',
@@ -2879,9 +2879,9 @@ export default [
       'Gather or create the elements, such as photographs, text, and illustrations',
       'Use the collected elements to create a final product, like a poster or website'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-205.jpg?quality=70&maxWidth=1600',
-    careerId: 205
+    id: 205
   },
   {
     title: 'Gunsmith',
@@ -2894,9 +2894,9 @@ export default [
       'Test firearms to make sure they\u2019re working properly',
       'May sell guns and accessories to customers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-206.jpg?quality=70&maxWidth=1600',
-    careerId: 206
+    id: 206
   },
   {
     title: 'Hairstylist',
@@ -2909,9 +2909,9 @@ export default [
       'Offer advice on how to maintain hair',
       'May trim, shave, and style moustaches and beards'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-207.jpg?quality=70&maxWidth=1600',
-    careerId: 207
+    id: 207
   },
   {
     title: 'Health Care Administrator',
@@ -2924,9 +2924,9 @@ export default [
       'Hire, fire, and train staff members',
       'Evaluate patient services and develop medical programs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-208.jpg?quality=70&maxWidth=1600',
-    careerId: 208
+    id: 208
   },
   {
     title: 'Health Records Professional',
@@ -2939,9 +2939,9 @@ export default [
       'Ensure patient files are kept confidential',
       'May use health information to create reports about diseases and treatments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-209.jpg?quality=70&maxWidth=1600',
-    careerId: 209
+    id: 209
   },
   {
     title: 'Heating, Air Conditioning, Refrigeration Tech',
@@ -2954,9 +2954,9 @@ export default [
       'Install motors, fans, ducts, and other parts',
       'Connect electrical wiring and controls'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-211.jpg?quality=70&maxWidth=1600',
-    careerId: 211
+    id: 211
   },
   {
     title: 'Heavy Equipment Technician',
@@ -2969,9 +2969,9 @@ export default [
       'Repairs need to be done in the field at times',
       'Some specialize in certain types of equipment'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-212.jpg?quality=70&maxWidth=1600',
-    careerId: 212
+    id: 212
   },
   {
     title: 'Heavy Equipment Operator',
@@ -2983,9 +2983,9 @@ export default [
       'Tear up roads, move huge amounts of earth, level roads, or lay new asphalt',
       'Demolition operators use their machines to tear down structures'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-213.jpg?quality=70&maxWidth=1600',
-    careerId: 213
+    id: 213
   },
   {
     title: 'Helicopter Pilot',
@@ -2998,9 +2998,9 @@ export default [
       'In the air, use hand and foot controls to control direction, altitude, and speed',
       'On landing, complete records on the flight'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-214.jpg?quality=70&maxWidth=1600',
-    careerId: 214
+    id: 214
   },
   {
     title: 'Historian',
@@ -3012,9 +3012,9 @@ export default [
       'Curators collect and preserve artefacts in museums',
       'Archivists store historical documents in archives'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-215.jpg?quality=70&maxWidth=1600',
-    careerId: 215
+    id: 215
   },
   {
     title: 'Personal Care Attendant',
@@ -3027,9 +3027,9 @@ export default [
       'Provide companionship to clients',
       'May help clients take medications'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-216.jpg?quality=70&maxWidth=1600',
-    careerId: 216
+    id: 216
   },
   {
     title: 'Home Economist',
@@ -3042,9 +3042,9 @@ export default [
       'Others work as journalists',
       'May develop government policies or promote programs and services'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-217.jpg?quality=70&maxWidth=1600',
-    careerId: 217
+    id: 217
   },
   {
     title: 'Home Inspector',
@@ -3056,9 +3056,9 @@ export default [
       'Examine plumbing, electrical, and heating systems',
       'Prepare reports on building problems or safety hazards'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-218.jpg?quality=70&maxWidth=1600',
-    careerId: 218
+    id: 218
   },
   {
     title: 'Homemaker',
@@ -3071,9 +3071,9 @@ export default [
       'Organize sports, music, or other after-school lessons and activities',
       'May volunteer with parent-teacher associations or community groups'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-219.jpg?quality=70&maxWidth=1600',
-    careerId: 219
+    id: 219
   },
   {
     title: 'Horticulturist',
@@ -3086,9 +3086,9 @@ export default [
       'Monitor temperature in greenhouses, or fertilize fields at outdoor nurseries',
       'Some do research for governments or teach at universities'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-220.jpg?quality=70&maxWidth=1600',
-    careerId: 220
+    id: 220
   },
   {
     title: 'Hotel Desk Clerk',
@@ -3101,9 +3101,9 @@ export default [
       'Answer guests\u2019 questions about the hotel and local area',
       'Deal with customer complaints'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-221.jpg?quality=70&maxWidth=1600',
-    careerId: 221
+    id: 221
   },
   {
     title: 'Hotel Manager',
@@ -3116,9 +3116,9 @@ export default [
       'Monitor the hotel\u2019s financial performance and look for ways to improve it',
       'Plan advertising and promotion campaigns'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-222.jpg?quality=70&maxWidth=1600',
-    careerId: 222
+    id: 222
   },
   {
     title: 'Housekeeper',
@@ -3131,9 +3131,9 @@ export default [
       'Some private housekeepers prepare meals and look after children',
       'May take out the garbage and feed pets'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-223.jpg?quality=70&maxWidth=1600',
-    careerId: 223
+    id: 223
   },
   {
     title: 'Human Resources Specialist',
@@ -3146,9 +3146,9 @@ export default [
       'Manage employee benefits and compensation ',
       'Negotiate agreements and help resolve labour disputes'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-224.jpg?quality=70&maxWidth=1600',
-    careerId: 224
+    id: 224
   },
   {
     title: 'Hydrologist / Hydrogeologist',
@@ -3161,9 +3161,9 @@ export default [
       'Study the water we drink, and make sure it is free of pollutants or diseases',
       'Hydrogeologists study groundwater'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-225.jpg?quality=70&maxWidth=1600',
-    careerId: 225
+    id: 225
   },
   {
     title: 'Illustrator',
@@ -3175,9 +3175,9 @@ export default [
       'Some create technical drawings showing the parts of machines',
       'Others draw models wearing the latest fashions, or draw other products'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-226.jpg?quality=70&maxWidth=1600',
-    careerId: 226
+    id: 226
   },
   {
     title: 'Immigration Officer',
@@ -3190,9 +3190,9 @@ export default [
       'Order illegal immigrants to be detained or deported',
       'Prepare reports and maintain records'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-227.jpg?quality=70&maxWidth=1600',
-    careerId: 227
+    id: 227
   },
   {
     title: 'Industrial Designer',
@@ -3204,9 +3204,9 @@ export default [
       'Create sketches, models, and prototypes of designs',
       'May help design packaging or promotional materials'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-228.jpg?quality=70&maxWidth=1600',
-    careerId: 228
+    id: 228
   },
   {
     title: 'Industrial Engineer',
@@ -3218,9 +3218,9 @@ export default [
       'In the office: interpret data, create charts, and design production systems',
       'On the plant floor: repair machines, speak to workers, and measure productivity'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-229.jpg?quality=70&maxWidth=1600',
-    careerId: 229
+    id: 229
   },
   {
     title: 'Industrial Engineering Tech',
@@ -3233,9 +3233,9 @@ export default [
       'Measure productivity, analyze production, and find ways improve efficiency',
       'Supervise construction projects'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-230.jpg?quality=70&maxWidth=1600',
-    careerId: 230
+    id: 230
   },
   {
     title: 'Industrial Machinery Mechanic',
@@ -3248,9 +3248,9 @@ export default [
       'Monitor and maintain working machines, including cleaning and oiling them',
       'Keep records of maintenance and repair work'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-231.jpg?quality=70&maxWidth=1600',
-    careerId: 231
+    id: 231
   },
   {
     title: 'Infantry',
@@ -3263,9 +3263,9 @@ export default [
       'Operate and clean weapons, engage in combat, and use communication equipment',
       'May serve in peacekeeping forces'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-232.jpg?quality=70&maxWidth=1600',
-    careerId: 232
+    id: 232
   },
   {
     title: 'Insulator',
@@ -3278,9 +3278,9 @@ export default [
       'Spray in foam or loose insulation',
       'Cover insulation with plastic vapour barriers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-233.jpg?quality=70&maxWidth=1600',
-    careerId: 233
+    id: 233
   },
   {
     title: 'Insurance Agent / Broker',
@@ -3293,9 +3293,9 @@ export default [
       'Agents sell insurance for a single company',
       'Brokers sell insurance from several companies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-234.jpg?quality=70&maxWidth=1600',
-    careerId: 234
+    id: 234
   },
   {
     title: 'Insurance Claims Adjuster',
@@ -3307,9 +3307,9 @@ export default [
       'Read medical and police records, and examine diagrams and photos of damages',
       'Determine the amount of money owed to claimants and negotiate settlements'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-235.jpg?quality=70&maxWidth=1600',
-    careerId: 235
+    id: 235
   },
   {
     title: 'Insurance Underwriter',
@@ -3321,9 +3321,9 @@ export default [
       'Determine the cost and terms of insurance policies for approved clients',
       'Usually specialize in a certain area, such as home, health, or life insurance'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-236.jpg?quality=70&maxWidth=1600',
-    careerId: 236
+    id: 236
   },
   {
     title: 'Interior Designer',
@@ -3336,9 +3336,9 @@ export default [
       'Oversee budgets and schedules for projects',
       'May specialize in home or commercial design'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-237.jpg?quality=70&maxWidth=1600',
-    careerId: 237
+    id: 237
   },
   {
     title: 'Interpreter',
@@ -3351,9 +3351,9 @@ export default [
       'Consecutive interpreters translate during pauses in a speech',
       'May specialize in conference, court, medical, or other types if interpretation'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-239.jpg?quality=70&maxWidth=1600',
-    careerId: 239
+    id: 239
   },
   {
     title: 'Inventor',
@@ -3366,9 +3366,9 @@ export default [
       'Arrange to have products manufactured',
       'Persuade stores and businesses to sell inventions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-240.jpg?quality=70&maxWidth=1600',
-    careerId: 240
+    id: 240
   },
   {
     title: 'Investment Advisor',
@@ -3381,9 +3381,9 @@ export default [
       'Buy and sell investments for clients',
       'Monitor clients\u2019 investments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-241.jpg?quality=70&maxWidth=1600',
-    careerId: 241
+    id: 241
   },
   {
     title: 'Investment Banker',
@@ -3396,9 +3396,9 @@ export default [
       'Negotiate other deals, such as corporate mergers, sales, and acquisitions',
       'Research companies to determine prices of mergers or acquisitions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-242.jpg?quality=70&maxWidth=1600',
-    careerId: 242
+    id: 242
   },
   {
     title: 'Ironworker',
@@ -3411,9 +3411,9 @@ export default [
       'Bolt pieces together and check they are level and plum',
       'Permanently bolt or weld pieces in place'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-243.jpg?quality=70&maxWidth=1600',
-    careerId: 243
+    id: 243
   },
   {
     title: 'Jeweller',
@@ -3426,9 +3426,9 @@ export default [
       'Gemologists appraise the value of gems and stones',
       'Usually specialize in one or two tasks, such as selling and repairing jewellery'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-244.jpg?quality=70&maxWidth=1600',
-    careerId: 244
+    id: 244
   },
   {
     title: 'Judge',
@@ -3441,9 +3441,9 @@ export default [
       'If there is no jury, examine the evidence and decide the verdict',
       'Decide punishments for those found guilty'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-245.jpg?quality=70&maxWidth=1600',
-    careerId: 245
+    id: 245
   },
   {
     title: 'Kinesiologist',
@@ -3455,9 +3455,9 @@ export default [
       'Ergonomic kinesiologists improve workplaces to prevent injuries',
       'Move chairs and computers and make other changes to reduce physical challenges'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-246.jpg?quality=70&maxWidth=1600',
-    careerId: 246
+    id: 246
   },
   {
     title: 'Land Surveyor',
@@ -3470,9 +3470,9 @@ export default [
       'Create detailed maps of properties',
       'Produce written reports of their findings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-247.jpg?quality=70&maxWidth=1600',
-    careerId: 247
+    id: 247
   },
   {
     title: 'Landscape Architect',
@@ -3485,9 +3485,9 @@ export default [
       'Finalize drawings, materials list, and instructions',
       'Supervise construction of the design'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-248.jpg?quality=70&maxWidth=1600',
-    careerId: 248
+    id: 248
   },
   {
     title: 'Landscaper',
@@ -3500,9 +3500,9 @@ export default [
       'Some draw up landscape plans; others follow the designs of landscape architects',
       'May work on indoor spaces, such as malls'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-249.jpg?quality=70&maxWidth=1600',
-    careerId: 249
+    id: 249
   },
   {
     title: 'Lawyer',
@@ -3515,9 +3515,9 @@ export default [
       'Represent clients in court and in legal negotiations',
       'May specialize in criminal, corporate, or another area of the law'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-250.jpg?quality=70&maxWidth=1600',
-    careerId: 250
+    id: 250
   },
   {
     title: 'Librarian',
@@ -3530,9 +3530,9 @@ export default [
       'Instruct patrons on how to access library and web-based resources',
       'Supervise other library staff'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-251.jpg?quality=70&maxWidth=1600',
-    careerId: 251
+    id: 251
   },
   {
     title: 'Library Technician',
@@ -3545,9 +3545,9 @@ export default [
       'Show patrons how to use the library database',
       'Some arrange displays to showcase the library\u2019s collections'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-252.jpg?quality=70&maxWidth=1600',
-    careerId: 252
+    id: 252
   },
   {
     title: 'Lifeguard',
@@ -3560,9 +3560,9 @@ export default [
       'Rescue swimmers if necessary, and deal with other emergencies and accidents',
       'Administer first aid or CPR if required'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-253.jpg?quality=70&maxWidth=1600',
-    careerId: 253
+    id: 253
   },
   {
     title: 'Lighting Technician',
@@ -3574,9 +3574,9 @@ export default [
       'Unload and assemble lighting equipment ',
       'Operate lights, adjusting settings as directed'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-254.jpg?quality=70&maxWidth=1600',
-    careerId: 254
+    id: 254
   },
   {
     title: 'Lineworker',
@@ -3589,9 +3589,9 @@ export default [
       'Repair faulty and damaged power lines and equipment',
       'Work as part of a team'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-255.jpg?quality=70&maxWidth=1600',
-    careerId: 255
+    id: 255
   },
   {
     title: 'Lobbyist',
@@ -3604,9 +3604,9 @@ export default [
       'Arrange meetings between clients and government officials',
       'Obtain government funding or contracts for clients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-256.jpg?quality=70&maxWidth=1600',
-    careerId: 256
+    id: 256
   },
   {
     title: 'Locksmith',
@@ -3619,9 +3619,9 @@ export default [
       'Respond to calls of locked-out people and pick locks so they can get inside',
       'Some install and service safes and vaults'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-257.jpg?quality=70&maxWidth=1600',
-    careerId: 257
+    id: 257
   },
   {
     title: 'Logistics Specialist',
@@ -3633,9 +3633,9 @@ export default [
       'Evaluate staffing levels in the supply chain to decide if they are sufficient',
       'Present findings to management, along with recommendations for improvement'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-259.jpg?quality=70&maxWidth=1600',
-    careerId: 259
+    id: 259
   },
   {
     title: 'Machinist',
@@ -3648,9 +3648,9 @@ export default [
       'Make pieces using a variety of machines, including drills and milling machines',
       'Measure pieces to make sure they are right'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-260.jpg?quality=70&maxWidth=1600',
-    careerId: 260
+    id: 260
   },
   {
     title: 'Mail Carrier',
@@ -3663,9 +3663,9 @@ export default [
       'May have to collect payment for some packages',
       'Return to the post office and drop off undeliverable mail'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-261.jpg?quality=70&maxWidth=1600',
-    careerId: 261
+    id: 261
   },
   {
     title: 'Makeup Artist',
@@ -3678,9 +3678,9 @@ export default [
       'Create prosthetics out of foam rubber, silicone, gelatin, latex, or plastic',
       'Apply special effects makeup prosthetics, such as facial scars or tentacles'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-262.jpg?quality=70&maxWidth=1600',
-    careerId: 262
+    id: 262
   },
   {
     title: 'Management Consultant',
@@ -3693,9 +3693,9 @@ export default [
       'Research and recommend improvements',
       'Work with companies to develop a plan to make changes'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-263.jpg?quality=70&maxWidth=1600',
-    careerId: 263
+    id: 263
   },
   {
     title: 'Nail Technician',
@@ -3708,9 +3708,9 @@ export default [
       'Soak, clean, and massage clients\u2019 hands and feet',
       'Give advice on how to maintain nails'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-264.jpg?quality=70&maxWidth=1600',
-    careerId: 264
+    id: 264
   },
   {
     title: 'Manufacturing Machine Operator',
@@ -3723,9 +3723,9 @@ export default [
       'Make adjustments to controls as required',
       'Unload finished products and inspect them for quality'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-265.jpg?quality=70&maxWidth=1600',
-    careerId: 265
+    id: 265
   },
   {
     title: 'Marine Biologist',
@@ -3738,9 +3738,9 @@ export default [
       'Some care for animals in aquariums or zoos',
       'Professors teach students'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-266.jpg?quality=70&maxWidth=1600',
-    careerId: 266
+    id: 266
   },
   {
     title: 'Market Research Analyst',
@@ -3753,9 +3753,9 @@ export default [
       'Predict consumer and market trends',
       'Analyze data and write reports on the findings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-267.jpg?quality=70&maxWidth=1600',
-    careerId: 267
+    id: 267
   },
   {
     title: 'Marketing Specialist',
@@ -3767,9 +3767,9 @@ export default [
       'Develop pricing, image, and selling strategies for products',
       'Help develop promotional materials, such as flyers and pamphlets'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-268.jpg?quality=70&maxWidth=1600',
-    careerId: 268
+    id: 268
   },
   {
     title: 'Marriage and Family Therapist',
@@ -3782,9 +3782,9 @@ export default [
       'Provide one-on-one or group counselling to clients',
       'Refer clients to resources, such as legal aid '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-269.jpg?quality=70&maxWidth=1600',
-    careerId: 269
+    id: 269
   },
   {
     title: 'Massage Therapist',
@@ -3797,9 +3797,9 @@ export default [
       'Show patients stretches that will help them manage their pain',
       'Often specialize in different techniques or types of massage'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-270.jpg?quality=70&maxWidth=1600',
-    careerId: 270
+    id: 270
   },
   {
     title: 'Materials / Metallurgical Engineer',
@@ -3812,9 +3812,9 @@ export default [
       'Design processes needed to make the materials',
       'Extractive metallurgists separate metals from rock and ore'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-271.jpg?quality=70&maxWidth=1600',
-    careerId: 271
+    id: 271
   },
   {
     title: 'Mechanical Engineer',
@@ -3827,9 +3827,9 @@ export default [
       'Test and repair machines when necessary',
       'Answer clients\u2019 questions about machinery'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-273.jpg?quality=70&maxWidth=1600',
-    careerId: 273
+    id: 273
   },
   {
     title: 'Mechanical Engineering Tech',
@@ -3842,9 +3842,9 @@ export default [
       'Lay out the production process for each part or system to be made',
       'Analyze the costs and practicality of designs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-274.jpg?quality=70&maxWidth=1600',
-    careerId: 274
+    id: 274
   },
   {
     title: 'Media Buyer',
@@ -3857,9 +3857,9 @@ export default [
       'Negotiate ad prices and schedules',
       'Arrange for payment'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-275.jpg?quality=70&maxWidth=1600',
-    careerId: 275
+    id: 275
   },
   {
     title: 'Mediator',
@@ -3871,9 +3871,9 @@ export default [
       'Propose options and help parties find a reasonable solution',
       'Put agreement details in writing and have parties sign the contract'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-276.jpg?quality=70&maxWidth=1600',
-    careerId: 276
+    id: 276
   },
   {
     title: 'Medical Imaging Tech',
@@ -3886,9 +3886,9 @@ export default [
       'MRI techs operate machines that use radio waves',
       'Ultrasonographers operate machines that use sound waves'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-277.jpg?quality=70&maxWidth=1600',
-    careerId: 277
+    id: 277
   },
   {
     title: 'Medical Lab Tech',
@@ -3901,9 +3901,9 @@ export default [
       'May specialize in certain kinds of tests',
       'Technologists perform more advanced tasks than technicians'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-278.jpg?quality=70&maxWidth=1600',
-    careerId: 278
+    id: 278
   },
   {
     title: 'Meteorologist',
@@ -3916,9 +3916,9 @@ export default [
       'Study the effects of pollution on climate ',
       'Some broadcast weather predictions on TV or radio'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-280.jpg?quality=70&maxWidth=1600',
-    careerId: 280
+    id: 280
   },
   {
     title: 'Microbiologist',
@@ -3931,9 +3931,9 @@ export default [
       'Some help develop new products or processes, such as waste treatment',
       'Write reports describing findings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-281.jpg?quality=70&maxWidth=1600',
-    careerId: 281
+    id: 281
   },
   {
     title: 'Midwife',
@@ -3946,9 +3946,9 @@ export default [
       'Provide advice on diet and exercise',
       'Monitor contractions and provide emotional support during labour'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-282.jpg?quality=70&maxWidth=1600',
-    careerId: 282
+    id: 282
   },
   {
     title: 'Military Engineer',
@@ -3961,9 +3961,9 @@ export default [
       'Air Force engineers maintain and manage aircraft and support equipment',
       'Navy engineers maintain combat and marine systems in ships and submarines'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-283.jpg?quality=70&maxWidth=1600',
-    careerId: 283
+    id: 283
   },
   {
     title: 'Military Officer',
@@ -3976,9 +3976,9 @@ export default [
       'Other tasks depend on the branch of service',
       'Navy officers may navigate ships; Air Force officers may fly aircraft'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-284.jpg?quality=70&maxWidth=1600',
-    careerId: 284
+    id: 284
   },
   {
     title: 'Millwright',
@@ -3990,9 +3990,9 @@ export default [
       'Read blueprints, technical drawings, and manuals to install machinery correctly',
       'If machines break down, diagnose the problem and do the necessary repair work'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-285.jpg?quality=70&maxWidth=1600',
-    careerId: 285
+    id: 285
   },
   {
     title: 'Miner (Underground)',
@@ -4004,9 +4004,9 @@ export default [
       'Oversee the process of breaking up the rock and ore with mechanical crushers',
       'When there is no ore left, backfill the area with waste rock or sand'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-286.jpg?quality=70&maxWidth=1600',
-    careerId: 286
+    id: 286
   },
   {
     title: 'Mining Engineer',
@@ -4019,9 +4019,9 @@ export default [
       'Decide if the materials can be removed safely',
       'Design and supervise mining operations'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-287.jpg?quality=70&maxWidth=1600',
-    careerId: 287
+    id: 287
   },
   {
     title: 'Mining Engineering Tech',
@@ -4034,9 +4034,9 @@ export default [
       'Design and conduct environmental studies ',
       'Help develop mining operations  equipment, such as mine ventilation systems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-288.jpg?quality=70&maxWidth=1600',
-    careerId: 288
+    id: 288
   },
   {
     title: 'Model',
@@ -4049,9 +4049,9 @@ export default [
       'At photo shoots, pose in different outfits while being photographed',
       'May also work at trade shows'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-289.jpg?quality=70&maxWidth=1600',
-    careerId: 289
+    id: 289
   },
   {
     title: 'Model Maker',
@@ -4064,9 +4064,9 @@ export default [
       'Work with wood, foam, clay, plaster, metal, and other materials',
       'Specialize in a particular area, such as making models for use in movies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-290.jpg?quality=70&maxWidth=1600',
-    careerId: 290
+    id: 290
   },
   {
     title: 'Motorcycle Mechanic',
@@ -4078,9 +4078,9 @@ export default [
       'Repair, adjust, or replace parts that aren\u2019t working properly',
       'Many also do small body repairs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-291.jpg?quality=70&maxWidth=1600',
-    careerId: 291
+    id: 291
   },
   {
     title: 'Mover',
@@ -4093,9 +4093,9 @@ export default [
       'Load the truck carefully and make sure everything is properly secured',
       'Drive to the destination and then unload the truck'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-292.jpg?quality=70&maxWidth=1600',
-    careerId: 292
+    id: 292
   },
   {
     title: 'Digital Media Specialist',
@@ -4108,9 +4108,9 @@ export default [
       'Photographers and videographers produce photos and films',
       'Programmers write the computer code'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-293.jpg?quality=70&maxWidth=1600',
-    careerId: 293
+    id: 293
   },
   {
     title: 'Music Teacher / Instructor',
@@ -4123,9 +4123,9 @@ export default [
       'Design exercises or drills for students',
       'Teach music interpretation and theory'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-294.jpg?quality=70&maxWidth=1600',
-    careerId: 294
+    id: 294
   },
   {
     title: 'Musical Instrument Builder and Repairer',
@@ -4138,9 +4138,9 @@ export default [
       'Find problems with broken instruments by inspecting and playing them',
       'Repair or replace damaged parts'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-295.jpg?quality=70&maxWidth=1600',
-    careerId: 295
+    id: 295
   },
   {
     title: 'Musician',
@@ -4153,9 +4153,9 @@ export default [
       'Record music for albums, movies, or commercials',
       'Some compose their own music'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-296.jpg?quality=70&maxWidth=1600',
-    careerId: 296
+    id: 296
   },
   {
     title: 'Nanny',
@@ -4168,9 +4168,9 @@ export default [
       'Comfort children when they\u2019re sick or injured',
       'May do grocery shopping, cooking, laundry, or other housework'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-297.jpg?quality=70&maxWidth=1600',
-    careerId: 297
+    id: 297
   },
   {
     title: 'Naturopath',
@@ -4183,9 +4183,9 @@ export default [
       'Encourage patients to make lifestyle changes',
       'Refer patients to medical doctors if needed'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-299.jpg?quality=70&maxWidth=1600',
-    careerId: 299
+    id: 299
   },
   {
     title: 'Non-Commissioned Member',
@@ -4198,9 +4198,9 @@ export default [
       'Participate in training exercises',
       'Supervise lower ranking non-commissioned members'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-300.jpg?quality=70&maxWidth=1600',
-    careerId: 300
+    id: 300
   },
   {
     title: 'Nuclear Medicine Technologist',
@@ -4213,9 +4213,9 @@ export default [
       'Take images as the chemicals pass through the patient\u2019s body',
       'Provide images to the patient\u2019s doctor'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-301.jpg?quality=70&maxWidth=1600',
-    careerId: 301
+    id: 301
   },
   {
     title: 'Nurse',
@@ -4228,9 +4228,9 @@ export default [
       'Keep patients informed',
       'Maintain records and charts, and supervise other nurses and support staff'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-302.jpg?quality=70&maxWidth=1600',
-    careerId: 302
+    id: 302
   },
   {
     title: 'Nurse Practitioner',
@@ -4243,9 +4243,9 @@ export default [
       'May prescribe medication, order lab tests, and interpret test results',
       'Educate the community about health issues'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-303.jpg?quality=70&maxWidth=1600',
-    careerId: 303
+    id: 303
   },
   {
     title: 'Nursery / Greenhouse Grower',
@@ -4258,9 +4258,9 @@ export default [
       'Some decide what kind of plants to grow and set planting schedules ',
       'May develop marketing plans to sell plants'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-304.jpg?quality=70&maxWidth=1600',
-    careerId: 304
+    id: 304
   },
   {
     title: 'Obstetrician-Gynecologist',
@@ -4273,9 +4273,9 @@ export default [
       'Perform tests and procedures related to the reproductive system',
       'May specialize in areas such as infertility or high-risk pregnancy'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-306.jpg?quality=70&maxWidth=1600',
-    careerId: 306
+    id: 306
   },
   {
     title: 'Occupational Therapist',
@@ -4288,9 +4288,9 @@ export default [
       'Work with doctors, physiotherapists, and social workers to design programs',
       'Keep records of clients\u2019 progress'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-307.jpg?quality=70&maxWidth=1600',
-    careerId: 307
+    id: 307
   },
   {
     title: 'Oceanographer',
@@ -4303,9 +4303,9 @@ export default [
       'Analyze research data and consult with other scientists',
       'Write reports and make recommendations based on the findings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-308.jpg?quality=70&maxWidth=1600',
-    careerId: 308
+    id: 308
   },
   {
     title: 'Office Machine Repairer',
@@ -4318,9 +4318,9 @@ export default [
       'May install new machines and show people how to use them',
       'Some sell new equipment, parts, and supplies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-309.jpg?quality=70&maxWidth=1600',
-    careerId: 309
+    id: 309
   },
   {
     title: 'Office Manager',
@@ -4333,9 +4333,9 @@ export default [
       'Order supplies and ensure all equipment, such as computer networks, is working',
       'Oversee office projects, ensuring they are properly staffed and on schedule'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-310.jpg?quality=70&maxWidth=1600',
-    careerId: 310
+    id: 310
   },
   {
     title: 'Oil and Gas Well Drilling Crew',
@@ -4347,9 +4347,9 @@ export default [
       'Derrickhands maintain and repair the drilling equipment as needed',
       'Drillers work in the control room, operating the drill itself'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-311.jpg?quality=70&maxWidth=1600',
-    careerId: 311
+    id: 311
   },
   {
     title: 'Operations Research Analyst',
@@ -4362,9 +4362,9 @@ export default [
       'Analyze results and develop solutions',
       'Present recommendations to managers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-312.jpg?quality=70&maxWidth=1600',
-    careerId: 312
+    id: 312
   },
   {
     title: 'Optician',
@@ -4377,9 +4377,9 @@ export default [
       'Adjust glasses for customers',
       'Teach customers how to insert and remove contact lenses'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-313.jpg?quality=70&maxWidth=1600',
-    careerId: 313
+    id: 313
   },
   {
     title: 'Optometrist',
@@ -4392,9 +4392,9 @@ export default [
       'Refer patients to doctors if evidence of diabetes or other diseases is found',
       'May remove splinters and apply eye drops'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-314.jpg?quality=70&maxWidth=1600',
-    careerId: 314
+    id: 314
   },
   {
     title: 'Outdoor Guide',
@@ -4407,9 +4407,9 @@ export default [
       'Lead groups and help people when necessary',
       'Teach people how to perform activities such as snowshoeing'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-315.jpg?quality=70&maxWidth=1600',
-    careerId: 315
+    id: 315
   },
   {
     title: 'Painter',
@@ -4422,9 +4422,9 @@ export default [
       'Prepare surfaces by washing them and filling any cracks or holes',
       'Paint walls and ceilings using paint rollers, brushes, or spray guns'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-316.jpg?quality=70&maxWidth=1600',
-    careerId: 316
+    id: 316
   },
   {
     title: 'Paralegal',
@@ -4437,9 +4437,9 @@ export default [
       'Provide information to clients',
       'May represent clients in minor matters before courts, boards, and tribunals'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-317.jpg?quality=70&maxWidth=1600',
-    careerId: 317
+    id: 317
   },
   {
     title: 'Paramedic',
@@ -4451,9 +4451,9 @@ export default [
       'May open airways, give oxygen, shock stopped hearts, or administer medication',
       'The kind of treatment provided depends on the province and level of training'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-318.jpg?quality=70&maxWidth=1600',
-    careerId: 318
+    id: 318
   },
   {
     title: 'Park Warden / Ranger',
@@ -4466,9 +4466,9 @@ export default [
       'Monitor, trap, and handle animals',
       'Collect fees, control traffic, and lead tours'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-319.jpg?quality=70&maxWidth=1600',
-    careerId: 319
+    id: 319
   },
   {
     title: 'Parking Lot Attendant',
@@ -4481,9 +4481,9 @@ export default [
       'Keep lots clean and tidy',
       'Valets park cars for customers and get the cars when they are ready to leave'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-320.jpg?quality=70&maxWidth=1600',
-    careerId: 320
+    id: 320
   },
   {
     title: 'Pediatrician',
@@ -4495,9 +4495,9 @@ export default [
       'Help patients through difficult times, such as puberty or family problems',
       'Communicate with social workers, family members, and other health care workers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-321.jpg?quality=70&maxWidth=1600',
-    careerId: 321
+    id: 321
   },
   {
     title: 'Personal Financial Planner',
@@ -4509,9 +4509,9 @@ export default [
       'Help clients determine their financial goals and objectives',
       'Recommend financial plans and investment strategies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-322.jpg?quality=70&maxWidth=1600',
-    careerId: 322
+    id: 322
   },
   {
     title: 'Personal Trainer',
@@ -4523,9 +4523,9 @@ export default [
       'Show clients how to perform exercises and use gym equipment',
       'Work out with clients, offering motivation and encouragement '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-323.jpg?quality=70&maxWidth=1600',
-    careerId: 323
+    id: 323
   },
   {
     title: 'Pest Controller',
@@ -4538,9 +4538,9 @@ export default [
       'Follow up on treatment to ensure it worked',
       'Educate people about pest control'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-324.jpg?quality=70&maxWidth=1600',
-    careerId: 324
+    id: 324
   },
   {
     title: 'Pet Groomer',
@@ -4553,9 +4553,9 @@ export default [
       'Calm nervous animals',
       'Teach owners about fur maintenance'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-325.jpg?quality=70&maxWidth=1600',
-    careerId: 325
+    id: 325
   },
   {
     title: 'Pharmacist',
@@ -4567,9 +4567,9 @@ export default [
       'Inform patients of any side effects and answer their questions',
       'Supervise pharmacy technicians as they prepare and dispense medications'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-326.jpg?quality=70&maxWidth=1600',
-    careerId: 326
+    id: 326
   },
   {
     title: 'Pharmacologist',
@@ -4582,9 +4582,9 @@ export default [
       'Some are also doctors, and others teach at universities',
       'Usually specialize in a particular area of research'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-327.jpg?quality=70&maxWidth=1600',
-    careerId: 327
+    id: 327
   },
   {
     title: 'Pharmacy Technician',
@@ -4597,9 +4597,9 @@ export default [
       'Prepare drug doses to be administered by nurses in hospital pharmacies',
       'Exact duties depend on where they work'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-328.jpg?quality=70&maxWidth=1600',
-    careerId: 328
+    id: 328
   },
   {
     title: 'Photographer',
@@ -4612,9 +4612,9 @@ export default [
       'While shooting, adjust camera settings, such as shutter speed',
       'Use computers to fix and alter images'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-329.jpg?quality=70&maxWidth=1600',
-    careerId: 329
+    id: 329
   },
   {
     title: 'Physicist',
@@ -4627,9 +4627,9 @@ export default [
       'Prepare and present reports',
       'Professors teach and advise students, and mark papers and exams'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-330.jpg?quality=70&maxWidth=1600',
-    careerId: 330
+    id: 330
   },
   {
     title: 'Physiotherapist',
@@ -4642,9 +4642,9 @@ export default [
       'Teach exercises and stretches to patients',
       'Monitor and document patients\u2019 progress'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-331.jpg?quality=70&maxWidth=1600',
-    careerId: 331
+    id: 331
   },
   {
     title: 'Picture Framer',
@@ -4657,9 +4657,9 @@ export default [
       'Collect customers\u2019 payments',
       'May repair damaged frames and sell framed artwork'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-332.jpg?quality=70&maxWidth=1600',
-    careerId: 332
+    id: 332
   },
   {
     title: 'Pilot',
@@ -4672,9 +4672,9 @@ export default [
       'Monitor all gauges and systems during flight',
       'On landing, secure aircraft, fill out paperwork, and tell mechanics of problems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-333.jpg?quality=70&maxWidth=1600',
-    careerId: 333
+    id: 333
   },
   {
     title: 'Pipefitter',
@@ -4687,9 +4687,9 @@ export default [
       'Install and secure the pipes and test for leaks and other problems',
       'May repair and maintain old pipe systems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-334.jpg?quality=70&maxWidth=1600',
-    careerId: 334
+    id: 334
   },
   {
     title: 'Planner',
@@ -4702,9 +4702,9 @@ export default [
       'Develop policies and programs on land use',
       'May specialize in urban, regional, environmental, or construction planning'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-335.jpg?quality=70&maxWidth=1600',
-    careerId: 335
+    id: 335
   },
   {
     title: 'Plasterer',
@@ -4717,9 +4717,9 @@ export default [
       'Produce decorative surfaces using the trowel',
       'Create and install decorative trim work, such as crown moulding'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-336.jpg?quality=70&maxWidth=1600',
-    careerId: 336
+    id: 336
   },
   {
     title: 'Plastic Surgeon',
@@ -4731,9 +4731,9 @@ export default [
       'Perform cosmetic surgery, such as facelifts, to improve patients\u2019 looks',
       'May specialize in reconstructive or cosmetic surgery, or do both'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-337.jpg?quality=70&maxWidth=1600',
-    careerId: 337
+    id: 337
   },
   {
     title: 'Plumber',
@@ -4746,9 +4746,9 @@ export default [
       'Fit water supply and drainage pipes using soldering equipment and glue',
       'Install fixtures such as toilets and faucets'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-338.jpg?quality=70&maxWidth=1600',
-    careerId: 338
+    id: 338
   },
   {
     title: 'Podiatrist',
@@ -4761,9 +4761,9 @@ export default [
       'May perform surgery for serious problems',
       'Design braces, casts, or straps for people with foot deformities'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-339.jpg?quality=70&maxWidth=1600',
-    careerId: 339
+    id: 339
   },
   {
     title: 'Police Officer',
@@ -4776,9 +4776,9 @@ export default [
       'Investigate criminal activity by interviewing witnesses and looking for evidence',
       'May work with special units or task forces'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-340.jpg?quality=70&maxWidth=1600',
-    careerId: 340
+    id: 340
   },
   {
     title: 'Political Aide',
@@ -4791,9 +4791,9 @@ export default [
       'Some provide advice on public policy',
       'May act as politicians\u2019 spokespersons'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-341.jpg?quality=70&maxWidth=1600',
-    careerId: 341
+    id: 341
   },
   {
     title: 'Politician',
@@ -4806,9 +4806,9 @@ export default [
       'Introduce, debate, and vote on new legislation',
       'May focus on local, provincial, or federal matters'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-342.jpg?quality=70&maxWidth=1600',
-    careerId: 342
+    id: 342
   },
   {
     title: 'Postal Clerk',
@@ -4821,9 +4821,9 @@ export default [
       'Window clerks sell stamps and other mail services and accept items to be mailed ',
       'Check the ID of customers who are picking up letters or parcels'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-343.jpg?quality=70&maxWidth=1600',
-    careerId: 343
+    id: 343
   },
   {
     title: 'Power Plant Operator',
@@ -4836,9 +4836,9 @@ export default [
       'Clean and maintain equipment and facilities',
       'Ensure safety procedures are followed'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-344.jpg?quality=70&maxWidth=1600',
-    careerId: 344
+    id: 344
   },
   {
     title: 'Print Journalist',
@@ -4851,9 +4851,9 @@ export default [
       'Organize, write, and edit articles',
       'May write news stories, investigative reports, features, or columns '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-345.jpg?quality=70&maxWidth=1600',
-    careerId: 345
+    id: 345
   },
   {
     title: 'Printing Press Operator',
@@ -4865,9 +4865,9 @@ export default [
       'Move printed materials to folding, cutting, and assembling machines',
       'Some load files and run computerized copiers and printers in small shops'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-346.jpg?quality=70&maxWidth=1600',
-    careerId: 346
+    id: 346
   },
   {
     title: 'Private Investigator',
@@ -4880,9 +4880,9 @@ export default [
       'May specialize in a certain field, such as computer crime',
       'Corporate investigators conduct internal investigations for companies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-347.jpg?quality=70&maxWidth=1600',
-    careerId: 347
+    id: 347
   },
   {
     title: 'Probation Officer',
@@ -4895,9 +4895,9 @@ export default [
       'Advise judges on probation decisions',
       'Parole officers work with offenders who have committed more serious crimes'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-348.jpg?quality=70&maxWidth=1600',
-    careerId: 348
+    id: 348
   },
   {
     title: 'Producer',
@@ -4910,9 +4910,9 @@ export default [
       'Oversee editing and the creation of sound and special effects',
       'Plan and oversee marketing and distribution strategies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-349.jpg?quality=70&maxWidth=1600',
-    careerId: 349
+    id: 349
   },
   {
     title: 'Production Woodworker',
@@ -4924,9 +4924,9 @@ export default [
       'Others make finished products from lumber, such as window frames and furniture',
       'Measure materials, and operate machines that shape and assemble the pieces'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-350.jpg?quality=70&maxWidth=1600',
-    careerId: 350
+    id: 350
   },
   {
     title: 'Professional Athlete',
@@ -4938,9 +4938,9 @@ export default [
       'Compete in games or matches',
       'Receive treatment for injuries or strains if necessary'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-351.jpg?quality=70&maxWidth=1600',
-    careerId: 351
+    id: 351
   },
   {
     title: 'Professor',
@@ -4953,9 +4953,9 @@ export default [
       'Write essays, articles, and books',
       'Perform administrative work'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-352.jpg?quality=70&maxWidth=1600',
-    careerId: 352
+    id: 352
   },
   {
     title: 'IT Project Manager',
@@ -4968,9 +4968,9 @@ export default [
       'Oversee team members and monitor progress',
       'Some find clients, and install and test programs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-353.jpg?quality=70&maxWidth=1600',
-    careerId: 353
+    id: 353
   },
   {
     title: 'Property Manager',
@@ -4983,9 +4983,9 @@ export default [
       'May show vacancies to potential renters or buyers',
       'Negotiate rental contracts and collect rent and fees from tenants'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-354.jpg?quality=70&maxWidth=1600',
-    careerId: 354
+    id: 354
   },
   {
     title: 'Prosthetist / Orthotist',
@@ -4998,9 +4998,9 @@ export default [
       'Fit patients with artificial limbs or braces, and make adjustments',
       'Provide information to patients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-355.jpg?quality=70&maxWidth=1600',
-    careerId: 355
+    id: 355
   },
   {
     title: 'Psychiatrist',
@@ -5013,9 +5013,9 @@ export default [
       'Have patients hospitalized if necessary',
       'May specialize in an area such as child or forensic psychiatry'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-356.jpg?quality=70&maxWidth=1600',
-    careerId: 356
+    id: 356
   },
   {
     title: 'Psychologist',
@@ -5028,9 +5028,9 @@ export default [
       'Some conduct research and perform experiments',
       'May specialize in counselling, clinical, or another area of psychology'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-357.jpg?quality=70&maxWidth=1600',
-    careerId: 357
+    id: 357
   },
   {
     title: 'Public Health Nurse',
@@ -5042,9 +5042,9 @@ export default [
       'Some provide advice over the phone in call centres',
       'Monitor health trends and outbreaks in the community'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-358.jpg?quality=70&maxWidth=1600',
-    careerId: 358
+    id: 358
   },
   {
     title: 'Public Policy Analyst',
@@ -5057,9 +5057,9 @@ export default [
       'Attend meetings and negotiations',
       'Write letters and press releases, and prepare politicians for speeches'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-359.jpg?quality=70&maxWidth=1600',
-    careerId: 359
+    id: 359
   },
   {
     title: 'Public Relations Specialist',
@@ -5072,9 +5072,9 @@ export default [
       'Plan special events, such as fundraisers',
       'Keep clients informed of changes in public opinion'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-360.jpg?quality=70&maxWidth=1600',
-    careerId: 360
+    id: 360
   },
   {
     title: 'Publisher',
@@ -5087,9 +5087,9 @@ export default [
       'Develop long-term goals and business strategies',
       'Understand all areas of the business, such as advertising sales'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-361.jpg?quality=70&maxWidth=1600',
-    careerId: 361
+    id: 361
   },
   {
     title: 'Purchaser',
@@ -5102,9 +5102,9 @@ export default [
       'Prepare contracts and fill out paperwork',
       'Monitor changes in the economy, tax laws, and foreign suppliers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-362.jpg?quality=70&maxWidth=1600',
-    careerId: 362
+    id: 362
   },
   {
     title: 'Quality Controller',
@@ -5116,9 +5116,9 @@ export default [
       'Test samples of finished products to ensure they meet quality standards',
       'Quality control engineers develop and apply standards for inspectors to follow'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-363.jpg?quality=70&maxWidth=1600',
-    careerId: 363
+    id: 363
   },
   {
     title: 'Radiation Therapist',
@@ -5131,9 +5131,9 @@ export default [
       'Prepare applicators containing radioactive material for doctors to administer',
       'Provide information and support to patients, and check them for side effects'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-364.jpg?quality=70&maxWidth=1600',
-    careerId: 364
+    id: 364
   },
   {
     title: 'Real Estate Agent',
@@ -5146,9 +5146,9 @@ export default [
       'Help buyers find properties and arrange financing',
       'Negotiate price and terms of sale on behalf of sellers or buyers '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-365.jpg?quality=70&maxWidth=1600',
-    careerId: 365
+    id: 365
   },
   {
     title: 'Real Estate Appraiser',
@@ -5161,9 +5161,9 @@ export default [
       'Write reports about the value of properties',
       'May help settle insurance claims or testify in court'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-366.jpg?quality=70&maxWidth=1600',
-    careerId: 366
+    id: 366
   },
   {
     title: 'Receptionist / Information Clerk',
@@ -5176,9 +5176,9 @@ export default [
       'Schedule appointments',
       'Provide information about the organization to the public'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-367.jpg?quality=70&maxWidth=1600',
-    careerId: 367
+    id: 367
   },
   {
     title: 'Recording Engineer',
@@ -5191,9 +5191,9 @@ export default [
       'Suggest ways to improve sound',
       'Solve technical problems when they arise'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-368.jpg?quality=70&maxWidth=1600',
-    careerId: 368
+    id: 368
   },
   {
     title: 'Recreation Director',
@@ -5206,9 +5206,9 @@ export default [
       'Prepare and administer budgets',
       'Promote the club or centre to the public'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-369.jpg?quality=70&maxWidth=1600',
-    careerId: 369
+    id: 369
   },
   {
     title: 'Recreation Therapist',
@@ -5221,9 +5221,9 @@ export default [
       'Keep records and write reports',
       'Attend team meetings and professional development events'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-370.jpg?quality=70&maxWidth=1600',
-    careerId: 370
+    id: 370
   },
   {
     title: 'Practical Nurse',
@@ -5236,9 +5236,9 @@ export default [
       'Monitor vital signs',
       'Collect samples and perform routine lab tests'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-371.jpg?quality=70&maxWidth=1600',
-    careerId: 371
+    id: 371
   },
   {
     title: 'Rehabilitation Counsellor',
@@ -5251,9 +5251,9 @@ export default [
       'Monitor clients\u2019 progress',
       'Maintain records to be used in hearings or trials'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-372.jpg?quality=70&maxWidth=1600',
-    careerId: 372
+    id: 372
   },
   {
     title: 'Religious Worker',
@@ -5266,9 +5266,9 @@ export default [
       'Recruit and train volunteers',
       'Write newsletters and promotional materials'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-373.jpg?quality=70&maxWidth=1600',
-    careerId: 373
+    id: 373
   },
   {
     title: 'Research Analyst (Financial)',
@@ -5281,9 +5281,9 @@ export default [
       'Write reports of the findings for investors ',
       'Most specialize in one sector of the economy'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-375.jpg?quality=70&maxWidth=1600',
-    careerId: 375
+    id: 375
   },
   {
     title: 'Researcher',
@@ -5296,9 +5296,9 @@ export default [
       'Write summaries or analyses of their findings',
       'Special librarians collect and organize materials relating to corporations'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-376.jpg?quality=70&maxWidth=1600',
-    careerId: 376
+    id: 376
   },
   {
     title: 'Respiratory Therapist',
@@ -5311,9 +5311,9 @@ export default [
       'Record patient information and brief doctors',
       'Educate patients on how to deal with their respiratory problems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-378.jpg?quality=70&maxWidth=1600',
-    careerId: 378
+    id: 378
   },
   {
     title: 'Restaurant Manager',
@@ -5326,9 +5326,9 @@ export default [
       'Ensure health and safety standards are met',
       'Prepare budgets, maintain sales records, and manage payrolls'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-379.jpg?quality=70&maxWidth=1600',
-    careerId: 379
+    id: 379
   },
   {
     title: 'Retail Buyer',
@@ -5341,9 +5341,9 @@ export default [
       'Find suppliers and negotiate quantity, prices, and delivery schedule',
       'May purchase goods for one department or a whole store'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-380.jpg?quality=70&maxWidth=1600',
-    careerId: 380
+    id: 380
   },
   {
     title: 'Retail Salesperson',
@@ -5356,9 +5356,9 @@ export default [
       'Arrange and price merchandise, and do inventory',
       'Deal with customer complaints, exchanges, and refunds'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-381.jpg?quality=70&maxWidth=1600',
-    careerId: 381
+    id: 381
   },
   {
     title: 'Road Construction and Maintenance Worker',
@@ -5371,9 +5371,9 @@ export default [
       'Repair damaged sections by filling potholes',
       'Clear roads and ditches, and maintain road shoulders, signs, and guard rails'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-382.jpg?quality=70&maxWidth=1600',
-    careerId: 382
+    id: 382
   },
   {
     title: 'Roofer',
@@ -5386,9 +5386,9 @@ export default [
       'Use metal to create watertight seals',
       'Inspect older roofs for damage'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-383.jpg?quality=70&maxWidth=1600',
-    careerId: 383
+    id: 383
   },
   {
     title: 'Sales Representative',
@@ -5401,9 +5401,9 @@ export default [
       'Prepare cost estimates and negotiate sales',
       'Keep records of potential and repeat customers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-384.jpg?quality=70&maxWidth=1600',
-    careerId: 384
+    id: 384
   },
   {
     title: 'Scientist',
@@ -5416,9 +5416,9 @@ export default [
       'Write grant proposals to get funding',
       'Prepare reports, research papers, and presentations about their findings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-385.jpg?quality=70&maxWidth=1600',
-    careerId: 385
+    id: 385
   },
   {
     title: 'High School Teacher',
@@ -5431,9 +5431,9 @@ export default [
       'May coach sports, supervise clubs, or take students on field trips',
       'Monitor students\u2019 behaviour and discipline those who act up'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-386.jpg?quality=70&maxWidth=1600',
-    careerId: 386
+    id: 386
   },
   {
     title: 'Security Guard',
@@ -5446,9 +5446,9 @@ export default [
       'Keep unauthorized visitors out of office buildings and factories',
       'Report unusual events to building managers or police'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-387.jpg?quality=70&maxWidth=1600',
-    careerId: 387
+    id: 387
   },
   {
     title: 'Security Systems Technician',
@@ -5461,9 +5461,9 @@ export default [
       'Show customers how to use the systems',
       'Diagnose and repair problems with systems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-388.jpg?quality=70&maxWidth=1600',
-    careerId: 388
+    id: 388
   },
   {
     title: 'Set Designer',
@@ -5475,9 +5475,9 @@ export default [
       'Work with other crew members to build sets to exact specifications',
       'Buy furniture and other props to fill out the sets'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-389.jpg?quality=70&maxWidth=1600',
-    careerId: 389
+    id: 389
   },
   {
     title: 'Sheet Metal Worker',
@@ -5489,9 +5489,9 @@ export default [
       'Fasten the pieces together with welds, bolts, and other devices',
       'Assemble and install the pieces at the construction site'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-391.jpg?quality=70&maxWidth=1600',
-    careerId: 391
+    id: 391
   },
   {
     title: "Ship's Crew",
@@ -5503,9 +5503,9 @@ export default [
       'Duties may include handling cargo, maintaining engines, and supervising the crew',
       'Operators pilot the ship '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-392.jpg?quality=70&maxWidth=1600',
-    careerId: 392
+    id: 392
   },
   {
     title: 'Shipping and Receiving Clerk',
@@ -5518,9 +5518,9 @@ export default [
       'Receive incoming shipments and ensure the right goods have been received',
       'Unpack incoming shipments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-393.jpg?quality=70&maxWidth=1600',
-    careerId: 393
+    id: 393
   },
   {
     title: 'Sign Maker',
@@ -5533,9 +5533,9 @@ export default [
       'Some use digital technology to make glass, plastic, and metal letters',
       'Install new signs and repair damaged signs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-394.jpg?quality=70&maxWidth=1600',
-    careerId: 394
+    id: 394
   },
   {
     title: 'Small Engine Mechanic',
@@ -5548,9 +5548,9 @@ export default [
       'Make repairs and replace broken parts',
       'Perform routine maintenance, such as cleaning valves and oiling parts'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-395.jpg?quality=70&maxWidth=1600',
-    careerId: 395
+    id: 395
   },
   {
     title: 'Social Worker',
@@ -5563,9 +5563,9 @@ export default [
       'Meet with clients to track progress',
       'Develop and review social service programs and policies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-396.jpg?quality=70&maxWidth=1600',
-    careerId: 396
+    id: 396
   },
   {
     title: 'Sound Technician',
@@ -5577,9 +5577,9 @@ export default [
       'Monitor sound quality from microphones during productions and live performances',
       'Record sound effects and atmosphere tracks'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-397.jpg?quality=70&maxWidth=1600',
-    careerId: 397
+    id: 397
   },
   {
     title: 'Special Education Teacher',
@@ -5592,9 +5592,9 @@ export default [
       'May use assistive technology, such as Braille keyboards, to teach students',
       'Consult with counsellors and parents about students\u2019 progress'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-398.jpg?quality=70&maxWidth=1600',
-    careerId: 398
+    id: 398
   },
   {
     title: 'Special Effects Technician',
@@ -5607,9 +5607,9 @@ export default [
       'Mechanical specialists build props and sets',
       'Pyrotechnic techs create fires and explosions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-399.jpg?quality=70&maxWidth=1600',
-    careerId: 399
+    id: 399
   },
   {
     title: 'Speech-Language Pathologist',
@@ -5621,9 +5621,9 @@ export default [
       'Use sound analyzers and computer programs, as well as books, pictures, and toys',
       'Teach patients sign language or other alternative communication methods'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-400.jpg?quality=70&maxWidth=1600',
-    careerId: 400
+    id: 400
   },
   {
     title: 'Sports Instructor',
@@ -5636,9 +5636,9 @@ export default [
       'Assess skills and assign game positions',
       'Motivate athletes and help build their confidence'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-401.jpg?quality=70&maxWidth=1600',
-    careerId: 401
+    id: 401
   },
   {
     title: 'Sports Marketer',
@@ -5651,9 +5651,9 @@ export default [
       'Promote sponsors\u2019 products at games',
       'Some plan and promote charitable events, such as walkathons'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-402.jpg?quality=70&maxWidth=1600',
-    careerId: 402
+    id: 402
   },
   {
     title: 'Sports Official',
@@ -5666,9 +5666,9 @@ export default [
       'Judge players\u2019 performances and decide the results or winners',
       'Exact tasks depend on the sport'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-403.jpg?quality=70&maxWidth=1600',
-    careerId: 403
+    id: 403
   },
   {
     title: 'Power Engineer',
@@ -5681,9 +5681,9 @@ export default [
       'Diagnose and repair system breakdowns',
       'May also perform carpentry, plumbing, or electrical work'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-404.jpg?quality=70&maxWidth=1600',
-    careerId: 404
+    id: 404
   },
   {
     title: 'Statistician',
@@ -5696,9 +5696,9 @@ export default [
       'Write reports on results of their analysis',
       'Design new projects, choosing the information sources or gathering methods needed'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-405.jpg?quality=70&maxWidth=1600',
-    careerId: 405
+    id: 405
   },
   {
     title: 'Stenographer',
@@ -5710,9 +5710,9 @@ export default [
       'Court reporters record all the statements made during legal proceedings',
       'Medical transcriptionists transcribe recordings doctors make about patients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-406.jpg?quality=70&maxWidth=1600',
-    careerId: 406
+    id: 406
   },
   {
     title: 'Stock Clerk',
@@ -5725,9 +5725,9 @@ export default [
       'May help customers find items',
       'Clerks in warehouses use forklifts and dollies to load boxes onto shelves and trucks'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-407.jpg?quality=70&maxWidth=1600',
-    careerId: 407
+    id: 407
   },
   {
     title: 'Stuntperson',
@@ -5740,9 +5740,9 @@ export default [
       'May specialize in a particular skill, such as skydiving or stunt driving',
       'Stunt coordinators plan and oversee stunts, and hire and train stuntpeople'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-408.jpg?quality=70&maxWidth=1600',
-    careerId: 408
+    id: 408
   },
   {
     title: 'Surgeon',
@@ -5755,9 +5755,9 @@ export default [
       'Plan and perform surgery',
       'Arrange for post-operative care for patients and check on their progress'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-410.jpg?quality=70&maxWidth=1600',
-    careerId: 410
+    id: 410
   },
   {
     title: 'Television and Radio Reporter',
@@ -5770,9 +5770,9 @@ export default [
       'May operate cameras and recording equipment',
       'Prepare scripts, record voiceovers, and help edit audio or video clips'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-411.jpg?quality=70&maxWidth=1600',
-    careerId: 411
+    id: 411
   },
   {
     title: 'Tailor / Dressmaker',
@@ -5785,9 +5785,9 @@ export default [
       'Have customers try on the pieces of clothing to ensure they fit, and make any alterations',
       'May also repair or alter customers\u2019 existing items of clothing'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-412.jpg?quality=70&maxWidth=1600',
-    careerId: 412
+    id: 412
   },
   {
     title: 'Tattoo Artist',
@@ -5800,9 +5800,9 @@ export default [
       'Create tattoos, wash the tattooed area, and apply ointments and bandages',
       'Tell clients how to look after their tattoos'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-413.jpg?quality=70&maxWidth=1600',
-    careerId: 413
+    id: 413
   },
   {
     title: 'Taxi Driver',
@@ -5815,9 +5815,9 @@ export default [
       'Collect fares and make change',
       'Clean, maintain, and perform safety checks on cabs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-414.jpg?quality=70&maxWidth=1600',
-    careerId: 414
+    id: 414
   },
   {
     title: 'Taxidermist',
@@ -5830,9 +5830,9 @@ export default [
       'Stretch skins over the moulds and sew up the seams ',
       'Add glass eyes and other finishing touches'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-415.jpg?quality=70&maxWidth=1600',
-    careerId: 415
+    id: 415
   },
   {
     title: 'Technical Sales Representative',
@@ -5845,9 +5845,9 @@ export default [
       'Provide product information to customers and answer their questions',
       'Promote products at trade shows and conferences'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-416.jpg?quality=70&maxWidth=1600',
-    careerId: 416
+    id: 416
   },
   {
     title: 'Technical Writer',
@@ -5859,9 +5859,9 @@ export default [
       'May select drawings or photos for a publication',
       'May specialize in a specific industry, such as health care'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-417.jpg?quality=70&maxWidth=1600',
-    careerId: 417
+    id: 417
   },
   {
     title: 'Telemarketer',
@@ -5874,9 +5874,9 @@ export default [
       'May take calls from customers who need product information',
       'Some collect money for charities or conduct surveys'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-418.jpg?quality=70&maxWidth=1600',
-    careerId: 418
+    id: 418
   },
   {
     title: 'Telephone Line Installer / Repairer',
@@ -5888,9 +5888,9 @@ export default [
       'Diagnose and repair faulty lines and equipment',
       'Set up and repair customers\u2019 phone services'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-419.jpg?quality=70&maxWidth=1600',
-    careerId: 419
+    id: 419
   },
   {
     title: 'Telephone Operator',
@@ -5902,9 +5902,9 @@ export default [
       'Operators in customer service departments give out product information and record orders',
       'Operators in the auto industry take calls from drivers and send help, such as tow trucks'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-420.jpg?quality=70&maxWidth=1600',
-    careerId: 420
+    id: 420
   },
   {
     title: 'Tilesetter',
@@ -5917,9 +5917,9 @@ export default [
       'Fasten down tiles using cement or mastic',
       'Fill the spaces between tiles with grout, which is a fine cement, and wipe off any excess'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-421.jpg?quality=70&maxWidth=1600',
-    careerId: 421
+    id: 421
   },
   {
     title: 'Tool and Die Maker',
@@ -5932,9 +5932,9 @@ export default [
       'Decide on the materials to be used and the order in which to go about creating each piece',
       'May harden pieces by heating them several times at different temperatures'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-422.jpg?quality=70&maxWidth=1600',
-    careerId: 422
+    id: 422
   },
   {
     title: 'Tour Guide',
@@ -5947,9 +5947,9 @@ export default [
       'Some drive tourists in buses or vans',
       'Ensure the safety and well-being of tourists'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-423.jpg?quality=70&maxWidth=1600',
-    careerId: 423
+    id: 423
   },
   {
     title: 'Tow Truck Driver',
@@ -5962,9 +5962,9 @@ export default [
       'Help drivers with minor car repairs, such as changing a flat tire',
       'Maintain a log of service calls'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-424.jpg?quality=70&maxWidth=1600',
-    careerId: 424
+    id: 424
   },
   {
     title: 'Trader',
@@ -5977,9 +5977,9 @@ export default [
       'Consult with clients about prices',
       'Devise trading, option, and hedge strategies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-425.jpg?quality=70&maxWidth=1600',
-    careerId: 425
+    id: 425
   },
   {
     title: 'Transit Operator',
@@ -5992,9 +5992,9 @@ export default [
       'Perform safety checks on vehicles',
       "Fill out drivers' logs and incident reports"
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-426.jpg?quality=70&maxWidth=1600',
-    careerId: 426
+    id: 426
   },
   {
     title: 'Translator',
@@ -6007,9 +6007,9 @@ export default [
       'Meet with clients and supervisors',
       'May specialize in a particular subject, such as health care'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-427.jpg?quality=70&maxWidth=1600',
-    careerId: 427
+    id: 427
   },
   {
     title: 'Travel Agent',
@@ -6021,9 +6021,9 @@ export default [
       'Give advice and information on attractions, possible health risks, and other issues',
       'May specialize in certain types of travel, such as cruises or historical tours'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-428.jpg?quality=70&maxWidth=1600',
-    careerId: 428
+    id: 428
   },
   {
     title: 'Tree Harvester',
@@ -6035,9 +6035,9 @@ export default [
       'Chainsaw operators cut down trees and strip their branches using chainsaws',
       'Forepersons supervise and coordinate the activities of logging camps'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-429.jpg?quality=70&maxWidth=1600',
-    careerId: 429
+    id: 429
   },
   {
     title: 'Upholsterer',
@@ -6050,9 +6050,9 @@ export default [
       'Fit the fabric to the piece of furniture and tack, staple, or glue it to the frame',
       'Some design and make new furniture'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-432.jpg?quality=70&maxWidth=1600',
-    careerId: 432
+    id: 432
   },
   {
     title: 'Vending Machine Servicer',
@@ -6065,9 +6065,9 @@ export default [
       'Clean and repair machines on site, or take them into the shop',
       'Order parts, prepare cost estimates, and keep sales records '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-433.jpg?quality=70&maxWidth=1600',
-    careerId: 433
+    id: 433
   },
   {
     title: 'Venture Capitalist',
@@ -6080,9 +6080,9 @@ export default [
       'Advise businesses on how to increase profits',
       'Generalists invest in various industries, and specialists invest in one or two'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-434.jpg?quality=70&maxWidth=1600',
-    careerId: 434
+    id: 434
   },
   {
     title: 'Veterinarian',
@@ -6095,9 +6095,9 @@ export default [
       'Provide advice about animal care to owners',
       'May specialize in the care of small household pets or large farm animals'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-435.jpg?quality=70&maxWidth=1600',
-    careerId: 435
+    id: 435
   },
   {
     title: 'Veterinary Technician',
@@ -6110,9 +6110,9 @@ export default [
       'Administer medications and change dressings',
       'Provide information about animal care to owners'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-436.jpg?quality=70&maxWidth=1600',
-    careerId: 436
+    id: 436
   },
   {
     title: 'Video Game Developer',
@@ -6125,9 +6125,9 @@ export default [
       'Writers develop plots, text, and dialogue',
       'Producers and managers oversee the work'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-437.jpg?quality=70&maxWidth=1600',
-    careerId: 437
+    id: 437
   },
   {
     title: 'Waiter',
@@ -6140,9 +6140,9 @@ export default [
       'Prepare bills, receive payment, and make change',
       'May clear and set up tables, or seat guests'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-438.jpg?quality=70&maxWidth=1600',
-    careerId: 438
+    id: 438
   },
   {
     title: 'Waste Collector',
@@ -6155,9 +6155,9 @@ export default [
       'Dump waste at landfills, incinerators, or recycling plants',
       'Perform safety checks and maintenance on trucks'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-439.jpg?quality=70&maxWidth=1600',
-    careerId: 439
+    id: 439
   },
   {
     title: 'Water Treatment Plant Operator',
@@ -6170,9 +6170,9 @@ export default [
       'Write logs and reports on plant operations',
       'Clean and repair equipment'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-440.jpg?quality=70&maxWidth=1600',
-    careerId: 440
+    id: 440
   },
   {
     title: 'Web Developer',
@@ -6185,9 +6185,9 @@ export default [
       'May specialize in a particular computer language',
       'Some oversee the work of designers and other developers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-442.jpg?quality=70&maxWidth=1600',
-    careerId: 442
+    id: 442
   },
   {
     title: 'Web Administrator',
@@ -6200,9 +6200,9 @@ export default [
       'Screen content, comments, or ads for inappropriate material',
       'Promote and market websites'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-443.jpg?quality=70&maxWidth=1600',
-    careerId: 443
+    id: 443
   },
   {
     title: 'Website Designer',
@@ -6215,9 +6215,9 @@ export default [
       'Submit website designs to clients for approval',
       'Ensure websites work properly'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-444.jpg?quality=70&maxWidth=1600',
-    careerId: 444
+    id: 444
   },
   {
     title: 'Welder',
@@ -6230,9 +6230,9 @@ export default [
       'Grind down sharp edges after the metal cools',
       'Some use welding machines in factory settings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-445.jpg?quality=70&maxWidth=1600',
-    careerId: 445
+    id: 445
   },
   {
     title: 'Window Washer',
@@ -6245,9 +6245,9 @@ export default [
       'Load, unload, and set up equipment',
       'Prepare invoices and collect payment from customers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-446.jpg?quality=70&maxWidth=1600',
-    careerId: 446
+    id: 446
   },
   {
     title: 'Winemaker',
@@ -6260,9 +6260,9 @@ export default [
       'Collect and test samples from batches of wine',
       'Promote and market their wine'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-447.jpg?quality=70&maxWidth=1600',
-    careerId: 447
+    id: 447
   },
   {
     title: 'Writer',
@@ -6275,9 +6275,9 @@ export default [
       'Non-fiction writers include journalists, technical writers, and copywriters',
       'They convey facts or opinions to readers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-448.jpg?quality=70&maxWidth=1600',
-    careerId: 448
+    id: 448
   },
   {
     title: 'Zookeeper',
@@ -6290,18 +6290,18 @@ export default [
       'Monitor animals\u2019 behaviour and report problems to vets',
       'Administer medicine to sick animals '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-449.jpg?quality=70&maxWidth=1600',
-    careerId: 449
+    id: 449
   },
   {
     title: 'Zoologist',
     description:
       'Zoologists study mammals, birds, fish, and other animals. They use their research to protect animals and teach others all about the animal kingdom.',
     notes: ['Academic zoologists teach at universities and colleges'],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-450.jpg?quality=70&maxWidth=1600',
-    careerId: 450
+    id: 450
   },
   {
     title: 'Medical Illustrator',
@@ -6314,9 +6314,9 @@ export default [
       'Some work on videos or websites, or create three-dimensional models',
       'May specialize in a particular area, such as drawings of the eye'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-451.jpg?quality=70&maxWidth=1600',
-    careerId: 451
+    id: 451
   },
   {
     title: 'Potter',
@@ -6329,9 +6329,9 @@ export default [
       'Add clear or coloured glaze to items',
       'Sell items in art galleries, craft shows, and stores'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-452.jpg?quality=70&maxWidth=1600',
-    careerId: 452
+    id: 452
   },
   {
     title: 'GIS Specialist',
@@ -6343,9 +6343,9 @@ export default [
       'Review data for accuracy, usefulness, quality, or completeness',
       'Train others on how to use GIS systems and provide technical support for users'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-453.jpg?quality=70&maxWidth=1600',
-    careerId: 453
+    id: 453
   },
   {
     title: 'Train Operator',
@@ -6357,9 +6357,9 @@ export default [
       'Conductors make sure trains run efficiently and on schedule  ',
       'Engineers operate trains, and monitor signals and rail conditions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-454.jpg?quality=70&maxWidth=1600',
-    careerId: 454
+    id: 454
   },
   {
     title: 'Survey Tech',
@@ -6372,9 +6372,9 @@ export default [
       'Make notes and sketches',
       'Enter the data into computers and create detailed drawings, charts, and plans'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-455.jpg?quality=70&maxWidth=1600',
-    careerId: 455
+    id: 455
   },
   {
     title: 'Agricultural Engineer',
@@ -6387,9 +6387,9 @@ export default [
       'Invent and adapt high-tech equipment for use on farms and in food processing plants',
       'Develop products such as biomass fuels and drugs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-500.jpg?quality=70&maxWidth=1600',
-    careerId: 500
+    id: 500
   },
   {
     title: 'Airline Customer Service Agent',
@@ -6401,9 +6401,9 @@ export default [
       'Reservations agents work in call centres, helping customers book flights over the phone',
       'Passenger service agents help customers in person at airports'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-501.jpg?quality=70&maxWidth=1600',
-    careerId: 501
+    id: 501
   },
   {
     title: 'Auto Detailer',
@@ -6416,9 +6416,9 @@ export default [
       'Touch up chipped paint and minor scratches',
       'Some install stereos or replace windows'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-503.jpg?quality=70&maxWidth=1600',
-    careerId: 503
+    id: 503
   },
   {
     title: 'Association Manager',
@@ -6431,9 +6431,9 @@ export default [
       'Market the association to the public and lobby the government',
       'Create budgets and monitor spending'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-504.jpg?quality=70&maxWidth=1600',
-    careerId: 504
+    id: 504
   },
   {
     title: 'Auditor',
@@ -6446,9 +6446,9 @@ export default [
       'Write reports and suggest improvements',
       'Prepare organizations\u2019 financial statements'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-505.jpg?quality=70&maxWidth=1600',
-    careerId: 505
+    id: 505
   },
   {
     title: 'Art Dealer',
@@ -6461,9 +6461,9 @@ export default [
       'May promote new artists',
       'Usually specialize in a certain type of art, such as 17th century Dutch paintings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-506.jpg?quality=70&maxWidth=1600',
-    careerId: 506
+    id: 506
   },
   {
     title: 'Automotive Painter',
@@ -6476,9 +6476,9 @@ export default [
       'Apply several coats of primer, paint, and sealant with a spray gun',
       'Some work on assembly lines in production plants'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-507.jpg?quality=70&maxWidth=1600',
-    careerId: 507
+    id: 507
   },
   {
     title: 'Automotive Recycler',
@@ -6491,9 +6491,9 @@ export default [
       'Sell parts to garages and the public',
       'Sell the pieces that aren\u2019t reusable as scrap metal'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-508.jpg?quality=70&maxWidth=1600',
-    careerId: 508
+    id: 508
   },
   {
     title: 'Biomedical Engineer',
@@ -6506,9 +6506,9 @@ export default [
       'Clinical BMEs work in hospitals where they oversee the purchase and use of technology',
       'Bioinstrumentation engineers design computer systems for instruments such as CAT scanners'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-509.jpg?quality=70&maxWidth=1600',
-    careerId: 509
+    id: 509
   },
   {
     title: 'Coach',
@@ -6521,9 +6521,9 @@ export default [
       'Direct strategy and call plays',
       'Teach good sportsmanship and teamwork'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-510.jpg?quality=70&maxWidth=1600',
-    careerId: 510
+    id: 510
   },
   {
     title: 'Commercial Diver',
@@ -6536,9 +6536,9 @@ export default [
       'Some do repairs on undersides of ships',
       'Some assemble, inspect, and repair oil and gas pipelines'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-512.jpg?quality=70&maxWidth=1600',
-    careerId: 512
+    id: 512
   },
   {
     title: 'Communications Specialist',
@@ -6551,9 +6551,9 @@ export default [
       'Print and hang posters, and write statements and speeches',
       'Some manage communications departments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-513.jpg?quality=70&maxWidth=1600',
-    careerId: 513
+    id: 513
   },
   {
     title: 'Cosmetologist',
@@ -6566,9 +6566,9 @@ export default [
       'Give facials using creams, facial masks, and massage techniques',
       'Usually specialize in a particular area, such as hairstyling'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-514.jpg?quality=70&maxWidth=1600',
-    careerId: 514
+    id: 514
   },
   {
     title: 'Customer Service Representative',
@@ -6580,9 +6580,9 @@ export default [
       'Assist customers who are having problems with products or services',
       'Answer questions, fulfil requests, and handle complaints'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-515.jpg?quality=70&maxWidth=1600',
-    careerId: 515
+    id: 515
   },
   {
     title: 'Demolition Expert',
@@ -6594,9 +6594,9 @@ export default [
       'Others use heavy equipment such as bulldozers to bring down structures',
       'Some use explosives, placed on key supports, to bring down the largest structures'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-516.jpg?quality=70&maxWidth=1600',
-    careerId: 516
+    id: 516
   },
   {
     title: 'Diving Instructor',
@@ -6609,9 +6609,9 @@ export default [
       'Observe and evaluate students',
       'May also teach snorkelling, work at a dive shop, or lead diving tours '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-517.jpg?quality=70&maxWidth=1600',
-    careerId: 517
+    id: 517
   },
   {
     title: 'Environmental Consultant',
@@ -6624,9 +6624,9 @@ export default [
       'May deal with emergencies, such as oil spills',
       'Usually specialize in a certain area, such as air pollution'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-518.jpg?quality=70&maxWidth=1600',
-    careerId: 518
+    id: 518
   },
   {
     title: 'Food Scientist',
@@ -6639,9 +6639,9 @@ export default [
       'Research ways to improve testing, preservation, packaging, and manufacturing methods',
       'Some enforce health and safety regulations'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-519.jpg?quality=70&maxWidth=1600',
-    careerId: 519
+    id: 519
   },
   {
     title: 'Foreign Language Instructor',
@@ -6654,9 +6654,9 @@ export default [
       'Teach students about the culture of the language they\u2019re learning',
       'Provide academic or career advice to students'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-520.jpg?quality=70&maxWidth=1600',
-    careerId: 520
+    id: 520
   },
   {
     title: 'Genetic Counsellor',
@@ -6669,9 +6669,9 @@ export default [
       'May specialize in helping families understand the genetics of specific diseases',
       'Stay current with research on genetics'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-521.jpg?quality=70&maxWidth=1600',
-    careerId: 521
+    id: 521
   },
   {
     title: 'Hospital Service Worker',
@@ -6684,9 +6684,9 @@ export default [
       'Storepeople order and distribute supplies',
       'Other workers include operating room attendants, lab aides, equipment techs, and janitors'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-524.jpg?quality=70&maxWidth=1600',
-    careerId: 524
+    id: 524
   },
   {
     title: 'Image Consultant',
@@ -6698,9 +6698,9 @@ export default [
       'Develop plans to improve clients\u2019 images and take them to clothing stores and hair salons',
       'Meet with individual clients or conduct group seminars'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-525.jpg?quality=70&maxWidth=1600',
-    careerId: 525
+    id: 525
   },
   {
     title: 'Industrial-Organizational Psychologist',
@@ -6713,9 +6713,9 @@ export default [
       'Help improve hiring and training processes, or develop incentive programs ',
       'Professors teach students and do research'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-526.jpg?quality=70&maxWidth=1600',
-    careerId: 526
+    id: 526
   },
   {
     title: 'Legal Secretary',
@@ -6728,9 +6728,9 @@ export default [
       'Organize and maintain clients\u2019 files',
       'May work with or supervise other secretaries or assistants'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-527.jpg?quality=70&maxWidth=1600',
-    careerId: 527
+    id: 527
   },
   {
     title: 'Magician',
@@ -6743,9 +6743,9 @@ export default [
       'Set up and pack up magic equipment',
       'Promote the act, and find and book clients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-528.jpg?quality=70&maxWidth=1600',
-    careerId: 528
+    id: 528
   },
   {
     title: 'Mathematician',
@@ -6757,9 +6757,9 @@ export default [
       'Applied mathematicians solve practical problems using math',
       'They work in many fields, including medicine, economics, and business'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-529.jpg?quality=70&maxWidth=1600',
-    careerId: 529
+    id: 529
   },
   {
     title: 'Medical Secretary',
@@ -6772,9 +6772,9 @@ export default [
       'Book patients\u2019 appointments and schedule tests and procedures',
       'Transcribe doctors\u2019 diagnoses and recommendations'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-530.jpg?quality=70&maxWidth=1600',
-    careerId: 530
+    id: 530
   },
   {
     title: 'Mental Health Nurse',
@@ -6787,9 +6787,9 @@ export default [
       'Keep patients safe and help them adjust to their environments',
       'Educate the community about mental health issues'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-531.jpg?quality=70&maxWidth=1600',
-    careerId: 531
+    id: 531
   },
   {
     title: 'Money Manager',
@@ -6802,9 +6802,9 @@ export default [
       'Track the performance of investments',
       'May meet with company managers to discuss performance'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-532.jpg?quality=70&maxWidth=1600',
-    careerId: 532
+    id: 532
   },
   {
     title: 'Mortgage Broker',
@@ -6817,9 +6817,9 @@ export default [
       'Present clients\u2019 financing proposals to banks',
       'Ensure applications are filled out properly and banks have the information they need '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-533.jpg?quality=70&maxWidth=1600',
-    careerId: 533
+    id: 533
   },
   {
     title: 'Motivational Speaker',
@@ -6832,9 +6832,9 @@ export default [
       'Plan and conduct activities, workshops, and seminars',
       'Deliver speeches confidently and enthusiastically to engage audiences'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-534.jpg?quality=70&maxWidth=1600',
-    careerId: 534
+    id: 534
   },
   {
     title: 'Occupational Therapy Assistant',
@@ -6847,9 +6847,9 @@ export default [
       'Provide encouragement and support to clients',
       'Record clients\u2019 progress and report to occupational therapists'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-535.jpg?quality=70&maxWidth=1600',
-    careerId: 535
+    id: 535
   },
   {
     title: 'Orthodontist',
@@ -6862,9 +6862,9 @@ export default [
       'Diagnose problems with teeth, such as crooked teeth, underbites, and overbites',
       'Fit braces or retainers to correct teeth'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-537.jpg?quality=70&maxWidth=1600',
-    careerId: 537
+    id: 537
   },
   {
     title: 'Paleontologist',
@@ -6877,9 +6877,9 @@ export default [
       'Teach the public about paleontology',
       'Some paleontologists help petroleum companies find oil'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-538.jpg?quality=70&maxWidth=1600',
-    careerId: 538
+    id: 538
   },
   {
     title: 'Partsperson',
@@ -6892,9 +6892,9 @@ export default [
       'May explain how parts work and how to install them',
       'Order requested parts from manufacturers and wholesalers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-539.jpg?quality=70&maxWidth=1600',
-    careerId: 539
+    id: 539
   },
   {
     title: 'Petroleum Engineer',
@@ -6906,9 +6906,9 @@ export default [
       'Work out where to drill and the best way to recover the largest amount of oil or gas',
       'Plan and oversee drilling and extraction operations'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-540.jpg?quality=70&maxWidth=1600',
-    careerId: 540
+    id: 540
   },
   {
     title: 'Physiotherapy Assistant',
@@ -6920,9 +6920,9 @@ export default [
       'Teach exercises to patients, and help them walk or stand up',
       'Clean the equipment and treatment rooms, and do laundry'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-541.jpg?quality=70&maxWidth=1600',
-    careerId: 541
+    id: 541
   },
   {
     title: 'Race Car Driver',
@@ -6934,9 +6934,9 @@ export default [
       'Use racing tactics such as braking or weaving ',
       'Anticipate other drivers\u2019 moves and be safety conscious '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-543.jpg?quality=70&maxWidth=1600',
-    careerId: 543
+    id: 543
   },
   {
     title: 'Race Car Technician',
@@ -6948,9 +6948,9 @@ export default [
       'Work with drivers to modify cars to perform as well as possible and fix any problems',
       'Work in pit crews, refuelling and servicing cars during races'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-544.jpg?quality=70&maxWidth=1600',
-    careerId: 544
+    id: 544
   },
   {
     title: 'Renovator',
@@ -6963,9 +6963,9 @@ export default [
       'Some do the construction work themselves',
       'Others hire and supervise tradespeople, such as plumbers, carpenters, and painters'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-545.jpg?quality=70&maxWidth=1600',
-    careerId: 545
+    id: 545
   },
   {
     title: 'School Counsellor',
@@ -6978,9 +6978,9 @@ export default [
       'Help students cope with personal and social issues',
       'Teach communication, problem-solving, and teamwork skills'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-546.jpg?quality=70&maxWidth=1600',
-    careerId: 546
+    id: 546
   },
   {
     title: 'Sign Language Interpreter',
@@ -6993,9 +6993,9 @@ export default [
       'Freelancers handle their own paperwork, billing, and bookkeeping',
       'Obey code of ethics regarding confidentiality'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-547.jpg?quality=70&maxWidth=1600',
-    careerId: 547
+    id: 547
   },
   {
     title: 'Sport Psychology Consultant',
@@ -7007,9 +7007,9 @@ export default [
       'Help athletes mentally prepare for major competitions',
       'May help athletes as they come back from injury or transition to retirement'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-548.jpg?quality=70&maxWidth=1600',
-    careerId: 548
+    id: 548
   },
   {
     title: 'Sprinkler System Installer',
@@ -7022,9 +7022,9 @@ export default [
       'Attach sprinkler heads and other accessories, such as fire department pumper connections',
       'Push pressurized air or liquid through the pipes to check for leaks'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-549.jpg?quality=70&maxWidth=1600',
-    careerId: 549
+    id: 549
   },
   {
     title: 'Steamfitter',
@@ -7037,9 +7037,9 @@ export default [
       'Push pressurized air or liquid through the pipes to check for leaks',
       'May install boilers and connect them to pipe systems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-550.jpg?quality=70&maxWidth=1600',
-    careerId: 550
+    id: 550
   },
   {
     title: 'Surface Driller',
@@ -7052,9 +7052,9 @@ export default [
       'Monitor the progress by inspecting the material that is flushed up to the surface',
       'Repair and maintain drilling equipment'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-551.jpg?quality=70&maxWidth=1600',
-    careerId: 551
+    id: 551
   },
   {
     title: 'Visual Merchandiser',
@@ -7066,9 +7066,9 @@ export default [
       'Use merchandise, signs, furniture, lighting, props, and decorations in displays',
       'May set up decorations, lighting, and signs outside stores'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-552.jpg?quality=70&maxWidth=1600',
-    careerId: 552
+    id: 552
   },
   {
     title: 'Wedding Planner',
@@ -7081,9 +7081,9 @@ export default [
       'Handle problems on wedding days',
       'Self-employed planners run and market their businesses'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-555.jpg?quality=70&maxWidth=1600',
-    careerId: 555
+    id: 555
   },
   {
     title: 'Anesthesiologist',
@@ -7096,9 +7096,9 @@ export default [
       'Adjust anesthetics as required',
       'Make sure patients wake up safely and remain comfortable after surgery'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-557.jpg?quality=70&maxWidth=1600',
-    careerId: 557
+    id: 557
   },
   {
     title: 'Dermatologist',
@@ -7111,9 +7111,9 @@ export default [
       'Help patients deal with cosmetic problems, such as acne',
       'Educate people on skin protection '
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-558.jpg?quality=70&maxWidth=1600',
-    careerId: 558
+    id: 558
   },
   {
     title: 'Abuse / Crisis Counsellor',
@@ -7126,9 +7126,9 @@ export default [
       'Inform victims of abuse of their legal rights',
       'Raise awareness of the effects of physical and mental abuse'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-559.jpg?quality=70&maxWidth=1600',
-    careerId: 559
+    id: 559
   },
   {
     title: 'Adoption Counsellor',
@@ -7141,9 +7141,9 @@ export default [
       'Help parents complete paperwork',
       'Conduct follow-up visits and help families adjust to the adoption'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-560.jpg?quality=70&maxWidth=1600',
-    careerId: 560
+    id: 560
   },
   {
     title: 'Bereavement Counsellor',
@@ -7156,9 +7156,9 @@ export default [
       'Organize and run bereavement support groups',
       'Help families of terminally ill patients prepare for their death'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-561.jpg?quality=70&maxWidth=1600',
-    careerId: 561
+    id: 561
   },
   {
     title: 'Cardiologist',
@@ -7171,9 +7171,9 @@ export default [
       'May perform non-surgical procedures to diagnose and treat heart disease',
       'Refer patients to surgeons, if necessary'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-562.jpg?quality=70&maxWidth=1600',
-    careerId: 562
+    id: 562
   },
   {
     title: 'Coroner',
@@ -7186,9 +7186,9 @@ export default [
       'Use the collected facts to answer questions about the death, including the cause of death',
       'Testify in court if necessary'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-563.jpg?quality=70&maxWidth=1600',
-    careerId: 563
+    id: 563
   },
   {
     title: 'Court Reporter',
@@ -7201,9 +7201,9 @@ export default [
       'Read back recorded testimony ',
       'Create and update transcription dictionaries'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-564.jpg?quality=70&maxWidth=1600',
-    careerId: 564
+    id: 564
   },
   {
     title: 'Critic',
@@ -7216,9 +7216,9 @@ export default [
       'Express opinions in clear and helpful reviews',
       'May interview people in their fields'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-565.jpg?quality=70&maxWidth=1600',
-    careerId: 565
+    id: 565
   },
   {
     title: 'Detective',
@@ -7231,9 +7231,9 @@ export default [
       'Make arrests and testify in court',
       'Often specialize in a certain area, such as homicide, robbery, or financial crimes'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-566.jpg?quality=70&maxWidth=1600',
-    careerId: 566
+    id: 566
   },
   {
     title: 'Developmental Service Worker',
@@ -7246,9 +7246,9 @@ export default [
       'Develop and run life skills training programs',
       'Advocate on behalf of people with disabilities'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-567.jpg?quality=70&maxWidth=1600',
-    careerId: 567
+    id: 567
   },
   {
     title: 'Forensic Scientist',
@@ -7261,9 +7261,9 @@ export default [
       'Identify bullets, forged documents, and substances used to start fires',
       'Testify in court about their findings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-570.jpg?quality=70&maxWidth=1600',
-    careerId: 570
+    id: 570
   },
   {
     title: 'Horse Trainer',
@@ -7276,9 +7276,9 @@ export default [
       'Show riders how to handle horses',
       'Feed, water, and groom horses'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-571.jpg?quality=70&maxWidth=1600',
-    careerId: 571
+    id: 571
   },
   {
     title: 'Humanitarian Aid Worker',
@@ -7290,9 +7290,9 @@ export default [
       'May build wells or schools, handle supply shipments, or provide administrative support ',
       'Work with local officials and the community to develop and implement aid programs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-572.jpg?quality=70&maxWidth=1600',
-    careerId: 572
+    id: 572
   },
   {
     title: 'Importer / Exporter',
@@ -7305,9 +7305,9 @@ export default [
       'Perform bookkeeping and clerical duties',
       'Obey international trade laws'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-573.jpg?quality=70&maxWidth=1600',
-    careerId: 573
+    id: 573
   },
   {
     title: 'Interior Decorator',
@@ -7320,9 +7320,9 @@ export default [
       'Purchase furniture and accessories',
       'Arrange furniture, install window coverings, and place accessories such as paintings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-574.jpg?quality=70&maxWidth=1600',
-    careerId: 574
+    id: 574
   },
   {
     title: 'Naval Architect',
@@ -7335,9 +7335,9 @@ export default [
       'May specialize in designing certain kinds of ships, such as cargo ships',
       'Some work in shipyards, overseeing ship building and repair'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-575.jpg?quality=70&maxWidth=1600',
-    careerId: 575
+    id: 575
   },
   {
     title: 'Medical Transcriptionist',
@@ -7350,9 +7350,9 @@ export default [
       'Check with doctors when mistakes are found in the notes',
       'Proofread and correct completed records'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-577.jpg?quality=70&maxWidth=1600',
-    careerId: 577
+    id: 577
   },
   {
     title: 'Neurologist',
@@ -7365,9 +7365,9 @@ export default [
       'May specialize in certain parts of the nervous system or in neurosurgery',
       'May conduct research or teach neuroscience'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-578.jpg?quality=70&maxWidth=1600',
-    careerId: 578
+    id: 578
   },
   {
     title: 'Educational Assistant',
@@ -7379,9 +7379,9 @@ export default [
       'Supervise students at recess, lunch, and on field trips',
       'Help students with disabilities perform physical tasks or communicate'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-580.jpg?quality=70&maxWidth=1600',
-    careerId: 580
+    id: 580
   },
   {
     title: 'Perfusionist',
@@ -7394,9 +7394,9 @@ export default [
       'Administer drugs, fluids, and blood products to patients as directed by doctors',
       'May assist surgeons during other types of operations, such as lung transplants'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-581.jpg?quality=70&maxWidth=1600',
-    careerId: 581
+    id: 581
   },
   {
     title: 'Petroleum Engineering Tech',
@@ -7409,9 +7409,9 @@ export default [
       'Some supervise the process of turning crude oil into gasoline and other products',
       'Conduct environmental impact assessments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-582.jpg?quality=70&maxWidth=1600',
-    careerId: 582
+    id: 582
   },
   {
     title: 'Phlebotomist',
@@ -7424,9 +7424,9 @@ export default [
       'May help lab techs test blood samples',
       'Perform general office duties'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-583.jpg?quality=70&maxWidth=1600',
-    careerId: 583
+    id: 583
   },
   {
     title: 'Photojournalist',
@@ -7439,9 +7439,9 @@ export default [
       'Submit photos to publishers; freelancers have to find clients to buy their photos',
       'May write text to accompany the photo'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-584.jpg?quality=70&maxWidth=1600',
-    careerId: 584
+    id: 584
   },
   {
     title: 'Physical Education Teacher',
@@ -7453,9 +7453,9 @@ export default [
       'May coach sports teams and take them to tournaments and games',
       'Monitor students for signs of social, behavioural, or other problems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-585.jpg?quality=70&maxWidth=1600',
-    careerId: 585
+    id: 585
   },
   {
     title: 'Principal',
@@ -7468,9 +7468,9 @@ export default [
       'Oversee budgets, programs, and school maintenance',
       'May also teach classes'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-586.jpg?quality=70&maxWidth=1600',
-    careerId: 586
+    id: 586
   },
   {
     title: 'School Superintendent',
@@ -7483,9 +7483,9 @@ export default [
       'Manage their school board\u2019s budget',
       'Attend meetings, school events, and student competitions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-587.jpg?quality=70&maxWidth=1600',
-    careerId: 587
+    id: 587
   },
   {
     title: 'Radiologist',
@@ -7498,9 +7498,9 @@ export default [
       'Make recommendations about further exams and possible treatments',
       'May treat diseases using imaging technology or radiation'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-591.jpg?quality=70&maxWidth=1600',
-    careerId: 591
+    id: 591
   },
   {
     title: 'Water Well Driller',
@@ -7513,9 +7513,9 @@ export default [
       'Select the right drill bit',
       'Install a pipe to prevent the walls of the well from collapsing'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-592.jpg?quality=70&maxWidth=1600',
-    careerId: 592
+    id: 592
   },
   {
     title: 'E-Business Consultant',
@@ -7528,9 +7528,9 @@ export default [
       'Some design and build websites',
       'Evaluate and upgrade companies\u2019 existing technologies'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-593.jpg?quality=70&maxWidth=1600',
-    careerId: 593
+    id: 593
   },
   {
     title: 'Choreographer / Dance Instructor',
@@ -7543,9 +7543,9 @@ export default [
       'Dance instructors teach students dance steps and techniques ',
       'Prepare students for performances or competitions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-594.jpg?quality=70&maxWidth=1600',
-    careerId: 594
+    id: 594
   },
   {
     title: 'Acting Instructor',
@@ -7558,9 +7558,9 @@ export default [
       'May specialize in voice work, coaching child actors, or other areas',
       'Self-employed instructors find their own clients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-595.jpg?quality=70&maxWidth=1600',
-    careerId: 595
+    id: 595
   },
   {
     title: 'Adult Education Teacher',
@@ -7573,9 +7573,9 @@ export default [
       'May conduct workplace training',
       'Prepare and mark tests and assignments, and keep records of students\u2019 progress'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-597.jpg?quality=70&maxWidth=1600',
-    careerId: 597
+    id: 597
   },
   {
     title: 'Allergist',
@@ -7588,9 +7588,9 @@ export default [
       'Prescribe or recommend medications',
       'Treat patients with allergy shots'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-599.jpg?quality=70&maxWidth=1600',
-    careerId: 599
+    id: 599
   },
   {
     title: 'Bioethicist',
@@ -7603,9 +7603,9 @@ export default [
       'Some give legal advice on bioethical issues',
       'Professors teach students, mark essays and exams, and publish papers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-601.jpg?quality=70&maxWidth=1600',
-    careerId: 601
+    id: 601
   },
   {
     title: 'Bioinformatics Specialist',
@@ -7617,9 +7617,9 @@ export default [
       'Help researchers use computer programs and other tools to analyze data',
       'Some help design and operate clinical trials to test new drugs or medical devices'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-602.jpg?quality=70&maxWidth=1600',
-    careerId: 602
+    id: 602
   },
   {
     title: 'Biotechnologist',
@@ -7632,9 +7632,9 @@ export default [
       'Maintain logs and records; prepare and present reports',
       'Develop or improve foods, drugs, or other products and ways to make them'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-603.jpg?quality=70&maxWidth=1600',
-    careerId: 603
+    id: 603
   },
   {
     title: 'Blacksmith',
@@ -7647,9 +7647,9 @@ export default [
       'Cool the metal by putting it in water',
       'Finish the piece by removing imperfections and then sanding it smooth and painting it'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-604.jpg?quality=70&maxWidth=1600',
-    careerId: 604
+    id: 604
   },
   {
     title: 'Career Coach',
@@ -7662,9 +7662,9 @@ export default [
       'Coach clients on interview techniques, resume writing, and marketing themselves',
       'Network and develop industry contacts'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-606.jpg?quality=70&maxWidth=1600',
-    careerId: 606
+    id: 606
   },
   {
     title: 'Concierge',
@@ -7677,9 +7677,9 @@ export default [
       'Give directions and hand out maps',
       'Supervise front desk clerks, bellhops, and other customer service staff'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-609.jpg?quality=70&maxWidth=1600',
-    careerId: 609
+    id: 609
   },
   {
     title: 'Loan Officer',
@@ -7692,9 +7692,9 @@ export default [
       'Examine applications and determine if clients will be able to pay back their loans',
       'Prepare paperwork to process approved loans'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-610.jpg?quality=70&maxWidth=1600',
-    careerId: 610
+    id: 610
   },
   {
     title: 'Cytotechnologist',
@@ -7707,9 +7707,9 @@ export default [
       'Report abnormal results to a pathologist',
       'May help the pathologist make a diagnosis'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-611.jpg?quality=70&maxWidth=1600',
-    careerId: 611
+    id: 611
   },
   {
     title: 'Denturist',
@@ -7722,9 +7722,9 @@ export default [
       'Design and create dentures using wax, metal, and plastics',
       'Fit the denture into the patient\u2019s mouth and make necessary adjustments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-612.jpg?quality=70&maxWidth=1600',
-    careerId: 612
+    id: 612
   },
   {
     title: 'Forensic Accountant',
@@ -7736,9 +7736,9 @@ export default [
       'Some help companies set up accounting systems that prevent or lessen the chances of fraud',
       'Others help the police find money obtained from illegal sources'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-615.jpg?quality=70&maxWidth=1600',
-    careerId: 615
+    id: 615
   },
   {
     title: 'Geneticist',
@@ -7751,9 +7751,9 @@ export default [
       'Write papers, reports, and grants',
       'Some diagnose and treat patients with genetic disorders'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-617.jpg?quality=70&maxWidth=1600',
-    careerId: 617
+    id: 617
   },
   {
     title: 'Land Agent',
@@ -7766,9 +7766,9 @@ export default [
       'Ensure landowners are relocated',
       'Obtain permits and maintain unused properties'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-618.jpg?quality=70&maxWidth=1600',
-    careerId: 618
+    id: 618
   },
   {
     title: 'Oncologist',
@@ -7780,9 +7780,9 @@ export default [
       'Radiation oncologists treat cancer with radiation therapy',
       'Surgical oncologists remove tumours and perform other surgical procedures'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-621.jpg?quality=70&maxWidth=1600',
-    careerId: 621
+    id: 621
   },
   {
     title: 'Ophthalmologist',
@@ -7795,9 +7795,9 @@ export default [
       'Perform surgeries on patients\u2019 eyes',
       'May perform routine eye exams and prescribe corrective lenses'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-622.jpg?quality=70&maxWidth=1600',
-    careerId: 622
+    id: 622
   },
   {
     title: 'Orthopedic Surgeon',
@@ -7810,9 +7810,9 @@ export default [
       'Explain surgical procedures to patients',
       'Common surgeries include knee or hip replacement, spinal fusion, and rotator cuff repair'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-623.jpg?quality=70&maxWidth=1600',
-    careerId: 623
+    id: 623
   },
   {
     title: 'Pathologist',
@@ -7825,9 +7825,9 @@ export default [
       'Write reports and provide diagnoses to patients\u2019 doctors',
       'Tell doctors about the progress and consequences of patients\u2019 diseases'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-624.jpg?quality=70&maxWidth=1600',
-    careerId: 624
+    id: 624
   },
   {
     title: 'Pipelayer',
@@ -7840,9 +7840,9 @@ export default [
       'Connect and seal pipes together',
       'Locate and repair broken pipes'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-625.jpg?quality=70&maxWidth=1600',
-    careerId: 625
+    id: 625
   },
   {
     title: 'Psychiatric Aide',
@@ -7855,9 +7855,9 @@ export default [
       'Measure patients\u2019 temperature, pulse, and blood pressure',
       'Report medical or behavioural changes to nurses, doctors, or psychologists'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-626.jpg?quality=70&maxWidth=1600',
-    careerId: 626
+    id: 626
   },
   {
     title: 'Recruiter',
@@ -7870,9 +7870,9 @@ export default [
       'Review resumes and check references',
       'Interview applicants and refer good candidates to clients'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-627.jpg?quality=70&maxWidth=1600',
-    careerId: 627
+    id: 627
   },
   {
     title: 'Roustabout / Leasehand',
@@ -7885,9 +7885,9 @@ export default [
       'Keep drill sites clean and tidy',
       'Some do basic maintenance to drilling or pumping equipment'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-629.jpg?quality=70&maxWidth=1600',
-    careerId: 629
+    id: 629
   },
   {
     title: 'Sociologist',
@@ -7900,9 +7900,9 @@ export default [
       'May give recommendations to governments or companies based on their findings',
       'Academic sociologists teach at universities and colleges, and write articles and books'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-631.jpg?quality=70&maxWidth=1600',
-    careerId: 631
+    id: 631
   },
   {
     title: 'Solar Energy Tech',
@@ -7915,9 +7915,9 @@ export default [
       'Show clients how to maintain panels',
       'Some focus on fixing, selling, or manufacturing systems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-632.jpg?quality=70&maxWidth=1600',
-    careerId: 632
+    id: 632
   },
   {
     title: 'Singer',
@@ -7930,9 +7930,9 @@ export default [
       'Record songs for albums, movies, or commercials',
       'Some compose their own songs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-633.jpg?quality=70&maxWidth=1600',
-    careerId: 633
+    id: 633
   },
   {
     title: 'Crime Scene Investigator',
@@ -7945,9 +7945,9 @@ export default [
       'Package, label, and document evidence, and write evidence reports',
       'May analyze fingerprints and bloodstains, and testify in court'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-634.jpg?quality=70&maxWidth=1600',
-    careerId: 634
+    id: 634
   },
   {
     title: 'Nuclear Engineer',
@@ -7959,9 +7959,9 @@ export default [
       'Others work with nuclear fuels, ensuring they are produced, used, and disposed of safely',
       'Some work in health care, designing diagnostic equipment such as x-ray machines'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-638.jpg?quality=70&maxWidth=1600',
-    careerId: 638
+    id: 638
   },
   {
     title: 'Electronics Engineer',
@@ -7974,9 +7974,9 @@ export default [
       'Test systems to make sure they perform as required',
       'Some install electronics or provide technical support'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-639.jpg?quality=70&maxWidth=1600',
-    careerId: 639
+    id: 639
   },
   {
     title: 'Software Engineer',
@@ -7989,9 +7989,9 @@ export default [
       'Test and debug software or systems',
       'Some specialize in systems analysis, sales, or research and design'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-640.jpg?quality=70&maxWidth=1600',
-    careerId: 640
+    id: 640
   },
   {
     title: 'Computer Hardware Engineer',
@@ -8004,9 +8004,9 @@ export default [
       'Evaluate designs and make changes where necessary',
       'Present completed designs to clients and oversee the manufacturing process'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-641.jpg?quality=70&maxWidth=1600',
-    careerId: 641
+    id: 641
   },
   {
     title: 'Curriculum Specialist',
@@ -8019,9 +8019,9 @@ export default [
       'May specialize in a specific subject, such as English or math',
       'Develop and conduct teacher training programs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-643.jpg?quality=70&maxWidth=1600',
-    careerId: 643
+    id: 643
   },
   {
     title: 'Middle School Teacher',
@@ -8034,9 +8034,9 @@ export default [
       'Use different teaching methods to interest and motivate students',
       'Help students with learning or social problems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-644.jpg?quality=70&maxWidth=1600',
-    careerId: 644
+    id: 644
   },
   {
     title: 'Osteopathic Physician',
@@ -8049,9 +8049,9 @@ export default [
       'May diagnose and treat patients by stretching and moving their muscles and joints by hand',
       'Exact duties depend on the specialty'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-645.jpg?quality=70&maxWidth=1600',
-    careerId: 645
+    id: 645
   },
   {
     title: 'Martial Arts Instructor',
@@ -8064,9 +8064,9 @@ export default [
       'Referee sparring matches',
       'Train students for tournaments'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-646.jpg?quality=70&maxWidth=1600',
-    careerId: 646
+    id: 646
   },
   {
     title: 'Toxicologist',
@@ -8079,9 +8079,9 @@ export default [
       'Some treat patients or animals that have been exposed to harmful chemicals',
       'Professors teach students at universities'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-647.jpg?quality=70&maxWidth=1600',
-    careerId: 647
+    id: 647
   },
   {
     title: 'Biochemist',
@@ -8094,9 +8094,9 @@ export default [
       'Some help develop and test new products, such as drugs or cosmetics',
       'Professors teach university students and write research papers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-648.jpg?quality=70&maxWidth=1600',
-    careerId: 648
+    id: 648
   },
   {
     title: 'Diagnostic Medical Sonographer',
@@ -8109,9 +8109,9 @@ export default [
       'Make notes about the captured images',
       'Choose images to show to the radiologist'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-649.jpg?quality=70&maxWidth=1600',
-    careerId: 649
+    id: 649
   },
   {
     title: 'Bellhop',
@@ -8124,9 +8124,9 @@ export default [
       'Run errands for guests, answer questions, and give directions',
       'Call and load taxis for departing guests'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-650.jpg?quality=70&maxWidth=1600',
-    careerId: 650
+    id: 650
   },
   {
     title: 'Information Security Analyst',
@@ -8139,9 +8139,9 @@ export default [
       'Investigate threats and unauthorized access',
       'Assess and repair damage done by viruses and other security breaches'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-653.jpg?quality=70&maxWidth=1600',
-    careerId: 653
+    id: 653
   },
   {
     title: 'Computer Scientist',
@@ -8154,9 +8154,9 @@ export default [
       'Managers oversee budgets and hiring',
       'Professors teach students and mark papers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-654.jpg?quality=70&maxWidth=1600',
-    careerId: 654
+    id: 654
   },
   {
     title: 'Proofreader',
@@ -8169,9 +8169,9 @@ export default [
       'Other proofreaders may also look for spelling and grammar errors and style inconsistencies',
       'Consult dictionaries, grammar books, and style guides'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-657.jpg?quality=70&maxWidth=1600',
-    careerId: 657
+    id: 657
   },
   {
     title: 'Crossing Guard',
@@ -8183,9 +8183,9 @@ export default [
       'Report children who disobey directions to school officials',
       'Record licence plate numbers of cars that don\u2019t stop'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-658.jpg?quality=70&maxWidth=1600',
-    careerId: 658
+    id: 658
   },
   {
     title: 'Parking Enforcement Officer',
@@ -8198,9 +8198,9 @@ export default [
       'Have vehicles towed when necessary',
       'May collect money in parking meters and report damaged meters'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-659.jpg?quality=70&maxWidth=1600',
-    careerId: 659
+    id: 659
   },
   {
     title: 'Tax Preparer',
@@ -8213,9 +8213,9 @@ export default [
       'Use all the available deductions to ensure clients\u2019 tax debt is as low as possible',
       'File returns with the government, or give them to clients to file'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-661.jpg?quality=70&maxWidth=1600',
-    careerId: 661
+    id: 661
   },
   {
     title: 'Credit Counsellor',
@@ -8228,9 +8228,9 @@ export default [
       'Negotiate agreements between clients and creditors that allow them to pay off their debts',
       'Some lead workshops or information sessions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-662.jpg?quality=70&maxWidth=1600',
-    careerId: 662
+    id: 662
   },
   {
     title: 'Recreation Vehicle Service Technician',
@@ -8242,9 +8242,9 @@ export default [
       'Use a variety of methods and equipment to diagnose problems',
       'Common tasks include fixing plumbing and charging systems'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-670.jpg?quality=70&maxWidth=1600',
-    careerId: 670
+    id: 670
   },
   {
     title: 'Animal Services Worker',
@@ -8257,9 +8257,9 @@ export default [
       'Subdue and capture wild animals, such as bears, and return them to the wild',
       'Catch and care for stray animals'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-672.jpg?quality=70&maxWidth=1600',
-    careerId: 672
+    id: 672
   },
   {
     title: 'Amusement and Recreation Attendant',
@@ -8271,9 +8271,9 @@ export default [
       'Attendants at sports facilities schedule activities, collect fees, or rent out equipment',
       'Other attendants operate ice resurfacing machines or snow making machinery'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-676.jpg?quality=70&maxWidth=1600',
-    careerId: 676
+    id: 676
   },
   {
     title: 'Cost Estimator',
@@ -8285,9 +8285,9 @@ export default [
       'Take bids from subcontractors to determine which companies should be hired',
       'May also monitor the progress of the project, and track and record the money spent'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-680.jpg?quality=70&maxWidth=1600',
-    careerId: 680
+    id: 680
   },
   {
     title: 'Bill and Account Collector',
@@ -8300,9 +8300,9 @@ export default [
       'Keep records of calls and monitor accounts',
       'May arrange for repossession of property or forward unpaid accounts to lawyers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-681.jpg?quality=70&maxWidth=1600',
-    careerId: 681
+    id: 681
   },
   {
     title: 'Transportation Inspector',
@@ -8315,9 +8315,9 @@ export default [
       'Write inspection reports, issue fines or citations, and order repairs',
       'May investigate accidents'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-685.jpg?quality=70&maxWidth=1600',
-    careerId: 685
+    id: 685
   },
   {
     title: 'Occupational Hygienist',
@@ -8330,9 +8330,9 @@ export default [
       'Develop and manage health and safety programs for companies',
       'Educate workers about workplace safety'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-686.jpg?quality=70&maxWidth=1600',
-    careerId: 686
+    id: 686
   },
   {
     title: 'Driver Licence Examiner',
@@ -8345,9 +8345,9 @@ export default [
       'Explain to failed applicants where they went wrong',
       'Issue licences for successful applicants'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-687.jpg?quality=70&maxWidth=1600',
-    careerId: 687
+    id: 687
   },
   {
     title: 'Title Searcher',
@@ -8360,9 +8360,9 @@ export default [
       'Make sure properties match the description provided by sellers',
       'Check for unpaid taxes or liens on properties'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-688.jpg?quality=70&maxWidth=1600',
-    careerId: 688
+    id: 688
   },
   {
     title: 'Radio / Television Program Director',
@@ -8375,9 +8375,9 @@ export default [
       'Hire and coach announcers and volunteers',
       'May be involved with marketing the station'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-690.jpg?quality=70&maxWidth=1600',
-    careerId: 690
+    id: 690
   },
   {
     title: 'Financial Manager',
@@ -8390,9 +8390,9 @@ export default [
       'Prepare financial statements and cost-benefit analyses',
       'Act as liaisons between company and investors'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-696.jpg?quality=70&maxWidth=1600',
-    careerId: 696
+    id: 696
   },
   {
     title: 'Audio-Visual Technician',
@@ -8405,9 +8405,9 @@ export default [
       'Teach others how to use equipment',
       'Maintain equipment and make small repairs'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-697.jpg?quality=70&maxWidth=1600',
-    careerId: 697
+    id: 697
   },
   {
     title: 'Construction Labourer',
@@ -8420,9 +8420,9 @@ export default [
       'Sometimes build or dismantle scaffolding',
       'Guide crane operators and heavy equipment operators'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-700.jpg?quality=70&maxWidth=1600',
-    careerId: 700
+    id: 700
   },
   {
     title: 'Manufacturing Manager',
@@ -8435,9 +8435,9 @@ export default [
       'Discuss equipment upgrades with engineers',
       'Study and analyze the production process to find improvements'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-701.jpg?quality=70&maxWidth=1600',
-    careerId: 701
+    id: 701
   },
   {
     title: 'Pedorthist',
@@ -8450,9 +8450,9 @@ export default [
       'Cut and grind foam, rubber, or plastic to create custom orthotics',
       'Adjust and modify orthotics'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-703.jpg?quality=70&maxWidth=1600',
-    careerId: 703
+    id: 703
   },
   {
     title: 'Climatologist',
@@ -8465,9 +8465,9 @@ export default [
       'May present their findings to the public',
       'Some teach at universities'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-706.jpg?quality=70&maxWidth=1600',
-    careerId: 706
+    id: 706
   },
   {
     title: 'Energy Auditor',
@@ -8480,9 +8480,9 @@ export default [
       'Make suggestions on ways to save energy',
       'Prepare reports and answer owners\u2019 questions'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-710.jpg?quality=70&maxWidth=1600',
-    careerId: 710
+    id: 710
   },
   {
     title: 'Fire Investigator',
@@ -8495,9 +8495,9 @@ export default [
       'Maintain records and prepare reports',
       'May testify in court about the findings'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-713.jpg?quality=70&maxWidth=1600',
-    careerId: 713
+    id: 713
   },
   {
     title: 'Forest Firefighter',
@@ -8510,9 +8510,9 @@ export default [
       'Use hoses and water bombers to fight fires',
       'Set \u201cprescribed burns\u201d to remove vegetation and deprive fires of fuel'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-714.jpg?quality=70&maxWidth=1600',
-    careerId: 714
+    id: 714
   },
   {
     title: 'Municipal Clerk',
@@ -8525,9 +8525,9 @@ export default [
       'Provide information to the public and answer questions',
       'Some oversee municipal elections'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-718.jpg?quality=70&maxWidth=1600',
-    careerId: 718
+    id: 718
   },
   {
     title: 'Museum Technician',
@@ -8540,9 +8540,9 @@ export default [
       'Others help archivists research and organize information',
       'Conservation and restoration technicians help conservators preserve and restore items'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-719.jpg?quality=70&maxWidth=1600',
-    careerId: 719
+    id: 719
   },
   {
     title: 'Post-Secondary Education Administrator',
@@ -8555,9 +8555,9 @@ export default [
       'Produce transcripts, diplomas, and other documents',
       'Oversee the delivery of services to students, such as student housing and financial aid'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-721.jpg?quality=70&maxWidth=1600',
-    careerId: 721
+    id: 721
   },
   {
     title: 'Volunteer Manager',
@@ -8570,9 +8570,9 @@ export default [
       'Create orientation and training programs',
       'Supervise and coordinate the work of volunteers'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-727.jpg?quality=70&maxWidth=1600',
-    careerId: 727
+    id: 727
   },
   {
     title: 'Wildlife Technician',
@@ -8585,8 +8585,8 @@ export default [
       'Keep detailed logs and write reports',
       'Process and analyze samples in the lab'
     ],
-    careerImage:
+    image:
       'https://img2-anaca.azureedge.net/images/career-736.jpg?quality=70&maxWidth=1600',
-    careerId: 736
+    id: 736
   }
 ] as ICareer[]

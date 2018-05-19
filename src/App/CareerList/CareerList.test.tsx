@@ -14,8 +14,8 @@ describe('can render a simple career', () => {
       title: 'Test',
       description: 'Test',
       notes: ['a', 'b'],
-      careerImage: 'Test',
-      careerId: 1
+      image: 'Test',
+      id: 1
     }
   ]
   const wrapper = shallow(<CareerList careers={careers} />)
