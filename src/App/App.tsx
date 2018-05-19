@@ -14,7 +14,7 @@ interface IAppState {
   searchState: ISearchState
 }
 
-class App extends React.Component<IAppProps> {
+class App extends React.Component<IAppProps, IAppState> {
   public showImages: boolean = true;
   public state: IAppState = {
     searchState: {
@@ -24,7 +24,6 @@ class App extends React.Component<IAppProps> {
 
   constructor (props: IAppProps) {
     super(props)
-
     this.onSearchStateChange = this.onSearchStateChange.bind(this)
   }
 
@@ -32,11 +31,16 @@ class App extends React.Component<IAppProps> {
     this.setState({ searchState })
   }
 
+  public filterCareers (careers: ICareer[], searchState: ISearchState): ICareer[] {
+    const searchStringRegExp = new RegExp(`(${searchState.searchString})`, 'ig')
+    return careers.filter((career) => searchStringRegExp.test(career.title))
+  }
+
   public render() {
     return (
       <div className="App">
         <Controls onChange={this.onSearchStateChange} />
-        <CareerList careers={this.props.careers} showImages={this.showImages} />
+        <CareerList careers={this.filterCareers(this.props.careers, this.state.searchState)} showImages={this.showImages} />
       </div>
     )
   }
