@@ -8,7 +8,7 @@ it('renders without crashing', () => {
   mount(<CareerList careers={[]} />)
 })
 
-it('can render a simple career', () => {
+describe('can render a simple career', () => {
   const careers: ICareer[] = [
     {
       title: 'Test',
@@ -20,6 +20,21 @@ it('can render a simple career', () => {
   ]
   const wrapper = mount(<CareerList careers={careers} />)
   const career = wrapper.find('.CareerList__career')
-  expect(career).toHaveLength(1)
-  expect(career[0].find('h1').text()).toBe(careers[0].title)
+
+  it('rendered one career', () => {
+    expect(career).toHaveLength(1)
+  })
+
+  it('rendered a title', () => {
+    expect(career.find('h1').text()).toBe(careers[0].title)
+  })
+
+  it('rendered a description', () => {
+    expect(career.find('p').text()).toBe(careers[0].description)
+  })
+
+  it('rendered a notes list', () => {
+    expect(career.children('ul').find('li').at(0).text()).toBe('a')
+    expect(career.children('ul').find('li').at(1).text()).toBe('b')
+  })
 })
