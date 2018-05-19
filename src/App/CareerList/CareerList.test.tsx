@@ -1,4 +1,4 @@
-import { ICareer } from '../types'
+import { ICareer } from '../../types'
 
 import * as React from 'react'
 import { mount } from 'enzyme'
