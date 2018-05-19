@@ -1,4 +1,4 @@
-import { ICareer, IControlState } from '../types'
+import { ICareer, IControlsState } from '../types'
 
 import * as React from 'react'
 import CareerList from './CareerList/CareerList'
@@ -11,13 +11,13 @@ interface IAppProps {
 }
 
 interface IAppState {
-  controlState: IControlState
+  controlsState: IControlsState
 }
 
 class App extends React.Component<IAppProps, IAppState> {
   public showImages: boolean = true;
   public state: IAppState = {
-    controlState: {
+    controlsState: {
       searchString: '',
       showImages: false
     }
@@ -25,23 +25,28 @@ class App extends React.Component<IAppProps, IAppState> {
 
   constructor (props: IAppProps) {
     super(props)
-    this.onControlStateChange = this.onControlStateChange.bind(this)
+    this.onControlsStateChange = this.onControlsStateChange.bind(this)
   }
 
-  public onControlStateChange (controlState: IControlState): void {
-    this.setState({ controlState })
+  public onControlsStateChange (controlsState: IControlsState): void {
+    this.setState({ controlsState })
   }
 
-  public filterCareers (careers: ICareer[], controlState: IControlState): ICareer[] {
-    const searchStringRegExp = new RegExp(`(${controlState.searchString})`, 'ig')
+  public filterCareers (careers: ICareer[], controlsState: IControlsState): ICareer[] {
+    const searchStringRegExp = new RegExp(`(${controlsState.searchString})`, 'ig')
     return careers.filter((career) => searchStringRegExp.test(career.title))
   }
 
   public render() {
     return (
       <div className="App">
-        <Controls onChange={this.onControlStateChange} />
-        <CareerList careers={this.filterCareers(this.props.careers, this.state.controlState)} showImages={this.state.controlState.showImages} />
+        <Controls
+          onChange={this.onControlsStateChange}
+          controlsState={this.state.controlsState} />
+
+        <CareerList
+          careers={this.filterCareers(this.props.careers, this.state.controlsState)}
+          showImages={this.state.controlsState.showImages} />
       </div>
     )
   }

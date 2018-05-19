@@ -1,8 +1,9 @@
-import { IControlState } from '../../types'
+import { IControlsState } from '../../types'
 import * as React from 'react'
 
 interface IControlsProps {
-  onChange: (controlState: IControlState) => void
+  controlsState: IControlsState,
+  onChange: (controlsState: IControlsState) => void
 }
 
 class Controls extends React.Component<IControlsProps> {
@@ -10,18 +11,34 @@ class Controls extends React.Component<IControlsProps> {
     super(props)
 
     this.onSearchStringChange = this.onSearchStringChange.bind(this)
+    this.onShowImageChange = this.onShowImageChange.bind(this)
   }
 
   public onSearchStringChange (e: React.SyntheticEvent<HTMLInputElement>) {
     this.props.onChange({
+      ...this.props.controlsState,
       searchString: e.currentTarget.value
+    })
+  }
+
+  public onShowImageChange (e: React.SyntheticEvent<HTMLInputElement>) {
+    this.props.onChange({
+      ...this.props.controlsState,
+      showImages: e.currentTarget.checked
     })
   }
 
   public render () {
     return (
       <div className="Controls__wrapper">
-        <input type="text" onChange={this.onSearchStringChange} />
+        <label>
+          Search
+          <input className="Controls__searchInput" type="text" value={this.props.controlsState.searchString} onChange={this.onSearchStringChange} />
+        </label>
+        <label>
+          Show Images
+          <input className="Controls__showImagesInput" type="checkbox" checked={this.props.controlsState.showImages} onChange={this.onShowImageChange} />
+        </label>
       </div>
     )
   }

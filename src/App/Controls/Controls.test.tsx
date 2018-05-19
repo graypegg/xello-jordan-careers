@@ -1,20 +1,45 @@
-import { IControlState } from '../../types'
+import { IControlsState } from '../../types'
 
 import * as React from 'react'
-import { shallow } from 'enzyme'
+import { shallow, render } from 'enzyme'
 import Controls from './Controls'
 
-const s = (x: IControlState) => ({ searchString: '' } as IControlState)
+const onControlsStateChangeMock = (x: IControlsState) => ({ searchString: '' } as IControlsState)
+const controlsStateMock: IControlsState = { searchString: '', showImages: false }
 
 it('renders without crashing', () => {
-  shallow(<Controls onChange={s} />)
+  shallow(<Controls onChange={onControlsStateChangeMock} controlsState={controlsStateMock} />)
 })
 
 describe('can render a simple career', () => {
-  const onChange = (state: IControlState) => console.log(state) 
-  const wrapper = shallow(<Controls onChange={onChange}/>)
+  const onChange = (state: IControlsState) => console.log(state) 
+  const wrapper = render(<Controls onChange={onChange} controlsState={controlsStateMock} />)
 
   it('rendered a search box', () => {
-    expect(wrapper.find('input').length).toBe(1)
+    expect(wrapper.find('input[type=text]').length).toBe(1)
+  })
+
+  it('rendered a checkbox', () => {
+    expect(wrapper.find('input[type=checkbox]').length).toBe(1)
+  })
+})
+
+describe('returns an updated IControlsState', () => {
+  it('update searchString', () => {
+    const onChange = (newState: IControlsState) => expect(newState).toEqual({
+      ...controlsStateMock,
+      searchString: 'test'
+    } as IControlsState)
+    const wrapper = shallow(<Controls onChange={onChange} controlsState={controlsStateMock} />)
+    wrapper.find('.Controls__searchInput').simulate('change', { currentTarget: { value: 'test' } })
+  })
+
+  it('update showImages', () => {
+    const onChange = (newState: IControlsState) => expect(newState).toEqual({
+      ...controlsStateMock,
+      showImages: true
+    } as IControlsState)
+    const wrapper = shallow(<Controls onChange={onChange} controlsState={controlsStateMock} />)
+    wrapper.find('.Controls__showImagesInput').simulate('change', { currentTarget: { checked: true } })
   })
 })

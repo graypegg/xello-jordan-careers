@@ -6,7 +6,7 @@ export declare interface ICareer {
   id: number
 }
 
-export declare interface IControlState {
-  searchString?: string,
-  showImages?: boolean
+export declare interface IControlsState {
+  searchString: string,
+  showImages: boolean
 }
