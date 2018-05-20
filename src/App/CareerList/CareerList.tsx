@@ -57,7 +57,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
         </div>
 
         <ul className="CareerList__careers">
-          { pages[this.state.onPage].map((career) => (
+          { (pages[this.state.onPage] || pages[pages.length - 1]).map((career) => (
             <li className="CareerList__career" key={ career.id }>
               <Career
                 career={ career }
