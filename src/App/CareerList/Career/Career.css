@@ -17,3 +17,9 @@
 .Career__wrapper > p {
   padding: 0 20px;
 }
+
+.Career__image {
+  height: 350px;
+  background-size: cover;
+  background-position: center center;
+}
