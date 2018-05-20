@@ -40,13 +40,19 @@ class App extends React.Component<IAppProps, IAppState> {
   public render(): JSX.Element {
     return (
       <div className="App__wrapper">
-        <Controls
-          onChange={this.onControlsStateChange}
-          controlsState={this.state.controlsState} />
+        <header className="App__header">
+          <img src="https://xello.world/images/xello-logo.svg" alt="Xello" /> Careers
+        </header>
 
-        <CareerList
-          careers={this.filterCareers(this.props.careers, this.state.controlsState)}
-          showImages={this.state.controlsState.showImages} />
+        <main className="App__application">
+          <Controls
+            onChange={this.onControlsStateChange}
+            controlsState={this.state.controlsState} />
+
+          <CareerList
+            careers={this.filterCareers(this.props.careers, this.state.controlsState)}
+            showImages={this.state.controlsState.showImages} />
+          </main>
       </div>
     )
   }

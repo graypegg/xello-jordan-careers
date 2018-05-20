@@ -1,3 +1,22 @@
-.App__wrapper {
+.App__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
   background: var(--primary-gradient);
+  color: #FFF;
+  padding: 30px 40px 26px;
+}
+
+.App__header img {
+  margin-top: -4px;
+  margin-right: 15px;
+  width: 93px;
+}
+
+.App__application {
+  margin: 15px auto 0;
+  max-width: 970px;
+  padding: 0 40px; 
 }

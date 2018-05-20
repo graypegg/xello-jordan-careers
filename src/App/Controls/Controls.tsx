@@ -6,7 +6,7 @@ interface IControlsProps {
   onChange: (controlsState: IControlsState) => void
 }
 
-class Controls extends React.PureComponent<IControlsProps> {
+class Controls extends React.Component<IControlsProps> {
   constructor (props: IControlsProps) {
     super(props)
 
@@ -33,11 +33,20 @@ class Controls extends React.PureComponent<IControlsProps> {
       <div className="Controls__wrapper">
         <label>
           Search
-          <input className="Controls__searchInput" type="text" value={this.props.controlsState.searchString} onChange={this.onSearchStringChange} />
+          <input
+            className="Controls__searchInput"
+            type="text"
+            value={this.props.controlsState.searchString}
+            onChange={this.onSearchStringChange} />
         </label>
+        
         <label>
           Show Images
-          <input className="Controls__showImagesInput" type="checkbox" checked={this.props.controlsState.showImages} onChange={this.onShowImageChange} />
+          <input
+            className="Controls__showImagesInput"
+            type="checkbox"
+            checked={this.props.controlsState.showImages}
+            onChange={this.onShowImageChange} />
         </label>
       </div>
     )
