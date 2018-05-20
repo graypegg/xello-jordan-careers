@@ -6,7 +6,7 @@ interface ICareerListProps {
   showImages?: boolean
 }
 
-function CareerList (props: ICareerListProps) {
+function CareerList (props: ICareerListProps): JSX.Element {
   return (
     <div className="CareerList__wrapper">
       <ul className="CareerList__careers">

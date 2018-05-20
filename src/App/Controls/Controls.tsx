@@ -6,7 +6,7 @@ interface IControlsProps {
   onChange: (controlsState: IControlsState) => void
 }
 
-class Controls extends React.Component<IControlsProps> {
+class Controls extends React.PureComponent<IControlsProps> {
   constructor (props: IControlsProps) {
     super(props)
 
@@ -14,21 +14,21 @@ class Controls extends React.Component<IControlsProps> {
     this.onShowImageChange = this.onShowImageChange.bind(this)
   }
 
-  public onSearchStringChange (e: React.SyntheticEvent<HTMLInputElement>) {
+  public onSearchStringChange (e: React.SyntheticEvent<HTMLInputElement>): void {
     this.props.onChange({
       ...this.props.controlsState,
       searchString: e.currentTarget.value
     })
   }
 
-  public onShowImageChange (e: React.SyntheticEvent<HTMLInputElement>) {
+  public onShowImageChange (e: React.SyntheticEvent<HTMLInputElement>): void {
     this.props.onChange({
       ...this.props.controlsState,
       showImages: e.currentTarget.checked
     })
   }
 
-  public render () {
+  public render(): JSX.Element {
     return (
       <div className="Controls__wrapper">
         <label>

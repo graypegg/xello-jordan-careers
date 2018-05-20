@@ -37,9 +37,9 @@ class App extends React.Component<IAppProps, IAppState> {
     return careers.filter((career) => searchStringRegExp.test(career.title))
   }
 
-  public render() {
+  public render(): JSX.Element {
     return (
-      <div className="App">
+      <div className="App__wrapper">
         <Controls
           onChange={this.onControlsStateChange}
           controlsState={this.state.controlsState} />

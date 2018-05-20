@@ -1,5 +1,5 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+:root {
+  --primary-light: #81c325;
+  --primary-dark: #41610f;
+  --primary-gradient: linear-gradient(to bottom, var(--primary-light) 0%, var(--primary-dark) 100%);
 }

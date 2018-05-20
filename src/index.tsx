@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom'
 import App from './App/App'
 
 import careerData from './assets/data'
+import './assets/base.css'
 import './assets/vars.css'
 
 ReactDOM.render(
