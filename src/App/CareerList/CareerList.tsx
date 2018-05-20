@@ -10,18 +10,20 @@ interface ICareerListProps {
   showImages: boolean
 }
 
-function CareerList (props: ICareerListProps): JSX.Element {
-  return (
-    <div className="CareerList__wrapper">
-      <ul className="CareerList__careers">
-        { props.careers.map((career) => (
-          <li className="CareerList__career" key={career.id}>
-            <Career career={career} showImage={props.showImages} />
-          </li>
-        )) }
-      </ul>
-    </div>
-  )
+class CareerList extends React.Component<ICareerListProps> {
+  public render (): JSX.Element {
+    return (
+      <div className="CareerList__wrapper">
+        <ul className="CareerList__careers">
+          { this.props.careers.map((career) => (
+            <li className="CareerList__career" key={ career.id }>
+              <Career career={ career } showImage={ this.props.showImages } />
+            </li>
+          )) }
+        </ul>
+      </div>
+    )
+  }
 }
 
 export default CareerList
