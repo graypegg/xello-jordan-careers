@@ -33,7 +33,7 @@ describe('can render a simple career', () => {
     expect(component.children('ul').find('li').at(1).text()).toBe(career.notes[1])
   })
 
-  describe('can render a simple career', () => {
+  describe('image setting', () => {
     it('does not render an image when props.showImages == false', () => {
       expect(component.find('img').length).toBe(0)
     })

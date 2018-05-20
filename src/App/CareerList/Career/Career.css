@@ -1,0 +1,19 @@
+.Career__wrapper {
+  padding: 25px 25px 30px;
+  margin: 20px;
+  background: rgb(247, 247, 247);
+  color: #333;
+  line-height: 1.5;
+}
+
+.Career__wrapper h1 {
+  margin: 0 0 15px;
+  color: var(--primary-light);
+  background: #2a3a2d;
+  text-align: center;
+  padding: 15px;
+}
+
+.Career__wrapper p {
+  padding: 0 20px;
+}

@@ -1,6 +1,8 @@
 import { ICareer } from '../../../types'
 import * as React from 'react'
 
+import './Career.css'
+
 interface ICareerProps {
   career: ICareer,
   showImage: boolean
