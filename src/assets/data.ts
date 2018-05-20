@@ -225,7 +225,7 @@ export default [
   {
     title: 'Aircraft Mechanic',
     description:
-      'Aircraft mechanics inspect, repair, and maintain planes and helicopters. It&#39;s their job to keep all kinds of aircraft flying safely.',
+      'Aircraft mechanics inspect, repair, and maintain planes and helicopters. It\'s their job to keep all kinds of aircraft flying safely.',
     notes: [
       'Inspect aircraft engines, landing gear, instruments, brakes, valves, and pumps',
       'Check for corrosion, distortion, and cracks in the fuselage, wings, and tail',
@@ -1022,7 +1022,7 @@ export default [
   {
     title: 'Butcher',
     description:
-      'Butchers prepare cuts of beef, pork, lamb, and other meats for people to eat. It&#39;s a hard, physical job, and not for people with weak stomachs.',
+      'Butchers prepare cuts of beef, pork, lamb, and other meats for people to eat. It\'s a hard, physical job, and not for people with weak stomachs.',
     notes: [
       'Use band saws, electric slicers, and tenderizers to cut and prepare meat',
       'Inspect and ensure proper storage of meat',
@@ -1743,7 +1743,7 @@ export default [
   {
     title: 'Crane Operator',
     description:
-      'Crane operators control the machines that lift and move heavy objects. They hoist equipment, cargo, raw materials, and anything else that can&#39;t be moved by other means.',
+      'Crane operators control the machines that lift and move heavy objects. They hoist equipment, cargo, raw materials, and anything else that can\'t be moved by other means.',
     notes: [
       'Position the crane to move the load',
       'Study the load to understand how much it weighs and its weight distribution',
@@ -1877,7 +1877,7 @@ export default [
   {
     title: 'Early Childhood Educator',
     description:
-      'Early childhood educators care for and teach infants, toddlers, and preschool children. They play a key role in shaping these young children&#39;s futures.',
+      'Early childhood educators care for and teach infants, toddlers, and preschool children. They play a key role in shaping these young children\'s futures.',
     notes: [
       'Design and lead learning games and activities ',
       'Use arts, crafts, and music to help children learn',
@@ -1907,7 +1907,7 @@ export default [
   {
     title: 'Dental Hygienist',
     description:
-      'Dental hygienists work with dentists to provide care for people&#39;s teeth, gums, and mouths. They help maintain the oral health of their patients.',
+      'Dental hygienists work with dentists to provide care for people\'s teeth, gums, and mouths. They help maintain the oral health of their patients.',
     notes: [
       'Examine mouths visually and with x-rays to find tooth decay and gum disease',
       'Report problems to the dentist',
@@ -1966,7 +1966,7 @@ export default [
   {
     title: 'Dietitian',
     description:
-      'Dietitians research people&#39;s nutritional needs and plan special diets. They also educate patients or special groups on how to eat well and be healthy.',
+      'Dietitians research people\'s nutritional needs and plan special diets. They also educate patients or special groups on how to eat well and be healthy.',
     notes: [
       'Assess people\u2019s nutritional needs and plan diets for those who are ill or obese',
       'Teach people about proper nutrition',
@@ -2055,7 +2055,7 @@ export default [
   {
     title: 'Drafter',
     description:
-      'Drafters prepare the technical drawings used to build homes, machines, and electrical systems. They draw some of the greatest buildings and products you&#39;ve ever seen.',
+      'Drafters prepare the technical drawings used to build homes, machines, and electrical systems. They draw some of the greatest buildings and products you\'ve ever seen.',
     notes: [
       'May specialize in architectural, electrical, civil, or mechanical drafting ',
       'Analyze engineering and architecture designs',
@@ -2441,7 +2441,7 @@ export default [
   {
     title: 'Exhibit Designer',
     description:
-      'Exhibit designers create displays in educational settings like science centres, museums, and zoos. They really know how to catch someone&#39;s eye.',
+      'Exhibit designers create displays in educational settings like science centres, museums, and zoos. They really know how to catch someone\'s eye.',
     notes: [
       'Consider their clients\u2019 goals and ideas when developing exhibits',
       'Work out where an exhibit will be located and how much room is available',
@@ -2559,7 +2559,7 @@ export default [
   {
     title: 'Film and TV Crew',
     description:
-      'Film and TV crews set up lights, pull cables, move sets, and adjust cameras for productions. They work as a team to make sure the show&#39;s deadlines are met.',
+      'Film and TV crews set up lights, pull cables, move sets, and adjust cameras for productions. They work as a team to make sure the show\'s deadlines are met.',
     notes: [
       'Unload, build, and tear down equipment',
       'Set up and adjust lights',
@@ -2604,7 +2604,7 @@ export default [
   {
     title: 'Firefighter',
     description:
-      'Firefighters respond to fires, explosions, and other emergencies. They work as a team to save people&#39;s lives and limit the damage done to property.',
+      'Firefighters respond to fires, explosions, and other emergencies. They work as a team to save people\'s lives and limit the damage done to property.',
     notes: [
       'Run drills and prepare for fires',
       'Drive to fires and use hoses, ladders, and axes to fight and contain them',
@@ -2709,7 +2709,7 @@ export default [
   {
     title: 'Foreign Service Officer',
     description:
-      'Foreign service officers advise the government on foreign policy and diplomatic matters. They work in Ottawa and act on Canada&#39;s behalf in other countries.',
+      'Foreign service officers advise the government on foreign policy and diplomatic matters. They work in Ottawa and act on Canada\'s behalf in other countries.',
     notes: [
       'Develop and manage foreign policy programs',
       'Negotiate with foreign governments',
@@ -2784,7 +2784,7 @@ export default [
   {
     title: 'Funeral Director',
     description:
-      'Funeral directors help grieving families by arranging funerals and handling the deceased person&#39;s remains. This takes some of the pain and difficulty away from dealing with the death of a loved one.',
+      'Funeral directors help grieving families by arranging funerals and handling the deceased person\'s remains. This takes some of the pain and difficulty away from dealing with the death of a loved one.',
     notes: [
       'Meet with family members to plan funeral details',
       'Cremate or embalm bodies and put clothes and makeup on them',
@@ -2931,7 +2931,7 @@ export default [
   {
     title: 'Health Records Professional',
     description:
-      'Health records professionals make sure that doctors have access to their patients&#39; medical histories. They are experts at organizing and managing health records.',
+      'Health records professionals make sure that doctors have access to their patients\' medical histories. They are experts at organizing and managing health records.',
     notes: [
       'Retrieve patients\u2019 files for doctors',
       'Check files to make sure the information is accurate and complete',
@@ -3138,7 +3138,7 @@ export default [
   {
     title: 'Human Resources Specialist',
     description:
-      'Human resources specialists develop and enforce a company&#39;s HR policies and procedures. They ensure a happy and productive workforce.',
+      'Human resources specialists develop and enforce a company\'s HR policies and procedures. They ensure a happy and productive workforce.',
     notes: [
       'Recruit, hire, motivate, and fire employees',
       'Create and run employee training and career development programs',
@@ -3670,7 +3670,7 @@ export default [
   {
     title: 'Makeup Artist',
     description:
-      'Makeup artists apply cosmetics, powders, paints, gels, and other products to people&#39;s skin. They make up actors and models, as well as individuals who want to bring out their best features.',
+      'Makeup artists apply cosmetics, powders, paints, gels, and other products to people\'s skin. They make up actors and models, as well as individuals who want to bring out their best features.',
     notes: [
       'Sketch designs and construct models',
       'Use cosmetics to enhance performers\u2019 features',
@@ -3789,7 +3789,7 @@ export default [
   {
     title: 'Massage Therapist',
     description:
-      'Massage therapists use their hands to massage clients&#39; muscles and other soft tissues. They reduce clients&#39; pain and help them regain or improve movement.',
+      'Massage therapists use their hands to massage clients\' muscles and other soft tissues. They reduce clients\' pain and help them regain or improve movement.',
     notes: [
       'Assess clients and develop treatment plans',
       'Give back, neck, shoulder, foot, or full body massages',
@@ -3893,7 +3893,7 @@ export default [
   {
     title: 'Medical Lab Tech',
     description:
-      'Medical lab techs test samples of patients&#39; tissue, blood, and urine. The tests can help doctors diagnose, prevent, and treat diseases.',
+      'Medical lab techs test samples of patients\' tissue, blood, and urine. The tests can help doctors diagnose, prevent, and treat diseases.',
     notes: [
       'Use microscopes, chemical analyzers, and other instruments to test samples',
       'Record patient and test information',
@@ -4175,7 +4175,7 @@ export default [
   {
     title: 'Naturopath',
     description:
-      'Naturopaths treat diseases and medical problems with only natural methods. They use these remedies and therapies to restore people&#39;s health.',
+      'Naturopaths treat diseases and medical problems with only natural methods. They use these remedies and therapies to restore people\'s health.',
     notes: [
       'Assess patients\u2019 health concerns',
       'Treat patients with acupuncture, homeopathic medicine, or other remedies',
@@ -4340,7 +4340,7 @@ export default [
   {
     title: 'Oil and Gas Well Drilling Crew',
     description:
-      'Oil and gas well drilling crews operate equipment that drills deep into the earth&#39;s crust. They then take out the deposits of oil and natural gas.',
+      'Oil and gas well drilling crews operate equipment that drills deep into the earth\'s crust. They then take out the deposits of oil and natural gas.',
     notes: [
       'Operate and maintain drilling equipment',
       'Motorhands operate and maintain the machines that power the drilling equipment',
@@ -4369,7 +4369,7 @@ export default [
   {
     title: 'Optician',
     description:
-      'Opticians make and fit eyeglasses for customers based on doctors&#39; prescriptions. Some also fit people for contact lenses.',
+      'Opticians make and fit eyeglasses for customers based on doctors\' prescriptions. Some also fit people for contact lenses.',
     notes: [
       'Help customers choose glasses frames that suit them',
       'Cut or grind lenses to fit frames',
@@ -4384,7 +4384,7 @@ export default [
   {
     title: 'Optometrist',
     description:
-      'Optometrists are eye doctors. They examine people&#39;s eyes to diagnose vision problems, eye diseases, and other conditions.',
+      'Optometrists are eye doctors. They examine people\'s eyes to diagnose vision problems, eye diseases, and other conditions.',
     notes: [
       'Use instruments to test patients\u2019 eyes',
       'Prescribe corrective lenses or rehabilitative treatment',
@@ -4444,7 +4444,7 @@ export default [
   {
     title: 'Paramedic',
     description:
-      'Paramedics provide immediate medical care in emergencies and transport patients to the hospital. Arriving at a scene in time can save someone&#39;s life!',
+      'Paramedics provide immediate medical care in emergencies and transport patients to the hospital. Arriving at a scene in time can save someone\'s life!',
     notes: [
       'Travel to scenes of emergencies, such as car accidents or heart attacks',
       'Give care and treatment to patients and take them to the hospital',
@@ -4724,7 +4724,7 @@ export default [
   {
     title: 'Plastic Surgeon',
     description:
-      'Plastic surgeons are specialized doctors who alter or restore a person&#39;s appearance. They perform both reconstructive and cosmetic surgeries.',
+      'Plastic surgeons are specialized doctors who alter or restore a person\'s appearance. They perform both reconstructive and cosmetic surgeries.',
     notes: [
       'Perform surgery to correct the effects of injury, disease, or birth defects',
       'Remove tumours, do skin grafts to replace damaged skin, and other procedures',
@@ -5717,7 +5717,7 @@ export default [
   {
     title: 'Stock Clerk',
     description:
-      'Stock clerks receive and put products on the shelves of stores and warehouses. They make sure a store&#39;s shelves are full of nicely arranged products.',
+      'Stock clerks receive and put products on the shelves of stores and warehouses. They make sure a store\'s shelves are full of nicely arranged products.',
     notes: [
       'Unpack products from boxes and count the number of items received',
       'Price products and arrange them on shelves',
@@ -6691,7 +6691,7 @@ export default [
   {
     title: 'Image Consultant',
     description:
-      'Image consultants help clients with the way they present themselves to the world. They assess clients&#39; fashion, style, and behaviour to craft the best image.',
+      'Image consultants help clients with the way they present themselves to the world. They assess clients\' fashion, style, and behaviour to craft the best image.',
     notes: [
       'Advise clients on clothes, hairstyles, makeup, jewellery, and colours',
       'Give advice on posture, manners, business etiquette, and public speaking',
@@ -7059,7 +7059,7 @@ export default [
   {
     title: 'Visual Merchandiser',
     description:
-      'Visual merchandisers attract people to stores by designing and setting up displays. They show off the store&#39;s goods and decorations to help people imagine buying the items.',
+      'Visual merchandisers attract people to stores by designing and setting up displays. They show off the store\'s goods and decorations to help people imagine buying the items.',
     notes: [
       'Brainstorm ideas for store displays and create sketches',
       'Construct and set up displays in store interiors and windows',
@@ -7118,7 +7118,7 @@ export default [
   {
     title: 'Abuse / Crisis Counsellor',
     description:
-      'Abuse and crisis counsellors help people who are in distress due to domestic violence or other crises. They provide emotional support and information when it&#39;s needed most.',
+      'Abuse and crisis counsellors help people who are in distress due to domestic violence or other crises. They provide emotional support and information when it\'s needed most.',
     notes: [
       'Provide one-on-one counselling to clients',
       'Help build self-esteem and confidence in clients',
@@ -7714,7 +7714,7 @@ export default [
   {
     title: 'Denturist',
     description:
-      'Denturists are specialized dental care workers who keep people&#39;s smiles bright. These specialists design, make, fit, and fix removable dentures, or false teeth.',
+      'Denturists are specialized dental care workers who keep people\'s smiles bright. These specialists design, make, fit, and fix removable dentures, or false teeth.',
     notes: [
       'Examine patients\u2019 mouths and decide what types of dentures are needed',
       'Take measurements of patients\u2019 jaws',
@@ -8101,7 +8101,7 @@ export default [
   {
     title: 'Diagnostic Medical Sonographer',
     description:
-      'Diagnostic medical sonographers use ultrasound equipment to capture images of patients&#39; internal organs. They can detect medical conditions and monitor fetuses in the womb during pregnancy.',
+      'Diagnostic medical sonographers use ultrasound equipment to capture images of patients\' internal organs. They can detect medical conditions and monitor fetuses in the womb during pregnancy.',
     notes: [
       'Explain the procedure to patients and get them in position',
       'Spread gel over the area of the patient\u2019s body to be examined',
@@ -8161,7 +8161,7 @@ export default [
   {
     title: 'Proofreader',
     description:
-      'Proofreaders review books, magazines, and other written materials for errors. They make sure the publications don&#39;t have any mistakes before they are published.',
+      'Proofreaders review books, magazines, and other written materials for errors. They make sure the publications don\'t have any mistakes before they are published.',
     notes: [
       'Book proofreaders check page numbers, line spaces, word breaks, and fonts',
       'Ensure tables and charts are complete',
@@ -8367,7 +8367,7 @@ export default [
   {
     title: 'Radio / Television Program Director',
     description:
-      'Program directors decide what airs on a radio or TV station. Their behind-the-scenes decisions are a major part of a station&#39;s success.',
+      'Program directors decide what airs on a radio or TV station. Their behind-the-scenes decisions are a major part of a station\'s success.',
     notes: [
       'Research the station\u2019s audience and evaluate the on-air content',
       'Choose and schedule music and programs and develop new programming',
@@ -8532,7 +8532,7 @@ export default [
   {
     title: 'Museum Technician',
     description:
-      'Museum technicians maintain the items in a gallery or museum&#39;s collection. They prepare and store objects, conduct research, and build exhibits.',
+      'Museum technicians maintain the items in a gallery or museum\'s collection. They prepare and store objects, conduct research, and build exhibits.',
     notes: [
       'Assist curators, archivists, and conservators',
       'Specific tasks vary by position',
