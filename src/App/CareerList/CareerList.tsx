@@ -7,15 +7,37 @@ import './CareerList.css'
 
 interface ICareerListProps {
   careers: ICareer[],
-  showImages: boolean
+  showImages: boolean,
+  pageLength: number
 }
 
-class CareerList extends React.Component<ICareerListProps> {
+interface ICareerListState {
+  onPage: number
+}
+
+class CareerList extends React.Component<ICareerListProps, ICareerListState> {
+  constructor (props: ICareerListProps) {
+    super(props)
+
+    this.state = {
+      onPage: 0
+    } as ICareerListState
+  }
+  
+  public careersToPages (careers: ICareer[], pageLength: number): ICareer[][] {
+    return careers.reduce((acc: ICareer[][], career: ICareer) => {
+      const currentPage = acc[acc.length - 1]
+      if (currentPage.length < pageLength) acc[acc.length - 1].push(career)
+      else acc.push([career])
+      return acc
+    }, [[]])
+  }
+
   public render (): JSX.Element {
     return (
       <div className="CareerList__wrapper">
         <ul className="CareerList__careers">
-          { this.props.careers.map((career) => (
+          { this.careersToPages(this.props.careers, this.props.pageLength)[this.state.onPage].map((career) => (
             <li className="CareerList__career" key={ career.id }>
               <Career career={ career } showImage={ this.props.showImages } />
             </li>

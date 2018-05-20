@@ -51,7 +51,8 @@ class App extends React.Component<IAppProps, IAppState> {
 
           <CareerList
             careers={this.filterCareers(this.props.careers, this.state.controlsState)}
-            showImages={this.state.controlsState.showImages} />
+            showImages={this.state.controlsState.showImages}
+            pageLength={20} />
           </main>
       </div>
     )
