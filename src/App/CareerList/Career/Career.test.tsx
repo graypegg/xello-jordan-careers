@@ -35,13 +35,13 @@ describe('can render a simple career', () => {
 
   describe('image setting', () => {
     it('does not render an image when props.showImages == false', () => {
-      expect(component.find('img').length).toBe(0)
+      expect(component.find('.Career__image').length).toBe(0)
     })
 
     it('renders an image when props.showImages == true', () => {
       const careerWithImage = shallow(<Career career={career} showImage={true} />)
-      expect(careerWithImage.find('img').length).toBeGreaterThan(0)
-      expect(careerWithImage.find('img').props().src).toBe(career.image)
+      expect(careerWithImage.find('.Career__image').length).toBeGreaterThan(0)
+      expect(careerWithImage.find('.Career__image').props().style).toEqual({backgroundImage: `url(${career.image})`})
     })
   })
 })
