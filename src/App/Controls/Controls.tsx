@@ -1,6 +1,8 @@
 import { IControlsState } from '../../types'
 import * as React from 'react'
 
+import './Controls.css'
+
 interface IControlsProps {
   controlsState: IControlsState,
   onChange: (controlsState: IControlsState) => void
