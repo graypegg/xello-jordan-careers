@@ -1,9 +1,11 @@
 import { ICareer } from '../../types'
 import * as React from 'react'
 
+import Career from './Career/Career'
+
 interface ICareerListProps {
   careers: ICareer[],
-  showImages?: boolean
+  showImages: boolean
 }
 
 function CareerList (props: ICareerListProps): JSX.Element {
@@ -12,18 +14,7 @@ function CareerList (props: ICareerListProps): JSX.Element {
       <ul className="CareerList__careers">
         { props.careers.map((career) => (
           <li className="CareerList__career" key={career.id}>
-            { props.showImages ? (
-              <img src={career.image} />
-            ) : undefined }
-            <h1>{ career.title }</h1>
-            <p>{ career.description }</p>
-            <ul>
-              { career.notes.map((note) => (
-                <li key={note}>
-                  { note }
-                </li>
-              )) }
-            </ul>
+            <Career career={career} showImage={props.showImages} />
           </li>
         )) }
       </ul>
