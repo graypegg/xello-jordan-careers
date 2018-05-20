@@ -1,4 +1,38 @@
+.CareerList__wrapper {
+  padding-top: 21px;
+}
+
 .CareerList__wrapper > ul {
   list-style-type: none;
   padding: 0;
+}
+
+.CareerList__pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.CareerList__paginationLink,
+.CareerList__paginationLink--active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  min-width: 20px;
+  min-height: 20px;
+  text-align: center;
+  padding: 5px 4px 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.CareerList__paginationLink {
+  background: var(--primary-dark);
+}
+
+.CareerList__paginationLink--active,
+.CareerList__paginationLink:hover {
+  background: var(--primary-light);
 }
