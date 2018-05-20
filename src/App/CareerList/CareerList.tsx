@@ -50,7 +50,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
       <div className="CareerList__wrapper">
         <div className="CareerList__pagination">
           { pages.map((page, index) => (
-            <a className={ 'CareerList__paginationLink' + (this.state.onPage === index ? '--active' : '') } onClick={ this.goToPageFactory(index) }>
+            <a className={ 'CareerList__paginationLink' + (this.state.onPage === index || (this.state.onPage > pages.length && index === pages.length - 1) ? '--active' : '') } onClick={ this.goToPageFactory(index) }>
               { index + 1 }
             </a>
           )) }

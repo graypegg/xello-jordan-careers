@@ -60,4 +60,4 @@ it('creates pages according to pageLength prop', () => {
   const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1} />)
 
   expect(wrapper.find(Career).length).toBe(1)
-}
+})
