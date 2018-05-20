@@ -22,6 +22,9 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     this.state = {
       onPage: 0
     } as ICareerListState
+
+    this.goToPage = this.goToPage.bind(this)
+    this.goToPageFactory = this.goToPageFactory.bind(this)
   }
   
   public careersToPages (careers: ICareer[], pageLength: number): ICareer[][] {
@@ -33,13 +36,32 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     }, [[]])
   }
 
+  public goToPage (pageIndex: number) {
+    this.setState({ onPage: pageIndex })
+  }
+
+  public goToPageFactory (pageIndex: number) {
+    return () => this.goToPage(pageIndex)
+  }
+
   public render (): JSX.Element {
+    const pages = this.careersToPages(this.props.careers, this.props.pageLength)
     return (
       <div className="CareerList__wrapper">
+        <div className="CareerList__pagination">
+          { pages.map((page, index) => (
+            <a onClick={ this.goToPageFactory(index) }>
+              { index }
+            </a>
+          )) }
+        </div>
+
         <ul className="CareerList__careers">
-          { this.careersToPages(this.props.careers, this.props.pageLength)[this.state.onPage].map((career) => (
+          { pages[this.state.onPage].map((career) => (
             <li className="CareerList__career" key={ career.id }>
-              <Career career={ career } showImage={ this.props.showImages } />
+              <Career
+                career={ career }
+                showImage={ this.props.showImages } />
             </li>
           )) }
         </ul>
