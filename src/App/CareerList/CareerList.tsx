@@ -3,6 +3,8 @@ import * as React from 'react'
 
 import Career from './Career/Career'
 
+import './CareerList.css'
+
 interface ICareerListProps {
   careers: ICareer[],
   showImages: boolean
