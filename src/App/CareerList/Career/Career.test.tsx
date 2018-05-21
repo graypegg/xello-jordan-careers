@@ -36,7 +36,7 @@ describe('can render a simple career', () => {
 
   it('does render an image when props.showImages == true', () => {
     const componentWithImage = shallow(<Career career={career} showImage={true} />)
-    expect(componentWithImage.find(CareerImage).length).toBe(0)
+    expect(componentWithImage.find(CareerImage).length).toBe(1)
   })
 
   it('does not render an image when props.showImages == false', () => {

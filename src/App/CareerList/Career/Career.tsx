@@ -1,5 +1,6 @@
 import { ICareer } from '../../../types'
 import * as React from 'react'
+import CareerImage from './CareerImage/CareerImage'
 
 import './Career.css'
 
@@ -12,7 +13,7 @@ function Career(props: ICareerProps): JSX.Element {
   return (
     <div className="Career__wrapper">
       {props.showImage ? (
-        <div className="Career__image" style={ {backgroundImage: `url(${props.career.image})`} } />
+        <CareerImage image={props.career.image} />
       ) : undefined}
       <h1>{props.career.title}</h1>
       <p>{props.career.description}</p>
