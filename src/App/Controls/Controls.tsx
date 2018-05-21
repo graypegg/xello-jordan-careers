@@ -16,11 +16,27 @@ class Controls extends React.Component<IControlsProps> {
     this.onShowImageChange = this.onShowImageChange.bind(this)
   }
 
+  public componentDidMount (): void {
+    const searchString = localStorage.getItem('searchString') !== null ? localStorage.getItem('searchString') : undefined
+    const showImages = localStorage.getItem('showImages') !== null ? localStorage.getItem('showImages') === 'true' : undefined 
+    
+    let out = Object.assign(this.props.controlsState, {})
+    if (searchString !== undefined) out = Object.assign(out, { searchString })
+    if (showImages !== undefined) out = Object.assign(out, { showImages })
+
+    if (searchString !== undefined && showImages !== undefined) this.props.onChange(out)
+
+    localStorage.setItem('searchString', out.searchString)
+    localStorage.setItem('showImages', out.showImages.toString())
+  }
+
   public onSearchStringChange (e: React.SyntheticEvent<HTMLInputElement>): void {
     this.props.onChange({
       ...this.props.controlsState,
       searchString: e.currentTarget.value
     })
+
+    localStorage.setItem('searchString', e.currentTarget.value)
   }
 
   public onShowImageChange (e: React.SyntheticEvent<HTMLInputElement>): void {
@@ -28,6 +44,8 @@ class Controls extends React.Component<IControlsProps> {
       ...this.props.controlsState,
       showImages: e.currentTarget.checked
     })
+
+    localStorage.setItem('showImages', e.currentTarget.checked.toString())
   }
 
   public render(): JSX.Element {
