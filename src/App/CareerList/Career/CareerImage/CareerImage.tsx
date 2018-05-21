@@ -2,6 +2,8 @@ import { ImageMode } from '../../../../consts'
 
 import * as React from 'react'
 
+import './CareerImage.css'
+
 interface ICareerImageProps {
   image: string
 }
@@ -36,7 +38,15 @@ class CareerImage extends React.Component<ICareerImageProps, ICareerImageState> 
     return (
       <div className="CareerImage__wrapper">
         <div className="CareerImage__image" style={ { backgroundImage: `url(${this.scaleImage(this.props.image)})` } }>
-          <div className="CareerImage__modeToggleButton" onClick={this.toggleMode}>Toggle</div>
+          <div
+            className={this.state.mode === ImageMode.High ? 'CareerImage__modeToggleButton--active' : 'CareerImage__modeToggleButton'}
+            onClick={this.toggleMode}>
+              {
+                this.state.mode === ImageMode.High
+                ? 'Show Low Res'
+                : 'Show High Res'
+              }
+          </div>
         </div>
       </div>
     )

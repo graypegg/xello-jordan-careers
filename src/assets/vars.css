@@ -2,4 +2,7 @@
   --primary-light: #81c325;
   --primary-dark: #4d7312;
   --primary-gradient: linear-gradient(to bottom, var(--primary-light) 0%, var(--primary-dark) 100%);
+
+  --dark: #2a3a2d;
+  --darker: #1f2921;
 }
