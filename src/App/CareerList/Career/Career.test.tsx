@@ -3,6 +3,7 @@ import { ICareer } from '../../../types'
 import * as React from 'react'
 import { shallow } from 'enzyme'
 import Career from './Career'
+import CareerImage from './CareerImage/CareerImage'
 
 const career: ICareer = {
   title: 'Test',
@@ -33,15 +34,12 @@ describe('can render a simple career', () => {
     expect(component.children('ul').find('li').at(1).text()).toBe(career.notes[1])
   })
 
-  describe('image setting', () => {
-    it('does not render an image when props.showImages == false', () => {
-      expect(component.find('.Career__image').length).toBe(0)
-    })
+  it('does render an image when props.showImages == true', () => {
+    const componentWithImage = shallow(<Career career={career} showImage={true} />)
+    expect(componentWithImage.find(CareerImage).length).toBe(0)
+  })
 
-    it('renders an image when props.showImages == true', () => {
-      const careerWithImage = shallow(<Career career={career} showImage={true} />)
-      expect(careerWithImage.find('.Career__image').length).toBeGreaterThan(0)
-      expect(careerWithImage.find('.Career__image').props().style).toEqual({backgroundImage: `url(${career.image})`})
-    })
+  it('does not render an image when props.showImages == false', () => {
+    expect(component.find(CareerImage).length).toBe(0)
   })
 })
