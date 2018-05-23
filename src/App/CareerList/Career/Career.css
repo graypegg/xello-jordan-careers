@@ -14,6 +14,10 @@
   padding: 15px;
 }
 
-.Career__wrapper > p {
+.Career__wrapper > p,
+.Career__wrapper > ul {
   padding: 0 20px;
+  color: var(--jordan-color);
+  font-size: var(--jordan-font-size);
+  font-family: var(--jordan-font-family);
 }
