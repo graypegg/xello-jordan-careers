@@ -31,12 +31,17 @@ class Controls extends React.Component<IControlsProps> {
   }
 
   public onSearchStringChange (e: React.SyntheticEvent<HTMLInputElement>): void {
+    const sanitizedSearch = e.currentTarget.value
+                                           .replace(/[^\*\w\^\$]/g, '')
+                                           .replace(/^\*/, '')
+                                           .replace(/\*/g, '.*')
+
     this.props.onChange({
       ...this.props.controlsState,
-      searchString: e.currentTarget.value
+      searchString: sanitizedSearch
     })
 
-    localStorage.setItem('searchString', e.currentTarget.value)
+    localStorage.setItem('searchString', sanitizedSearch)
   }
 
   public onShowImageChange (e: React.SyntheticEvent<HTMLInputElement>): void {

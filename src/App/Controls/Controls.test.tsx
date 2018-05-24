@@ -44,4 +44,14 @@ describe('returns an updated IControlsState', () => {
     const wrapper = shallow(<Controls onChange={onChange} controlsState={controlsStateMock} />)
     wrapper.find('.Controls__showImagesInput').simulate('change', { currentTarget: { checked: true } })
   })
+
+  it('filters out bad search input', () => {
+    localStorage.clear()
+    const onChange = (newState: IControlsState) => expect(newState).toEqual({
+      ...controlsStateMock,
+      searchString: '^tes.*t$'
+    } as IControlsState)
+    const wrapper = shallow(<Controls onChange={onChange} controlsState={controlsStateMock} />)
+    wrapper.find('.Controls__searchInput').simulate('change', { currentTarget: { value: '*\\^te~`s*(t$' } })
+  })
 })
