@@ -36,3 +36,10 @@
 .CareerList__paginationLink:hover {
   background: var(--primary-light);
 }
+
+.CareerList__noItemsMessage {
+  text-align: center;
+  color: var(--primary-dark);
+  font-size: 20px;
+  margin: 30px 10px;
+}
