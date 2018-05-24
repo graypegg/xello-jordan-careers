@@ -105,3 +105,10 @@ describe('pageination link list', () => {
     expect(wrapper.find(Career).first().props().career).toEqual(careers[2])
   })
 })
+
+it('should show a message when no items are being shown', () => {
+  const wrapper = shallow(<CareerList careers={[]} showImages={false} pageLength={1} />)
+
+  expect(wrapper.find(Career).length).toBe(0)
+  expect(wrapper.find('.CareerList__noItemsMessage').first().text()).toBe('Sorry! No items match your search.')
+})
