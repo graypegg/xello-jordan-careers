@@ -16,5 +16,10 @@
 }
 
 .BookmarkList__bookmark {
+  cursor: pointer;
+  margin: 3px 0;
+}
 
+.BookmarkList__bookmark:hover {
+  color: rgba(255, 255, 255, 0.8);
 }

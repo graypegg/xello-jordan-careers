@@ -1,0 +1,16 @@
+.BookmarkPopup__wrapper {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  background: rgba(20, 30, 20, 0.75);
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.BookmarkPopup__closeButton {
+  font-size: 30px;
+  text-align: right;
+  cursor: pointer;
+}
