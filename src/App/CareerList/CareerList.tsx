@@ -8,7 +8,8 @@ import './CareerList.css'
 interface ICareerListProps {
   careers: ICareer[],
   showImages: boolean,
-  pageLength: number
+  pageLength: number,
+  onSaveBookmark: (career: ICareer) => void
 }
 
 interface ICareerListState {
@@ -25,6 +26,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
 
     this.goToPage = this.goToPage.bind(this)
     this.goToPageFactory = this.goToPageFactory.bind(this)
+    this.onSaveBookmark = this.onSaveBookmark.bind(this)
   }
   
   public careersToPages (careers: ICareer[], pageLength: number): ICareer[][] {
@@ -42,6 +44,10 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
 
   public goToPageFactory (pageIndex: number) {
     return () => this.goToPage(pageIndex)
+  }
+
+  public onSaveBookmark (career: ICareer) {
+    this.props.onSaveBookmark(career)
   }
 
   public render (): JSX.Element {
@@ -66,7 +72,8 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
                 <li className="CareerList__career" key={ career.id }>
                   <Career
                     career={ career }
-                    showImage={ this.props.showImages } />
+                    showImage={ this.props.showImages }
+                    onSaveBookmark={ this.onSaveBookmark } />
                 </li>
               ))
               : <div className="CareerList__noItemsMessage">Sorry! No items match your search.</div>

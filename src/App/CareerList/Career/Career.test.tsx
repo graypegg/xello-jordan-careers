@@ -13,16 +13,19 @@ const career: ICareer = {
   id: 1
 }
 
+const onSaveBookmarkMock = (_: ICareer) => { /* */ }
+
 it('renders without crashing', () => {
-  shallow(<Career career={career} showImage={false} />)
+  shallow(<Career career={career} showImage={false} onSaveBookmark={onSaveBookmarkMock} />)
 })
 
 describe('can render a simple career', () => {
   
-  const component = shallow(<Career career={career} showImage={false} />)
+  const component = shallow(<Career career={career} showImage={false} onSaveBookmark={onSaveBookmarkMock} />)
 
-  it('rendered a title', () => {
+  it('rendered a title with bookmark button', () => {
     expect(component.find('h1').text()).toBe(career.title)
+    expect(component.find('h1 > .Career__bookmarkButton').length).toBe(1)
   })
 
   it('rendered a description', () => {
@@ -35,7 +38,7 @@ describe('can render a simple career', () => {
   })
 
   it('does render an image when props.showImages == true', () => {
-    const componentWithImage = shallow(<Career career={career} showImage={true} />)
+    const componentWithImage = shallow(<Career career={career} showImage={true} onSaveBookmark={onSaveBookmarkMock} />)
     expect(componentWithImage.find(CareerImage).length).toBe(1)
   })
 

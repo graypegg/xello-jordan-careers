@@ -7,11 +7,32 @@
 }
 
 .Career__wrapper > h1 {
+  display: flex;
   margin: 0 0 15px;
   color: var(--primary-light);
   background: var(--dark);
   text-align: center;
-  padding: 15px;
+  line-height: 75px;
+}
+
+.Career__wrapper > h1 > .Career__titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 100%;
+  padding: 0 15px;
+}
+
+.Career__wrapper > h1 > .Career__bookmarkButton {
+  display: flex;
+  height: 90px;
+  justify-content: center;
+  flex: 0 0 90px;
+  background: var(--primary-light);
+}
+
+.Career__wrapper > h1 > .Career__bookmarkButton:hover {
+  background: var(--primary-dark);
 }
 
 .Career__wrapper > p,

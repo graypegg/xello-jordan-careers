@@ -1,6 +1,7 @@
 import { ICareer, IControlsState, IBookmark } from '../types'
 
 import * as React from 'react'
+import BookmarkList from './BookmarkList/BookmarkList'
 import CareerList from './CareerList/CareerList'
 import Controls from './Controls/Controls'
 
@@ -27,7 +28,9 @@ class App extends React.Component<IAppProps, IAppState> {
 
   constructor (props: IAppProps) {
     super(props)
+
     this.onControlsStateChange = this.onControlsStateChange.bind(this)
+    this.onSaveBookmark = this.onSaveBookmark.bind(this)
   }
 
   public onControlsStateChange (controlsState: IControlsState): void {
@@ -39,12 +42,27 @@ class App extends React.Component<IAppProps, IAppState> {
     return careers.filter((career) => searchStringRegExp.test(career.title))
   }
 
+  public onSaveBookmark (career: ICareer) {
+    this.setState({
+      bookmarks: this.state.bookmarks.concat([
+        {
+          career,
+          saved: new Date()
+        }
+      ])
+    })
+  }
+
   public render(): JSX.Element {
     return (
       <div className="App__wrapper">
         <header className="App__header">
           <img src="https://xello.world/images/xello-logo.svg" alt="Xello" /> Careers
         </header>
+
+        <aside className="App__sidebar">
+          <BookmarkList bookmarks={this.state.bookmarks} />
+        </aside>
 
         <main className="App__application">
           <Controls
@@ -54,7 +72,8 @@ class App extends React.Component<IAppProps, IAppState> {
           <CareerList
             careers={this.filterCareers(this.props.careers, this.state.controlsState)}
             showImages={this.state.controlsState.showImages}
-            pageLength={30} />
+            pageLength={30}
+            onSaveBookmark={this.onSaveBookmark} />
           </main>
       </div>
     )

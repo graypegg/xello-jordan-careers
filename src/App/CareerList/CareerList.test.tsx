@@ -6,8 +6,10 @@ import { shallow } from 'enzyme'
 import CareerList from './CareerList'
 import Career from './Career/Career'
 
+const onSaveBookmarkMock = (_: ICareer) => { /* */ }
+
 it('renders without crashing', () => {
-  shallow(<CareerList careers={[]} showImages={false} pageLength={20} />)
+  shallow(<CareerList careers={[]} showImages={false} pageLength={20} onSaveBookmark={onSaveBookmarkMock} />)
 })
 
 describe('can render a simple career', () => {
@@ -20,7 +22,7 @@ describe('can render a simple career', () => {
       id: 1
     }
   ]
-  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={20} />)
+  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={20} onSaveBookmark={onSaveBookmarkMock} />)
   const career = wrapper.find(Career)
 
   it('rendered one career', () => {
@@ -57,7 +59,7 @@ it('creates pages according to pageLength prop', () => {
     }
   ]
 
-  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1} />)
+  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} />)
 
   expect(wrapper.find(Career).length).toBe(1)
 })
@@ -87,7 +89,7 @@ describe('pageination link list', () => {
     }
   ]
 
-  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1}/>)
+  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} />)
 
   it('renders the link list container', () => expect(wrapper.find('.CareerList__pagination').length).toBe(1))
   it('renders the unselected links', () => expect(wrapper.find('.CareerList__paginationLink').length).toBe(2))
@@ -107,7 +109,7 @@ describe('pageination link list', () => {
 })
 
 it('should show a message when no items are being shown', () => {
-  const wrapper = shallow(<CareerList careers={[]} showImages={false} pageLength={1} />)
+  const wrapper = shallow(<CareerList careers={[]} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} />)
 
   expect(wrapper.find(Career).length).toBe(0)
   expect(wrapper.find('.CareerList__noItemsMessage').first().text()).toBe('Sorry! No items match your search.')
