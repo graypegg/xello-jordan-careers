@@ -1,0 +1,17 @@
+.Controls__wrapper {
+  display: flex;
+  padding: 20px 15px;
+  margin: 0 20px;
+  justify-content: center;
+  background: #f8f8f8;
+}
+
+.Controls__wrapper > label {
+  margin: 0 20px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.Controls__wrapper > label > input {
+  margin: 0 10px;
+}

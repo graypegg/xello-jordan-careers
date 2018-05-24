@@ -10,3 +10,8 @@ export declare interface IControlsState {
   searchString: string,
   showImages: boolean
 }
+
+export declare interface IBookmark {
+  career: ICareer,
+  saved: Date
+}

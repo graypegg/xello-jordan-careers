@@ -1,4 +1,4 @@
-import { ICareer, IControlsState } from '../types'
+import { ICareer, IControlsState, IBookmark } from '../types'
 
 import * as React from 'react'
 import CareerList from './CareerList/CareerList'
@@ -11,7 +11,8 @@ interface IAppProps {
 }
 
 interface IAppState {
-  controlsState: IControlsState
+  controlsState: IControlsState,
+  bookmarks: IBookmark[]
 }
 
 class App extends React.Component<IAppProps, IAppState> {
@@ -20,7 +21,8 @@ class App extends React.Component<IAppProps, IAppState> {
     controlsState: {
       searchString: '',
       showImages: false
-    }
+    },
+    bookmarks: []
   }
 
   constructor (props: IAppProps) {
