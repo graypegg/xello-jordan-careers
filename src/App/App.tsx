@@ -25,7 +25,7 @@ class App extends React.Component<IAppProps, IAppState> {
       searchString: '',
       showImages: false
     },
-    bookmarks: [],
+    bookmarks: JSON.parse(localStorage.getItem('bookmarks') || '[]'),
     sidebarOpen: false
   }
 
@@ -55,6 +55,13 @@ class App extends React.Component<IAppProps, IAppState> {
         }
       ])
     })
+
+    localStorage.setItem('bookmarks', JSON.stringify(this.state.bookmarks.concat([
+      {
+        career,
+        saved: new Date()
+      }
+    ])))
   }
 
   public toggleSidebar () {
