@@ -27,15 +27,16 @@
   font-weight: normal;
   font-size: 0.9rem;
   min-width: 220px;
+  max-width: 290px;
   box-shadow: 0 0 20px rgba(20, 30, 20, 0.3);
   transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);;
 }
 
-.App__sidebar--open {
+.App__sidebar--closed {
   transform: translateX(-100%);
 }
 
-.App__sidebar--closed {
+.App__sidebar--open {
   transform: translateX(0);
 }
 

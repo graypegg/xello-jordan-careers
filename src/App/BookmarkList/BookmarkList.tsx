@@ -10,11 +10,17 @@ interface IBookmarkListProps {
 function BookmarkList (props: IBookmarkListProps) {
   return (
     <div className="BookmarkList__wrapper">
-      { props.bookmarks.map((bookmark) => (
-        <div className="BookmarkList__bookmark" key={bookmark.career.id}>
-          <strong>{ bookmark.career.title }</strong>
-        </div>
-      )) }
+      <h1>Bookmarks</h1>
+      <ul className="BookmarkList__bookmarkList">
+        {
+          props.bookmarks.length
+            ? props.bookmarks.map((bookmark) => (
+              <li className="BookmarkList__bookmark" key={bookmark.career.id}>
+                <strong>{ bookmark.career.title }</strong>
+              </li>))
+            : <li><em>You have no bookmarks to show. Click the bookmark icon beside the title of any career entry to add on to the list. Your bookmarks will be saved.</em></li>
+        }
+      </ul>
     </div>
   )
 }
