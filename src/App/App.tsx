@@ -6,6 +6,7 @@ import CareerList from './CareerList/CareerList'
 import Controls from './Controls/Controls'
 
 import './App.css'
+import iconBookmark from '../assets/images/icon-bookmark.svg'
 
 interface IAppProps {
   careers: ICareer[]
@@ -13,7 +14,8 @@ interface IAppProps {
 
 interface IAppState {
   controlsState: IControlsState,
-  bookmarks: IBookmark[]
+  bookmarks: IBookmark[],
+  sidebarOpen: boolean
 }
 
 class App extends React.Component<IAppProps, IAppState> {
@@ -23,7 +25,8 @@ class App extends React.Component<IAppProps, IAppState> {
       searchString: '',
       showImages: false
     },
-    bookmarks: []
+    bookmarks: [],
+    sidebarOpen: false
   }
 
   constructor (props: IAppProps) {
@@ -31,6 +34,7 @@ class App extends React.Component<IAppProps, IAppState> {
 
     this.onControlsStateChange = this.onControlsStateChange.bind(this)
     this.onSaveBookmark = this.onSaveBookmark.bind(this)
+    this.toggleSidebar = this.toggleSidebar.bind(this)
   }
 
   public onControlsStateChange (controlsState: IControlsState): void {
@@ -53,6 +57,12 @@ class App extends React.Component<IAppProps, IAppState> {
     })
   }
 
+  public toggleSidebar () {
+    this.setState({
+      sidebarOpen: !this.state.sidebarOpen
+    })
+  }
+
   public render(): JSX.Element {
     return (
       <div className="App__wrapper">
@@ -60,7 +70,10 @@ class App extends React.Component<IAppProps, IAppState> {
           <img src="https://xello.world/images/xello-logo.svg" alt="Xello" /> Careers
         </header>
 
-        <aside className="App__sidebar">
+        <aside className={this.state.sidebarOpen ? 'App__sidebar--open' : 'App__sidebar--closed'}>
+          <div className="App__sidebarToggleButton" onClick={this.toggleSidebar}>
+            <img src={iconBookmark} width="30" />
+          </div>
           <BookmarkList bookmarks={this.state.bookmarks} />
         </aside>
 

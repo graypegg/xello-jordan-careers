@@ -29,6 +29,7 @@
   justify-content: center;
   flex: 0 0 90px;
   background: var(--primary-light);
+  cursor: pointer;
 }
 
 .Career__wrapper > h1 > .Career__bookmarkButton:hover {
