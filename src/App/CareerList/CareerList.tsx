@@ -68,6 +68,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
               : <div className="CareerList__noItemsMessage">Sorry! No items match your search.</div>
           }
         </ul>
+        <CareerListPageSelector totalPages={pages.length} currentPage={this.state.onPage} onChange={this.goToPage} />
       </div>
     )
   }
