@@ -2,6 +2,7 @@ import { ICareer, IBookmark } from '../../types'
 import * as React from 'react'
 
 import Career from './Career/Career'
+import CareerListPageSelector from './CareerListPageSelector/CareerListPageSelector';
 
 import './CareerList.css'
 
@@ -26,7 +27,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     } as ICareerListState
 
     this.goToPage = this.goToPage.bind(this)
-    this.goToPageFactory = this.goToPageFactory.bind(this)
+    this.goToPage = this.goToPage.bind(this)
     this.onSaveBookmark = this.onSaveBookmark.bind(this)
   }
   
@@ -43,10 +44,6 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     this.setState({ onPage: pageIndex })
   }
 
-  public goToPageFactory (pageIndex: number) {
-    return () => this.goToPage(pageIndex)
-  }
-
   public onSaveBookmark (career: ICareer) {
     this.props.onSaveBookmark(career)
   }
@@ -55,17 +52,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     const pages = this.careersToPages(this.props.careers, this.props.pageLength)
     return (
       <div className="CareerList__wrapper">
-        <div className="CareerList__pagination">
-          { pages.map((page, index) => (
-            <a  
-              className={ 'CareerList__paginationLink' + (this.state.onPage === index || (this.state.onPage > pages.length && index === pages.length - 1) ? '--active' : '') }
-              onClick={ this.goToPageFactory(index) }
-              key={index}>
-              { index + 1 }
-            </a>
-          )) }
-        </div>
-
+        <CareerListPageSelector totalPages={pages.length} currentPage={this.state.onPage} onChange={this.goToPage} />
         <ul className="CareerList__careers">
           {
             this.props.careers.length

@@ -1,7 +1,7 @@
 import { ICareer, IBookmark } from '../../types'
 
 import * as React from 'react'
-import { shallow } from 'enzyme'
+import { shallow, mount } from 'enzyme'
 
 import CareerList from './CareerList'
 import Career from './Career/Career'
@@ -89,20 +89,15 @@ describe('pageination link list', () => {
     }
   ]
 
-  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} bookmarks={[]} />)
-
-  it('renders the link list container', () => expect(wrapper.find('.CareerList__pagination').length).toBe(1))
-  it('renders the unselected links', () => expect(wrapper.find('.CareerList__paginationLink').length).toBe(2))
-  it('renders the single selected link', () => expect(wrapper.find('.CareerList__paginationLink--active').length).toBe(1))
-
+  const wrapper = mount(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} bookmarks={[]} />)
   it('clicking the selected link does nothing', () => {
-    wrapper.find('.CareerList__paginationLink--active').simulate('click')
+    wrapper.find('.CareerListPageSelector__paginationLink--active').simulate('click')
     expect(wrapper.state().onPage).toBe(0)
     expect(wrapper.find(Career).first().props().career).toEqual(careers[0])
   })
 
   it('clicking a link that is unselected advances the list of careers', () => {
-    wrapper.find('.CareerList__paginationLink').last().simulate('click')
+    wrapper.find('.CareerListPageSelector__paginationLink').last().simulate('click')
     expect(wrapper.state().onPage).toBe(2)
     expect(wrapper.find(Career).first().props().career).toEqual(careers[2])
   })

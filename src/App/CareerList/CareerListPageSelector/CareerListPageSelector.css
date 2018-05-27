@@ -1,0 +1,29 @@
+.CareerListPageSelector__pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.CareerListPageSelector__paginationLink,
+.CareerListPageSelector__paginationLink--active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  min-width: 20px;
+  min-height: 20px;
+  text-align: center;
+  padding: 5px 4px 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.CareerListPageSelector__paginationLink {
+  background: var(--primary-dark);
+}
+
+.CareerListPageSelector__paginationLink--active,
+.CareerListPageSelector__paginationLink:hover {
+  background: var(--primary-light);
+}
