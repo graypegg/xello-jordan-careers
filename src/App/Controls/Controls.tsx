@@ -32,7 +32,7 @@ class Controls extends React.Component<IControlsProps> {
 
   public onSearchStringChange (e: React.SyntheticEvent<HTMLInputElement>): void {
     const sanitizedSearch = e.currentTarget.value
-                                           .replace(/[^\*\w\^\$]/g, '')
+                                           .replace(/[^\*\s\w\^\$]/g, '')
                                            .replace(/^\*/, '')
                                            .replace(/\*/g, '.*')
 
