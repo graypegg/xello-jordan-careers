@@ -35,6 +35,7 @@ class App extends React.Component<IAppProps, IAppState> {
     this.onControlsStateChange = this.onControlsStateChange.bind(this)
     this.onSaveBookmark = this.onSaveBookmark.bind(this)
     this.toggleSidebar = this.toggleSidebar.bind(this)
+    this.updateBookmarks = this.updateBookmarks.bind(this)
   }
 
   public onControlsStateChange (controlsState: IControlsState): void {
@@ -70,6 +71,14 @@ class App extends React.Component<IAppProps, IAppState> {
     })
   }
 
+  public updateBookmarks (bookmarks: IBookmark[]) {
+    this.setState({
+      bookmarks
+    })
+
+    localStorage.setItem('bookmarks', JSON.stringify(bookmarks))
+  }
+
   public render(): JSX.Element {
     return (
       <div className="App__wrapper">
@@ -81,7 +90,7 @@ class App extends React.Component<IAppProps, IAppState> {
           <div className="App__sidebarToggleButton" onClick={this.toggleSidebar}>
             <img src={iconBookmark} width="30" />
           </div>
-          <BookmarkList bookmarks={this.state.bookmarks} />
+          <BookmarkList bookmarks={this.state.bookmarks} onChange={this.updateBookmarks} />
         </aside>
 
         <main className="App__application">

@@ -20,6 +20,25 @@
   margin: 3px 0;
 }
 
-.BookmarkList__bookmark:hover {
+.BookmarkList__bookmark > strong:hover {
   color: rgba(255, 255, 255, 0.8);
+}
+
+.BookmarkList__deleteBookmarkButton {
+  background: #ee6666;
+  display: inline-flex;
+  height: 17px;
+  width: 19px;
+  padding-bottom: 2px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1px;
+  margin-right: 7px;
+  transform: translateY(-2px);
+  border-radius: 100%;
+  font-weight: bold;
+}
+
+.BookmarkList__deleteBookmarkButton:hover {
+  background: #b85959 
 }

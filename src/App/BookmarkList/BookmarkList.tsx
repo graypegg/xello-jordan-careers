@@ -6,7 +6,8 @@ import BookmarkPopup from './BookmarkPopup/BookmarkPopup'
 import './BookmarkList.css'
 
 interface IBookmarkListProps {
-  bookmarks: IBookmark[]
+  bookmarks: IBookmark[],
+  onChange: (bookmarks: IBookmark[]) => void
 }
 
 interface IBookmarkListState {
@@ -25,14 +26,22 @@ class BookmarkList extends React.Component<IBookmarkListProps, IBookmarkListStat
     this.closeBookmark = this.closeBookmark.bind(this)
   }
 
-  public showBookmarkFactory (career: ICareer) {
+  public showBookmarkFactory (career: ICareer): () => void {
     return () => this.setState({ currentCareer: career })
   }
 
-  public closeBookmark () {
+  public closeBookmark (): void {
     this.setState({
       currentCareer: null
     })
+  }
+
+  public deleteBookmarkFactory (index: number): () => void {
+    return () => {
+      const left = this.props.bookmarks.slice(0, index)
+      const right = this.props.bookmarks.slice(index + 1)
+      this.props.onChange([...left, ...right])
+    }
   }
 
   public render () {
@@ -42,9 +51,10 @@ class BookmarkList extends React.Component<IBookmarkListProps, IBookmarkListStat
         <ul className="BookmarkList__bookmarkList">
           {
             this.props.bookmarks.length
-              ? this.props.bookmarks.map((bookmark) => (
-                <li className="BookmarkList__bookmark" key={bookmark.career.id} onClick={this.showBookmarkFactory(bookmark.career)}>
-                  <strong>{ bookmark.career.title }</strong>
+              ? this.props.bookmarks.map((bookmark, index) => (
+                <li className="BookmarkList__bookmark" key={`${bookmark.career.id}-${new Date(bookmark.saved).getTime()}`}>
+                  <span className="BookmarkList__deleteBookmarkButton" onClick={this.deleteBookmarkFactory(index)}>×</span>
+                  <strong onClick={this.showBookmarkFactory(bookmark.career)}>{ bookmark.career.title }</strong>
                 </li>))
               : <li><em>You have no bookmarks to show. Click the bookmark icon beside the title of any career entry to add on to the list. Your bookmarks will be saved.</em></li>
           }
