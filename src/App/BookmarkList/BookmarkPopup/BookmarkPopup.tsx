@@ -17,7 +17,7 @@ function BookmarkPopup (props: IBookmarkPopupProps) {
   return (
     <div className="BookmarkPopup__wrapper">
       <div className="BookmarkPopup__closeButton" onClick={props.onClose}>x</div>
-      <Career career={props.career} showImage={false} onSaveBookmark={onSaveBookmarkMock} />
+      <Career career={props.career} showImage={false} onSaveBookmark={onSaveBookmarkMock} isBookmarked={true} />
     </div>
   )
 }

@@ -8,6 +8,7 @@ import iconBookmark from '../../../assets/images/icon-bookmark.svg'
 interface ICareerProps {
   career: ICareer,
   showImage: boolean,
+  isBookmarked?: boolean,
   onSaveBookmark: (career: ICareer) => void
 }
 
@@ -23,9 +24,13 @@ function Career (props: ICareerProps): JSX.Element {
       ) : undefined}
       <h1>
         <div className="Career__titleContainer">{props.career.title}</div>
-        <div className="Career__bookmarkButton" onClick={onSaveBookmarkFactory(props)}>
-          <img src={iconBookmark} width="50" />
-        </div>
+        {
+          !props.isBookmarked
+            ? <div className="Career__bookmarkButton" onClick={onSaveBookmarkFactory(props)}>
+                <img src={iconBookmark} width="50" />
+              </div>
+            : null
+        } 
       </h1>
       <p>{props.career.description}</p>
       <ul>

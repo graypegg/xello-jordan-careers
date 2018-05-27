@@ -100,6 +100,7 @@ class App extends React.Component<IAppProps, IAppState> {
 
           <CareerList
             careers={this.filterCareers(this.props.careers, this.state.controlsState)}
+            bookmarks={this.state.bookmarks}
             showImages={this.state.controlsState.showImages}
             pageLength={30}
             onSaveBookmark={this.onSaveBookmark} />

@@ -1,4 +1,4 @@
-import { ICareer } from '../../types'
+import { ICareer, IBookmark } from '../../types'
 import * as React from 'react'
 
 import Career from './Career/Career'
@@ -7,6 +7,7 @@ import './CareerList.css'
 
 interface ICareerListProps {
   careers: ICareer[],
+  bookmarks: IBookmark[],
   showImages: boolean,
   pageLength: number,
   onSaveBookmark: (career: ICareer) => void
@@ -73,7 +74,8 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
                   <Career
                     career={ career }
                     showImage={ this.props.showImages }
-                    onSaveBookmark={ this.onSaveBookmark } />
+                    onSaveBookmark={ this.onSaveBookmark }
+                    isBookmarked={ this.props.bookmarks.filter((bookmark) => bookmark.career.id === career.id).length > 0 }/>
                 </li>
               ))
               : <div className="CareerList__noItemsMessage">Sorry! No items match your search.</div>
