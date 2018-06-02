@@ -32,6 +32,7 @@ function Career (props: ICareerProps): JSX.Element {
             : null
         } 
       </h1>
+      <a target="_blank" href={`https://student.xello.world/options/career/${props.career.id}`}>https://student.xello.world/options/career/{props.career.id}</a>
       <p>{props.career.description}</p>
       <ul>
         {props.career.notes.map((note) => (
