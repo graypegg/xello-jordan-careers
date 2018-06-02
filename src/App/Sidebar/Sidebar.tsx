@@ -1,5 +1,7 @@
 import * as React from 'react'
 
+import './Sidebar.css'
+
 interface ISidebarProps {
   icon: string
 }

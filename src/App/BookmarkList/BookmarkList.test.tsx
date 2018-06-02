@@ -30,7 +30,7 @@ it('renders a single bookmark', () => {
 })
 
 it('fires onChange when deleting a bookmark', () => {
-  const onChangeMockSpied = jest.fn().mockImplementation((_: IBookmark[]) => {/* void */})
+  const onChangeMockSpied = jest.fn().mockImplementation(onChangeMock)
   const wrapper = shallow(<BookmarkList bookmarks={bookmarks} onChange={onChangeMockSpied} />)
   wrapper.find('.BookmarkList__deleteBookmarkButton').first().simulate('click')
   expect(onChangeMockSpied).toHaveBeenCalledWith([])

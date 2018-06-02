@@ -10,7 +10,37 @@
 }
 
 .BookmarkPopup__closeButton {
+  --button-size: 40px;
+  position: absolute;
+  top: var(--button-size);
+  right: var(--button-size);
+  height: var(--button-size);
+  width: var(--button-size);
   font-size: 30px;
-  text-align: right;
   cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+
+.BookmarkPopup__closeButton:hover {
+  transform: scale(0.9);
+}
+
+.BookmarkPopup__closeButton::before,
+.BookmarkPopup__closeButton::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: var(--button-size);
+  background: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.BookmarkPopup__closeButton::before {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.BookmarkPopup__closeButton::after {
+  transform: translate(-50%, -50%) rotate(45deg);
 }
