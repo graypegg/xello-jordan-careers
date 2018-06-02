@@ -5,6 +5,7 @@ import { shallow, mount } from 'enzyme'
 
 import CareerList from './CareerList'
 import Career from './Career/Career'
+import CareerListPageSelector from './CareerListPageSelector/CareerListPageSelector';
 
 const onSaveBookmarkMock = (_: ICareer) => { /* */ }
 
@@ -90,14 +91,15 @@ describe('pageination link list', () => {
   ]
 
   const wrapper = mount(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} bookmarks={[]} />)
+  const pageSelector = wrapper.find(CareerListPageSelector).first()
   it('clicking the selected link does nothing', () => {
-    wrapper.find('.CareerListPageSelector__paginationLink--active').simulate('click')
+    pageSelector.find('.CareerListPageSelector__paginationLink--active').simulate('click')
     expect(wrapper.state().onPage).toBe(0)
     expect(wrapper.find(Career).first().props().career).toEqual(careers[0])
   })
 
   it('clicking a link that is unselected advances the list of careers', () => {
-    wrapper.find('.CareerListPageSelector__paginationLink').last().simulate('click')
+    pageSelector.find('.CareerListPageSelector__paginationLink').last().simulate('click')
     expect(wrapper.state().onPage).toBe(2)
     expect(wrapper.find(Career).first().props().career).toEqual(careers[2])
   })
