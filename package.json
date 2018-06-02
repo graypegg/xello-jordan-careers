@@ -3,6 +3,9 @@
   "homepage": "https://toi.sh/careers",
   "version": "0.1.0",
   "private": true,
+  "jest": {
+    "collectCoverageFrom": ["*.ts", "!*.d.ts", "!*.test.ts"]
+  },
   "dependencies": {
     "@types/enzyme": "^3.1.10",
     "@types/lodash": "^4.14.109",

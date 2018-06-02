@@ -26,7 +26,6 @@ describe('can render a simple career', () => {
 
 describe('returns an updated IControlsState', () => {
   it('update searchString', () => {
-    localStorage.clear()
     const onChange = (newState: IControlsState) => expect(newState).toEqual({
       ...controlsStateMock,
       searchString: 'test'
@@ -36,7 +35,6 @@ describe('returns an updated IControlsState', () => {
   })
 
   it('update showImages', () => {
-    localStorage.clear()
     const onChange = (newState: IControlsState) => expect(newState).toEqual({
       ...controlsStateMock,
       showImages: true

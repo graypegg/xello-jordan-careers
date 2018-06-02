@@ -52,7 +52,7 @@ class App extends React.Component<IAppProps, IAppState> {
       bookmarks: this.state.bookmarks.concat([
         {
           career,
-          saved: new Date()
+          saved: new Date(Date.now())
         }
       ])
     })
@@ -60,7 +60,7 @@ class App extends React.Component<IAppProps, IAppState> {
     localStorage.setItem('bookmarks', JSON.stringify(this.state.bookmarks.concat([
       {
         career,
-        saved: new Date()
+        saved: new Date(Date.now())
       }
     ])))
   }

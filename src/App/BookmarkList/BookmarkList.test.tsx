@@ -42,3 +42,11 @@ it('opens a BookmarkPopup when a bookmark is clicked', () => {
     expect(wrapper.find(BookmarkPopup).length).toBe(1)
     expect(wrapper.find(BookmarkPopup).props().career).toEqual(bookmarks[0].career)
 })
+
+it('closes BookmarkPopup when onClose fired', () => {
+  const wrapper = shallow(<BookmarkList bookmarks={bookmarks} onChange={onChangeMock} />)
+  const instance = wrapper.instance() as BookmarkList
+  instance.closeBookmark()
+  wrapper.update()
+  expect(wrapper.find(BookmarkPopup).length).toBe(0)
+})

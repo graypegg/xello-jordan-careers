@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can update bookmark state 1`] = `Array []`;
+
+exports[`can update bookmark state in it's entirity 1`] = `Array []`;
+
+exports[`can update bookmark state in it's entirity 2`] = `
+Array [
+  Object {
+    "career": Object {
+      "description": "Test",
+      "id": 1,
+      "image": "TestImage",
+      "notes": Array [
+        "a",
+        "b",
+      ],
+      "title": "Test",
+    },
+    "saved": 1970-01-01T00:00:00.000Z,
+  },
+]
+`;
+
+exports[`can update control state 1`] = `
+Object {
+  "searchString": "",
+  "showImages": false,
+}
+`;
+
+exports[`can update control state 2`] = `
+Object {
+  "searchString": "test",
+  "showImages": false,
+}
+`;
