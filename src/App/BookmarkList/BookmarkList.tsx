@@ -54,7 +54,7 @@ class BookmarkList extends React.Component<IBookmarkListProps, IBookmarkListStat
               ? this.props.bookmarks.map((bookmark, index) => (
                 <li className="BookmarkList__bookmark" key={`${bookmark.career.id}-${new Date(bookmark.saved).getTime()}`}>
                   <span className="BookmarkList__deleteBookmarkButton" onClick={this.deleteBookmarkFactory(index)}>×</span>
-                  <strong onClick={this.showBookmarkFactory(bookmark.career)}>{ bookmark.career.title }</strong>
+                  <strong className="BookmarkList__label" onClick={this.showBookmarkFactory(bookmark.career)}>{ bookmark.career.title }</strong>
                 </li>))
               : <li><em>You have no bookmarks to show. Click the bookmark icon beside the title of any career entry to add on to the list. Your bookmarks will be saved.</em></li>
           }
