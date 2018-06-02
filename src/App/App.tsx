@@ -1,6 +1,7 @@
 import { ICareer, IControlsState, IBookmark } from '../types'
 
 import * as React from 'react'
+import Sidebar from './Sidebar/Sidebar'
 import BookmarkList from './BookmarkList/BookmarkList'
 import CareerList from './CareerList/CareerList'
 import Controls from './Controls/Controls'
@@ -34,7 +35,6 @@ class App extends React.Component<IAppProps, IAppState> {
 
     this.onControlsStateChange = this.onControlsStateChange.bind(this)
     this.onSaveBookmark = this.onSaveBookmark.bind(this)
-    this.toggleSidebar = this.toggleSidebar.bind(this)
     this.updateBookmarks = this.updateBookmarks.bind(this)
   }
 
@@ -65,12 +65,6 @@ class App extends React.Component<IAppProps, IAppState> {
     ])))
   }
 
-  public toggleSidebar () {
-    this.setState({
-      sidebarOpen: !this.state.sidebarOpen
-    })
-  }
-
   public updateBookmarks (bookmarks: IBookmark[]) {
     this.setState({
       bookmarks
@@ -86,12 +80,9 @@ class App extends React.Component<IAppProps, IAppState> {
           <img src="https://xello.world/images/xello-logo.svg" alt="Xello" /> Careers
         </header>
 
-        <aside className={this.state.sidebarOpen ? 'App__sidebar--open' : 'App__sidebar--closed'}>
-          <div className="App__sidebarToggleButton" onClick={this.toggleSidebar}>
-            <img src={iconBookmark} width="30" />
-          </div>
+        <Sidebar icon={iconBookmark}>
           <BookmarkList bookmarks={this.state.bookmarks} onChange={this.updateBookmarks} />
-        </aside>
+        </Sidebar>
 
         <main className="App__application">
           <Controls
