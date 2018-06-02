@@ -38,9 +38,8 @@ class BookmarkList extends React.Component<IBookmarkListProps, IBookmarkListStat
 
   public deleteBookmarkFactory (index: number): () => void {
     return () => {
-      const left = this.props.bookmarks.slice(0, index)
-      const right = this.props.bookmarks.slice(index + 1)
-      this.props.onChange([...left, ...right])
+      const newBookmarks = this.props.bookmarks.filter((_, bookmarkIndex: number) => bookmarkIndex !== index)
+      this.props.onChange(newBookmarks)
     }
   }
 
