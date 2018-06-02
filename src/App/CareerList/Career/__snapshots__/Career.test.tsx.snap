@@ -1,0 +1,851 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can render a simple career does not render an image when props.showImages == false 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Career
+    career={
+      Object {
+        "description": "Test",
+        "id": 1,
+        "image": "TestImage",
+        "notes": Array [
+          "a",
+          "b",
+        ],
+        "title": "Test",
+      }
+    }
+    onSaveBookmark={[Function]}
+    showImage={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        undefined,
+        <h1>
+          <div
+            className="Career__titleContainer"
+          >
+            Test
+          </div>
+          <div
+            className="Career__bookmarkButton"
+            onClick={[Function]}
+          >
+            <img
+              src={undefined}
+              width="50"
+            />
+          </div>
+        </h1>,
+        <a
+          href="https://student.xello.world/options/career/1"
+          target="_blank"
+        >
+          https://student.xello.world/options/career/
+          1
+        </a>,
+        <p>
+          Test
+        </p>,
+        <ul>
+          <li>
+            a
+          </li>
+          <li>
+            b
+          </li>
+        </ul>,
+      ],
+      "className": "Career__wrapper",
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="Career__titleContainer"
+            >
+              Test
+            </div>,
+            <div
+              className="Career__bookmarkButton"
+              onClick={[Function]}
+            >
+              <img
+                src={undefined}
+                width="50"
+              />
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test",
+              "className": "Career__titleContainer",
+            },
+            "ref": null,
+            "rendered": "Test",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                src={undefined}
+                width="50"
+              />,
+              "className": "Career__bookmarkButton",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "src": undefined,
+                "width": "50",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "https://student.xello.world/options/career/",
+            1,
+          ],
+          "href": "https://student.xello.world/options/career/1",
+          "target": "_blank",
+        },
+        "ref": null,
+        "rendered": Array [
+          "https://student.xello.world/options/career/",
+          1,
+        ],
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Test",
+        },
+        "ref": null,
+        "rendered": "Test",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              a
+            </li>,
+            <li>
+              b
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "a",
+            "nodeType": "host",
+            "props": Object {
+              "children": "a",
+            },
+            "ref": null,
+            "rendered": "a",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "b",
+            "nodeType": "host",
+            "props": Object {
+              "children": "b",
+            },
+            "ref": null,
+            "rendered": "b",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <h1>
+            <div
+              className="Career__titleContainer"
+            >
+              Test
+            </div>
+            <div
+              className="Career__bookmarkButton"
+              onClick={[Function]}
+            >
+              <img
+                src={undefined}
+                width="50"
+              />
+            </div>
+          </h1>,
+          <a
+            href="https://student.xello.world/options/career/1"
+            target="_blank"
+          >
+            https://student.xello.world/options/career/
+            1
+          </a>,
+          <p>
+            Test
+          </p>,
+          <ul>
+            <li>
+              a
+            </li>
+            <li>
+              b
+            </li>
+          </ul>,
+        ],
+        "className": "Career__wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="Career__titleContainer"
+              >
+                Test
+              </div>,
+              <div
+                className="Career__bookmarkButton"
+                onClick={[Function]}
+              >
+                <img
+                  src={undefined}
+                  width="50"
+                />
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test",
+                "className": "Career__titleContainer",
+              },
+              "ref": null,
+              "rendered": "Test",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  src={undefined}
+                  width="50"
+                />,
+                "className": "Career__bookmarkButton",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "src": undefined,
+                  "width": "50",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "https://student.xello.world/options/career/",
+              1,
+            ],
+            "href": "https://student.xello.world/options/career/1",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": Array [
+            "https://student.xello.world/options/career/",
+            1,
+          ],
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Test",
+          },
+          "ref": null,
+          "rendered": "Test",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                a
+              </li>,
+              <li>
+                b
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "a",
+              "nodeType": "host",
+              "props": Object {
+                "children": "a",
+              },
+              "ref": null,
+              "rendered": "a",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "b",
+              "nodeType": "host",
+              "props": Object {
+                "children": "b",
+              },
+              "ref": null,
+              "rendered": "b",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`can render a simple career does render an image when props.showImages == true 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Career
+    career={
+      Object {
+        "description": "Test",
+        "id": 1,
+        "image": "TestImage",
+        "notes": Array [
+          "a",
+          "b",
+        ],
+        "title": "Test",
+      }
+    }
+    onSaveBookmark={[Function]}
+    showImage={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <CareerImage
+          image="TestImage"
+        />,
+        <h1>
+          <div
+            className="Career__titleContainer"
+          >
+            Test
+          </div>
+          <div
+            className="Career__bookmarkButton"
+            onClick={[Function]}
+          >
+            <img
+              src={undefined}
+              width="50"
+            />
+          </div>
+        </h1>,
+        <a
+          href="https://student.xello.world/options/career/1"
+          target="_blank"
+        >
+          https://student.xello.world/options/career/
+          1
+        </a>,
+        <p>
+          Test
+        </p>,
+        <ul>
+          <li>
+            a
+          </li>
+          <li>
+            b
+          </li>
+        </ul>,
+      ],
+      "className": "Career__wrapper",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "image": "TestImage",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="Career__titleContainer"
+            >
+              Test
+            </div>,
+            <div
+              className="Career__bookmarkButton"
+              onClick={[Function]}
+            >
+              <img
+                src={undefined}
+                width="50"
+              />
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test",
+              "className": "Career__titleContainer",
+            },
+            "ref": null,
+            "rendered": "Test",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                src={undefined}
+                width="50"
+              />,
+              "className": "Career__bookmarkButton",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "src": undefined,
+                "width": "50",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "https://student.xello.world/options/career/",
+            1,
+          ],
+          "href": "https://student.xello.world/options/career/1",
+          "target": "_blank",
+        },
+        "ref": null,
+        "rendered": Array [
+          "https://student.xello.world/options/career/",
+          1,
+        ],
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Test",
+        },
+        "ref": null,
+        "rendered": "Test",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              a
+            </li>,
+            <li>
+              b
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "a",
+            "nodeType": "host",
+            "props": Object {
+              "children": "a",
+            },
+            "ref": null,
+            "rendered": "a",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "b",
+            "nodeType": "host",
+            "props": Object {
+              "children": "b",
+            },
+            "ref": null,
+            "rendered": "b",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <CareerImage
+            image="TestImage"
+          />,
+          <h1>
+            <div
+              className="Career__titleContainer"
+            >
+              Test
+            </div>
+            <div
+              className="Career__bookmarkButton"
+              onClick={[Function]}
+            >
+              <img
+                src={undefined}
+                width="50"
+              />
+            </div>
+          </h1>,
+          <a
+            href="https://student.xello.world/options/career/1"
+            target="_blank"
+          >
+            https://student.xello.world/options/career/
+            1
+          </a>,
+          <p>
+            Test
+          </p>,
+          <ul>
+            <li>
+              a
+            </li>
+            <li>
+              b
+            </li>
+          </ul>,
+        ],
+        "className": "Career__wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "image": "TestImage",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="Career__titleContainer"
+              >
+                Test
+              </div>,
+              <div
+                className="Career__bookmarkButton"
+                onClick={[Function]}
+              >
+                <img
+                  src={undefined}
+                  width="50"
+                />
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test",
+                "className": "Career__titleContainer",
+              },
+              "ref": null,
+              "rendered": "Test",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  src={undefined}
+                  width="50"
+                />,
+                "className": "Career__bookmarkButton",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "src": undefined,
+                  "width": "50",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "https://student.xello.world/options/career/",
+              1,
+            ],
+            "href": "https://student.xello.world/options/career/1",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": Array [
+            "https://student.xello.world/options/career/",
+            1,
+          ],
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Test",
+          },
+          "ref": null,
+          "rendered": "Test",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                a
+              </li>,
+              <li>
+                b
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "a",
+              "nodeType": "host",
+              "props": Object {
+                "children": "a",
+              },
+              "ref": null,
+              "rendered": "a",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "b",
+              "nodeType": "host",
+              "props": Object {
+                "children": "b",
+              },
+              "ref": null,
+              "rendered": "b",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CareerImage
+    image=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="CareerImage__image"
+        style={
+          Object {
+            "backgroundImage": "url(?quality=70&maxWidth=500)",
+          }
+        }
+      >
+        <div
+          className="CareerImage__modeToggleButton"
+          onClick={[Function]}
+        >
+          Show High Res
+        </div>
+      </div>,
+      "className": "CareerImage__wrapper",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="CareerImage__modeToggleButton"
+          onClick={[Function]}
+        >
+          Show High Res
+        </div>,
+        "className": "CareerImage__image",
+        "style": Object {
+          "backgroundImage": "url(?quality=70&maxWidth=500)",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Show High Res",
+          "className": "CareerImage__modeToggleButton",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Show High Res",
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="CareerImage__image"
+          style={
+            Object {
+              "backgroundImage": "url(?quality=70&maxWidth=500)",
+            }
+          }
+        >
+          <div
+            className="CareerImage__modeToggleButton"
+            onClick={[Function]}
+          >
+            Show High Res
+          </div>
+        </div>,
+        "className": "CareerImage__wrapper",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="CareerImage__modeToggleButton"
+            onClick={[Function]}
+          >
+            Show High Res
+          </div>,
+          "className": "CareerImage__image",
+          "style": Object {
+            "backgroundImage": "url(?quality=70&maxWidth=500)",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Show High Res",
+            "className": "CareerImage__modeToggleButton",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Show High Res",
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

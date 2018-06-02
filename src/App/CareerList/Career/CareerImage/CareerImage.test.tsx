@@ -5,7 +5,8 @@ import { shallow, render } from 'enzyme'
 import CareerImage from './CareerImage'
 
 it('renders without crashing', () => {
-  shallow(<CareerImage image="" />)
+  const wrapper = shallow(<CareerImage image="" />)
+  expect(wrapper).toMatchSnapshot()
 })
 
 it('renders a low-res image', () => {
