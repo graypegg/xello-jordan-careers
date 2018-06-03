@@ -35,6 +35,7 @@ class App extends React.Component<IAppProps, IAppState> {
 
     this.onControlsStateChange = this.onControlsStateChange.bind(this)
     this.onSaveBookmark = this.onSaveBookmark.bind(this)
+    this.onDeleteBookmark = this.onDeleteBookmark.bind(this)
     this.updateBookmarks = this.updateBookmarks.bind(this)
   }
 
@@ -48,21 +49,22 @@ class App extends React.Component<IAppProps, IAppState> {
   }
 
   public onSaveBookmark (career: ICareer) {
-    this.setState({
-      bookmarks: this.state.bookmarks.concat([
+    this.updateBookmarks(
+      this.state.bookmarks.concat([
         {
           career,
           saved: new Date(Date.now())
         }
       ])
-    })
+    )
+  }
 
-    localStorage.setItem('bookmarks', JSON.stringify(this.state.bookmarks.concat([
-      {
-        career,
-        saved: new Date(Date.now())
-      }
-    ])))
+  public onDeleteBookmark (career: ICareer) {
+    this.updateBookmarks(
+      this.state.bookmarks.filter((bookmark) => {
+        return bookmark.career.id !== career.id
+      })
+    )
   }
 
   public updateBookmarks (bookmarks: IBookmark[]) {
@@ -94,7 +96,8 @@ class App extends React.Component<IAppProps, IAppState> {
             bookmarks={this.state.bookmarks}
             showImages={this.state.controlsState.showImages}
             pageLength={30}
-            onSaveBookmark={this.onSaveBookmark} />
+            onSaveBookmark={this.onSaveBookmark}
+            onDeleteBookmark={this.onDeleteBookmark} />
           </main>
       </div>
     )

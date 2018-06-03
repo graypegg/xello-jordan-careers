@@ -8,9 +8,10 @@ import Career from './Career/Career'
 import CareerListPageSelector from './CareerListPageSelector/CareerListPageSelector';
 
 const onSaveBookmarkMock = (_: ICareer) => { /* */ }
+const onDeleteBookmarkMock = (_: ICareer) => { /* */ }
 
 it('renders without crashing', () => {
-  shallow(<CareerList careers={[]} showImages={false} pageLength={20} onSaveBookmark={onSaveBookmarkMock} bookmarks={[]} />)
+  shallow(<CareerList careers={[]} showImages={false} pageLength={20} onSaveBookmark={onSaveBookmarkMock} onDeleteBookmark={onDeleteBookmarkMock} bookmarks={[]} />)
 })
 
 describe('can render a simple career', () => {
@@ -23,7 +24,7 @@ describe('can render a simple career', () => {
       id: 1
     }
   ]
-  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={20} onSaveBookmark={onSaveBookmarkMock} bookmarks={[]} />)
+  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={20} onSaveBookmark={onSaveBookmarkMock} onDeleteBookmark={onDeleteBookmarkMock} bookmarks={[]} />)
   const career = wrapper.find(Career)
 
   it('rendered one career', () => {
@@ -60,7 +61,7 @@ it('creates pages according to pageLength prop', () => {
     }
   ]
 
-  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} bookmarks={[]} />)
+  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} onDeleteBookmark={onDeleteBookmarkMock} bookmarks={[]} />)
 
   expect(wrapper.find(Career).length).toBe(1)
 })
@@ -90,7 +91,7 @@ describe('pageination link list', () => {
     }
   ]
 
-  const wrapper = mount(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} bookmarks={[]} />)
+  const wrapper = mount(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} onDeleteBookmark={onDeleteBookmarkMock} bookmarks={[]} />)
   const pageSelector = wrapper.find(CareerListPageSelector).first()
   it('clicking the selected link does nothing', () => {
     pageSelector.find('.CareerListPageSelector__paginationLink--active').simulate('click')
@@ -106,7 +107,7 @@ describe('pageination link list', () => {
 })
 
 it('should show a message when no items are being shown', () => {
-  const wrapper = shallow(<CareerList careers={[]} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} bookmarks={[]} />)
+  const wrapper = shallow(<CareerList careers={[]} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} onDeleteBookmark={onDeleteBookmarkMock} bookmarks={[]} />)
 
   expect(wrapper.find(Career).length).toBe(0)
   expect(wrapper.find('.CareerList__noItemsMessage').first().text()).toBe('Sorry! No items match your search.')
@@ -129,7 +130,7 @@ it('should mark bookmarked careers', () => {
     }
   ]
 
-  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} bookmarks={bookmarks} />)
+  const wrapper = shallow(<CareerList careers={careers} showImages={false} pageLength={1} onSaveBookmark={onSaveBookmarkMock} onDeleteBookmark={onDeleteBookmarkMock} bookmarks={bookmarks} />)
 
   expect(wrapper.find(Career).length).toBe(1)
   expect(wrapper.find(Career).props().isBookmarked).toBe(true)

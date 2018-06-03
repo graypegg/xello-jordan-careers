@@ -17,6 +17,7 @@ ShallowWrapper {
         "title": "Test",
       }
     }
+    onDeleteBookmark={[Function]}
     onSaveBookmark={[Function]}
     showImage={false}
   />,
@@ -434,6 +435,7 @@ ShallowWrapper {
         "title": "Test",
       }
     }
+    onDeleteBookmark={[Function]}
     onSaveBookmark={[Function]}
     showImage={true}
   />,

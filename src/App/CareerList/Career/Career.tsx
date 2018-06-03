@@ -9,12 +9,13 @@ interface ICareerProps {
   career: ICareer,
   showImage: boolean,
   isBookmarked?: boolean,
-  onSaveBookmark: (career: ICareer) => void
+  onSaveBookmark?: (career: ICareer) => void,
+  onDeleteBookmark?: (career: ICareer) => void
 }
 
-function onSaveBookmarkFactory (props: ICareerProps): () => void {
-  if (!props.isBookmarked) return () => props.onSaveBookmark(props.career)
-  else return () => { /* noop */ }
+function onBookmarkActionFactory (props: ICareerProps): () => void {
+  if (!props.isBookmarked) return () => (props.onSaveBookmark ? props.onSaveBookmark(props.career) : undefined)
+  else return () => (props.onDeleteBookmark ? props.onDeleteBookmark(props.career) : undefined)
 }
 
 function Career (props: ICareerProps): JSX.Element {
@@ -25,7 +26,7 @@ function Career (props: ICareerProps): JSX.Element {
       ) : undefined}
       <h1>
         <div className="Career__titleContainer">{props.career.title}</div>
-        <div className={ !props.isBookmarked ? 'Career__bookmarkButton' : 'Career__bookmarkButton--active' } onClick={onSaveBookmarkFactory(props)}>
+        <div className={ !props.isBookmarked ? 'Career__bookmarkButton' : 'Career__bookmarkButton--active' } onClick={onBookmarkActionFactory(props)}>
           <img src={iconBookmark} width="50" />
         </div>
       </h1>

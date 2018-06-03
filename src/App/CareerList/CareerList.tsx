@@ -11,7 +11,8 @@ interface ICareerListProps {
   bookmarks: IBookmark[],
   showImages: boolean,
   pageLength: number,
-  onSaveBookmark: (career: ICareer) => void
+  onSaveBookmark: (career: ICareer) => void,
+  onDeleteBookmark: (career: ICareer) => void
 }
 
 interface ICareerListState {
@@ -29,6 +30,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     this.goToPage = this.goToPage.bind(this)
     this.goToPage = this.goToPage.bind(this)
     this.onSaveBookmark = this.onSaveBookmark.bind(this)
+    this.onDeleteBookmark = this.onDeleteBookmark.bind(this)
   }
   
   public careersToPages (careers: ICareer[], pageLength: number): ICareer[][] {
@@ -48,6 +50,10 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     this.props.onSaveBookmark(career)
   }
 
+  public onDeleteBookmark(career: ICareer) {
+    this.props.onDeleteBookmark(career)
+  }
+
   public render (): JSX.Element {
     const pages = this.careersToPages(this.props.careers, this.props.pageLength)
     return (
@@ -62,6 +68,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
                     career={ career }
                     showImage={ this.props.showImages }
                     onSaveBookmark={ this.onSaveBookmark }
+                    onDeleteBookmark={ this.onDeleteBookmark }
                     isBookmarked={ this.props.bookmarks.filter((bookmark) => bookmark.career.id === career.id).length > 0 }/>
                 </li>
               ))
