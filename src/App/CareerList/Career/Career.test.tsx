@@ -28,6 +28,11 @@ describe('can render a simple career', () => {
     expect(component.find('h1 > .Career__bookmarkButton').length).toBe(1)
   })
 
+  it('hide bookmark button if save and delete events not supplied', () => {
+    const componentWithoutBookmarkButton = shallow(<Career career={career} showImage={false} />)
+    expect(componentWithoutBookmarkButton.find('.Career__bookmarkButton').length).toBe(0)
+  })
+
   it('rendered a description', () => {
     expect(component.find('p').text()).toBe(career.description)
   })

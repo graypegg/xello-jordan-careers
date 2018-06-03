@@ -26,9 +26,13 @@ function Career (props: ICareerProps): JSX.Element {
       ) : undefined}
       <h1>
         <div className="Career__titleContainer">{props.career.title}</div>
-        <div className={ !props.isBookmarked ? 'Career__bookmarkButton' : 'Career__bookmarkButton--active' } onClick={onBookmarkActionFactory(props)}>
-          <img src={iconBookmark} width="50" />
-        </div>
+        {
+          props.onSaveBookmark && props.onDeleteBookmark
+            ? <div className={!props.isBookmarked ? 'Career__bookmarkButton' : 'Career__bookmarkButton--active'} onClick={onBookmarkActionFactory(props)}>
+                <img src={iconBookmark} width="50" />
+              </div>
+            : null
+        }
       </h1>
       <p>{props.career.description}</p>
       <ul>
