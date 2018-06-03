@@ -50,13 +50,6 @@ ShallowWrapper {
             />
           </div>
         </h1>,
-        <a
-          href="https://student.xello.world/options/career/1"
-          target="_blank"
-        >
-          https://student.xello.world/options/career/
-          1
-        </a>,
         <p>
           Test
         </p>,
@@ -68,6 +61,14 @@ ShallowWrapper {
             b
           </li>
         </ul>,
+        <a
+          className="Career__profileLink"
+          href="https://student.xello.world/options/career/1?uuid=a4ec5cd0-676d-11e8-994e-45348d8204e0"
+          target="_blank"
+        >
+          https://student.xello.world/options/career/
+          1
+        </a>,
       ],
       "className": "Career__wrapper",
     },
@@ -145,25 +146,6 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            "https://student.xello.world/options/career/",
-            1,
-          ],
-          "href": "https://student.xello.world/options/career/1",
-          "target": "_blank",
-        },
-        "ref": null,
-        "rendered": Array [
-          "https://student.xello.world/options/career/",
-          1,
-        ],
-        "type": "a",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
           "children": "Test",
         },
         "ref": null,
@@ -211,6 +193,26 @@ ShallowWrapper {
         ],
         "type": "ul",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "https://student.xello.world/options/career/",
+            1,
+          ],
+          "className": "Career__profileLink",
+          "href": "https://student.xello.world/options/career/1?uuid=a4ec5cd0-676d-11e8-994e-45348d8204e0",
+          "target": "_blank",
+        },
+        "ref": null,
+        "rendered": Array [
+          "https://student.xello.world/options/career/",
+          1,
+        ],
+        "type": "a",
+      },
     ],
     "type": "div",
   },
@@ -238,13 +240,6 @@ ShallowWrapper {
               />
             </div>
           </h1>,
-          <a
-            href="https://student.xello.world/options/career/1"
-            target="_blank"
-          >
-            https://student.xello.world/options/career/
-            1
-          </a>,
           <p>
             Test
           </p>,
@@ -256,6 +251,14 @@ ShallowWrapper {
               b
             </li>
           </ul>,
+          <a
+            className="Career__profileLink"
+            href="https://student.xello.world/options/career/1?uuid=a4ec5cd0-676d-11e8-994e-45348d8204e0"
+            target="_blank"
+          >
+            https://student.xello.world/options/career/
+            1
+          </a>,
         ],
         "className": "Career__wrapper",
       },
@@ -333,25 +336,6 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              "https://student.xello.world/options/career/",
-              1,
-            ],
-            "href": "https://student.xello.world/options/career/1",
-            "target": "_blank",
-          },
-          "ref": null,
-          "rendered": Array [
-            "https://student.xello.world/options/career/",
-            1,
-          ],
-          "type": "a",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
             "children": "Test",
           },
           "ref": null,
@@ -398,6 +382,26 @@ ShallowWrapper {
             },
           ],
           "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "https://student.xello.world/options/career/",
+              1,
+            ],
+            "className": "Career__profileLink",
+            "href": "https://student.xello.world/options/career/1?uuid=a4ec5cd0-676d-11e8-994e-45348d8204e0",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": Array [
+            "https://student.xello.world/options/career/",
+            1,
+          ],
+          "type": "a",
         },
       ],
       "type": "div",
@@ -465,13 +469,6 @@ ShallowWrapper {
             />
           </div>
         </h1>,
-        <a
-          href="https://student.xello.world/options/career/1"
-          target="_blank"
-        >
-          https://student.xello.world/options/career/
-          1
-        </a>,
         <p>
           Test
         </p>,
@@ -483,6 +480,14 @@ ShallowWrapper {
             b
           </li>
         </ul>,
+        <a
+          className="Career__profileLink"
+          href="https://student.xello.world/options/career/1?uuid=a4ec5cd0-676d-11e8-994e-45348d8204e0"
+          target="_blank"
+        >
+          https://student.xello.world/options/career/
+          1
+        </a>,
       ],
       "className": "Career__wrapper",
     },
@@ -570,25 +575,6 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            "https://student.xello.world/options/career/",
-            1,
-          ],
-          "href": "https://student.xello.world/options/career/1",
-          "target": "_blank",
-        },
-        "ref": null,
-        "rendered": Array [
-          "https://student.xello.world/options/career/",
-          1,
-        ],
-        "type": "a",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
           "children": "Test",
         },
         "ref": null,
@@ -636,6 +622,26 @@ ShallowWrapper {
         ],
         "type": "ul",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "https://student.xello.world/options/career/",
+            1,
+          ],
+          "className": "Career__profileLink",
+          "href": "https://student.xello.world/options/career/1?uuid=a4ec5cd0-676d-11e8-994e-45348d8204e0",
+          "target": "_blank",
+        },
+        "ref": null,
+        "rendered": Array [
+          "https://student.xello.world/options/career/",
+          1,
+        ],
+        "type": "a",
+      },
     ],
     "type": "div",
   },
@@ -665,13 +671,6 @@ ShallowWrapper {
               />
             </div>
           </h1>,
-          <a
-            href="https://student.xello.world/options/career/1"
-            target="_blank"
-          >
-            https://student.xello.world/options/career/
-            1
-          </a>,
           <p>
             Test
           </p>,
@@ -683,6 +682,14 @@ ShallowWrapper {
               b
             </li>
           </ul>,
+          <a
+            className="Career__profileLink"
+            href="https://student.xello.world/options/career/1?uuid=a4ec5cd0-676d-11e8-994e-45348d8204e0"
+            target="_blank"
+          >
+            https://student.xello.world/options/career/
+            1
+          </a>,
         ],
         "className": "Career__wrapper",
       },
@@ -770,25 +777,6 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              "https://student.xello.world/options/career/",
-              1,
-            ],
-            "href": "https://student.xello.world/options/career/1",
-            "target": "_blank",
-          },
-          "ref": null,
-          "rendered": Array [
-            "https://student.xello.world/options/career/",
-            1,
-          ],
-          "type": "a",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
             "children": "Test",
           },
           "ref": null,
@@ -835,6 +823,26 @@ ShallowWrapper {
             },
           ],
           "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "https://student.xello.world/options/career/",
+              1,
+            ],
+            "className": "Career__profileLink",
+            "href": "https://student.xello.world/options/career/1?uuid=a4ec5cd0-676d-11e8-994e-45348d8204e0",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": Array [
+            "https://student.xello.world/options/career/",
+            1,
+          ],
+          "type": "a",
         },
       ],
       "type": "div",

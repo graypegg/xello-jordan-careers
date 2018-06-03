@@ -43,3 +43,22 @@
   font-size: var(--jordan-font-size);
   font-family: var(--jordan-font-family);
 }
+
+.Career__profileLink {
+  display: inline-block;
+  color: var(--primary-dark);
+  text-decoration: none;
+  margin: 20px 20px 10px;
+  border: 1px solid currentColor;
+  padding: 10px 20px;
+}
+
+.Career__profileLink::after {
+  content: "→";
+  margin-left: 8px;
+}
+
+.Career__profileLink:hover {
+  color: #FFF;
+  background: var(--primary-dark);
+}
