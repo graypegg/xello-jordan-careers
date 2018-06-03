@@ -8,6 +8,7 @@ import Controls from './Controls/Controls'
 
 import './App.css'
 import iconBookmark from '../assets/images/icon-bookmark.svg'
+import iconLogo from '../assets/images/logo.svg'
 
 interface IAppProps {
   careers: ICareer[]
@@ -79,7 +80,7 @@ class App extends React.Component<IAppProps, IAppState> {
     return (
       <div className="App__wrapper">
         <header className="App__header">
-          <img src="https://xello.world/images/xello-logo.svg" alt="Xello" /> Careers
+          <img src={iconLogo} alt="Xello" /> Careers
         </header>
 
         <Sidebar icon={iconBookmark}>
