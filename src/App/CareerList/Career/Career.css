@@ -23,17 +23,33 @@
   padding: 0 15px;
 }
 
-.Career__wrapper > h1 > .Career__bookmarkButton {
+.Career__wrapper > h1 > .Career__bookmarkButton,
+.Career__wrapper > h1 > .Career__bookmarkButton--active {
   display: flex;
   height: 90px;
   justify-content: center;
   flex: 0 0 90px;
-  background: var(--primary-light);
   cursor: pointer;
+}
+
+.Career__wrapper > h1 > .Career__bookmarkButton {
+  background: var(--primary-light);
 }
 
 .Career__wrapper > h1 > .Career__bookmarkButton:hover {
   background: var(--primary-dark);
+}
+
+.Career__wrapper > h1 > .Career__bookmarkButton--active {
+  background: var(--darker);
+}
+
+.Career__wrapper > h1 > .Career__bookmarkButton--active > img {
+  opacity: 0.5;
+}
+
+.Career__wrapper > h1 > .Career__bookmarkButton--active:hover > img {
+  opacity: 0.75;
 }
 
 .Career__wrapper > p,
