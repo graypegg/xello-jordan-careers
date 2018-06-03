@@ -40,7 +40,7 @@ function Career (props: ICareerProps): JSX.Element {
           </li>
         ))}
       </ul>
-      <a className="Career__profileLink" target="_blank" href={`https://student.xello.world/options/career/${props.career.id}?uuid=a4ec5cd0-676d-11e8-994e-45348d8204e0`}>https://student.xello.world/options/career/{props.career.id}</a>
+      <a className="Career__profileLink" target="_blank" href={`https://student.xello.world/options/career/${props.career.id}`}>https://student.xello.world/options/career/{props.career.id}</a>
     </div>
   )
 }
