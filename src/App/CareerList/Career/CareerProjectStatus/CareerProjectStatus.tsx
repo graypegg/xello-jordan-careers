@@ -34,9 +34,18 @@ const applyOnChange = (props: ICareerProjectStatusProps, status: EStatus): (() =
   })
 }
 
+function getClassSuffix (career: ICareer): string {
+  switch (career.meta ? career.meta.status : null) {
+    case EStatus.NotStarted: return '--not-started'
+    case EStatus.InProgress: return '--in-progress'
+    case EStatus.Complete: return '--complete'
+    default: return '--not-started'
+  }
+}
+
 function CareerProjectStatus (props: ICareerProjectStatusProps): JSX.Element {
   return (
-    <div className="CareerProjectStatus__wrapper" onClick={ applyOnChange(props, EStatus.Complete) }>
+    <div className={"CareerProjectStatus__wrapper" + getClassSuffix(props.career)} onClick={ applyOnChange(props, EStatus.Complete) }>
       { getStatus(props.career) }
     </div>
   )
