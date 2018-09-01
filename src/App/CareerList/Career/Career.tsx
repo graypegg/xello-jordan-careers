@@ -1,6 +1,7 @@
 import { ICareer } from '../../../types'
 import * as React from 'react'
 import CareerImage from './CareerImage/CareerImage'
+import CareerProjectStatus from './CareerProjectStatus/CareerProjectStatus'
 
 import './Career.css'
 import iconBookmark from '../../../assets/images/icon-bookmark.svg'
@@ -10,12 +11,17 @@ interface ICareerProps {
   showImage: boolean,
   isBookmarked?: boolean,
   onSaveBookmark?: (career: ICareer) => void,
-  onDeleteBookmark?: (career: ICareer) => void
+  onDeleteBookmark?: (career: ICareer) => void,
+  onChangeCareer?: (career: ICareer) => void
 }
 
 function onBookmarkActionFactory (props: ICareerProps): () => void {
   if (!props.isBookmarked) return () => (props.onSaveBookmark ? props.onSaveBookmark(props.career) : undefined)
   else return () => (props.onDeleteBookmark ? props.onDeleteBookmark(props.career) : undefined)
+}
+
+function onChangeCareerFactory(props: ICareerProps): (newCareer: ICareer) => void {
+  return (newCareer) => props.onChangeCareer ? props.onChangeCareer(newCareer) : newCareer
 }
 
 function Career (props: ICareerProps): JSX.Element {
@@ -34,6 +40,10 @@ function Career (props: ICareerProps): JSX.Element {
             : null
         }
       </h1>
+      { props.onChangeCareer
+        ? <CareerProjectStatus career={ props.career } onChange={onChangeCareerFactory(props)} />
+        : null
+      }
       <p>{props.career.description}</p>
       <ul>
         {props.career.notes.map((note) => (

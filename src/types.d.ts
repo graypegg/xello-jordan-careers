@@ -1,9 +1,14 @@
+import { EStatus } from "./consts";
+
 export declare interface ICareer {
   title: string,
   description: string,
   notes: string[],
   image: string,
-  id: number
+  id: number,
+  meta?: {
+    status?: EStatus
+  }
 }
 
 export declare interface IControlsState {

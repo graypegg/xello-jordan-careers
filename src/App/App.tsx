@@ -17,7 +17,8 @@ interface IAppProps {
 interface IAppState {
   controlsState: IControlsState,
   bookmarks: IBookmark[],
-  sidebarOpen: boolean
+  sidebarOpen: boolean,
+  careersMeta: Array<ICareer['meta']>
 }
 
 class App extends React.Component<IAppProps, IAppState> {
@@ -28,7 +29,8 @@ class App extends React.Component<IAppProps, IAppState> {
       showImages: false
     },
     bookmarks: JSON.parse(localStorage.getItem('bookmarks') || '[]'),
-    sidebarOpen: false
+    sidebarOpen: false,
+    careersMeta: JSON.parse(localStorage.getItem('careersMeta') || '[]'),
   }
 
   constructor (props: IAppProps) {
@@ -38,6 +40,7 @@ class App extends React.Component<IAppProps, IAppState> {
     this.onSaveBookmark = this.onSaveBookmark.bind(this)
     this.onDeleteBookmark = this.onDeleteBookmark.bind(this)
     this.updateBookmarks = this.updateBookmarks.bind(this)
+    this.updateCareersMeta = this.updateCareersMeta.bind(this)
   }
 
   public onControlsStateChange (controlsState: IControlsState): void {
@@ -75,6 +78,25 @@ class App extends React.Component<IAppProps, IAppState> {
 
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks))
   }
+  
+  public mergeWithCareersMeta (careers: ICareer[]): ICareer[] {
+    return careers.map((career, careerIndex) => {
+      return {
+        ...career,
+        meta: this.state.careersMeta[careerIndex]
+      }
+    })
+  }
+
+  public updateCareersMeta (careers: ICareer[]): void {
+    const careersMeta = careers.map((career: ICareer) => career.meta || {})
+
+    this.setState({
+      careersMeta
+    })
+
+    localStorage.setItem('careersMeta', JSON.stringify(careersMeta))
+  }
 
   public render(): JSX.Element {
     return (
@@ -93,12 +115,13 @@ class App extends React.Component<IAppProps, IAppState> {
             controlsState={this.state.controlsState} />
 
           <CareerList
-            careers={this.filterCareers(this.props.careers, this.state.controlsState)}
+            careers={this.filterCareers(this.mergeWithCareersMeta(this.props.careers), this.state.controlsState)}
             bookmarks={this.state.bookmarks}
             showImages={this.state.controlsState.showImages}
             pageLength={30}
             onSaveBookmark={this.onSaveBookmark}
-            onDeleteBookmark={this.onDeleteBookmark} />
+            onDeleteBookmark={this.onDeleteBookmark}
+            onChangeCareers={this.updateCareersMeta} />
           </main>
       </div>
     )
