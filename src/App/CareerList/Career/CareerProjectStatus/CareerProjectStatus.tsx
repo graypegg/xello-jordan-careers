@@ -26,10 +26,10 @@ function newCareerStatus (career: ICareer, status: EStatus): ICareer {
   }
 }
 
-const applyOnChange = (props: ICareerProjectStatusProps, status: EStatus): (() => void) => {
-  return (() => {
+const applyOnChangeFactory = (props: ICareerProjectStatusProps, status: EStatus): ((event: React.FormEvent<HTMLSelectElement>) => void) => {
+  return ((event) => {
     props.onChange(
-      newCareerStatus(props.career, EStatus.Complete)
+      newCareerStatus(props.career, event.currentTarget.value as EStatus)
     )
   })
 }
@@ -45,8 +45,16 @@ function getClassSuffix (career: ICareer): string {
 
 function CareerProjectStatus (props: ICareerProjectStatusProps): JSX.Element {
   return (
-    <div className={"CareerProjectStatus__wrapper" + getClassSuffix(props.career)} onClick={ applyOnChange(props, EStatus.Complete) }>
-      { getStatus(props.career) }
+    <div className={"CareerProjectStatus__wrapper" + getClassSuffix(props.career)}>
+      <select className="CareerProjectStatus__options" value={getStatus(props.career)} onChange={ applyOnChangeFactory(props, EStatus.Complete) }>
+        { Object.keys(EStatus).map((statusKey: string) => (
+          <option
+            key={statusKey}
+            value={EStatus[statusKey]}>
+            {EStatus[statusKey]}
+          </option>
+        )) }
+      </select>
     </div>
   )
 }
