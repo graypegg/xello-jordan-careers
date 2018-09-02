@@ -29,7 +29,6 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     } as ICareerListState
 
     this.goToPage = this.goToPage.bind(this)
-    this.goToPage = this.goToPage.bind(this)
     this.onSaveBookmark = this.onSaveBookmark.bind(this)
     this.onDeleteBookmark = this.onDeleteBookmark.bind(this)
   }
@@ -55,12 +54,12 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     this.props.onDeleteBookmark(career)
   }
 
-  public onChangeCareerFactory (careerIndex: number): (career: ICareer) => void {
+  public onChangeCareerFactory (careerId: ICareer['id']): (career: ICareer) => void {
     return (career) => {
       if (this.props.onChangeCareers) {
         this.props.onChangeCareers(
-          this.props.careers.map((value, index) => {
-            return (index === careerIndex
+          this.props.careers.map((value) => {
+            return (value.id === careerId
               ? career
               : value)
           })
@@ -77,7 +76,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
         <ul className="CareerList__careers">
           {
             this.props.careers.length
-              ? (pages[this.state.onPage] || pages[pages.length - 1]).map((career, careerIndex) => (
+              ? (pages[this.state.onPage] || pages[pages.length - 1]).map((career) => (
                 <li className="CareerList__career" key={ career.id }>
                   <Career
                     career={ career }
@@ -85,7 +84,7 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
                     onSaveBookmark={ this.onSaveBookmark }
                     onDeleteBookmark={ this.onDeleteBookmark }
                     isBookmarked={ this.props.bookmarks.some((bookmark) => bookmark.career.id === career.id) }
-                    onChangeCareer={ this.onChangeCareerFactory(careerIndex) }/>
+                    onChangeCareer={ this.onChangeCareerFactory(career.id) }/>
                 </li>
               ))
               : <div className="CareerList__noItemsMessage">Sorry! No items match your search.</div>
