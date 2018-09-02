@@ -13,7 +13,8 @@ export declare interface ICareer {
 
 export declare interface IControlsState {
   searchString: string,
-  showImages: boolean
+  showImages: boolean,
+  showStatuses: EStatus[]
 }
 
 export declare interface IBookmark {

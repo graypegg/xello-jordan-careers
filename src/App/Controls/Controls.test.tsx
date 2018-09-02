@@ -5,7 +5,7 @@ import { shallow, render } from 'enzyme'
 import Controls from './Controls'
 
 const onControlsStateChangeMock = (x: IControlsState) => ({ searchString: '' } as IControlsState)
-const controlsStateMock: IControlsState = { searchString: '', showImages: false }
+const controlsStateMock: IControlsState = { searchString: '', showImages: false, showStatuses: [] }
 
 it('renders without crashing', () => {
   shallow(<Controls onChange={onControlsStateChangeMock} controlsState={controlsStateMock} />)

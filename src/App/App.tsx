@@ -9,6 +9,7 @@ import Controls from './Controls/Controls'
 import './App.css'
 import iconBookmark from '../assets/images/icon-bookmark.svg'
 import iconLogo from '../assets/images/logo.svg'
+import { EStatus } from '../consts';
 
 interface IAppProps {
   careers: ICareer[]
@@ -26,7 +27,8 @@ class App extends React.Component<IAppProps, IAppState> {
   public state: IAppState = {
     controlsState: {
       searchString: '',
-      showImages: false
+      showImages: false,
+      showStatuses: ((Object as any).values(EStatus)) as EStatus[]
     },
     bookmarks: JSON.parse(localStorage.getItem('bookmarks') || '[]'),
     sidebarOpen: false,
@@ -49,7 +51,12 @@ class App extends React.Component<IAppProps, IAppState> {
 
   public filterCareers (careers: ICareer[], controlsState: IControlsState): ICareer[] {
     const searchStringRegExp = new RegExp(`(${controlsState.searchString})`, 'ig')
-    return careers.filter((career) => searchStringRegExp.test(career.title))
+    return careers
+      .filter((career) => searchStringRegExp.test(career.title))
+      .filter((career) => career.meta
+        ? controlsState.showStatuses.indexOf(career.meta.status || EStatus.NotStarted) > -1
+        : controlsState.showStatuses.indexOf(EStatus.NotStarted) > -1
+      )
   }
 
   public onSaveBookmark (career: ICareer) {
