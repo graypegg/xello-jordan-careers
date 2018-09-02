@@ -43,6 +43,7 @@ class App extends React.Component<IAppProps, IAppState> {
     this.onDeleteBookmark = this.onDeleteBookmark.bind(this)
     this.updateBookmarks = this.updateBookmarks.bind(this)
     this.updateCareersMeta = this.updateCareersMeta.bind(this)
+    this.onChangeSingleCareer = this.onChangeSingleCareer.bind(this)
   }
 
   public onControlsStateChange (controlsState: IControlsState): void {
@@ -95,6 +96,18 @@ class App extends React.Component<IAppProps, IAppState> {
     })
   }
 
+  public mergeBookmarksWithCareersMeta (bookmarks: IBookmark[], careersMeta: ICareer['meta']): IBookmark[] {
+    return bookmarks.map((bookmark) => {
+      return {
+        ...bookmark,
+        career: {
+          ...bookmark.career,
+          meta: careersMeta ? careersMeta[bookmark.career.id] : {}
+        }
+      }
+    })
+  }
+
   public updateCareersMeta (careers: ICareer[]): void {
     const careersMeta = careers.reduce((acc, career: ICareer) => {
       if (career.meta) {
@@ -106,10 +119,14 @@ class App extends React.Component<IAppProps, IAppState> {
     }, {})
 
     this.setState({
-      careersMeta
+      careersMeta: Object.assign({}, this.state.careersMeta, careersMeta)
     })
 
-    localStorage.setItem('careersMeta', JSON.stringify(careersMeta))
+    localStorage.setItem('careersMeta', JSON.stringify(Object.assign({}, this.state.careersMeta, careersMeta)))
+  }
+
+  public onChangeSingleCareer (career: ICareer): void {
+    this.updateCareersMeta([career])
   }
 
   public render(): JSX.Element {
@@ -120,7 +137,7 @@ class App extends React.Component<IAppProps, IAppState> {
         </header>
 
         <Sidebar icon={iconBookmark}>
-          <BookmarkList bookmarks={this.state.bookmarks} onChange={this.updateBookmarks} />
+          <BookmarkList bookmarks={this.mergeBookmarksWithCareersMeta(this.state.bookmarks, this.state.careersMeta)} onChange={this.updateBookmarks} onChangeCareer={this.onChangeSingleCareer} />
         </Sidebar>
 
         <main className="App__application">

@@ -7,7 +7,8 @@ import './BookmarkList.css'
 
 interface IBookmarkListProps {
   bookmarks: IBookmark[],
-  onChange: (bookmarks: IBookmark[]) => void
+  onChange: (bookmarks: IBookmark[]) => void,
+  onChangeCareer: (career: ICareer) => void
 }
 
 interface IBookmarkListState {
@@ -43,6 +44,17 @@ class BookmarkList extends React.Component<IBookmarkListProps, IBookmarkListStat
     }
   }
 
+  public keepUpdated (career: ICareer, bookmarks: IBookmark[]): ICareer {
+    const thisBookmark = bookmarks.find((bookmark) => bookmark.career.id === career.id);
+    if (thisBookmark) {
+      return {
+        ...career,
+        meta: thisBookmark.career.meta ? thisBookmark.career.meta : {}
+      }
+    }
+    return career
+  }
+
   public render () {
     return (
       <div className="BookmarkList__wrapper">
@@ -60,7 +72,7 @@ class BookmarkList extends React.Component<IBookmarkListProps, IBookmarkListStat
         </ul>
 
         { this.state.currentCareer
-            ? <BookmarkPopup career={this.state.currentCareer} onClose={this.closeBookmark} />
+            ? <BookmarkPopup career={this.keepUpdated(this.state.currentCareer, this.props.bookmarks)} onClose={this.closeBookmark} onChangeCareer={this.props.onChangeCareer} />
             : null
         }
       </div>

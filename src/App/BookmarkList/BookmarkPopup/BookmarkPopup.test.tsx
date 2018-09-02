@@ -6,6 +6,7 @@ import BookmarkPopup from './BookmarkPopup'
 import Career from '../../CareerList/Career/Career'
 
 const onCloseMock = () => {/* void */ }
+const onChangeMock = (_: ICareer) => {/* void */}
 
 const career: ICareer = {
   title: 'Test',
@@ -16,17 +17,17 @@ const career: ICareer = {
 }
 
 it('renders without crashing', () => {
-  shallow(<BookmarkPopup career={career} onClose={onCloseMock} />)
+  shallow(<BookmarkPopup career={career} onClose={onCloseMock} onChangeCareer={onChangeMock} />)
 })
 
 it('renders a Career', () => {
-  const wrapper = shallow(<BookmarkPopup career={career} onClose={onCloseMock} />)
+  const wrapper = shallow(<BookmarkPopup career={career} onClose={onCloseMock} onChangeCareer={onChangeMock} />)
   expect(wrapper.find(Career).length).toBe(1)
 })
 
 it('fires onClose when closing popup', () => {
   const onCloseMockSpied = jest.fn().mockImplementation(onCloseMock)
-  const wrapper = shallow(<BookmarkPopup career={career} onClose={onCloseMockSpied} />)
+  const wrapper = shallow(<BookmarkPopup career={career} onClose={onCloseMockSpied} onChangeCareer={onChangeMock} />)
   wrapper.find('.BookmarkPopup__closeButton').first().simulate('click')
   expect(onCloseMockSpied).toHaveBeenCalledTimes(1)
 })
