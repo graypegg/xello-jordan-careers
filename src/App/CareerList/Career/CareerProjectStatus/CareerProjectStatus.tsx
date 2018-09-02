@@ -45,7 +45,7 @@ function getClassSuffix (career: ICareer): string {
 
 function CareerProjectStatus (props: ICareerProjectStatusProps): JSX.Element {
   return (
-    <div className={"CareerProjectStatus__wrapper" + getClassSuffix(props.career)}>
+    <div className={"CareerProjectStatus__wrapper CareerProjectStatus__wrapper" + getClassSuffix(props.career)}>
       <select className="CareerProjectStatus__options" value={getStatus(props.career)} onChange={ applyOnChangeFactory(props, EStatus.Complete) }>
         { Object.keys(EStatus).map((statusKey: string) => (
           <option

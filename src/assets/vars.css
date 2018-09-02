@@ -2,9 +2,16 @@
   --primary-light: #81c325;
   --primary-dark: #4d7312;
   --primary-gradient: linear-gradient(to bottom, var(--primary-light) 0%, var(--primary-dark) 100%);
+  --primary-gradient-soft: linear-gradient(to top, var(--primary-light) 30%, var(--primary-dark) 250%);
+
+  --dark-gradient-soft: linear-gradient(to top, var(--dark) 0%, var(--darker) 100%);
+  --light-gradient-soft: linear-gradient(to top, var(--lighter) 0%, var(--light) 150%);
 
   --dark: #2a3a2d;
   --darker: #1f2921;
+
+  --light: #899292;
+  --lighter: #b3babb;
 
   --jordan-color: #454545;
   --jordan-font-size: 17px;

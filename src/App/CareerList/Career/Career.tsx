@@ -40,10 +40,6 @@ function Career (props: ICareerProps): JSX.Element {
             : null
         }
       </h1>
-      { props.onChangeCareer
-        ? <CareerProjectStatus career={ props.career } onChange={onChangeCareerFactory(props)} />
-        : null
-      }
       <p>{props.career.description}</p>
       <ul>
         {props.career.notes.map((note) => (
@@ -52,6 +48,10 @@ function Career (props: ICareerProps): JSX.Element {
           </li>
         ))}
       </ul>
+      { props.onChangeCareer
+        ? <CareerProjectStatus career={ props.career } onChange={onChangeCareerFactory(props)} />
+        : null
+      }
       <a className="Career__profileLink" target="_blank" href={`https://student.xello.world/options/career/${props.career.id}`}>https://student.xello.world/options/career/{props.career.id}</a>
     </div>
   )

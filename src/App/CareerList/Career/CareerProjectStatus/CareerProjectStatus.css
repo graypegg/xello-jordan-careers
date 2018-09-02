@@ -1,29 +1,31 @@
-.CareerProjectStatus__wrapper--not-started,
-.CareerProjectStatus__wrapper--in-progress,
-.CareerProjectStatus__wrapper--complete {
+.CareerProjectStatus__wrapper {
+  display: inline-block;
   background: #ccc;
-  margin-top: -15px;
   font-weight: bold;
-  padding: 10px 20px;
-  border-style: solid;
-  border-width: 0 1px 1px 1px;
   font-size: 1rem;
+  margin-left: 20px;
+}
+
+.CareerProjectStatus__wrapper select {
+  appearance: none;
+  background: transparent;
+  color: #FFF;
+  font-size: 0.9rem;
+  border: 0;
+  border-radius: 0;
+  padding: 14px 15px;
+  text-align: center;
 }
 
 .CareerProjectStatus__wrapper--not-started {
-  background: #ccc;
-  border-color: #bdbdbd;
-  color: #171719;
+  background: var(--dark-gradient-soft);
 }
 
 .CareerProjectStatus__wrapper--in-progress {
-  background: #6d6d6d;
-  border-color: #575757;
-  color: #fff;
+  background: var(--light-gradient-soft);
 }
 
 .CareerProjectStatus__wrapper--complete {
-  background: var(--primary-light);
-  border-color: var(--primary-dark);
-  color: #171719;
+  background: var(--primary-gradient-soft);
+  border-color: transparent;
 }
