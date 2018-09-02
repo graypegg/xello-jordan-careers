@@ -18,7 +18,7 @@ interface IAppState {
   controlsState: IControlsState,
   bookmarks: IBookmark[],
   sidebarOpen: boolean,
-  careersMeta: Array<ICareer['meta']>
+  careersMeta: {[careerId: number]: ICareer['meta']}
 }
 
 class App extends React.Component<IAppProps, IAppState> {
@@ -30,7 +30,7 @@ class App extends React.Component<IAppProps, IAppState> {
     },
     bookmarks: JSON.parse(localStorage.getItem('bookmarks') || '[]'),
     sidebarOpen: false,
-    careersMeta: JSON.parse(localStorage.getItem('careersMeta') || '[]'),
+    careersMeta: JSON.parse(localStorage.getItem('careersMeta') || '{}'),
   }
 
   constructor (props: IAppProps) {
@@ -80,16 +80,23 @@ class App extends React.Component<IAppProps, IAppState> {
   }
   
   public mergeWithCareersMeta (careers: ICareer[]): ICareer[] {
-    return careers.map((career, careerIndex) => {
+    return careers.map((career) => {
       return {
         ...career,
-        meta: this.state.careersMeta[careerIndex]
+        meta: this.state.careersMeta[career.id]
       }
     })
   }
 
   public updateCareersMeta (careers: ICareer[]): void {
-    const careersMeta = careers.map((career: ICareer) => career.meta || {})
+    const careersMeta = careers.reduce((acc, career: ICareer) => {
+      if (career.meta) {
+        acc[career.id] = career.meta
+      } else {
+        acc[career.id] = null
+      }
+      return acc
+    }, {})
 
     this.setState({
       careersMeta
