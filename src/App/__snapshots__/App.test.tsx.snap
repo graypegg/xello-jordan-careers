@@ -26,6 +26,11 @@ exports[`can update control state 1`] = `
 Object {
   "searchString": "",
   "showImages": false,
+  "showStatuses": Array [
+    "Not Started",
+    "In Progress",
+    "Complete",
+  ],
 }
 `;
 
@@ -33,5 +38,6 @@ exports[`can update control state 2`] = `
 Object {
   "searchString": "test",
   "showImages": false,
+  "showStatuses": Array [],
 }
 `;

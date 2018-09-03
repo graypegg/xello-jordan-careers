@@ -27,8 +27,6 @@ class Controls extends React.Component<IControlsProps> {
     if (showImages !== undefined) out = Object.assign(out, { showImages })
     if (showStatuses !== undefined) out = Object.assign(out, { showStatuses })
 
-    if (searchString !== undefined || showImages !== undefined || showStatuses !== undefined) this.props.onChange(out)
-
     localStorage.setItem('searchString', out.searchString)
     localStorage.setItem('showImages', out.showImages.toString())
     localStorage.setItem('showStatuses', JSON.stringify(out.showStatuses))

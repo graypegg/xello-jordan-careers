@@ -15,6 +15,7 @@ const bookmarks: IBookmark[] = [
       description: 'Test',
       notes: ['a', 'b'],
       image: 'TestImage',
+      meta: {},
       id: 1
     } as ICareer,
     saved: new Date()

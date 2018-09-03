@@ -11,17 +11,10 @@ it('renders without crashing', () => {
   shallow(<Controls onChange={onControlsStateChangeMock} controlsState={controlsStateMock} />)
 })
 
-describe('can render a simple career', () => {
+describe('can render basic form', () => {
   const onChange = (state: IControlsState) => console.log(state) 
   const wrapper = render(<Controls onChange={onChange} controlsState={controlsStateMock} />)
-
-  it('rendered a search box', () => {
-    expect(wrapper.find('input[type=text]').length).toBe(1)
-  })
-
-  it('rendered a checkbox', () => {
-    expect(wrapper.find('input[type=checkbox]').length).toBe(1)
-  })
+  expect(wrapper).toMatchSnapshot();
 })
 
 describe('returns an updated IControlsState', () => {
