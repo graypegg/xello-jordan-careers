@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CareerProjectStatus
+    career={
+      Object {
+        "description": "Test",
+        "id": 1,
+        "image": "TestImage",
+        "meta": Object {
+          "status": "Not Started",
+        },
+        "notes": Array [
+          "a",
+          "b",
+        ],
+        "title": "Test",
+      }
+    }
+    onChange={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <select
+        className="CareerProjectStatus__options"
+        onChange={[Function]}
+        value="Not Started"
+      >
+        <option
+          value="Not Started"
+        >
+          Not Started
+        </option>
+        <option
+          value="In Progress"
+        >
+          In Progress
+        </option>
+        <option
+          value="Complete"
+        >
+          Complete
+        </option>
+      </select>,
+      "className": "CareerProjectStatus__wrapper CareerProjectStatus__wrapper--not-started",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <option
+            value="Not Started"
+          >
+            Not Started
+          </option>,
+          <option
+            value="In Progress"
+          >
+            In Progress
+          </option>,
+          <option
+            value="Complete"
+          >
+            Complete
+          </option>,
+        ],
+        "className": "CareerProjectStatus__options",
+        "onChange": [Function],
+        "value": "Not Started",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "NotStarted",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Not Started",
+            "value": "Not Started",
+          },
+          "ref": null,
+          "rendered": "Not Started",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "InProgress",
+          "nodeType": "host",
+          "props": Object {
+            "children": "In Progress",
+            "value": "In Progress",
+          },
+          "ref": null,
+          "rendered": "In Progress",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "Complete",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Complete",
+            "value": "Complete",
+          },
+          "ref": null,
+          "rendered": "Complete",
+          "type": "option",
+        },
+      ],
+      "type": "select",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <select
+          className="CareerProjectStatus__options"
+          onChange={[Function]}
+          value="Not Started"
+        >
+          <option
+            value="Not Started"
+          >
+            Not Started
+          </option>
+          <option
+            value="In Progress"
+          >
+            In Progress
+          </option>
+          <option
+            value="Complete"
+          >
+            Complete
+          </option>
+        </select>,
+        "className": "CareerProjectStatus__wrapper CareerProjectStatus__wrapper--not-started",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <option
+              value="Not Started"
+            >
+              Not Started
+            </option>,
+            <option
+              value="In Progress"
+            >
+              In Progress
+            </option>,
+            <option
+              value="Complete"
+            >
+              Complete
+            </option>,
+          ],
+          "className": "CareerProjectStatus__options",
+          "onChange": [Function],
+          "value": "Not Started",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "NotStarted",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Not Started",
+              "value": "Not Started",
+            },
+            "ref": null,
+            "rendered": "Not Started",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "InProgress",
+            "nodeType": "host",
+            "props": Object {
+              "children": "In Progress",
+              "value": "In Progress",
+            },
+            "ref": null,
+            "rendered": "In Progress",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "Complete",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Complete",
+              "value": "Complete",
+            },
+            "ref": null,
+            "rendered": "Complete",
+            "type": "option",
+          },
+        ],
+        "type": "select",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
