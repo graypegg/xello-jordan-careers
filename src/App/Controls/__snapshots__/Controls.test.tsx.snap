@@ -145,7 +145,7 @@ initialize {
                     "data": "Show 'Not Started'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -170,7 +170,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -205,7 +205,7 @@ initialize {
                       "data": "Show 'In Progress'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -230,7 +230,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -265,7 +265,7 @@ initialize {
                         "data": "Show 'Complete'",
                         "next": Object {
                           "attribs": Object {
-                            "class": "Controls__statusToggle",
+                            "class": "Controls__statusToggle Controls__statusToggle--Complete",
                             "type": "checkbox",
                           },
                           "children": Array [],
@@ -290,7 +290,7 @@ initialize {
                       },
                       Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--Complete",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -344,7 +344,7 @@ initialize {
                     "data": "Show 'In Progress'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -369,7 +369,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -404,7 +404,7 @@ initialize {
                       "data": "Show 'Complete'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--Complete",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -429,7 +429,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--Complete",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -472,7 +472,7 @@ initialize {
                       "data": "Show 'Not Started'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -497,7 +497,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -543,7 +543,7 @@ initialize {
                     "data": "Show 'Complete'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--Complete",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -568,7 +568,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--Complete",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -605,7 +605,7 @@ initialize {
                       "data": "Show 'In Progress'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -630,7 +630,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -667,7 +667,7 @@ initialize {
                         "data": "Show 'Not Started'",
                         "next": Object {
                           "attribs": Object {
-                            "class": "Controls__statusToggle",
+                            "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                             "type": "checkbox",
                           },
                           "children": Array [],
@@ -692,7 +692,7 @@ initialize {
                       },
                       Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -875,7 +875,7 @@ initialize {
                   "data": "Show 'Not Started'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -900,7 +900,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -935,7 +935,7 @@ initialize {
                     "data": "Show 'In Progress'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -960,7 +960,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -995,7 +995,7 @@ initialize {
                       "data": "Show 'Complete'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--Complete",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -1020,7 +1020,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--Complete",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -1074,7 +1074,7 @@ initialize {
                   "data": "Show 'In Progress'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -1099,7 +1099,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -1134,7 +1134,7 @@ initialize {
                     "data": "Show 'Complete'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--Complete",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -1159,7 +1159,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--Complete",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -1202,7 +1202,7 @@ initialize {
                     "data": "Show 'Not Started'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -1227,7 +1227,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -1273,7 +1273,7 @@ initialize {
                   "data": "Show 'Complete'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--Complete",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -1298,7 +1298,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--Complete",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -1335,7 +1335,7 @@ initialize {
                     "data": "Show 'In Progress'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -1360,7 +1360,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -1397,7 +1397,7 @@ initialize {
                       "data": "Show 'Not Started'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -1422,7 +1422,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -1611,7 +1611,7 @@ initialize {
                 "data": "Show 'Not Started'",
                 "next": Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -1636,7 +1636,7 @@ initialize {
               },
               Object {
                 "attribs": Object {
-                  "class": "Controls__statusToggle",
+                  "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                   "type": "checkbox",
                 },
                 "children": Array [],
@@ -1671,7 +1671,7 @@ initialize {
                   "data": "Show 'In Progress'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -1696,7 +1696,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -1731,7 +1731,7 @@ initialize {
                     "data": "Show 'Complete'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--Complete",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -1756,7 +1756,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--Complete",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -1810,7 +1810,7 @@ initialize {
                 "data": "Show 'In Progress'",
                 "next": Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -1835,7 +1835,7 @@ initialize {
               },
               Object {
                 "attribs": Object {
-                  "class": "Controls__statusToggle",
+                  "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                   "type": "checkbox",
                 },
                 "children": Array [],
@@ -1870,7 +1870,7 @@ initialize {
                   "data": "Show 'Complete'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--Complete",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -1895,7 +1895,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--Complete",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -1938,7 +1938,7 @@ initialize {
                   "data": "Show 'Not Started'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -1963,7 +1963,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -2009,7 +2009,7 @@ initialize {
                 "data": "Show 'Complete'",
                 "next": Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--Complete",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -2034,7 +2034,7 @@ initialize {
               },
               Object {
                 "attribs": Object {
-                  "class": "Controls__statusToggle",
+                  "class": "Controls__statusToggle Controls__statusToggle--Complete",
                   "type": "checkbox",
                 },
                 "children": Array [],
@@ -2071,7 +2071,7 @@ initialize {
                   "data": "Show 'In Progress'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -2096,7 +2096,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -2133,7 +2133,7 @@ initialize {
                     "data": "Show 'Not Started'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -2158,7 +2158,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -2441,7 +2441,7 @@ initialize {
                   "data": "Show 'Not Started'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -2466,7 +2466,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -2501,7 +2501,7 @@ initialize {
                     "data": "Show 'In Progress'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -2526,7 +2526,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -2561,7 +2561,7 @@ initialize {
                       "data": "Show 'Complete'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--Complete",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -2586,7 +2586,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--Complete",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -2640,7 +2640,7 @@ initialize {
                   "data": "Show 'In Progress'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -2665,7 +2665,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -2700,7 +2700,7 @@ initialize {
                     "data": "Show 'Complete'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--Complete",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -2725,7 +2725,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--Complete",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -2768,7 +2768,7 @@ initialize {
                     "data": "Show 'Not Started'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -2793,7 +2793,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -2839,7 +2839,7 @@ initialize {
                   "data": "Show 'Complete'",
                   "next": Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--Complete",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -2864,7 +2864,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "Controls__statusToggle",
+                    "class": "Controls__statusToggle Controls__statusToggle--Complete",
                     "type": "checkbox",
                   },
                   "children": Array [],
@@ -2901,7 +2901,7 @@ initialize {
                     "data": "Show 'In Progress'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -2926,7 +2926,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -2963,7 +2963,7 @@ initialize {
                       "data": "Show 'Not Started'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -2988,7 +2988,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -3229,7 +3229,7 @@ initialize {
                     "data": "Show 'Not Started'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -3254,7 +3254,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -3289,7 +3289,7 @@ initialize {
                       "data": "Show 'In Progress'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -3314,7 +3314,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -3349,7 +3349,7 @@ initialize {
                         "data": "Show 'Complete'",
                         "next": Object {
                           "attribs": Object {
-                            "class": "Controls__statusToggle",
+                            "class": "Controls__statusToggle Controls__statusToggle--Complete",
                             "type": "checkbox",
                           },
                           "children": Array [],
@@ -3374,7 +3374,7 @@ initialize {
                       },
                       Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--Complete",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -3428,7 +3428,7 @@ initialize {
                     "data": "Show 'In Progress'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -3453,7 +3453,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -3488,7 +3488,7 @@ initialize {
                       "data": "Show 'Complete'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--Complete",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -3513,7 +3513,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--Complete",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -3556,7 +3556,7 @@ initialize {
                       "data": "Show 'Not Started'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -3581,7 +3581,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -3627,7 +3627,7 @@ initialize {
                     "data": "Show 'Complete'",
                     "next": Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--Complete",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -3652,7 +3652,7 @@ initialize {
                   },
                   Object {
                     "attribs": Object {
-                      "class": "Controls__statusToggle",
+                      "class": "Controls__statusToggle Controls__statusToggle--Complete",
                       "type": "checkbox",
                     },
                     "children": Array [],
@@ -3689,7 +3689,7 @@ initialize {
                       "data": "Show 'In Progress'",
                       "next": Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                           "type": "checkbox",
                         },
                         "children": Array [],
@@ -3714,7 +3714,7 @@ initialize {
                     },
                     Object {
                       "attribs": Object {
-                        "class": "Controls__statusToggle",
+                        "class": "Controls__statusToggle Controls__statusToggle--InProgress",
                         "type": "checkbox",
                       },
                       "children": Array [],
@@ -3751,7 +3751,7 @@ initialize {
                         "data": "Show 'Not Started'",
                         "next": Object {
                           "attribs": Object {
-                            "class": "Controls__statusToggle",
+                            "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                             "type": "checkbox",
                           },
                           "children": Array [],
@@ -3776,7 +3776,7 @@ initialize {
                       },
                       Object {
                         "attribs": Object {
-                          "class": "Controls__statusToggle",
+                          "class": "Controls__statusToggle Controls__statusToggle--NotStarted",
                           "type": "checkbox",
                         },
                         "children": Array [],

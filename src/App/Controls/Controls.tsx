@@ -98,7 +98,7 @@ class Controls extends React.Component<IControlsProps> {
             <label key={statusKey}>
               Show '{EStatus[statusKey]}'
               <input
-                className="Controls__statusToggle"
+                className={`Controls__statusToggle Controls__statusToggle--${statusKey}`}
                 type="checkbox"
                 checked={this.props.controlsState.showStatuses.indexOf(EStatus[statusKey]) > -1}
                 onChange={this.onStatusToggleChangeFactory(EStatus[statusKey])} />

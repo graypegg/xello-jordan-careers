@@ -1,4 +1,5 @@
 import { IControlsState } from '../../types'
+import { EStatus } from '../../consts'
 
 import * as React from 'react'
 import { shallow, render } from 'enzyme'
@@ -27,6 +28,19 @@ describe('returns an updated IControlsState', () => {
     wrapper.find('.Controls__searchInput').simulate('change', { currentTarget: { value: 'test' } })
   })
 
+  Object.keys(EStatus).forEach((statusKey) => {
+    it(`can toggle ${EStatus[statusKey]}`, () => {
+      const onChange = jest.fn()
+      const wrapper = shallow(<Controls onChange={onChange} controlsState={controlsStateMock} />)
+      wrapper.find(`.Controls__statusToggle--${statusKey}`).simulate('change', {})
+      expect(onChange).toHaveBeenCalledTimes(1)
+      expect(onChange).toBeCalledWith({
+        ...controlsStateMock,
+        showStatuses: [EStatus[statusKey]]
+      })
+    })
+  })
+
   it('update showImages', () => {
     const onChange = (newState: IControlsState) => expect(newState).toEqual({
       ...controlsStateMock,
@@ -45,4 +59,18 @@ describe('returns an updated IControlsState', () => {
     const wrapper = shallow(<Controls onChange={onChange} controlsState={controlsStateMock} />)
     wrapper.find('.Controls__searchInput').simulate('change', { currentTarget: { value: '*\\^te~`s*(t$' } })
   })
+})
+
+it('emits onGlobalRestore', () => {
+  const onGlobalRestoreMock = jest.fn()
+  const wrapper = shallow(<Controls onChange={onControlsStateChangeMock} controlsState={controlsStateMock} onGlobalRestore={onGlobalRestoreMock} />)
+  wrapper.find('.Controls__saveButtons button').simulate('click', {})
+  expect(onGlobalRestoreMock).toBeCalled()
+})
+
+it('emits onGlobalSave', () => {
+  const onGlobalSaveMock = jest.fn()
+  const wrapper = shallow(<Controls onChange={onControlsStateChangeMock} controlsState={controlsStateMock} onGlobalSave={onGlobalSaveMock} />)
+  wrapper.find('.Controls__saveButtons button').simulate('click', {})
+  expect(onGlobalSaveMock).toBeCalled()
 })
