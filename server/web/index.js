@@ -1,10 +1,12 @@
 const express = require('express')
-const { Client } = require('pg')
+const exitHook = require('async-exit-hook');
+const { Pool } = require('pg')
 
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const app = express()
 
+/** Register Middleware  */
 app.use(cors())
 app.use(bodyParser.json())
 app.use(function (req, res, next) {
@@ -22,24 +24,25 @@ app.use(function (error, req, res, next) {
   }
 });
 
+/** Database */
+let pool;
+if (process.env['ENV'] === 'production') {
+  pool = new Pool()
+} else {
+  pool = new Pool({
+    user: 'grahamp',
+    host: 'localhost',
+    database: 'grahamp',
+    password: '',
+    port: 5432
+  })
+}
 async function query (...args) {
-  if (process.env['ENV'] === 'production') {
-    var client = new Client()
-  } else {
-    var client = new Client({
-      user: 'grahamp',
-      host: 'localhost',
-      database: 'grahamp',
-      password: '',
-      port: 5432
-    })
-  }
-  await client.connect()
-  const res = await client.query(...args)
-  await client.end()
+  const res = await pool.query(...args)
   return res
 }
 
+/** Router */
 app.get('/', (req, res) => {
   query(`
     SELECT *
@@ -68,4 +71,14 @@ app.post('/', (req, res) => {
   })
 })
 
+/** Bootstrap */
 app.listen(5000, () => console.log('Example app listening on port 5000!'))
+
+exitHook((done) => {
+  console.log('Closing Postgres connections...')
+  pool.end()
+    .then(() => {
+      console.log('Bye!')
+      done()
+    })
+})
