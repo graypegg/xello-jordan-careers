@@ -106,6 +106,13 @@ class Controls extends React.Component<IControlsProps> {
           ))}
         </div>
 
+        { this.props.controlsState.currentRevision
+          ? <div className="Controls__saveRevision">
+              Revision: { this.props.controlsState.currentRevision }
+            </div>
+          : null
+        }
+
         <div className="Controls__saveButtons">
           { this.props.onGlobalSave
             ? <button onClick={this.props.onGlobalSave}>Save</button>
@@ -113,10 +120,6 @@ class Controls extends React.Component<IControlsProps> {
           { this.props.onGlobalRestore
             ? <button onClick={this.props.onGlobalRestore}>Restore</button>
             : null }
-        </div>
-
-        <div className="Controls__saveButtons">
-          Revision: { this.props.controlsState.currentRevision }
         </div>
       </div>
     )

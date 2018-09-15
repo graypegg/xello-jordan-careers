@@ -25,3 +25,28 @@
   padding-top: 20px;
   border-top: 1px solid var(--lighter);
 }
+
+.Controls__saveButtons,
+.Controls__saveRevision {
+  color: #666;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 10px 0;
+}
+
+.Controls__saveButtons button {
+  appearance: none;
+  padding: 7px 10px;
+  color: #FFF;
+  background: var(--light);
+  border: 0;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.Controls__saveButtons button:hover {
+  background: var(--dark);
+}
