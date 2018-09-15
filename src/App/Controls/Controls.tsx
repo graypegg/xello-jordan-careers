@@ -6,7 +6,9 @@ import './Controls.css'
 
 interface IControlsProps {
   controlsState: IControlsState,
-  onChange: (controlsState: IControlsState) => void
+  onChange: (controlsState: IControlsState) => void,
+  onGlobalRestore?: () => void,
+  onGlobalSave?: () => void
 }
 
 class Controls extends React.Component<IControlsProps> {
@@ -102,6 +104,19 @@ class Controls extends React.Component<IControlsProps> {
                 onChange={this.onStatusToggleChangeFactory(EStatus[statusKey])} />
             </label>
           ))}
+        </div>
+
+        <div className="Controls__saveButtons">
+          { this.props.onGlobalSave
+            ? <button onClick={this.props.onGlobalSave}>Save</button>
+            : null }
+          { this.props.onGlobalRestore
+            ? <button onClick={this.props.onGlobalRestore}>Restore</button>
+            : null }
+        </div>
+
+        <div className="Controls__saveButtons">
+          Revision: { this.props.controlsState.currentRevision }
         </div>
       </div>
     )

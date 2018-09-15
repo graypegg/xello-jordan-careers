@@ -10,6 +10,7 @@ import './App.css'
 import iconBookmark from '../assets/images/icon-bookmark.svg'
 import iconLogo from '../assets/images/logo.svg'
 import { EStatus } from '../consts';
+import { getLatest, postSave } from '../apiService/api.service';
 
 interface IAppProps {
   careers: ICareer[]
@@ -19,7 +20,7 @@ interface IAppState {
   controlsState: IControlsState,
   bookmarks: IBookmark[],
   sidebarOpen: boolean,
-  careersMeta: {[careerId: number]: ICareer['meta']}
+  careersMeta: {[careerId: number]: ICareer['meta']},
 }
 
 class App extends React.Component<IAppProps, IAppState> {
@@ -28,11 +29,12 @@ class App extends React.Component<IAppProps, IAppState> {
     controlsState: {
       searchString: '',
       showImages: false,
-      showStatuses: ((Object as any).values(EStatus)) as EStatus[]
+      showStatuses: ((Object as any).values(EStatus)) as EStatus[],
+      currentRevision: null
     },
     bookmarks: JSON.parse(localStorage.getItem('bookmarks') || '[]'),
     sidebarOpen: false,
-    careersMeta: JSON.parse(localStorage.getItem('careersMeta') || '{}'),
+    careersMeta: JSON.parse(localStorage.getItem('careersMeta') || '{}')
   }
 
   constructor (props: IAppProps) {
@@ -44,6 +46,8 @@ class App extends React.Component<IAppProps, IAppState> {
     this.updateBookmarks = this.updateBookmarks.bind(this)
     this.updateCareersMeta = this.updateCareersMeta.bind(this)
     this.onChangeSingleCareer = this.onChangeSingleCareer.bind(this)
+    this.restore = this.restore.bind(this)
+    this.save = this.save.bind(this)
   }
 
   public onControlsStateChange (controlsState: IControlsState): void {
@@ -129,6 +133,37 @@ class App extends React.Component<IAppProps, IAppState> {
     this.updateCareersMeta([career])
   }
 
+  public restore () {
+    getLatest()
+      .then((obj) => {
+        this.setState((prevState) => ({
+          bookmarks: obj.data.bookmarks,
+          careersMeta: obj.data.careersMeta,
+          controlsState: {
+            ...prevState.controlsState,
+            currentRevision: obj.id
+          }
+        }))
+        localStorage.setItem('bookmarks', JSON.stringify(obj.data.bookmarks))
+        localStorage.setItem('careersMeta', JSON.stringify(obj.data.careersMeta))
+      })
+  }
+
+  public save () {
+    postSave({
+      bookmarks: this.state.bookmarks,
+      careersMeta: this.state.careersMeta
+    })
+      .then((obj) => {
+        this.setState((prevState) => ({
+          controlsState: {
+            ...prevState.controlsState,
+            currentRevision: obj.id
+          }
+        }))
+      })
+  }
+
   public render(): JSX.Element {
     return (
       <div className="App__wrapper">
@@ -143,7 +178,9 @@ class App extends React.Component<IAppProps, IAppState> {
         <main className="App__application">
           <Controls
             onChange={this.onControlsStateChange}
-            controlsState={this.state.controlsState} />
+            controlsState={this.state.controlsState}
+            onGlobalRestore={this.restore}
+            onGlobalSave={this.save} />
 
           <CareerList
             careers={this.filterCareers(this.mergeWithCareersMeta(this.props.careers), this.state.controlsState)}

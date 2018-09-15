@@ -10,4 +10,11 @@ const localStorageMock = {
 };
 (global as any).localStorage = localStorageMock 
 
+const fetchMock = jest.fn((path: string) => {
+  return new Promise((resolve) => {
+    resolve(new Response('{"id":1, "data":{"a":1}}'))
+  })
+});
+(global as any).fetch = fetchMock 
+
 configure({ adapter: new Adapter() })

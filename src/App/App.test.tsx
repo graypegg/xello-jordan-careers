@@ -4,7 +4,7 @@ import * as React from 'react'
 import { shallow } from 'enzyme'
 import App from './App'
 
-const controlsStateMock: IControlsState = { searchString: '', showImages: false, showStatuses: [] }
+const controlsStateMock: IControlsState = { searchString: '', showImages: false, showStatuses: [], currentRevision: 0 }
 const bookmarkStateMock: IBookmark[] = [
   {
     career: {

@@ -14,7 +14,8 @@ export declare interface ICareer {
 export declare interface IControlsState {
   searchString: string,
   showImages: boolean,
-  showStatuses: EStatus[]
+  showStatuses: EStatus[],
+  currentRevision: number | null
 }
 
 export declare interface IBookmark {

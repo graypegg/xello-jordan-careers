@@ -1,9 +1,11 @@
 const express = require('express')
 const { Client } = require('pg')
 
+const cors = require('cors')
 const bodyParser = require('body-parser')
 const app = express()
 
+app.use(cors())
 app.use(bodyParser.json())
 app.use(function (req, res, next) {
   if (req.method !== 'GET' && req.header('Content-Type') !== 'application/json') {
