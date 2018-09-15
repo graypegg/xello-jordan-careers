@@ -48,7 +48,8 @@ app.get('/', (req, res) => {
     DESC LIMIT 1;
   `).then((response) => {
     res.json(response.rows[0])
-  }).catch(() => {
+  }).catch((error) => {
+    console.error(error);
     res.status(500).json({ message: 'DB did something weird' })
   })
 })
@@ -57,11 +58,12 @@ app.post('/', (req, res) => {
   const data = JSON.stringify(req.body)
   query(`
     INSERT INTO saves (data)
-    VALUES ('${data}')
+    VALUES ($1)
     RETURNING id;
-  `).then((response) => {
+  `, [data]).then((response) => {
     res.json({ id: response.rows[0].id })
-  }).catch(() => {
+  }).catch((error) => {
+    console.error(error);
     res.status(500).json({ message: 'DB did something weird' })
   })
 })
