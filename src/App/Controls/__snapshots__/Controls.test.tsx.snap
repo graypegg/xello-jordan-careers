@@ -3129,3 +3129,117 @@ initialize {
   },
 }
 `;
+
+exports[`mounts 1`] = `
+Array [
+  Array [
+    "searchString",
+    "",
+  ],
+  Array [
+    "showImages",
+    "false",
+  ],
+  Array [
+    "showStatuses",
+    "[]",
+  ],
+]
+`;
+
+exports[`returns an updated IControlsState can toggle Complete 1`] = `
+Array [
+  Array [
+    "searchString",
+    "",
+  ],
+  Array [
+    "showImages",
+    "false",
+  ],
+  Array [
+    "showStatuses",
+    "[]",
+  ],
+  Array [
+    "showStatuses",
+    "[\\"Complete\\"]",
+  ],
+]
+`;
+
+exports[`returns an updated IControlsState can toggle In Progress 1`] = `
+Array [
+  Array [
+    "searchString",
+    "",
+  ],
+  Array [
+    "showImages",
+    "false",
+  ],
+  Array [
+    "showStatuses",
+    "[]",
+  ],
+  Array [
+    "showStatuses",
+    "[\\"In Progress\\"]",
+  ],
+]
+`;
+
+exports[`returns an updated IControlsState can toggle Not Started 1`] = `
+Array [
+  Array [
+    "searchString",
+    "",
+  ],
+  Array [
+    "showImages",
+    "false",
+  ],
+  Array [
+    "showStatuses",
+    "[]",
+  ],
+  Array [
+    "showStatuses",
+    "[\\"Not Started\\"]",
+  ],
+]
+`;
+
+exports[`returns an updated IControlsState update searchString 1`] = `
+Array [
+  Array [
+    "searchString",
+    "",
+  ],
+  Array [
+    "showImages",
+    "false",
+  ],
+  Array [
+    "showStatuses",
+    "[]",
+  ],
+]
+`;
+
+exports[`returns an updated IControlsState update showImages 1`] = `
+Array [
+  Array [
+    "searchString",
+    "",
+  ],
+  Array [
+    "showImages",
+    "false",
+  ],
+  Array [
+    "showStatuses",
+    "[]",
+  ],
+]
+`;

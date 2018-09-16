@@ -8,8 +8,9 @@ import Controls from './Controls'
 const onControlsStateChangeMock = (x: IControlsState) => ({ searchString: '' } as IControlsState)
 const controlsStateMock: IControlsState = { searchString: '', showImages: false, showStatuses: [], currentRevision: 0 }
 
-it('renders without crashing', () => {
+it('mounts', () => {
   shallow(<Controls onChange={onControlsStateChangeMock} controlsState={controlsStateMock} />)
+  expect(localStorage.setItem.mock.calls).toMatchSnapshot()
 })
 
 describe('can render basic form', () => {
@@ -20,10 +21,13 @@ describe('can render basic form', () => {
 
 describe('returns an updated IControlsState', () => {
   it('update searchString', () => {
-    const onChange = (newState: IControlsState) => expect(newState).toEqual({
-      ...controlsStateMock,
-      searchString: 'test'
-    } as IControlsState)
+    const onChange = (newState: IControlsState) => {
+      expect(newState).toEqual({
+        ...controlsStateMock,
+        searchString: 'test'
+      } as IControlsState)
+      expect(localStorage.setItem.mock.calls).toMatchSnapshot()
+    }
     const wrapper = shallow(<Controls onChange={onChange} controlsState={controlsStateMock} />)
     wrapper.find('.Controls__searchInput').simulate('change', { currentTarget: { value: 'test' } })
   })
@@ -38,14 +42,18 @@ describe('returns an updated IControlsState', () => {
         ...controlsStateMock,
         showStatuses: [EStatus[statusKey]]
       })
+      expect(localStorage.setItem.mock.calls).toMatchSnapshot()
     })
   })
 
   it('update showImages', () => {
-    const onChange = (newState: IControlsState) => expect(newState).toEqual({
-      ...controlsStateMock,
-      showImages: true
-    } as IControlsState)
+    const onChange = (newState: IControlsState) => {
+      expect(newState).toEqual({
+        ...controlsStateMock,
+        showImages: true
+      } as IControlsState)
+      expect(localStorage.setItem.mock.calls).toMatchSnapshot()
+    }
     const wrapper = shallow(<Controls onChange={onChange} controlsState={controlsStateMock} />)
     wrapper.find('.Controls__showImagesInput').simulate('change', { currentTarget: { checked: true } })
   })

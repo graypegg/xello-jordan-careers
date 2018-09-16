@@ -3,10 +3,19 @@ import * as Adapter from 'enzyme-adapter-react-16'
 
 (global as any).Date.now = jest.fn(() => 0)
 
+let storage = {}
 const localStorageMock = {
-  getItem: jest.fn(),
-  setItem: jest.fn(),
-  clear: jest.fn()
+  getItem: jest.fn((item) => {
+    return item in storage
+      ? storage[item]
+      : undefined
+  }),
+  setItem: jest.fn((item, value) => {
+    storage[item] = value
+  }),
+  clear: jest.fn(() => {
+    storage = {}
+  })
 };
 (global as any).localStorage = localStorageMock 
 
@@ -43,3 +52,11 @@ const fetchMock = jest.fn((path: string, { method }) => {
 (global as any).fetch = fetchMock 
 
 configure({ adapter: new Adapter() })
+
+beforeEach(() => {
+  localStorage.clear()
+  localStorage.setItem.mockClear()
+  localStorage.getItem.mockClear()
+  localStorage.clear.mockClear()
+  fetch.mockClear()
+});

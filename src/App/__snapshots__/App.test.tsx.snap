@@ -62,6 +62,15 @@ Array [
 ]
 `;
 
+exports[`bookmarks: can update bookmark state in it's entirity 3`] = `
+Array [
+  Array [
+    "bookmarks",
+    "[{\\"career\\":{\\"title\\":\\"Test\\",\\"description\\":\\"Test\\",\\"notes\\":[\\"a\\",\\"b\\"],\\"image\\":\\"TestImage\\",\\"id\\":1},\\"saved\\":\\"1970-01-01T00:00:00.000Z\\"}]",
+  ],
+]
+`;
+
 exports[`career meta data: can merge career data with meta data 1`] = `
 Array [
   Object {
@@ -119,6 +128,19 @@ Object {
 }
 `;
 
+exports[`career meta data: can restore from server 4`] = `
+Array [
+  Array [
+    "bookmarks",
+    "[{\\"career\\":{\\"title\\":\\"Test\\",\\"description\\":\\"Test\\",\\"notes\\":[\\"a\\",\\"b\\"],\\"image\\":\\"TestImage\\",\\"id\\":1},\\"saved\\":\\"Wed Dec 31 1969 19:00:00 GMT-0500 (EST)\\"}]",
+  ],
+  Array [
+    "careersMeta",
+    "{\\"1\\":{\\"status\\":\\"Complete\\"}}",
+  ],
+]
+`;
+
 exports[`career meta data: can save to server 1`] = `
 Object {
   "currentRevision": 1,
@@ -138,6 +160,15 @@ Object {
     "status": "Not Started",
   },
 }
+`;
+
+exports[`career meta data: can update careerMeta state 2`] = `
+Array [
+  Array [
+    "careersMeta",
+    "{\\"1\\":{\\"status\\":\\"Not Started\\"}}",
+  ],
+]
 `;
 
 exports[`career meta data: can update careerMeta state with null data 1`] = `
