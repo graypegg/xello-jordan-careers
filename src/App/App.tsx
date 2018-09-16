@@ -100,7 +100,7 @@ class App extends React.Component<IAppProps, IAppState> {
     })
   }
 
-  public mergeBookmarksWithCareersMeta (bookmarks: IBookmark[], careersMeta: ICareer['meta']): IBookmark[] {
+  public mergeBookmarksWithCareersMeta (bookmarks: IBookmark[], careersMeta: {[careerId: number]: ICareer['meta']} | null): IBookmark[] {
     return bookmarks.map((bookmark) => {
       return {
         ...bookmark,

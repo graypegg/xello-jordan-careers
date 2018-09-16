@@ -1,10 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`can update bookmark state 1`] = `Array []`;
+exports[`bookmarks: can merge bookmark career data with meta data 1`] = `
+Array [
+  Object {
+    "career": Object {
+      "description": "Test",
+      "id": 1,
+      "image": "TestImage",
+      "meta": Object {
+        "status": "Complete",
+      },
+      "notes": Array [
+        "a",
+        "b",
+      ],
+      "title": "Test",
+    },
+    "saved": 1970-01-01T00:00:00.000Z,
+  },
+]
+`;
 
-exports[`can update bookmark state in it's entirity 1`] = `Array []`;
+exports[`bookmarks: can merge bookmark career data without meta data 1`] = `
+Array [
+  Object {
+    "career": Object {
+      "description": "Test",
+      "id": 1,
+      "image": "TestImage",
+      "meta": Object {},
+      "notes": Array [
+        "a",
+        "b",
+      ],
+      "title": "Test",
+    },
+    "saved": 1970-01-01T00:00:00.000Z,
+  },
+]
+`;
 
-exports[`can update bookmark state in it's entirity 2`] = `
+exports[`bookmarks: can save new bookmark 1`] = `Array []`;
+
+exports[`bookmarks: can update bookmark state in it's entirity 1`] = `Array []`;
+
+exports[`bookmarks: can update bookmark state in it's entirity 2`] = `
 Array [
   Object {
     "career": Object {
@@ -22,7 +62,99 @@ Array [
 ]
 `;
 
-exports[`can update control state 1`] = `
+exports[`career meta data: can merge career data with meta data 1`] = `
+Array [
+  Object {
+    "description": "Test",
+    "id": 1,
+    "image": "TestImage",
+    "meta": Object {
+      "status": "Not Started",
+    },
+    "notes": Array [
+      "a",
+      "b",
+    ],
+    "title": "Test",
+  },
+]
+`;
+
+exports[`career meta data: can restore from server 1`] = `
+Object {
+  "1": Object {
+    "status": "Complete",
+  },
+}
+`;
+
+exports[`career meta data: can restore from server 2`] = `
+Array [
+  Object {
+    "career": Object {
+      "description": "Test",
+      "id": 1,
+      "image": "TestImage",
+      "notes": Array [
+        "a",
+        "b",
+      ],
+      "title": "Test",
+    },
+    "saved": "Wed Dec 31 1969 19:00:00 GMT-0500 (EST)",
+  },
+]
+`;
+
+exports[`career meta data: can restore from server 3`] = `
+Object {
+  "currentRevision": 1,
+  "searchString": "",
+  "showImages": false,
+  "showStatuses": Array [
+    "Not Started",
+    "In Progress",
+    "Complete",
+  ],
+}
+`;
+
+exports[`career meta data: can save to server 1`] = `
+Object {
+  "currentRevision": 1,
+  "searchString": "",
+  "showImages": false,
+  "showStatuses": Array [
+    "Not Started",
+    "In Progress",
+    "Complete",
+  ],
+}
+`;
+
+exports[`career meta data: can update careerMeta state 1`] = `
+Object {
+  "1": Object {
+    "status": "Not Started",
+  },
+}
+`;
+
+exports[`career meta data: can update careerMeta state with null data 1`] = `
+Object {
+  "1": null,
+}
+`;
+
+exports[`career meta data: can update single record in careerMeta state 1`] = `
+Object {
+  "1": Object {
+    "status": "Complete",
+  },
+}
+`;
+
+exports[`control state: can update control state 1`] = `
 Object {
   "currentRevision": null,
   "searchString": "",
@@ -35,7 +167,7 @@ Object {
 }
 `;
 
-exports[`can update control state 2`] = `
+exports[`control state: can update control state 2`] = `
 Object {
   "currentRevision": 0,
   "searchString": "test",

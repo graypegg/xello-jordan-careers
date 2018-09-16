@@ -10,9 +10,34 @@ const localStorageMock = {
 };
 (global as any).localStorage = localStorageMock 
 
-const fetchMock = jest.fn((path: string) => {
+const fetchMock = jest.fn((path: string, { method }) => {
   return new Promise((resolve) => {
-    resolve(new Response('{"id":1, "data":{"a":1}}'))
+    let response;
+    switch(`${method} ${path}`) {
+      case 'get http://localhost:5000/':
+        response = `{"id":1, "data":{
+          "bookmarks": [
+            {
+              "career": {
+                "title": "Test",
+                "description": "Test",
+                "notes": ["a", "b"],
+                "image": "TestImage",
+                "id": 1
+              },
+              "saved": "${new Date(Date.now())}"
+            }
+          ],
+          "careersMeta": {
+            "1": { "status": "Complete" }
+          }
+        }}`
+        break;
+      case 'post http://localhost:5000/':
+        response = '{"id":1}'
+        break;
+    }
+    resolve(new Response(response))
   })
 });
 (global as any).fetch = fetchMock 

@@ -29,8 +29,6 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
     } as ICareerListState
 
     this.goToPage = this.goToPage.bind(this)
-    this.onSaveBookmark = this.onSaveBookmark.bind(this)
-    this.onDeleteBookmark = this.onDeleteBookmark.bind(this)
   }
   
   public careersToPages (careers: ICareer[], pageLength: number): ICareer[][] {
@@ -44,14 +42,6 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
 
   public goToPage (pageIndex: number) {
     this.setState({ onPage: pageIndex })
-  }
-
-  public onSaveBookmark (career: ICareer) {
-    this.props.onSaveBookmark(career)
-  }
-
-  public onDeleteBookmark(career: ICareer) {
-    this.props.onDeleteBookmark(career)
   }
 
   public onChangeCareerFactory (careerId: ICareer['id']): (career: ICareer) => void {
@@ -81,8 +71,8 @@ class CareerList extends React.Component<ICareerListProps, ICareerListState> {
                   <Career
                     career={ career }
                     showImage={ this.props.showImages }
-                    onSaveBookmark={ this.onSaveBookmark }
-                    onDeleteBookmark={ this.onDeleteBookmark }
+                    onSaveBookmark={ this.props.onSaveBookmark }
+                    onDeleteBookmark={ this.props.onDeleteBookmark }
                     isBookmarked={ this.props.bookmarks.some((bookmark) => bookmark.career.id === career.id) }
                     onChangeCareer={ this.onChangeCareerFactory(career.id) }/>
                 </li>
