@@ -2,5 +2,18 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "module": "commonjs"
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest"
+  ],
+  "include": [
+    "src/setupTests.ts",
+    "src/**/*.test.tsx",
+    "src/**/*.test.ts"
+  ]
 }
