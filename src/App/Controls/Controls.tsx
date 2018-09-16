@@ -40,21 +40,19 @@ class Controls extends React.Component<IControlsProps> {
                                            .replace(/^\*/, '')
                                            .replace(/\*/g, '.*')
 
+    localStorage.setItem('searchString', sanitizedSearch)
     this.props.onChange({
       ...this.props.controlsState,
       searchString: sanitizedSearch
     })
-
-    localStorage.setItem('searchString', sanitizedSearch)
   }
 
   public onShowImageChange (e: React.SyntheticEvent<HTMLInputElement>): void {
+    localStorage.setItem('showImages', e.currentTarget.checked.toString())
     this.props.onChange({
       ...this.props.controlsState,
       showImages: e.currentTarget.checked
     })
-
-    localStorage.setItem('showImages', e.currentTarget.checked.toString())
   }
 
   public onStatusToggleChangeFactory (status: EStatus): (event: React.SyntheticEvent<HTMLInputElement>) => void {

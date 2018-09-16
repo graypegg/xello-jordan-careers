@@ -3224,6 +3224,10 @@ Array [
     "showStatuses",
     "[]",
   ],
+  Array [
+    "searchString",
+    "test",
+  ],
 ]
 `;
 
@@ -3240,6 +3244,10 @@ Array [
   Array [
     "showStatuses",
     "[]",
+  ],
+  Array [
+    "showImages",
+    "true",
   ],
 ]
 `;
