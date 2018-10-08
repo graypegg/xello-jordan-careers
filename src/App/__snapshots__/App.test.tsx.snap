@@ -71,6 +71,10 @@ Array [
 ]
 `;
 
+exports[`bookmarks: dirting state after saving a bookmark 1`] = `false`;
+
+exports[`bookmarks: dirting state after saving a bookmark 2`] = `true`;
+
 exports[`career meta data: can merge career data with meta data 1`] = `
 Array [
   Object {
@@ -184,6 +188,10 @@ Object {
   },
 }
 `;
+
+exports[`career meta data: dirting state after updating meta data 1`] = `false`;
+
+exports[`career meta data: dirting state after updating meta data 2`] = `true`;
 
 exports[`control state: can update control state 1`] = `
 Object {

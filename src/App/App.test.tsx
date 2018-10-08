@@ -129,6 +129,35 @@ describe('bookmarks:', () => {
 
     expect(result).toMatchSnapshot()
   })
+
+  it('dirting state after saving a bookmark', (done) => {
+    const careers = [{
+      title: 'Test',
+      description: 'Test',
+      notes: ['a', 'b'],
+      image: 'TestImage',
+      id: 1
+    }] as ICareer[]
+
+    const component = shallow(<App careers={careers} />)
+
+    const instance = component.instance() as App
+    instance.save()
+
+    /** Microtask to wait for 'network' request */
+    setTimeout(() => {
+      // After a save, should be a clean state
+      expect(component.state('isDirty')).toMatchSnapshot()
+
+      instance.onSaveBookmark(bookmarkStateMock[0].career)
+
+      component.update()
+
+      // After saving a bookmark, dirty the state
+      expect(component.state('isDirty')).toMatchSnapshot()
+      done()
+    }, 0)
+  })
 })
 
 describe('career meta data:', () => {
@@ -301,6 +330,44 @@ describe('career meta data:', () => {
       component.update()
 
       expect(component.state('controlsState')).toMatchSnapshot()
+      done()
+    }, 0)
+  })
+
+  it('dirting state after updating meta data', (done) => {
+    const careers = [{
+      title: 'Test',
+      description: 'Test',
+      notes: ['a', 'b'],
+      image: 'TestImage',
+      id: 1
+    }] as ICareer[]
+
+    const component = shallow(<App careers={careers} />)
+
+    const instance = component.instance() as App
+    instance.save()
+
+    /** Microtask to wait for 'network' request */
+    setTimeout(() => {
+      // After a save, should be a clean state
+      expect(component.state('isDirty')).toMatchSnapshot()
+
+      instance.updateCareersMeta([{
+        title: 'Test',
+        description: 'Test',
+        notes: ['a', 'b'],
+        image: 'TestImage',
+        id: 1,
+        meta: {
+          status: EStatus.NotStarted
+        }
+      }] as ICareer[])
+
+      component.update()
+
+      // After saving a bookmark, dirty the state
+      expect(component.state('isDirty')).toMatchSnapshot()
       done()
     }, 0)
   })
