@@ -9,11 +9,13 @@ import Controls from './Controls/Controls'
 import './App.css'
 import iconBookmark from '../assets/images/icon-bookmark.svg'
 import iconLogo from '../assets/images/logo.svg'
-import { EStatus } from '../consts';
-import { getLatest, postSave } from '../apiService/api.service';
+import { EStatus } from '../consts'
+import { getLatest, postSave } from '../apiService/api.service'
+import { isEqual as _isEqual } from 'lodash'
 
 interface IAppProps {
-  careers: ICareer[]
+  careers: ICareer[],
+  offline?: boolean | null
 }
 
 interface IAppState {
@@ -50,6 +52,34 @@ class App extends React.Component<IAppProps, IAppState> {
     this.onChangeSingleCareer = this.onChangeSingleCareer.bind(this)
     this.restore = this.restore.bind(this)
     this.save = this.save.bind(this)
+  }
+
+  public componentDidMount () {
+    if (!this.props.offline) {
+      getLatest()
+        .then((latest) => {
+          if (
+            !(_isEqual(latest.data, {
+              bookmarks: this.state.bookmarks,
+              careersMeta: this.state.careersMeta
+            }))
+          ) {
+            this.setState({
+              isDirty: true
+            })
+          } else {
+            this.setState((prevState) => ({
+              controlsState: {
+                ...prevState.controlsState,
+                currentRevision: latest.id
+              }
+            }))
+          }
+        })
+        .catch(() => {
+          console.warn('You\'re offline. Can\'t check if we\'re working with the latest copy of the db or not')
+        })
+    }
   }
 
   public onControlsStateChange (controlsState: IControlsState): void {
@@ -137,36 +167,40 @@ class App extends React.Component<IAppProps, IAppState> {
     this.updateCareersMeta([career])
   }
 
-  public restore () {
-    getLatest()
+  public restore (): Promise<any> {
+    return getLatest()
       .then((obj) => {
-        this.setState((prevState) => ({
-          bookmarks: obj.data.bookmarks,
-          careersMeta: obj.data.careersMeta,
-          controlsState: {
-            ...prevState.controlsState,
-            currentRevision: obj.id
-          },
-          isDirty: false
-        }))
-        localStorage.setItem('bookmarks', JSON.stringify(obj.data.bookmarks))
-        localStorage.setItem('careersMeta', JSON.stringify(obj.data.careersMeta))
+        return new Promise((res) => {
+          localStorage.setItem('bookmarks', JSON.stringify(obj.data.bookmarks))
+          localStorage.setItem('careersMeta', JSON.stringify(obj.data.careersMeta))
+          this.setState((prevState) => ({
+            bookmarks: obj.data.bookmarks,
+            careersMeta: obj.data.careersMeta,
+            controlsState: {
+              ...prevState.controlsState,
+              currentRevision: obj.id
+            },
+            isDirty: false
+          }), () => res())
+        })
       })
   }
 
-  public save () {
-    postSave({
+  public save (): Promise<any> {
+    return postSave({
       bookmarks: this.state.bookmarks,
       careersMeta: this.state.careersMeta
     })
       .then((obj) => {
-        this.setState((prevState) => ({
-          controlsState: {
-            ...prevState.controlsState,
-            currentRevision: obj.id,
-          },
-          isDirty: false
-        }))
+        return new Promise((res) => {
+          this.setState((prevState) => ({
+            controlsState: {
+              ...prevState.controlsState,
+              currentRevision: obj.id,
+            },
+            isDirty: false
+          }), () => res())
+        })
       })
   }
 
@@ -183,11 +217,11 @@ class App extends React.Component<IAppProps, IAppState> {
 
         <main className="App__application">
           <Controls
-            stateIsDirty={this.state.isDirty && !!this.state.controlsState.currentRevision}
+            stateIsDirty={this.state.isDirty}
             onChange={this.onControlsStateChange}
             controlsState={this.state.controlsState}
-            onGlobalRestore={this.restore}
-            onGlobalSave={this.save} />
+            onGlobalRestore={this.props.offline ? undefined : this.restore}
+            onGlobalSave={this.props.offline ? undefined : this.save} />
 
           <CareerList
             careers={this.filterCareers(this.mergeWithCareersMeta(this.props.careers), this.state.controlsState)}

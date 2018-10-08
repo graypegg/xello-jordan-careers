@@ -139,24 +139,22 @@ describe('bookmarks:', () => {
       id: 1
     }] as ICareer[]
 
-    const component = shallow(<App careers={careers} />)
+    const component = shallow(<App careers={careers} offline={true} />)
 
     const instance = component.instance() as App
     instance.save()
+      .then(() => {
+        // After a save, should be a clean state
+        expect(component.state('isDirty')).toMatchSnapshot()
 
-    /** Microtask to wait for 'network' request */
-    setTimeout(() => {
-      // After a save, should be a clean state
-      expect(component.state('isDirty')).toMatchSnapshot()
+        instance.onSaveBookmark(bookmarkStateMock[0].career)
 
-      instance.onSaveBookmark(bookmarkStateMock[0].career)
+        component.update()
 
-      component.update()
-
-      // After saving a bookmark, dirty the state
-      expect(component.state('isDirty')).toMatchSnapshot()
-      done()
-    }, 0)
+        // After saving a bookmark, dirty the state
+        expect(component.state('isDirty')).toMatchSnapshot()
+        done()
+      })
   })
 })
 
@@ -297,18 +295,14 @@ describe('career meta data:', () => {
 
     const instance = component.instance() as App
     instance.restore()
-
-    /** Microtask to wait for 'network' request */
-    setTimeout(() => {
-      component.update()
-
-      expect(component.state('careersMeta')).toMatchSnapshot()
-      expect(component.state('bookmarks')).toMatchSnapshot()
-      expect(component.state('controlsState')).toMatchSnapshot()
-      expect(localStorage.setItem).toHaveBeenCalledTimes(2)
-      expect(localStorage.setItem.mock.calls).toMatchSnapshot()
-      done()
-    }, 0)
+      .then(() => {
+        expect(component.state('careersMeta')).toMatchSnapshot()
+        expect(component.state('bookmarks')).toMatchSnapshot()
+        expect(component.state('controlsState')).toMatchSnapshot()
+        expect(localStorage.setItem).toHaveBeenCalledTimes(2)
+        expect(localStorage.setItem.mock.calls).toMatchSnapshot()
+        done()
+      })
   })
 
   it('can save to server', (done) => {
@@ -324,51 +318,47 @@ describe('career meta data:', () => {
 
     const instance = component.instance() as App
     instance.save()
+      .then(() => {
+        component.update()
 
-    /** Microtask to wait for 'network' request */
-    setTimeout(() => {
-      component.update()
-
-      expect(component.state('controlsState')).toMatchSnapshot()
-      done()
-    }, 0)
+        expect(component.state('controlsState')).toMatchSnapshot()
+        done()
+      })
   })
 
   it('dirting state after updating meta data', (done) => {
     const careers = [{
-      title: 'Test',
-      description: 'Test',
-      notes: ['a', 'b'],
-      image: 'TestImage',
-      id: 1
+      title: 'Test2',
+      description: 'Test2',
+      notes: ['a2', 'b2'],
+      image: 'TestImage2',
+      id: 2
     }] as ICareer[]
 
-    const component = shallow(<App careers={careers} />)
+    const component = shallow(<App careers={careers} offline={true} />)
 
     const instance = component.instance() as App
     instance.save()
+      .then(() => {
+        // After a save, should be a clean state
+        expect(component.state('isDirty')).toMatchSnapshot()
 
-    /** Microtask to wait for 'network' request */
-    setTimeout(() => {
-      // After a save, should be a clean state
-      expect(component.state('isDirty')).toMatchSnapshot()
+        instance.updateCareersMeta([{
+          title: 'Test',
+          description: 'Test',
+          notes: ['a', 'b'],
+          image: 'TestImage',
+          id: 1,
+          meta: {
+            status: EStatus.NotStarted
+          }
+        }] as ICareer[])
 
-      instance.updateCareersMeta([{
-        title: 'Test',
-        description: 'Test',
-        notes: ['a', 'b'],
-        image: 'TestImage',
-        id: 1,
-        meta: {
-          status: EStatus.NotStarted
-        }
-      }] as ICareer[])
+        component.update()
 
-      component.update()
-
-      // After saving a bookmark, dirty the state
-      expect(component.state('isDirty')).toMatchSnapshot()
-      done()
-    }, 0)
+        // After saving a bookmark, dirty the state
+        expect(component.state('isDirty')).toMatchSnapshot()
+        done()
+      })
   })
 })
