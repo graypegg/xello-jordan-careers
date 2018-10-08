@@ -4,6 +4,8 @@ import * as React from 'react'
 
 import './Controls.css'
 
+import Tooltip from '../Tooltip/Tooltip'
+
 interface IControlsProps {
   stateIsDirty: boolean,
   controlsState: IControlsState,
@@ -114,7 +116,9 @@ class Controls extends React.Component<IControlsProps> {
 
         <div className="Controls__saveButtons">
           { this.props.onGlobalSave
-            ? <button className={ this.props.stateIsDirty ? 'Controls__saveButton--highlight' : 'Controls__saveButton' } onClick={this.props.onGlobalSave}>Save</button>
+            ? <Tooltip title="Backup!" content="There's non-backed-up data saved in your local version! Save to sync with other devices." active={this.props.stateIsDirty}>
+                <button className={ this.props.stateIsDirty ? 'Controls__saveButton--highlight' : 'Controls__saveButton' } onClick={this.props.onGlobalSave}>Save</button>
+              </Tooltip>
             : null }
           { this.props.onGlobalRestore
             ? <button onClick={this.props.onGlobalRestore}>Restore</button>

@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can show with out a title 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    content="abc"
+  >
+    ailurus fulgens
+  </Tooltip>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="Tooltip__target"
+        >
+          ailurus fulgens
+        </div>,
+        <div
+          className="Tooltip__tooltip"
+        >
+          abc
+        </div>,
+      ],
+      "className": "Tooltip__container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "ailurus fulgens",
+          "className": "Tooltip__target",
+        },
+        "ref": null,
+        "rendered": "ailurus fulgens",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            null,
+            "abc",
+          ],
+          "className": "Tooltip__tooltip",
+        },
+        "ref": null,
+        "rendered": Array [
+          null,
+          "abc",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="Tooltip__target"
+          >
+            ailurus fulgens
+          </div>,
+          <div
+            className="Tooltip__tooltip"
+          >
+            abc
+          </div>,
+        ],
+        "className": "Tooltip__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ailurus fulgens",
+            "className": "Tooltip__target",
+          },
+          "ref": null,
+          "rendered": "ailurus fulgens",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              null,
+              "abc",
+            ],
+            "className": "Tooltip__tooltip",
+          },
+          "ref": null,
+          "rendered": Array [
+            null,
+            "abc",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tooltip
+    content="abc"
+    title="xyz"
+  >
+    ailurus fulgens
+  </Tooltip>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="Tooltip__target"
+        >
+          ailurus fulgens
+        </div>,
+        <div
+          className="Tooltip__tooltip"
+        >
+          <strong>
+            xyz
+          </strong>
+          abc
+        </div>,
+      ],
+      "className": "Tooltip__container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "ailurus fulgens",
+          "className": "Tooltip__target",
+        },
+        "ref": null,
+        "rendered": "ailurus fulgens",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <strong>
+              xyz
+            </strong>,
+            "abc",
+          ],
+          "className": "Tooltip__tooltip",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "xyz",
+            },
+            "ref": null,
+            "rendered": "xyz",
+            "type": "strong",
+          },
+          "abc",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="Tooltip__target"
+          >
+            ailurus fulgens
+          </div>,
+          <div
+            className="Tooltip__tooltip"
+          >
+            <strong>
+              xyz
+            </strong>
+            abc
+          </div>,
+        ],
+        "className": "Tooltip__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ailurus fulgens",
+            "className": "Tooltip__target",
+          },
+          "ref": null,
+          "rendered": "ailurus fulgens",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <strong>
+                xyz
+              </strong>,
+              "abc",
+            ],
+            "className": "Tooltip__tooltip",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "xyz",
+              },
+              "ref": null,
+              "rendered": "xyz",
+              "type": "strong",
+            },
+            "abc",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
