@@ -116,7 +116,7 @@ class Controls extends React.Component<IControlsProps> {
 
         <div className="Controls__saveButtons">
           { this.props.onGlobalSave
-            ? <Tooltip title="Backup!" content="There's non-backed-up data saved in your local version! Save to sync with other devices." active={this.props.stateIsDirty}>
+            ? <Tooltip title="Backup!" content="The server and this computer are not in sync. Save to overwrite the server's version, or Restore to overwrite your local copy with the server's data. (Your local copy is saved to your computer regardless.)" active={this.props.stateIsDirty}>
                 <button className={ this.props.stateIsDirty ? 'Controls__saveButton--highlight' : 'Controls__saveButton' } onClick={this.props.onGlobalSave}>Save</button>
               </Tooltip>
             : null }
