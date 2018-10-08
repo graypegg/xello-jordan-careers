@@ -5,6 +5,7 @@ import * as React from 'react'
 import './Controls.css'
 
 interface IControlsProps {
+  stateIsDirty: boolean,
   controlsState: IControlsState,
   onChange: (controlsState: IControlsState) => void,
   onGlobalRestore?: () => void,
@@ -113,7 +114,7 @@ class Controls extends React.Component<IControlsProps> {
 
         <div className="Controls__saveButtons">
           { this.props.onGlobalSave
-            ? <button onClick={this.props.onGlobalSave}>Save</button>
+            ? <button className={ this.props.stateIsDirty ? 'Controls__saveButton--highlight' : 'Controls__saveButton' } onClick={this.props.onGlobalSave}>Save</button>
             : null }
           { this.props.onGlobalRestore
             ? <button onClick={this.props.onGlobalRestore}>Restore</button>

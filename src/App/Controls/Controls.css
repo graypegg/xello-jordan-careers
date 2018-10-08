@@ -47,6 +47,10 @@
   border-radius: 2px;
 }
 
+.Controls__saveButtons button.Controls__saveButton--highlight {
+  background: var(--warning);
+}
+
 .Controls__saveButtons button:hover {
   background: var(--dark);
 }

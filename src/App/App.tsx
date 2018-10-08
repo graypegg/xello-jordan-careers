@@ -21,6 +21,7 @@ interface IAppState {
   bookmarks: IBookmark[],
   sidebarOpen: boolean,
   careersMeta: {[careerId: number]: ICareer['meta']},
+  isDirty: boolean
 }
 
 class App extends React.Component<IAppProps, IAppState> {
@@ -34,7 +35,8 @@ class App extends React.Component<IAppProps, IAppState> {
     },
     bookmarks: JSON.parse(localStorage.getItem('bookmarks') || '[]'),
     sidebarOpen: false,
-    careersMeta: JSON.parse(localStorage.getItem('careersMeta') || '{}')
+    careersMeta: JSON.parse(localStorage.getItem('careersMeta') || '{}'),
+    isDirty: false
   }
 
   constructor (props: IAppProps) {
@@ -85,7 +87,8 @@ class App extends React.Component<IAppProps, IAppState> {
 
   public updateBookmarks (bookmarks: IBookmark[]) {
     this.setState({
-      bookmarks
+      bookmarks,
+      isDirty: true
     })
 
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks))
@@ -123,7 +126,8 @@ class App extends React.Component<IAppProps, IAppState> {
     }, {})
 
     this.setState({
-      careersMeta: Object.assign({}, this.state.careersMeta, careersMeta)
+      careersMeta: Object.assign({}, this.state.careersMeta, careersMeta),
+      isDirty: true
     })
 
     localStorage.setItem('careersMeta', JSON.stringify(Object.assign({}, this.state.careersMeta, careersMeta)))
@@ -142,7 +146,8 @@ class App extends React.Component<IAppProps, IAppState> {
           controlsState: {
             ...prevState.controlsState,
             currentRevision: obj.id
-          }
+          },
+          isDirty: false
         }))
         localStorage.setItem('bookmarks', JSON.stringify(obj.data.bookmarks))
         localStorage.setItem('careersMeta', JSON.stringify(obj.data.careersMeta))
@@ -158,8 +163,9 @@ class App extends React.Component<IAppProps, IAppState> {
         this.setState((prevState) => ({
           controlsState: {
             ...prevState.controlsState,
-            currentRevision: obj.id
-          }
+            currentRevision: obj.id,
+          },
+          isDirty: false
         }))
       })
   }
@@ -177,6 +183,7 @@ class App extends React.Component<IAppProps, IAppState> {
 
         <main className="App__application">
           <Controls
+            stateIsDirty={this.state.isDirty && !!this.state.controlsState.currentRevision}
             onChange={this.onControlsStateChange}
             controlsState={this.state.controlsState}
             onGlobalRestore={this.restore}
