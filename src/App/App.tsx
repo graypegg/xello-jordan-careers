@@ -34,7 +34,8 @@ class App extends React.Component<IAppProps, IAppState> {
       searchString: '',
       showImages: false,
       showStatuses: ((Object as any).values(EStatus)) as EStatus[],
-      currentRevision: null
+      currentRevision: null,
+      serverRevision: null
     },
     bookmarks: JSON.parse(localStorage.getItem('bookmarks') || '[]'),
     sidebarOpen: false,
@@ -65,14 +66,21 @@ class App extends React.Component<IAppProps, IAppState> {
               careersMeta: this.state.careersMeta
             }))
           ) {
-            this.setState({
-              isDirty: true
-            })
-          } else {
             this.setState((prevState) => ({
               controlsState: {
                 ...prevState.controlsState,
-                currentRevision: latest.id
+                currentRevision: parseInt(localStorage.getItem('currentRevision') || '-1', 10),
+                serverRevision: latest.id
+              },
+              isDirty: true
+            }))
+          } else {
+            localStorage.setItem('currentRevision', latest.id.toString())
+            this.setState((prevState) => ({
+              controlsState: {
+                ...prevState.controlsState,
+                currentRevision: latest.id,
+                serverRevision: latest.id
               }
             }))
           }
@@ -179,11 +187,15 @@ class App extends React.Component<IAppProps, IAppState> {
             careersMeta: obj.data.careersMeta,
             controlsState: {
               ...prevState.controlsState,
-              currentRevision: obj.id
+              currentRevision: obj.id,
+              serverRevision: obj.id
             },
             isDirty: false
-          }), () => res())
+          }), () => res(obj))
         })
+      })
+      .then((obj: { id: number }) => {
+        localStorage.setItem('currentRevision', obj.id.toString())
       })
   }
 
@@ -198,10 +210,14 @@ class App extends React.Component<IAppProps, IAppState> {
             controlsState: {
               ...prevState.controlsState,
               currentRevision: obj.id,
+              serverRevision: obj.id
             },
             isDirty: false
-          }), () => res())
+          }), () => res(obj))
         })
+      })
+      .then((obj: { id: number }) => {
+        localStorage.setItem('currentRevision', obj.id.toString())
       })
   }
 

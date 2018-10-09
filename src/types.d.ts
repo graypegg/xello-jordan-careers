@@ -15,7 +15,8 @@ export declare interface IControlsState {
   searchString: string,
   showImages: boolean,
   showStatuses: EStatus[],
-  currentRevision: number | null
+  currentRevision: number | null,
+  serverRevision: number | null
 }
 
 export declare interface IBookmark {

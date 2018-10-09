@@ -123,6 +123,7 @@ exports[`career meta data: can restore from server 3`] = `
 Object {
   "currentRevision": 1,
   "searchString": "",
+  "serverRevision": 1,
   "showImages": false,
   "showStatuses": Array [
     "Not Started",
@@ -142,13 +143,18 @@ Array [
     "careersMeta",
     "{\\"1\\":{\\"status\\":\\"Complete\\"}}",
   ],
+  Array [
+    "currentRevision",
+    "1",
+  ],
 ]
 `;
 
 exports[`career meta data: can save to server 1`] = `
 Object {
-  "currentRevision": 1,
+  "currentRevision": -1,
   "searchString": "",
+  "serverRevision": 1,
   "showImages": false,
   "showStatuses": Array [
     "Not Started",
@@ -197,6 +203,7 @@ exports[`control state: can update control state 1`] = `
 Object {
   "currentRevision": null,
   "searchString": "",
+  "serverRevision": null,
   "showImages": false,
   "showStatuses": Array [
     "Not Started",

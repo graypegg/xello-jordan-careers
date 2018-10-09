@@ -110,18 +110,30 @@ class Controls extends React.Component<IControlsProps> {
         { this.props.controlsState.currentRevision
           ? <div className="Controls__saveRevision">
               Revision: { this.props.controlsState.currentRevision }
+            {this.props.controlsState.serverRevision && this.props.controlsState.serverRevision !== this.props.controlsState.currentRevision
+                ? <span>&nbsp;(Server is { this.props.controlsState.serverRevision })</span>
+                : null
+              }
             </div>
           : null
         }
 
         <div className="Controls__saveButtons">
           { this.props.onGlobalSave
-            ? <Tooltip title="Backup!" content="The server and this computer are not in sync. Save to overwrite the server's version, or Restore to overwrite your local copy with the server's data. (Your local copy is saved to your computer regardless.)" active={this.props.stateIsDirty}>
-                <button className={ this.props.stateIsDirty ? 'Controls__saveButton--highlight' : 'Controls__saveButton' } onClick={this.props.onGlobalSave}>Save</button>
+            ? <Tooltip
+                title="Safe to backup!"
+                content="The server and this computer are not in sync. Save to overwrite the server's version, or Restore to overwrite your local copy with the server's data. (Your local copy is saved to your computer regardless.)"
+                active={this.props.stateIsDirty && (this.props.controlsState.serverRevision || -1) <= (this.props.controlsState.currentRevision || -1)}>
+              <button className={this.props.stateIsDirty && (this.props.controlsState.serverRevision || -1) <= (this.props.controlsState.currentRevision || -1) ? 'Controls__saveButton--highlight' : 'Controls__saveButton' } onClick={this.props.onGlobalSave}>Save</button>
               </Tooltip>
             : null }
           { this.props.onGlobalRestore
-            ? <button onClick={this.props.onGlobalRestore}>Restore</button>
+            ? <Tooltip
+                title="Update with caution!"
+                content="The server and this computer are not in sync. There may be more up-to-date data to pull! Restoring will overwrite your unsaved local copy. Saving will overwrite the server's newer copy."
+                active={(this.props.controlsState.serverRevision || -1) > (this.props.controlsState.currentRevision || -1)}>
+                <button onClick={this.props.onGlobalRestore}>Restore</button>
+              </Tooltip>
             : null }
         </div>
       </div>

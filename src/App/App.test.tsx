@@ -299,7 +299,7 @@ describe('career meta data:', () => {
         expect(component.state('careersMeta')).toMatchSnapshot()
         expect(component.state('bookmarks')).toMatchSnapshot()
         expect(component.state('controlsState')).toMatchSnapshot()
-        expect(localStorage.setItem).toHaveBeenCalledTimes(2)
+        expect(localStorage.setItem).toHaveBeenCalledTimes(3)
         expect(localStorage.setItem.mock.calls).toMatchSnapshot()
         done()
       })
