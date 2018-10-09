@@ -9,10 +9,16 @@
   padding: 30px 40px 26px;
 }
 
-.App__header > img {
+.App__header img {
   margin-top: -4px;
   margin-right: 15px;
   width: 93px;
+}
+
+.App__header > div {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App__application {

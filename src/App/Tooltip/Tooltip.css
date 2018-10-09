@@ -1,21 +1,24 @@
-.Tooltip__container,
-.Tooltip__target {
+.Tooltip__container {
   display: inline-block;
   position: relative;
+  cursor: pointer;
 }
 
 .Tooltip__tooltip {
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%);
-  padding: 10px 14px;
-  border-radius: 3px;
-  background: var(--warning-dark);
-  color: #FFF;
+  padding: 10px 14px 10px 18px;
+  border-radius: 5px;
+  background: #FFF;
+  color: #656565;
   font-size: 0.75rem;
-  box-shadow: 0px 0px 5px rgba(30, 30, 40, 0.2);
+  box-shadow: 0px 0px 10px rgba(30, 30, 40, 0.3);
   min-width: 170px;
+  margin-top: 8px;
+  pointer-events: none;
+  letter-spacing: 0.02rem;
+  line-height: 16px;
 }
 
 .Tooltip__tooltip strong {
@@ -30,18 +33,35 @@
   height: 0;
   width: 0;
   border-style: solid;
-  border-width: 0 5px 8px 5px;
-  border-color: transparent transparent var(--warning-dark) transparent;
   position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%, -100%);
+  border-width: 0 7px 8px 7px;
+  border-color: transparent transparent #FFF transparent;
+}
+
+.Tooltip__tooltip::after {
+  content: '';
+  background: var(--primary-light);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 8px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .Tooltip__container .Tooltip__tooltip {
-  display: none;
+  opacity: 0;
+  transform-origin: top center;
+  transform: perspective(500px) translate(-50%, 0) rotate3d(0, 1, 0, 90deg);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .Tooltip__container:hover .Tooltip__tooltip {
-  display: block;
+  opacity: 1;
+  transform: perspective(500px) translate(-50%, 0) rotate3d(0, 0, 0, 45deg);
 }

@@ -22,11 +22,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div
-          className="Tooltip__target"
-        >
-          ailurus fulgens
-        </div>,
+        "ailurus fulgens",
         <div
           className="Tooltip__tooltip"
         >
@@ -37,18 +33,7 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "ailurus fulgens",
-          "className": "Tooltip__target",
-        },
-        "ref": null,
-        "rendered": "ailurus fulgens",
-        "type": "div",
-      },
+      "ailurus fulgens",
       Object {
         "instance": null,
         "key": undefined,
@@ -77,11 +62,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div
-            className="Tooltip__target"
-          >
-            ailurus fulgens
-          </div>,
+          "ailurus fulgens",
           <div
             className="Tooltip__tooltip"
           >
@@ -92,18 +73,7 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "ailurus fulgens",
-            "className": "Tooltip__target",
-          },
-          "ref": null,
-          "rendered": "ailurus fulgens",
-          "type": "div",
-        },
+        "ailurus fulgens",
         Object {
           "instance": null,
           "key": undefined,
@@ -159,11 +129,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div
-          className="Tooltip__target"
-        >
-          ailurus fulgens
-        </div>,
+        "ailurus fulgens",
         <div
           className="Tooltip__tooltip"
         >
@@ -177,18 +143,7 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "ailurus fulgens",
-          "className": "Tooltip__target",
-        },
-        "ref": null,
-        "rendered": "ailurus fulgens",
-        "type": "div",
-      },
+      "ailurus fulgens",
       Object {
         "instance": null,
         "key": undefined,
@@ -229,11 +184,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div
-            className="Tooltip__target"
-          >
-            ailurus fulgens
-          </div>,
+          "ailurus fulgens",
           <div
             className="Tooltip__tooltip"
           >
@@ -247,18 +198,7 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "ailurus fulgens",
-            "className": "Tooltip__target",
-          },
-          "ref": null,
-          "rendered": "ailurus fulgens",
-          "type": "div",
-        },
+        "ailurus fulgens",
         Object {
           "instance": null,
           "key": undefined,

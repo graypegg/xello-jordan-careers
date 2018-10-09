@@ -12,6 +12,7 @@ import iconLogo from '../assets/images/logo.svg'
 import { EStatus } from '../consts'
 import { getLatest, postSave } from '../apiService/api.service'
 import { isEqual as _isEqual } from 'lodash'
+import Tooltip from './Tooltip/Tooltip';
 
 interface IAppProps {
   careers: ICareer[],
@@ -208,7 +209,9 @@ class App extends React.Component<IAppProps, IAppState> {
     return (
       <div className="App__wrapper">
         <header className="App__header">
-          <img src={iconLogo} alt="Xello" /> Careers
+          <Tooltip content="Build 0.23 - Oct. 8th 2018">
+            <img src={iconLogo} alt="Xello" /> Careers
+          </Tooltip>
         </header>
 
         <Sidebar icon={iconBookmark}>

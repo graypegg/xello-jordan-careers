@@ -3,7 +3,7 @@ import * as React from 'react'
 import './Tooltip.css'
 
 interface ITooltipProps {
-  children?: JSX.Element | string,
+  children?: any
   content: string,
   title?: string,
   active?: boolean
@@ -12,7 +12,7 @@ interface ITooltipProps {
 export default function Tooltip (props: ITooltipProps): JSX.Element {
   return (
     <div className="Tooltip__container">
-      <div className="Tooltip__target">{ props.children }</div>
+      { props.children }
       { props.active === undefined || props.active === true
         ? <div className="Tooltip__tooltip">
             {
