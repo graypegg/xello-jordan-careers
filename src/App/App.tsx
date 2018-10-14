@@ -66,14 +66,35 @@ class App extends React.Component<IAppProps, IAppState> {
               careersMeta: this.state.careersMeta
             }))
           ) {
-            this.setState((prevState) => ({
-              controlsState: {
-                ...prevState.controlsState,
-                currentRevision: parseInt(localStorage.getItem('currentRevision') || '-1', 10),
-                serverRevision: latest.id
-              },
-              isDirty: true
-            }))
+            /**
+             * Server does not match local copy.
+             */
+            if (localStorage.getItem('currentRevision') !== latest.id.toString()) {
+              /**
+               * The new data is on the server
+               */
+              this.setState((prevState) => ({
+                controlsState: {
+                  ...prevState.controlsState,
+                  currentRevision: parseInt(localStorage.getItem('currentRevision') || '-1', 10),
+                  serverRevision: latest.id
+                },
+                isDirty: false
+              }))
+            } else {
+              /**
+               * The new data is on our local copy
+               */
+              this.setState((prevState) => ({
+                controlsState: {
+                  ...prevState.controlsState,
+                  currentRevision: parseInt(localStorage.getItem('currentRevision') || '-1', 10),
+                  serverRevision: latest.id
+                },
+                isDirty: true
+              }))
+            }
+            
           } else {
             localStorage.setItem('currentRevision', latest.id.toString())
             this.setState((prevState) => ({
