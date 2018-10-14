@@ -225,7 +225,7 @@ class App extends React.Component<IAppProps, IAppState> {
     return (
       <div className="App__wrapper">
         <header className="App__header">
-          <Tooltip content="Build 0.23 - Oct. 8th 2018">
+          <Tooltip content="Build 0.24 - Oct. 14th 2018">
             <img src={iconLogo} alt="Xello" /> Careers
           </Tooltip>
         </header>
