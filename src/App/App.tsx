@@ -69,7 +69,7 @@ class App extends React.Component<IAppProps, IAppState> {
             /**
              * Server does not match local copy.
              */
-            if (localStorage.getItem('currentRevision') !== latest.id.toString()) {
+            if (parseInt(localStorage.getItem('currentRevision') || '-1', 10) < latest.id) {
               /**
                * The new data is on the server
                */
@@ -94,8 +94,10 @@ class App extends React.Component<IAppProps, IAppState> {
                 isDirty: true
               }))
             }
-            
           } else {
+            /**
+             * Data matches the servers, so we'll fast-forward to that revision
+             */
             localStorage.setItem('currentRevision', latest.id.toString())
             this.setState((prevState) => ({
               controlsState: {
